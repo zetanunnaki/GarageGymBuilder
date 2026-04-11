@@ -1,6 +1,6 @@
 import { ArticleFrontmatter } from "./mdx";
 
-const SITE_URL = "https://garagegymbuilder.com";
+const SITE_URL = "https://garagegymbuilders.com";
 
 export function generateArticleSchema(
   frontmatter: ArticleFrontmatter,

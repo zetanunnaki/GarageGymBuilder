@@ -57,7 +57,7 @@ export default function AffiliateDisclosurePage() {
         <h2>Questions?</h2>
         <p>
           If you have any questions about our affiliate relationships, please
-          contact us at <strong>hello@garagegymbuilder.com</strong>.
+          contact us at <strong>hello@garagegymbuilders.com</strong>.
         </p>
       </div>
     </div>

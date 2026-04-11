@@ -11,7 +11,7 @@ interface ShareButtonsProps {
 
 export function ShareButtons({ title, slug, contentType }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
-  const url = `https://garagegymbuilder.com/${contentType}/${slug}`;
+  const url = `https://garagegymbuilders.com/${contentType}/${slug}`;
   const encodedUrl = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
 

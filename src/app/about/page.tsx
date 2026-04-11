@@ -48,7 +48,7 @@ export default function AboutPage() {
         <h2>Contact</h2>
         <p>
           Have questions, feedback, or want to work with us? Reach out at{" "}
-          <strong>hello@garagegymbuilder.com</strong>.
+          <strong>hello@garagegymbuilders.com</strong>.
         </p>
       </div>
     </div>

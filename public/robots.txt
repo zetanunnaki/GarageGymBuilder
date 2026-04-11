@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://garagegymbuilder.com/sitemap.xml
+Sitemap: https://garagegymbuilders.com/sitemap.xml

@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-const SITE_URL = "https://garagegymbuilder.com";
+const SITE_URL = "https://garagegymbuilders.com";
 const contentDir = path.join(process.cwd(), "src/content");
 const contentTypes = ["best-gear", "reviews", "guides", "builds"];
 

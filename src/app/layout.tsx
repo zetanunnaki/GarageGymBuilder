@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   description:
     "Expert reviews, budget builds, and guides to help you build the perfect garage gym. Compare power racks, weights, and cardio equipment.",
-  metadataBase: new URL("https://garagegymbuilder.com"),
+  metadataBase: new URL("https://garagegymbuilders.com"),
 };
 
 export default function RootLayout({

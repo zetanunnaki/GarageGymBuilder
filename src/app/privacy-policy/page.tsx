@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
         <h2>Contact</h2>
         <p>
           Questions about this privacy policy? Contact us at{" "}
-          <strong>hello@garagegymbuilder.com</strong>.
+          <strong>hello@garagegymbuilders.com</strong>.
         </p>
       </div>
     </div>
