@@ -1,0 +1,31 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#18181b"/>
+  <!-- Rack frame -->
+  <rect x="145" y="85" width="26" height="425" rx="4" fill="#52525b"/>
+  <rect x="429" y="85" width="26" height="425" rx="4" fill="#52525b"/>
+  <rect x="145" y="85" width="310" height="26" rx="4" fill="#52525b"/>
+  <rect x="145" y="484" width="310" height="26" rx="4" fill="#52525b"/>
+  <!-- Numbered holes -->
+  <circle cx="158" cy="180" r="3" fill="#ea580c"/>
+  <circle cx="158" cy="200" r="3" fill="#3f3f46"/>
+  <circle cx="158" cy="220" r="3" fill="#3f3f46"/>
+  <circle cx="158" cy="240" r="3" fill="#ea580c"/>
+  <circle cx="158" cy="260" r="3" fill="#3f3f46"/>
+  <circle cx="158" cy="300" r="3" fill="#3f3f46"/>
+  <circle cx="158" cy="320" r="3" fill="#3f3f46"/>
+  <!-- Pull-up bar -->
+  <rect x="171" y="93" width="258" height="12" rx="6" fill="#a1a1aa"/>
+  <!-- J-cups with UHMW -->
+  <rect x="150" y="275" width="38" height="10" rx="3" fill="#ea580c"/>
+  <rect x="412" y="275" width="38" height="10" rx="3" fill="#ea580c"/>
+  <!-- Barbell -->
+  <rect x="90" y="266" width="420" height="15" rx="7" fill="#d4d4d8"/>
+  <!-- Plates -->
+  <rect x="92" y="236" width="14" height="76" rx="4" fill="#ea580c"/>
+  <rect x="74" y="248" width="14" height="52" rx="4" fill="#f97316"/>
+  <rect x="494" y="236" width="14" height="76" rx="4" fill="#ea580c"/>
+  <rect x="512" y="248" width="14" height="52" rx="4" fill="#f97316"/>
+  <!-- Spotter arms -->
+  <rect x="171" y="400" width="258" height="8" rx="4" fill="#3f3f46"/>
+  <text x="300" y="560" text-anchor="middle" fill="#3f3f46" font-family="system-ui" font-size="14" font-weight="900" letter-spacing="4">REP FITNESS PR-4000</text>
+</svg>

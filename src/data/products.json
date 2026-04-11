@@ -1,0 +1,209 @@
+{
+  "fitness-reality-810xlt": {
+    "name": "Fitness Reality 810XLT Super Max Power Cage",
+    "brand": "Fitness Reality",
+    "price": "$329.99",
+    "image": "/images/products/fitness-reality-810xlt.svg",
+    "specs": {
+      "weightCapacity": "800 lbs",
+      "footprint": "50.5\" L x 46.5\" W x 83.5\" H",
+      "material": "2x2\" 14-Gauge Steel"
+    },
+    "amazonLink": "https://amazon.com/dp/B07PVDCMJZ?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Fitness-Reality-810XLT-Super-Max-Power-Cage/272630498?irgwc=1",
+    "pros": [
+      "Excellent value under $350",
+      "800 lb weight capacity",
+      "Includes multi-grip pull-up bar",
+      "Standard 2x2 hole spacing for attachments",
+      "Optional lat pulldown attachment available"
+    ],
+    "cons": [
+      "14-gauge steel is thinner than premium racks",
+      "Plastic J-cup liners can wear over time",
+      "Not ideal for lifters squatting 600+ lbs"
+    ]
+  },
+  "rogue-monster-lite-r3": {
+    "name": "Rogue RML-390F Monster Lite Rack",
+    "brand": "Rogue Fitness",
+    "price": "$935.00",
+    "image": "/images/products/rogue-monster-lite-r3.svg",
+    "specs": {
+      "weightCapacity": "1,000+ lbs",
+      "footprint": "53\" L x 34\" W x 90.375\" H",
+      "material": "3x3\" 11-Gauge Steel"
+    },
+    "amazonLink": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+    "walmartLink": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+    "pros": [
+      "Made in Columbus, Ohio — American steel",
+      "3x3\" 11-gauge uprights — overbuilt for any home gym",
+      "Westside hole spacing in the bench zone",
+      "Massive Monster Lite attachment ecosystem (50+ accessories)",
+      "Lifetime warranty on structural components",
+      "No floor bolting required (flat foot design)"
+    ],
+    "cons": [
+      "Premium price point at $935",
+      "Heavy shipping costs (freight delivery)",
+      "Accessories sold separately at premium prices"
+    ]
+  },
+  "rep-pr-4000": {
+    "name": "REP Fitness PR-4000 Power Rack",
+    "brand": "REP Fitness",
+    "price": "$799.99",
+    "image": "/images/products/rep-pr-4000.svg",
+    "specs": {
+      "weightCapacity": "1,000 lbs",
+      "footprint": "48\" L x 36\" W x 80\" H",
+      "material": "3x3\" 11-Gauge Steel"
+    },
+    "amazonLink": "https://repfitness.com/products/pr-4000-power-rack-pre-selected",
+    "walmartLink": "https://repfitness.com/products/pr-4000-power-rack-pre-selected",
+    "pros": [
+      "3x3\" 11-gauge steel matches Rogue quality",
+      "1,000 lb rated rackable capacity",
+      "Fully customizable — choose height, depth, color",
+      "Numbered uprights for fast setup",
+      "Growing attachment ecosystem with unique options",
+      "UHMW-lined J-cups protect barbell knurling"
+    ],
+    "cons": [
+      "Frequently sells out due to demand",
+      "Base price doesn't include many attachments",
+      "Shipping can be slow during peak demand"
+    ]
+  },
+  "titan-t3": {
+    "name": "Titan Fitness T-3 Series Power Rack",
+    "brand": "Titan Fitness",
+    "price": "$649.99",
+    "image": "/images/products/titan-t3.svg",
+    "specs": {
+      "weightCapacity": "1,100 lbs",
+      "footprint": "48\" L x 42\" W x 82\" H",
+      "material": "2x3\" 11-Gauge Steel"
+    },
+    "amazonLink": "https://titan.fitness/products/t-3-series-power-rack-82-24",
+    "walmartLink": "https://titan.fitness/products/t-3-series-power-rack-82-24",
+    "pros": [
+      "1,100 lb weight capacity at a mid-range price",
+      "Compatible with Rogue Monster Lite attachments",
+      "Laser-cut numbered holes on uprights",
+      "Available in 82\" and 91\" heights",
+      "Westside hole spacing in bench zone",
+      "Frequently on sale (20% off at $519.97)"
+    ],
+    "cons": [
+      "Powder coat finish can vary between batches",
+      "Customer service response times can be slow",
+      "Some hardware may need retightening after a month"
+    ]
+  },
+  "bowflex-selecttech-552": {
+    "name": "Bowflex SelectTech 552 Adjustable Dumbbells",
+    "brand": "Bowflex",
+    "price": "$429.00",
+    "image": "/images/products/bowflex-552.svg",
+    "specs": {
+      "weightCapacity": "5-52.5 lbs each",
+      "footprint": "16.9\" L x 8.3\" W x 9\" H each",
+      "material": "Steel Plates / Nylon Dial Mechanism"
+    },
+    "amazonLink": "https://amazon.com/dp/B0G6Z84TQM?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Bowflex-SelectTech-552-Dumbbells/12167797?irgwc=1",
+    "pros": [
+      "Replaces 15 sets of dumbbells (5-52.5 lbs)",
+      "Fastest weight change system on the market (2 seconds)",
+      "2.5 lb increments up to 25 lbs for precise progression",
+      "Compact cradle storage footprint",
+      "Sold as a pair"
+    ],
+    "cons": [
+      "Cannot be dropped — internal mechanism is fragile",
+      "Length at 52.5 lbs feels awkward on some exercises",
+      "Price has increased from original $349 MSRP",
+      "5 lb increments above 25 lbs (no 2.5 lb jumps)"
+    ]
+  },
+  "cap-barbell-olympic": {
+    "name": "CAP Barbell 300 lb Olympic Weight Set",
+    "brand": "CAP Barbell",
+    "price": "$339.99",
+    "image": "/images/products/cap-barbell-300.svg",
+    "specs": {
+      "weightCapacity": "300 lbs total (255 lbs plates + 45 lb bar)",
+      "footprint": "7ft Olympic Bar (28mm shaft)",
+      "material": "Cast Iron Plates / Chrome Bar"
+    },
+    "amazonLink": "https://amazon.com/dp/B002OP0DLA?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/CAP-Barbell-300-lb-Cast-Iron-Olympic-Weight-Set-Includes-7-Bar/341504305?irgwc=1",
+    "pros": [
+      "Complete barbell + plate set in one purchase",
+      "Standard Olympic 2\" sleeves fit all racks",
+      "Includes: 2x45, 2x35, 2x25, 2x10, 4x5, 2x2.5 lb plates",
+      "Cast iron plates are durable and accurate",
+      "Best value starter weight set available"
+    ],
+    "cons": [
+      "Bar is entry-level (bushing sleeves, mild knurling)",
+      "Plates are not calibrated for competition use",
+      "No bumper plates — not safe to drop on concrete",
+      "Chrome plating on bar chips over time"
+    ]
+  },
+  "rogue-echo-bike": {
+    "name": "Rogue Echo Bike V3.0",
+    "brand": "Rogue Fitness",
+    "price": "$945.00",
+    "image": "/images/products/rogue-echo-bike.svg",
+    "specs": {
+      "weightCapacity": "330 lbs user weight",
+      "footprint": "55\" L x 29.5\" W x 52.25\" H",
+      "material": "Heavy-Duty Steel Frame (123 lbs)"
+    },
+    "amazonLink": "https://www.roguefitness.com/rogue-echo-bike",
+    "walmartLink": "https://www.roguefitness.com/rogue-echo-bike",
+    "pros": [
+      "Belt-driven steel fan — smoother and quieter than chain",
+      "LCD console with Bluetooth/ANT+ connectivity",
+      "Built like a tank at 123 lbs — zero wobble",
+      "Great for HIIT, steady-state, and warm-ups",
+      "Accommodates riders 5'2\" to 6'5\""
+    ],
+    "cons": [
+      "Heavy at 123 lbs — difficult to move",
+      "Gets exponentially harder at high RPMs",
+      "No programmable workout modes on console",
+      "Premium price at $945"
+    ]
+  },
+  "flybird-adjustable-bench": {
+    "name": "FLYBIRD Adjustable Weight Bench",
+    "brand": "FLYBIRD",
+    "price": "$109.99",
+    "image": "/images/products/flybird-bench.svg",
+    "specs": {
+      "weightCapacity": "800 lbs (ASTM Certified)",
+      "footprint": "48.4\" L x 16.5\" W x 17\" H (folded)",
+      "material": "Commercial-Grade Steel Frame"
+    },
+    "amazonLink": "https://amazon.com/dp/B07DNYSJ8W?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Flybird-Collapsible-Adjustable-Weight-Bench/465166903?irgwc=1",
+    "pros": [
+      "Unbeatable value under $120",
+      "ASTM-certified 800 lb weight capacity",
+      "8 backrest angles (90° to -30° FID)",
+      "Folds flat for easy storage in small spaces",
+      "Quick 10-minute assembly"
+    ],
+    "cons": [
+      "Gap between seat and backrest at steep inclines",
+      "No decline position on some variants",
+      "Pad is narrower (10.2\") than premium benches (12\")",
+      "Feet can slide on smooth concrete without rubber mats"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#18181b"/>
+  <!-- Dumbbell cradle -->
+  <rect x="120" y="380" width="360" height="40" rx="6" fill="#27272a"/>
+  <rect x="140" y="370" width="320" height="12" rx="3" fill="#3f3f46"/>
+  <!-- Dumbbell body -->
+  <rect x="160" y="220" width="280" height="140" rx="8" fill="#52525b"/>
+  <!-- Weight plates (stacked) -->
+  <rect x="165" y="225" width="30" height="130" rx="4" fill="#3f3f46"/>
+  <rect x="200" y="230" width="25" height="120" rx="4" fill="#3f3f46"/>
+  <rect x="230" y="235" width="20" height="110" rx="4" fill="#3f3f46"/>
+  <rect x="350" y="235" width="20" height="110" rx="4" fill="#3f3f46"/>
+  <rect x="375" y="230" width="25" height="120" rx="4" fill="#3f3f46"/>
+  <rect x="405" y="225" width="30" height="130" rx="4" fill="#3f3f46"/>
+  <!-- Handle grip -->
+  <rect x="255" y="260" width="90" height="60" rx="8" fill="#71717a"/>
+  <rect x="265" y="268" width="70" height="44" rx="6" fill="#52525b"/>
+  <!-- Dial (left) -->
+  <circle cx="190" cy="290" r="30" fill="#27272a" stroke="#ea580c" stroke-width="3"/>
+  <text x="190" y="295" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="14" font-weight="900">52.5</text>
+  <!-- Dial (right) -->
+  <circle cx="410" cy="290" r="30" fill="#27272a" stroke="#ea580c" stroke-width="3"/>
+  <text x="410" y="295" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="14" font-weight="900">52.5</text>
+  <text x="300" y="560" text-anchor="middle" fill="#3f3f46" font-family="system-ui" font-size="14" font-weight="900" letter-spacing="4">BOWFLEX SELECTTECH 552</text>
+</svg>
