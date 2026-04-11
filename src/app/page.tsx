@@ -33,7 +33,7 @@ export default function HomePage() {
       />
       {/* HERO SECTION */}
       <section className="relative overflow-hidden px-6 pt-40 pb-20">
-        <div className="absolute inset-0 bg-[url('/images/covers/hero-bg.webp')] bg-cover bg-center opacity-30" />
+        <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('/images/covers/hero-bg.webp')" }} />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/60 via-transparent to-[#0a0a0a]" />
         <div className="relative z-10 mx-auto max-w-7xl text-center">
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-orange-400">
@@ -79,7 +79,7 @@ export default function HomePage() {
             href="/best-gear/best-power-racks-under-500"
             className="group relative flex flex-col justify-end overflow-hidden border border-zinc-800 bg-zinc-900 p-10 md:col-span-2 md:row-span-2"
           >
-            <div className="absolute inset-0 bg-[url('/images/covers/bento-power-racks.webp')] bg-cover bg-center opacity-20 transition-opacity duration-500 group-hover:opacity-35" />
+            <div className="absolute inset-0 bg-cover bg-center opacity-20 transition-opacity duration-500 group-hover:opacity-35" style={{ backgroundImage: "url('/images/covers/bento-power-racks.webp')" }} />
             <h3 className="relative z-10 mb-4 text-5xl font-black uppercase italic leading-none">
               Power <br />
               Racks
@@ -94,7 +94,7 @@ export default function HomePage() {
             href="/builds"
             className="group relative flex flex-col justify-between overflow-hidden bg-orange-600 p-10 md:col-span-2"
           >
-            <div className="absolute inset-0 bg-[url('/images/covers/bento-budget-builds.webp')] bg-cover bg-center opacity-15 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-25" />
+            <div className="absolute inset-0 bg-cover bg-center opacity-15 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-25" style={{ backgroundImage: "url('/images/covers/bento-budget-builds.webp')" }} />
             <h3 className="text-3xl font-black uppercase italic leading-none text-black">
               Budget Builds <br />
               $500 &middot; $1K &middot; $2K
