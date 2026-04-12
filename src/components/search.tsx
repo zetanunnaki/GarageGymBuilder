@@ -108,30 +108,43 @@ export function Search({ articles }: SearchProps) {
                 No results for &ldquo;{query}&rdquo;
               </div>
             ) : (
-              results.map((article) => (
+              <>
+                {results.slice(0, 8).map((article) => (
+                  <a
+                    key={`${article.contentType}/${article.slug}`}
+                    href={`/${article.contentType}/${article.slug}/`}
+                    className="group flex items-center justify-between border-b border-zinc-800/50 px-4 py-3 transition-colors hover:bg-zinc-900"
+                    onClick={() => {
+                      setOpen(false);
+                      setQuery("");
+                    }}
+                  >
+                    <div>
+                      <span className="text-[9px] font-black uppercase tracking-widest text-orange-500/70">
+                        {article.contentType.replace("-", " ")}
+                      </span>
+                      <p className="text-sm font-bold text-zinc-300 group-hover:text-orange-500">
+                        {article.title}
+                      </p>
+                    </div>
+                    <ArrowRight
+                      size={14}
+                      className="shrink-0 text-zinc-700 group-hover:text-orange-500"
+                    />
+                  </a>
+                ))}
                 <a
-                  key={`${article.contentType}/${article.slug}`}
-                  href={`/${article.contentType}/${article.slug}`}
-                  className="group flex items-center justify-between border-b border-zinc-800/50 px-4 py-3 transition-colors hover:bg-zinc-900"
+                  href={`/search/?q=${encodeURIComponent(query)}`}
+                  className="flex items-center justify-center gap-2 bg-orange-600/10 px-4 py-3 text-[10px] font-black uppercase tracking-widest text-orange-500 transition-colors hover:bg-orange-600/20"
                   onClick={() => {
                     setOpen(false);
                     setQuery("");
                   }}
                 >
-                  <div>
-                    <span className="text-[9px] font-black uppercase tracking-widest text-orange-500/70">
-                      {article.contentType.replace("-", " ")}
-                    </span>
-                    <p className="text-sm font-bold text-zinc-300 group-hover:text-orange-500">
-                      {article.title}
-                    </p>
-                  </div>
-                  <ArrowRight
-                    size={14}
-                    className="shrink-0 text-zinc-700 group-hover:text-orange-500"
-                  />
+                  View all {results.length} results
+                  <ArrowRight size={12} />
                 </a>
-              ))
+              </>
             )}
           </div>
         )}

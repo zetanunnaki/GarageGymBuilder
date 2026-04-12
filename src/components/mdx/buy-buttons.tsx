@@ -1,5 +1,6 @@
 import { getProduct } from "@/lib/products";
 import { ShoppingCart, ExternalLink } from "lucide-react";
+import { AffiliateLink } from "../affiliate-link";
 
 interface BuyButtonsProps {
   productId: string;
@@ -11,24 +12,30 @@ export function BuyButtons({ productId }: BuyButtonsProps) {
 
   return (
     <div className="not-prose my-6 flex w-full flex-col gap-3 sm:flex-row">
-      <a
+      <AffiliateLink
         href={product.amazonLink}
-        target="_blank"
-        rel="sponsored nofollow"
+        merchant="amazon"
+        productId={productId}
+        productName={product.name}
+        price={product.price}
+        ariaLabel={`Buy ${product.name} on Amazon`}
         className="flex flex-1 items-center justify-center gap-2 bg-[#FF9900] px-6 py-4 text-center text-sm font-black uppercase italic tracking-tighter text-black transition hover:brightness-110"
       >
         <ShoppingCart size={18} />
         Amazon
-      </a>
-      <a
+      </AffiliateLink>
+      <AffiliateLink
         href={product.walmartLink}
-        target="_blank"
-        rel="sponsored nofollow"
+        merchant="walmart"
+        productId={productId}
+        productName={product.name}
+        price={product.price}
+        ariaLabel={`Buy ${product.name} on Walmart`}
         className="flex flex-1 items-center justify-center gap-2 bg-[#0071CE] px-6 py-4 text-center text-sm font-black uppercase italic tracking-tighter text-white transition hover:brightness-110"
       >
         <ExternalLink size={18} />
         Walmart
-      </a>
+      </AffiliateLink>
     </div>
   );
 }

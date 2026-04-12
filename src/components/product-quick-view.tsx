@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { X, Check, Dumbbell, ShoppingCart, ExternalLink } from "lucide-react";
 import { type Product } from "@/lib/products";
+import { AffiliateLink } from "./affiliate-link";
 
 interface ProductQuickViewProps {
   product: Product;
@@ -100,22 +101,26 @@ export function ProductQuickView({
 
                 {/* Buttons */}
                 <div className="flex gap-2 pt-2">
-                  <a
+                  <AffiliateLink
                     href={product.amazonLink}
-                    target="_blank"
-                    rel="sponsored nofollow"
+                    merchant="amazon"
+                    productId={productId}
+                    productName={product.name}
+                    price={product.price}
                     className="flex flex-1 items-center justify-center gap-2 bg-[#FF9900] py-3 text-xs font-black uppercase italic tracking-tighter text-black transition hover:brightness-110"
                   >
                     <ShoppingCart size={14} /> Amazon
-                  </a>
-                  <a
+                  </AffiliateLink>
+                  <AffiliateLink
                     href={product.walmartLink}
-                    target="_blank"
-                    rel="sponsored nofollow"
+                    merchant="walmart"
+                    productId={productId}
+                    productName={product.name}
+                    price={product.price}
                     className="flex flex-1 items-center justify-center gap-2 bg-[#0071CE] py-3 text-xs font-black uppercase italic tracking-tighter text-white transition hover:brightness-110"
                   >
                     <ExternalLink size={14} /> Walmart
-                  </a>
+                  </AffiliateLink>
                 </div>
               </div>
             </div>

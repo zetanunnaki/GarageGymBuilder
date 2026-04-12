@@ -1,5 +1,6 @@
 import { TrendingDown, ExternalLink } from "lucide-react";
 import { getProduct } from "@/lib/products";
+import { AffiliateLink } from "../affiliate-link";
 
 interface PriceAlertProps {
   productId: string;
@@ -25,22 +26,26 @@ export function PriceAlert({ productId, note }: PriceAlertProps) {
             {note && <span> {note}</span>}
           </p>
           <div className="mt-3 flex gap-3">
-            <a
+            <AffiliateLink
               href={product.amazonLink}
-              target="_blank"
-              rel="sponsored nofollow"
+              merchant="amazon"
+              productId={productId}
+              productName={product.name}
+              price={product.price}
               className="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-widest text-[#FF9900] hover:underline"
             >
               Amazon <ExternalLink size={10} />
-            </a>
-            <a
+            </AffiliateLink>
+            <AffiliateLink
               href={product.walmartLink}
-              target="_blank"
-              rel="sponsored nofollow"
+              merchant="walmart"
+              productId={productId}
+              productName={product.name}
+              price={product.price}
               className="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-widest text-[#0071CE] hover:underline"
             >
               Walmart <ExternalLink size={10} />
-            </a>
+            </AffiliateLink>
           </div>
         </div>
       </div>
