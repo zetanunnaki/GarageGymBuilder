@@ -69,6 +69,12 @@ function extractProductIdFromSlug(slug: string): string | null {
     "yes4all-kettlebell-set-review": "yes4all-kettlebell-set",
     "yes4all-olympic-plates-review": "yes4all-olympic-plates",
     "titan-deadlift-jack-review": "titan-deadlift-jack",
+    "yes4all-hex-trap-bar-review": "yes4all-hex-trap-bar",
+    "yes4all-plyo-box-review": "yes4all-plyo-box",
+    "wod-nation-jump-rope-review": "wod-nation-jump-rope",
+    "bodylastics-resistance-bands-review": "bodylastics-resistance-bands",
+    "iron-bull-dip-belt-review": "iron-bull-dip-belt",
+    "sunny-sf-rw5515-rower-review": "sunny-sf-rw5515-rower",
   };
   return mapping[slug] || null;
 }

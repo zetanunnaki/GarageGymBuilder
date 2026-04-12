@@ -319,6 +319,162 @@
       "Handle texture varies between batches"
     ]
   },
+  "yes4all-hex-trap-bar": {
+    "name": "Yes4All Olympic Hex Trap Bar",
+    "brand": "Yes4All",
+    "price": "$129.99",
+    "image": "/images/products/yes4all-trap-bar.svg",
+    "specs": {
+      "weightCapacity": "750 lbs",
+      "footprint": "56\" L x 25\" W",
+      "material": "Solid Steel"
+    },
+    "amazonLink": "https://amazon.com/dp/B073RBZLGD?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Yes4All+Hex+Trap+Bar&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 4,000+ reviews",
+      "750 lb capacity handles serious loading",
+      "Reduces lower back stress vs. straight bar deadlifts",
+      "Dual handle heights for high or low pulls",
+      "Standard Olympic 2\" sleeves fit all plates",
+      "Best budget hex bar on Amazon"
+    ],
+    "cons": [
+      "Knurling is light — may need chalk for heavy pulls",
+      "Solid construction makes it heavy to move",
+      "Not collared — plates need clips to stay secure"
+    ]
+  },
+  "yes4all-plyo-box": {
+    "name": "Yes4All 3-in-1 Wooden Plyo Box",
+    "brand": "Yes4All",
+    "price": "$119.99",
+    "image": "/images/products/yes4all-plyo-box.svg",
+    "specs": {
+      "weightCapacity": "550 lbs static",
+      "footprint": "20\" x 24\" x 30\" (3-sided)",
+      "material": "13-ply Birch Wood"
+    },
+    "amazonLink": "https://amazon.com/dp/B074MHPC3Q?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Yes4All+3-in-1+Plyo+Box&irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 3,500+ reviews",
+      "Three heights in one box (20/24/30 inches)",
+      "Sturdy 13-ply birch construction",
+      "550 lb static weight capacity",
+      "Pre-cut interlocking pieces — easy assembly",
+      "Best value plyo box on Amazon"
+    ],
+    "cons": [
+      "Edges are sharp until sanded by user",
+      "Assembly requires a drill (screws included)",
+      "Heavier than steel boxes once assembled"
+    ]
+  },
+  "wod-nation-jump-rope": {
+    "name": "WOD Nation Speed Jump Rope",
+    "brand": "WOD Nation",
+    "price": "$14.97",
+    "image": "/images/products/wod-nation-rope.svg",
+    "specs": {
+      "weightCapacity": "All sizes adjustable to 11 ft",
+      "footprint": "Pocket-sized",
+      "material": "Coated Steel Cable / Aluminum Handles"
+    },
+    "amazonLink": "https://amazon.com/dp/B00ELOO9LO?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=WOD+Nation+Speed+Jump+Rope&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 30,000+ reviews",
+      "Best-selling speed rope on Amazon",
+      "Adjustable length up to 11 ft",
+      "Smooth 360° ball-bearing rotation for double-unders",
+      "Lightweight aluminum handles",
+      "Includes spare cable and screws"
+    ],
+    "cons": [
+      "Steel cable can fray on rough concrete over time",
+      "Not weighted — pure speed rope (no strength training)",
+      "Handles are slim — bigger hands may want grip tape"
+    ]
+  },
+  "bodylastics-resistance-bands": {
+    "name": "Bodylastics Stackable Resistance Bands Set",
+    "brand": "Bodylastics",
+    "price": "$59.95",
+    "image": "/images/products/bodylastics-bands.svg",
+    "specs": {
+      "weightCapacity": "Up to 142 lbs total resistance",
+      "footprint": "Storage bag included",
+      "material": "Anti-Snap Rubber Tubing"
+    },
+    "amazonLink": "https://amazon.com/dp/B005G20OK0?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Bodylastics+Resistance+Bands&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 18,000+ reviews",
+      "Patented anti-snap inner cord for safety",
+      "Stackable up to 142 lbs total resistance",
+      "Includes handles, ankle straps, and door anchor",
+      "Lifetime replacement on bands",
+      "Travel-friendly storage bag"
+    ],
+    "cons": [
+      "Resistance feels different than free weights",
+      "Door anchor requires an inward-opening door",
+      "Handles wear faster than the bands"
+    ]
+  },
+  "iron-bull-dip-belt": {
+    "name": "Iron Bull Strength Dip Belt with Chain",
+    "brand": "Iron Bull Strength",
+    "price": "$49.99",
+    "image": "/images/products/iron-bull-dip-belt.svg",
+    "specs": {
+      "weightCapacity": "270 lbs added load",
+      "footprint": "36\" chain length",
+      "material": "Neoprene-Padded Nylon / Steel Chain"
+    },
+    "amazonLink": "https://amazon.com/dp/B07J32PGV4?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Iron+Bull+Dip+Belt&irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 5,000+ reviews",
+      "Heavy-duty 270 lb added load capacity",
+      "Wide neoprene padding distributes weight comfortably",
+      "36-inch steel chain with secure carabiner",
+      "Works for weighted dips, pull-ups, belt squats",
+      "Best budget dip belt on Amazon"
+    ],
+    "cons": [
+      "Chain length awkward for very tall users",
+      "Neoprene can absorb sweat — needs cleaning",
+      "Buckle is plastic, not steel (rated but feels cheap)"
+    ]
+  },
+  "sunny-sf-rw5515-rower": {
+    "name": "Sunny Health & Fitness SF-RW5515 Magnetic Rower",
+    "brand": "Sunny Health & Fitness",
+    "price": "$249.99",
+    "image": "/images/products/sunny-rower.svg",
+    "specs": {
+      "weightCapacity": "250 lbs user weight",
+      "footprint": "82\" L x 19\" W x 23\" H",
+      "material": "Steel Frame / Magnetic Resistance"
+    },
+    "amazonLink": "https://amazon.com/dp/B00H7374H2?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Sunny-Health-Fitness-Magnetic-Rowing-Machine/27414737?irgwc=1",
+    "pros": [
+      "4.5+ star rating on Amazon with 25,000+ reviews",
+      "8 levels of magnetic resistance",
+      "Whisper-quiet vs. air rowers",
+      "Folds vertically for storage",
+      "LCD monitor tracks time, distance, calories, strokes",
+      "Best budget rower on Amazon under $300"
+    ],
+    "cons": [
+      "Magnetic resistance maxes out for advanced rowers",
+      "Seat padding is thin on long sessions",
+      "Not as smooth as Concept2 air resistance"
+    ]
+  },
   "titan-deadlift-jack": {
     "name": "Titan Fitness Full Deadlift Bar Jack",
     "brand": "Titan Fitness",
