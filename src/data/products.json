@@ -636,6 +636,112 @@
       "Single function (compared to a full bench)"
     ]
   },
+  "rogue-style-gymnastic-rings": {
+    "name": "Yes4All Wood Gymnastic Rings with Adjustable Straps",
+    "brand": "Yes4All",
+    "price": "$39.99",
+    "image": "/images/products/gymnastic-rings.svg",
+    "specs": {
+      "weightCapacity": "880 lbs",
+      "footprint": "1.25\" thick wood rings, 15 ft adjustable straps",
+      "material": "Birch Wood / Nylon Webbing"
+    },
+    "amazonLink": "https://amazon.com/dp/B07BBD61S5?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Yes4All+Wood+Gymnastic+Rings&irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 8,000+ reviews",
+      "880 lb weight capacity handles any user",
+      "Solid birch wood (not plastic)",
+      "15 ft adjustable nylon straps with metal buckles",
+      "Easy on the hands compared to plastic rings",
+      "Best budget gymnastic rings on Amazon"
+    ],
+    "cons": [
+      "No carry bag included",
+      "Wood needs occasional sanding to prevent splinters",
+      "Buckles can slip slightly under heavy load (re-adjust)"
+    ]
+  },
+  "rogue-style-weight-vest": {
+    "name": "RUNFast Pro Adjustable Weight Vest 40 lb",
+    "brand": "RUNFast",
+    "price": "$89.99",
+    "image": "/images/products/weight-vest.svg",
+    "specs": {
+      "weightCapacity": "Up to 60 lbs (with extras)",
+      "footprint": "One-size adjustable, fits most adults",
+      "material": "Heavy-Duty Nylon / Iron Plates"
+    },
+    "amazonLink": "https://amazon.com/dp/B00FN0RDVC?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=RUNFast+Weight+Vest&irgwc=1",
+    "pros": [
+      "4.5+ star rating on Amazon with 9,000+ reviews",
+      "Adjustable from 12 to 40 lbs in 2 lb increments",
+      "Heavy-duty nylon construction lasts years",
+      "Comfortable shoulder padding",
+      "Adjustable straps fit most body sizes",
+      "Doubles as conditioning and ruck training tool"
+    ],
+    "cons": [
+      "Iron weight plates are loud against each other",
+      "40 lb max isn't enough for advanced athletes",
+      "Sizing can run small for very large users",
+      "Sweat absorbs into nylon over time"
+    ]
+  },
+  "yes4all-sandbag": {
+    "name": "Yes4All Heavy Duty Workout Sandbag",
+    "brand": "Yes4All",
+    "price": "$54.99",
+    "image": "/images/products/sandbag.svg",
+    "specs": {
+      "weightCapacity": "10-200 lbs (sizes vary)",
+      "footprint": "Multiple handles for grip variety",
+      "material": "Heavy-Duty 1000D Nylon"
+    },
+    "amazonLink": "https://amazon.com/dp/B0BSDZ5QL5?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Yes4All+Sandbag&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 6,000+ reviews",
+      "Adjustable weight via removable filler bags",
+      "Multiple handles for carries, cleans, presses",
+      "Heavy-duty 1000D nylon resists tears",
+      "Awkward load builds real-world strength",
+      "Best budget sandbag on Amazon"
+    ],
+    "cons": [
+      "Filler material sold separately (sand or pea gravel)",
+      "Filling and sealing takes 30 minutes",
+      "Larger sizes hard to manage solo at first",
+      "Not as polished as premium sandbags (Strongman or Rogue)"
+    ]
+  },
+  "perfect-fitness-ab-wheel": {
+    "name": "Perfect Fitness Ab Carver Pro Wheel",
+    "brand": "Perfect Fitness",
+    "price": "$26.99",
+    "image": "/images/products/ab-wheel.svg",
+    "specs": {
+      "weightCapacity": "All user weights",
+      "footprint": "10\" wide wheel",
+      "material": "Carbon Steel Spring / Foam Handles"
+    },
+    "amazonLink": "https://amazon.com/dp/B00BHFTZ02?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Perfect-Fitness-Ab-Carver-Pro/30889716?irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 25,000+ reviews",
+      "Carbon steel spring assists on the way back",
+      "Wide 10-inch wheel improves stability",
+      "Includes knee pad",
+      "Best ab wheel for beginners",
+      "Most popular ab wheel on Amazon"
+    ],
+    "cons": [
+      "Spring assistance can be too much for advanced users",
+      "Large wheel takes more storage space than basic ab wheels",
+      "Foam handles wear over years of use"
+    ]
+  },
   "titan-deadlift-jack": {
     "name": "Titan Fitness Full Deadlift Bar Jack",
     "brand": "Titan Fitness",

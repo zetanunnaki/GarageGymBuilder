@@ -322,6 +322,13 @@
     "category": "Power Racks"
   },
   {
+    "title": "Perfect Fitness Ab Carver Pro Review (2026)",
+    "description": "Hands-on review of the Perfect Fitness Ab Carver Pro Wheel. Best ab wheel on Amazon with carbon steel spring assistance and wide stable design.",
+    "slug": "perfect-fitness-ab-wheel-review",
+    "contentType": "reviews",
+    "category": "Accessories"
+  },
+  {
     "title": "PowerBlock Elite 90 Review: Are These Worth $870?",
     "description": "We tested the PowerBlock Elite 90 EXP adjustable dumbbells for 4 months. Are they worth the premium price over Bowflex 552s?",
     "slug": "powerblock-elite-90-review",
@@ -334,6 +341,20 @@
     "slug": "rogue-echo-bike-review",
     "contentType": "reviews",
     "category": "Cardio"
+  },
+  {
+    "title": "Yes4All Wood Gymnastic Rings Review (2026)",
+    "description": "Hands-on review of the Yes4All Wood Gymnastic Rings. Best budget rings on Amazon for muscle-ups, dips, rows, and ring training.",
+    "slug": "rogue-style-gymnastic-rings-review",
+    "contentType": "reviews",
+    "category": "Accessories"
+  },
+  {
+    "title": "RUNFast Pro Weight Vest Review (2026): Best Budget Weight Vest",
+    "description": "Hands-on review of the RUNFast Pro Adjustable 40 lb Weight Vest. Best budget weight vest on Amazon for rucking, conditioning, and pull-ups.",
+    "slug": "rogue-style-weight-vest-review",
+    "contentType": "reviews",
+    "category": "Accessories"
   },
   {
     "title": "Sportsroyals Power Cage Review: 1,600 lb Capacity for $550?",
@@ -411,6 +432,13 @@
     "slug": "yes4all-roman-chair-review",
     "contentType": "reviews",
     "category": "Benches"
+  },
+  {
+    "title": "Yes4All Workout Sandbag Review (2026): The Strongman Tool Under $60",
+    "description": "Hands-on review of the Yes4All Heavy Duty Workout Sandbag. Best budget sandbag on Amazon for strongman, conditioning, and functional training.",
+    "slug": "yes4all-sandbag-review",
+    "contentType": "reviews",
+    "category": "Conditioning"
   },
   {
     "title": "Yes4All Slam Ball Review: The Best HIIT Tool Under $30",
@@ -749,6 +777,20 @@
     "category": "Budget Builds"
   },
   {
+    "title": "Bodybuilder Home Gym Build: $1,500 Hypertrophy Setup (2026)",
+    "description": "Complete bodybuilder home gym build for under $1,500. Adjustable dumbbells, cable system, bench, rack, and isolation tools — all Amazon/Walmart verified.",
+    "slug": "bodybuilder-home-gym-build",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
+    "title": "CrossFit Home Gym Build: $2,000 Complete Box (2026)",
+    "description": "Build a complete CrossFit home gym for under $2,000. Power rack, barbell, plates, gymnastic rings, jump rope, kettlebells, and conditioning tools.",
+    "slug": "crossfit-home-gym-build",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
     "title": "The Ultimate $5,000 Dream Home Gym Build (2026)",
     "description": "Build the ultimate home gym for under $5,000. Commercial-grade rack, premium barbell, full plate set, cardio, dumbbells, and accessories.",
     "slug": "dream-gym-under-5000",
@@ -794,6 +836,20 @@
     "title": "Home Gym Under $750: The Smart Sweet Spot Build (2026)",
     "description": "How to build a complete home gym for under $750. Power rack, barbell, plates, bench, and accessories — all Amazon/Walmart verified.",
     "slug": "home-gym-under-750",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
+    "title": "MMA Fighter Home Gym Build: $1,000 Combat Sports Setup (2026)",
+    "description": "Complete MMA fighter home gym build for under $1,000. Heavy bag, kettlebells, sandbag, weight vest, jump rope, and strength tools — all Amazon/Walmart verified.",
+    "slug": "mma-fighter-home-gym-build",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
+    "title": "Powerlifter Home Gym Build: $1,500 Complete Setup (2026)",
+    "description": "Complete powerlifting home gym build for under $1,500. Power rack, Olympic bar, plates, bench, lifting belt, and accessories — all Amazon/Walmart verified.",
+    "slug": "powerlifter-home-gym-build",
     "contentType": "builds",
     "category": "Build Guides"
   }

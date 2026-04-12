@@ -89,6 +89,10 @@ function extractProductIdFromSlug(slug: string): string | null {
     "trx-go-suspension-trainer-review": "trx-go-suspension-trainer",
     "yes4all-slam-ball-review": "yes4all-slam-ball",
     "yes4all-roman-chair-review": "yes4all-roman-chair",
+    "rogue-style-gymnastic-rings-review": "rogue-style-gymnastic-rings",
+    "rogue-style-weight-vest-review": "rogue-style-weight-vest",
+    "yes4all-sandbag-review": "yes4all-sandbag",
+    "perfect-fitness-ab-wheel-review": "perfect-fitness-ab-wheel",
   };
   return mapping[slug] || null;
 }
