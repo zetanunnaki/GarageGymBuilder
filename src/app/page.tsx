@@ -81,7 +81,7 @@ export default function HomePage() {
       <section className="border-y border-zinc-800 bg-zinc-900/30">
         <div className="mx-auto grid max-w-7xl grid-cols-3 divide-x divide-zinc-800">
           <AnimatedCounter value="200+" label="Hours Testing" />
-          <AnimatedCounter value="14" label="Products Reviewed" />
+          <AnimatedCounter value="20" label="Products Reviewed" />
           <AnimatedCounter value="55+" label="Articles Published" />
         </div>
       </section>
