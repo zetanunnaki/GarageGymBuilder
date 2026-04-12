@@ -6,9 +6,13 @@ export function PopularProducts() {
   const allProducts = getAllProducts();
   const featured = [
     { id: "fitness-reality-810xlt", link: "/reviews/fitness-reality-810xlt-review" },
-    { id: "rep-pr-4000", link: "/reviews/rep-fitness-pr4000-review" },
+    { id: "mikolo-f4-power-cage", link: "/reviews/mikolo-f4-power-cage-review" },
     { id: "bowflex-selecttech-552", link: "/reviews/bowflex-selecttech-552-review" },
-    { id: "rogue-echo-bike", link: "/reviews/rogue-echo-bike-review" },
+    { id: "concept2-rowerg", link: "/reviews/concept2-rowerg-review" },
+    { id: "synergee-olympic-barbell", link: "/reviews/synergee-olympic-barbell-review" },
+    { id: "assault-airbike-classic", link: "/reviews/assault-airbike-review" },
+    { id: "powerblock-elite-90", link: "/reviews/powerblock-elite-90-review" },
+    { id: "flybird-adjustable-bench", link: "/reviews/flybird-adjustable-bench-review" },
   ];
 
   return (
