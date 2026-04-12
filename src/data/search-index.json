@@ -343,6 +343,48 @@
     "category": "Gym Setup"
   },
   {
+    "title": "Home Gym for Kids & Teens: Safe Strength Training Guide",
+    "description": "How to safely introduce kids and teens to strength training in your home gym. Age-appropriate equipment, exercises, and training advice.",
+    "slug": "home-gym-for-kids-teens",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym for MMA & Combat Sports: Complete Equipment Guide",
+    "description": "Build a complete home gym for MMA, boxing, and combat sports training. Conditioning equipment, strength training, and space-efficient gear.",
+    "slug": "home-gym-for-mma",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym for Runners: Strength Training for Better Running",
+    "description": "How to build a home gym that makes you a faster, more injury-resistant runner. Equipment recommendations and programming for runners.",
+    "slug": "home-gym-for-runners",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym for Seniors: Equipment & Training Guide (2026)",
+    "description": "How to build a safe, effective home gym for seniors (55+). Joint-friendly equipment, fall prevention, and training for longevity.",
+    "slug": "home-gym-for-seniors",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Mikolo vs Sportsroyals vs Fitness Reality: Budget vs Features vs Price",
+    "description": "How to build a travel-friendly home gym setup that works in hotels, Airbnbs, and on the road. Portable equipment and programming.",
+    "slug": "home-gym-for-travel",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym for Women: Complete Equipment & Training Guide (2026)",
+    "description": "How to build and use a home gym designed for women. Equipment recommendations, starter weight ranges, and training tips for female lifters.",
+    "slug": "home-gym-for-women",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
     "title": "Home Gym Insurance & Liability: What You Need to Know",
     "description": "Does your homeowner's insurance cover a home gym? What about injuries? The legal and insurance basics every home gym owner should understand.",
     "slug": "home-gym-insurance-liability",
@@ -369,6 +411,20 @@
     "slug": "home-gym-programming-guide",
     "contentType": "guides",
     "category": "Training"
+  },
+  {
+    "title": "Home Gym for Injury Rehab & Recovery: Equipment Guide",
+    "description": "Build a home gym focused on rehab and recovery. Low-impact equipment, joint-friendly exercises, and training through injuries.",
+    "slug": "home-gym-rehab-recovery",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym in Small Spaces: Building in Under 100 Sq Ft",
+    "description": "How to build a complete home gym in a small space (bedroom, corner, closet). Space-efficient equipment and creative layout tips.",
+    "slug": "home-gym-small-spaces",
+    "contentType": "guides",
+    "category": "Gym Setup"
   },
   {
     "title": "Home Gym vs Commercial Gym: The Real Cost Comparison (2026)",
@@ -413,6 +469,13 @@
     "category": "Buying Guides"
   },
   {
+    "title": "How to Choose a Kettlebell: Complete Buyer's Guide (2026)",
+    "description": "Everything you need to know before buying kettlebells. Cast iron vs competition, weight ranges, handle style, and our top picks.",
+    "slug": "how-to-choose-kettlebell",
+    "contentType": "guides",
+    "category": "Buying Guides"
+  },
+  {
     "title": "How to Choose a Power Rack: Complete Buyer's Guide (2026)",
     "description": "Everything you need to know before buying a power rack for your home gym. Weight capacity, steel gauge, footprint, attachments, and more.",
     "slug": "how-to-choose-power-rack",
@@ -423,6 +486,13 @@
     "title": "How to Choose a Weight Bench: Complete Buyer's Guide (2026)",
     "description": "Everything you need to know before buying a weight bench. Adjustable vs flat, pad width, weight capacity, stability — all explained.",
     "slug": "how-to-choose-weight-bench",
+    "contentType": "guides",
+    "category": "Buying Guides"
+  },
+  {
+    "title": "How to Choose Weight Plates: Complete Buyer's Guide (2026)",
+    "description": "Everything you need to know before buying weight plates. Cast iron vs bumper plates, Olympic vs standard, weight progression, and more.",
+    "slug": "how-to-choose-weight-plates",
     "contentType": "guides",
     "category": "Buying Guides"
   },
