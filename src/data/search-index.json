@@ -147,6 +147,13 @@
     "category": "Dumbbells"
   },
   {
+    "title": "CAP Hex Dumbbells vs Bowflex 552: Fixed or Adjustable?",
+    "description": "Fixed cast iron dumbbells vs adjustable. CAP Barbell Hex vs Bowflex SelectTech 552 — which is the smarter buy for your home gym?",
+    "slug": "cap-hex-vs-bowflex-552",
+    "contentType": "best-gear",
+    "category": "Dumbbells"
+  },
+  {
     "title": "CAP Barbell vs Synergee Games Barbell: Budget vs Mid-Range Showdown",
     "description": "Comparing the two most popular Amazon barbells for home gyms. CAP Barbell (in 300 lb set) vs Synergee Games Barbell — which is worth your money?",
     "slug": "cap-vs-synergee-barbell",
@@ -159,6 +166,20 @@
     "slug": "concept2-vs-assault-bike",
     "contentType": "best-gear",
     "category": "Cardio"
+  },
+  {
+    "title": "Iron Bull vs Spud Inc Dip Belt: Which Is Worth the Price?",
+    "description": "Iron Bull Strength Dip Belt vs Spud Inc Deluxe — budget vs premium dip belt comparison for weighted pull-ups, dips, and belt squats.",
+    "slug": "iron-bull-vs-spud-dip-belt",
+    "contentType": "best-gear",
+    "category": "Accessories"
+  },
+  {
+    "title": "Doorway vs Wall-Mounted Pull-Up Bar: Which Should You Buy?",
+    "description": "Doorway pull-up bar or wall-mounted? We compare the Iron Gym doorway bar vs wall-mounted options for home gyms, apartments, and serious lifters.",
+    "slug": "iron-gym-vs-wall-mounted-bar",
+    "contentType": "best-gear",
+    "category": "Accessories"
   },
   {
     "title": "Mikolo F4 vs Fitness Reality 810XLT: Which Budget Rack Should You Buy?",
@@ -175,11 +196,39 @@
     "category": "Power Racks"
   },
   {
+    "title": "Sunny SF-RW5515 vs Concept2 RowErg: Which Rower Should You Buy?",
+    "description": "The ultimate budget vs premium rowing machine comparison. Sunny Health magnetic vs Concept2 air resistance — which one wins for home gyms?",
+    "slug": "sunny-rower-vs-concept2",
+    "contentType": "best-gear",
+    "category": "Cardio"
+  },
+  {
     "title": "Fitness Reality vs Mikolo F4 vs Sportsroyals: The Ultimate Amazon Rack Comparison",
     "description": "Three-way comparison of the best budget power racks on Amazon. Fitness Reality 810XLT vs Mikolo F4 vs Sportsroyals — which one should you buy?",
     "slug": "three-way-rack-comparison",
     "contentType": "best-gear",
     "category": "Power Racks"
+  },
+  {
+    "title": "TRX GO vs Bodylastics: Which Travel Gym Should You Buy?",
+    "description": "Suspension trainer or resistance bands for travel? TRX GO vs Bodylastics — which compact training tool wins for apartments and travel?",
+    "slug": "trx-vs-bodylastics",
+    "contentType": "best-gear",
+    "category": "Accessories"
+  },
+  {
+    "title": "WOD Nation vs Crossrope: Speed Rope vs Weighted Rope?",
+    "description": "Speed jump rope vs weighted jump rope. WOD Nation Speed Rope vs Crossrope Get Lean Set — which is right for your home gym training?",
+    "slug": "wod-nation-vs-crossrope",
+    "contentType": "best-gear",
+    "category": "Conditioning"
+  },
+  {
+    "title": "Yes4All Hex Trap Bar vs Rogue TB-2: Is the Premium Worth It?",
+    "description": "Budget vs premium trap bar comparison. Yes4All Olympic Hex Bar vs Rogue TB-2 — is the Rogue worth 3x the price for home gyms?",
+    "slug": "yes4all-trap-bar-vs-rogue",
+    "contentType": "best-gear",
+    "category": "Barbells"
   },
   {
     "title": "Assault AirBike Classic Review: The Original vs the Rogue Echo",
