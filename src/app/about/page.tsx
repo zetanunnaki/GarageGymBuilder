@@ -1,13 +1,17 @@
 import { Metadata } from "next";
-import { Dumbbell } from "lucide-react";
+import Link from "next/link";
+import { Dumbbell, ArrowRight } from "lucide-react";
+import { getAllAuthors } from "@/data/authors";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
     "Learn about GarageGymBuilders and our mission to help you build the perfect home gym.",
+  alternates: { canonical: "/about/" },
 };
 
 export default function AboutPage() {
+  const authors = getAllAuthors();
   return (
     <div className="mx-auto max-w-3xl px-6 pt-32 pb-20">
       <div className="mb-8 flex items-center gap-3">
@@ -50,6 +54,44 @@ export default function AboutPage() {
           Have questions, feedback, or want to work with us? Reach out at{" "}
           <strong>hello@garagegymbuilders.com</strong>.
         </p>
+      </div>
+
+      {/* Meet the Team Section */}
+      <div className="mt-16 border-t border-zinc-800 pt-12">
+        <h2 className="mb-4 text-3xl font-black uppercase italic tracking-tighter">
+          Meet the Team
+        </h2>
+        <p className="mb-8 text-zinc-500">
+          The lifters and coaches behind every review.
+        </p>
+        <div className="grid gap-4 sm:grid-cols-3">
+          {authors.map((author) => (
+            <Link
+              key={author.slug}
+              href={`/team/${author.slug}/`}
+              className="group block border border-zinc-800 bg-zinc-900/40 p-6 transition-colors hover:border-orange-600/50"
+            >
+              <div className="mb-3 flex h-14 w-14 items-center justify-center bg-orange-600/10">
+                <Dumbbell className="text-orange-500" size={24} />
+              </div>
+              <div className="text-[10px] font-black uppercase tracking-widest text-orange-500">
+                {author.role}
+              </div>
+              <p className="mb-2 text-base font-black uppercase italic tracking-tighter transition-colors group-hover:text-orange-500">
+                {author.name}
+              </p>
+              <p className="text-xs leading-relaxed text-zinc-500">
+                {author.shortBio}
+              </p>
+            </Link>
+          ))}
+        </div>
+        <Link
+          href="/team/"
+          className="mt-6 inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-orange-500 hover:underline"
+        >
+          See full team page <ArrowRight size={10} />
+        </Link>
       </div>
     </div>
   );

@@ -150,6 +150,34 @@ export function generateProductSchema(
   };
 }
 
+export function generatePersonSchema(author: {
+  slug: string;
+  name: string;
+  role: string;
+  shortBio: string;
+  credentials: string[];
+  expertise: string[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: author.name,
+    jobTitle: author.role,
+    description: author.shortBio,
+    url: `${SITE_URL}/team/${author.slug}/`,
+    knowsAbout: author.expertise,
+    hasCredential: author.credentials.map((cred) => ({
+      "@type": "EducationalOccupationalCredential",
+      name: cred,
+    })),
+    worksFor: {
+      "@type": "Organization",
+      name: "GarageGymBuilders",
+      url: SITE_URL,
+    },
+  };
+}
+
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",

@@ -13,6 +13,7 @@ import { ShareButtons } from "@/components/share-buttons";
 import { AuthorBio } from "@/components/author-bio";
 import { StickyToc } from "@/components/sticky-toc";
 import { LastUpdatedBadge } from "@/components/last-updated-badge";
+import { PinterestSave } from "@/components/pinterest-save";
 import { CalendarDays, User, Clock } from "lucide-react";
 
 const CONTENT_TYPE = "best-gear";
@@ -96,7 +97,12 @@ export default async function BestGearPage({
         ]}
       />
       {frontmatter.featuredImage && (
-        <div className="mb-8 aspect-[16/9] w-full overflow-hidden border-2 border-zinc-800">
+        <div className="group relative mb-8 aspect-[16/9] w-full overflow-hidden border-2 border-zinc-800">
+          <PinterestSave
+            imageUrl={frontmatter.featuredImage}
+            description={frontmatter.title}
+            pageUrl={`/${CONTENT_TYPE}/${slug}/`}
+          />
           <img
             src={frontmatter.featuredImage}
             alt={frontmatter.title}
