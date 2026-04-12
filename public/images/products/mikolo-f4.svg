@@ -1,0 +1,22 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#18181b"/>
+  <rect x="140" y="80" width="22" height="420" rx="3" fill="#52525b"/>
+  <rect x="438" y="80" width="22" height="420" rx="3" fill="#52525b"/>
+  <rect x="140" y="80" width="320" height="22" rx="3" fill="#52525b"/>
+  <rect x="140" y="478" width="320" height="22" rx="3" fill="#52525b"/>
+  <rect x="162" y="92" width="276" height="8" rx="3" fill="#71717a"/>
+  <line x1="155" y1="200" x2="170" y2="200" stroke="#ea580c" stroke-width="2"/>
+  <line x1="155" y1="225" x2="170" y2="225" stroke="#ea580c" stroke-width="2"/>
+  <line x1="155" y1="250" x2="170" y2="250" stroke="#ea580c" stroke-width="2"/>
+  <line x1="155" y1="275" x2="170" y2="275" stroke="#ea580c" stroke-width="2"/>
+  <rect x="100" y="150" width="4" height="230" rx="2" fill="#a1a1aa"/>
+  <rect x="95" y="150" width="14" height="20" rx="3" fill="#52525b"/>
+  <rect x="85" y="375" width="35" height="15" rx="3" fill="#3f3f46"/>
+  <rect x="496" y="150" width="4" height="230" rx="2" fill="#a1a1aa"/>
+  <rect x="491" y="150" width="14" height="20" rx="3" fill="#52525b"/>
+  <rect x="481" y="375" width="35" height="15" rx="3" fill="#3f3f46"/>
+  <rect x="90" y="290" width="420" height="14" rx="7" fill="#d4d4d8"/>
+  <rect x="95" y="255" width="14" height="82" rx="4" fill="#ea580c"/>
+  <rect x="491" y="255" width="14" height="82" rx="4" fill="#ea580c"/>
+  <text x="300" y="560" text-anchor="middle" fill="#3f3f46" font-family="system-ui" font-size="14" font-weight="900" letter-spacing="4">MIKOLO F4 POWER CAGE</text>
+</svg>

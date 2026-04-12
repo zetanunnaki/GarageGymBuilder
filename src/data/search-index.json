@@ -119,11 +119,18 @@
     "category": "Weights"
   },
   {
-    "title": "REP PR-4000 vs Rogue R-3: Which Power Rack Should You Buy?",
-    "description": "Head-to-head comparison of the REP PR-4000 and Rogue Monster Lite R-3. We tested both — here's which one wins and why.",
-    "slug": "rep-pr4000-vs-rogue-r3",
+    "title": "Mikolo F4 vs Sportsroyals Power Cage: Which Amazon Rack Wins?",
+    "description": "Head-to-head comparison of the two best budget power cages on Amazon: Mikolo F4 vs Sportsroyals. We tested both — here's which one wins and why.",
+    "slug": "mikolo-vs-sportsroyals",
     "contentType": "best-gear",
     "category": "Power Racks"
+  },
+  {
+    "title": "Assault AirBike Classic Review: The Original vs the Rogue Echo",
+    "description": "Our hands-on review of the Assault AirBike Classic after 6 months of daily conditioning work. How does it compare to the Rogue Echo Bike?",
+    "slug": "assault-airbike-review",
+    "contentType": "reviews",
+    "category": "Cardio"
   },
   {
     "title": "Bowflex SelectTech 552 Review: Still Worth It in 2026?",
@@ -140,6 +147,13 @@
     "category": "Barbells"
   },
   {
+    "title": "Concept2 RowErg Review: Still the King of Rowing Machines in 2026?",
+    "description": "Our in-depth review of the Concept2 RowErg (formerly Model D) after 6 months of daily use. Is it still the best indoor rower for home gyms?",
+    "slug": "concept2-rowerg-review",
+    "contentType": "reviews",
+    "category": "Cardio"
+  },
+  {
     "title": "Fitness Reality 810XLT Review: The Best Budget Power Cage?",
     "description": "Our in-depth review of the Fitness Reality 810XLT Super Max Power Cage. Is it the best budget power rack for your garage gym?",
     "slug": "fitness-reality-810xlt-review",
@@ -154,11 +168,25 @@
     "category": "Benches"
   },
   {
-    "title": "REP Fitness PR-4000 Review: The Best Mid-Range Power Rack?",
-    "description": "Our hands-on review of the REP Fitness PR-4000. Is it the best power rack under $700 for serious home gym lifters?",
-    "slug": "rep-fitness-pr4000-review",
+    "title": "Marcy Olympic Weight Bench Review: All-in-One Home Gym Solution?",
+    "description": "Our review of the Marcy MD-857 Olympic Weight Bench. Is it worth it as a complete home gym solution with built-in rack and leg developer?",
+    "slug": "marcy-olympic-bench-review",
+    "contentType": "reviews",
+    "category": "Benches"
+  },
+  {
+    "title": "Mikolo F4 2.0 Power Cage Review: Best Budget Rack on Amazon?",
+    "description": "Our hands-on review of the Mikolo F4 2.0 Power Cage with LAT Pulldown. Is it the best budget power rack you can buy on Amazon?",
+    "slug": "mikolo-f4-power-cage-review",
     "contentType": "reviews",
     "category": "Power Racks"
+  },
+  {
+    "title": "PowerBlock Elite 90 Review: Are These Worth $870?",
+    "description": "We tested the PowerBlock Elite 90 EXP adjustable dumbbells for 4 months. Are they worth the premium price over Bowflex 552s?",
+    "slug": "powerblock-elite-90-review",
+    "contentType": "reviews",
+    "category": "Dumbbells"
   },
   {
     "title": "Rogue Echo Bike Review: The Ultimate Home Gym Cardio Machine?",
@@ -168,18 +196,25 @@
     "category": "Cardio"
   },
   {
-    "title": "Rogue Monster Lite R-3 Review: Is the Premium Price Worth It?",
-    "description": "Our hands-on review of the Rogue Monster Lite R-3 Power Rack. Is paying $850+ for a power rack actually worth it for a home gym?",
-    "slug": "rogue-monster-lite-r3-review",
+    "title": "Sportsroyals Power Cage Review: 1,600 lb Capacity for $550?",
+    "description": "Our hands-on review of the Sportsroyals Power Cage with Cable Crossover. Is this the best value home gym rack on Amazon?",
+    "slug": "sportsroyals-power-cage-review",
     "contentType": "reviews",
     "category": "Power Racks"
   },
   {
-    "title": "Titan T-3 Series Power Rack Review: Budget Beast or Corner-Cutter?",
-    "description": "Our hands-on review of the Titan Fitness T-3 Series Power Rack. Can it really compete with racks twice its price?",
-    "slug": "titan-t3-power-rack-review",
+    "title": "Synergee Games Olympic Barbell Review: The Best Amazon Bar Under $200?",
+    "description": "Our hands-on review of the Synergee Games 20kg Olympic Barbell. Is it the best sub-$200 barbell on Amazon for home gyms?",
+    "slug": "synergee-olympic-barbell-review",
     "contentType": "reviews",
-    "category": "Power Racks"
+    "category": "Barbells"
+  },
+  {
+    "title": "Yes4All Kettlebell Set Review: Best Budget Kettlebells on Amazon?",
+    "description": "Our review of the Yes4All Cast Iron Kettlebell Set. Are these the best budget kettlebells for home gym training on Amazon?",
+    "slug": "yes4all-kettlebell-set-review",
+    "contentType": "reviews",
+    "category": "Kettlebells"
   },
   {
     "title": "How to Maintain Your Barbell: Cleaning & Care Guide",

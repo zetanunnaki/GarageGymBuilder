@@ -12,6 +12,7 @@
     "amazonLink": "https://amazon.com/dp/B07PVDCMJZ?tag=garagegym-20",
     "walmartLink": "https://walmart.com/ip/Fitness-Reality-810XLT-Super-Max-Power-Cage/272630498?irgwc=1",
     "pros": [
+      "4.5+ star rating on Amazon with 5,000+ reviews",
       "Excellent value under $350",
       "800 lb weight capacity",
       "Includes multi-grip pull-up bar",
@@ -24,82 +25,56 @@
       "Not ideal for lifters squatting 600+ lbs"
     ]
   },
-  "rogue-monster-lite-r3": {
-    "name": "Rogue RML-390F Monster Lite Rack",
-    "brand": "Rogue Fitness",
-    "price": "$935.00",
-    "image": "/images/products/rogue-monster-lite-r3.svg",
+  "mikolo-f4-power-cage": {
+    "name": "Mikolo F4 2.0 Power Cage with LAT Pulldown",
+    "brand": "Mikolo",
+    "price": "$489.99",
+    "image": "/images/products/mikolo-f4.svg",
     "specs": {
-      "weightCapacity": "1,000+ lbs",
-      "footprint": "53\" L x 34\" W x 90.375\" H",
-      "material": "3x3\" 11-Gauge Steel"
+      "weightCapacity": "1,200 lbs",
+      "footprint": "49\" L x 49\" W x 86\" H",
+      "material": "2x2\" 12-Gauge Steel"
     },
-    "amazonLink": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
-    "walmartLink": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+    "amazonLink": "https://amazon.com/dp/B0D4M9DXV5?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Mikolo-F4-Power-Cage-LAT-Pulldown/16611872118?irgwc=1",
     "pros": [
-      "Made in Columbus, Ohio — American steel",
-      "3x3\" 11-gauge uprights — overbuilt for any home gym",
-      "Westside hole spacing in the bench zone",
-      "Massive Monster Lite attachment ecosystem (50+ accessories)",
-      "Lifetime warranty on structural components",
-      "No floor bolting required (flat foot design)"
+      "4.6+ star rating on Amazon with 3,000+ reviews",
+      "1,200 lb weight capacity — rare at this price",
+      "Includes LAT pulldown and low row cable system",
+      "27 height adjustments with 2\" hole spacing",
+      "Dual-track pulley system",
+      "Comes with multiple attachments included"
     ],
     "cons": [
-      "Premium price point at $935",
-      "Heavy shipping costs (freight delivery)",
-      "Accessories sold separately at premium prices"
+      "Assembly takes 3-4 hours",
+      "Heavier than budget racks — needs two people to move",
+      "Plate storage pegs sold separately"
     ]
   },
-  "rep-pr-4000": {
-    "name": "REP Fitness PR-4000 Power Rack",
-    "brand": "REP Fitness",
-    "price": "$799.99",
-    "image": "/images/products/rep-pr-4000.svg",
+  "sportsroyals-power-cage": {
+    "name": "Sportsroyals Power Cage with Cable Crossover",
+    "brand": "Sportsroyals",
+    "price": "$549.99",
+    "image": "/images/products/sportsroyals-rack.svg",
     "specs": {
-      "weightCapacity": "1,000 lbs",
-      "footprint": "48\" L x 36\" W x 80\" H",
-      "material": "3x3\" 11-Gauge Steel"
+      "weightCapacity": "1,600 lbs",
+      "footprint": "52\" L x 49\" W x 84\" H",
+      "material": "2x2\" Heavy-Duty Steel"
     },
-    "amazonLink": "https://repfitness.com/products/pr-4000-power-rack-pre-selected",
-    "walmartLink": "https://repfitness.com/products/pr-4000-power-rack-pre-selected",
+    "amazonLink": "https://amazon.com/dp/B0G4NFNJVJ?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Sportsroyals+Power+Cage&irgwc=1",
     "pros": [
-      "3x3\" 11-gauge steel matches Rogue quality",
-      "1,000 lb rated rackable capacity",
-      "Fully customizable — choose height, depth, color",
-      "Numbered uprights for fast setup",
-      "Growing attachment ecosystem with unique options",
-      "UHMW-lined J-cups protect barbell knurling"
+      "4.7+ star rating on Amazon",
+      "Massive 1,600 lb weight capacity",
+      "Full adjustable cable crossover system included",
+      "Multiple attachment points (LAT, low row, landmine)",
+      "Comes with complete attachment package",
+      "Best value all-in-one home gym rack"
     ],
     "cons": [
-      "Frequently sells out due to demand",
-      "Base price doesn't include many attachments",
-      "Shipping can be slow during peak demand"
-    ]
-  },
-  "titan-t3": {
-    "name": "Titan Fitness T-3 Series Power Rack",
-    "brand": "Titan Fitness",
-    "price": "$649.99",
-    "image": "/images/products/titan-t3.svg",
-    "specs": {
-      "weightCapacity": "1,100 lbs",
-      "footprint": "48\" L x 42\" W x 82\" H",
-      "material": "2x3\" 11-Gauge Steel"
-    },
-    "amazonLink": "https://titan.fitness/products/t-3-series-power-rack-82-24",
-    "walmartLink": "https://titan.fitness/products/t-3-series-power-rack-82-24",
-    "pros": [
-      "1,100 lb weight capacity at a mid-range price",
-      "Compatible with Rogue Monster Lite attachments",
-      "Laser-cut numbered holes on uprights",
-      "Available in 82\" and 91\" heights",
-      "Westside hole spacing in bench zone",
-      "Frequently on sale (20% off at $519.97)"
-    ],
-    "cons": [
-      "Powder coat finish can vary between batches",
-      "Customer service response times can be slow",
-      "Some hardware may need retightening after a month"
+      "Large footprint requires dedicated space",
+      "Assembly requires 4-5 hours with two people",
+      "Cable system adjustments take practice"
     ]
   },
   "bowflex-selecttech-552": {
@@ -115,9 +90,10 @@
     "amazonLink": "https://amazon.com/dp/B0G6Z84TQM?tag=garagegym-20",
     "walmartLink": "https://walmart.com/ip/Bowflex-SelectTech-552-Dumbbells/12167797?irgwc=1",
     "pros": [
+      "4.7+ star rating on Amazon with 15,000+ reviews",
       "Replaces 15 sets of dumbbells (5-52.5 lbs)",
       "Fastest weight change system on the market (2 seconds)",
-      "2.5 lb increments up to 25 lbs for precise progression",
+      "2.5 lb increments up to 25 lbs",
       "Compact cradle storage footprint",
       "Sold as a pair"
     ],
@@ -125,7 +101,34 @@
       "Cannot be dropped — internal mechanism is fragile",
       "Length at 52.5 lbs feels awkward on some exercises",
       "Price has increased from original $349 MSRP",
-      "5 lb increments above 25 lbs (no 2.5 lb jumps)"
+      "5 lb increments above 25 lbs"
+    ]
+  },
+  "powerblock-elite-90": {
+    "name": "PowerBlock Elite USA 90 EXP Adjustable Dumbbells",
+    "brand": "PowerBlock",
+    "price": "$869.00",
+    "image": "/images/products/powerblock-elite-90.svg",
+    "specs": {
+      "weightCapacity": "5-90 lbs each (with expansions)",
+      "footprint": "12\" L x 6\" W x 9\" H each",
+      "material": "Steel Plates / Urethane Coating"
+    },
+    "amazonLink": "https://amazon.com/dp/B0BSR6JN85?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=PowerBlock+Elite+90&irgwc=1",
+    "pros": [
+      "4.8+ star rating on Amazon with 2,000+ reviews",
+      "Expandable from 50 lbs to 90 lbs per dumbbell",
+      "Rated for drops from lifting height (unlike Bowflex)",
+      "2.5 lb increments for precise progression",
+      "More compact than Bowflex at top weights",
+      "USA-made with lifetime warranty"
+    ],
+    "cons": [
+      "Expensive compared to 52.5 lb alternatives",
+      "Wider cage can feel awkward on curls",
+      "Pin selection is slower than Bowflex dial",
+      "Requires expansion kits to reach 90 lbs"
     ]
   },
   "cap-barbell-olympic": {
@@ -139,8 +142,9 @@
       "material": "Cast Iron Plates / Chrome Bar"
     },
     "amazonLink": "https://amazon.com/dp/B002OP0DLA?tag=garagegym-20",
-    "walmartLink": "https://walmart.com/ip/CAP-Barbell-300-lb-Cast-Iron-Olympic-Weight-Set-Includes-7-Bar/341504305?irgwc=1",
+    "walmartLink": "https://walmart.com/ip/CAP-Barbell-300-lb-Cast-Iron-Olympic-Weight-Set/341504305?irgwc=1",
     "pros": [
+      "4.5+ star rating with 8,000+ reviews",
       "Complete barbell + plate set in one purchase",
       "Standard Olympic 2\" sleeves fit all racks",
       "Includes: 2x45, 2x35, 2x25, 2x10, 4x5, 2x2.5 lb plates",
@@ -154,30 +158,57 @@
       "Chrome plating on bar chips over time"
     ]
   },
-  "rogue-echo-bike": {
-    "name": "Rogue Echo Bike V3.0",
-    "brand": "Rogue Fitness",
-    "price": "$945.00",
-    "image": "/images/products/rogue-echo-bike.svg",
+  "synergee-olympic-barbell": {
+    "name": "Synergee Games 20kg Olympic Barbell",
+    "brand": "Synergee",
+    "price": "$199.95",
+    "image": "/images/products/synergee-barbell.svg",
     "specs": {
-      "weightCapacity": "330 lbs user weight",
-      "footprint": "55\" L x 29.5\" W x 52.25\" H",
-      "material": "Heavy-Duty Steel Frame (123 lbs)"
+      "weightCapacity": "1,000 lbs rated capacity",
+      "footprint": "28.5mm Shaft, 7ft Olympic Bar",
+      "material": "Black Phosphate Steel / Needle Bearings"
     },
-    "amazonLink": "https://www.roguefitness.com/rogue-echo-bike",
-    "walmartLink": "https://www.roguefitness.com/rogue-echo-bike",
+    "amazonLink": "https://amazon.com/dp/B07GW9CHF5?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Synergee+Games+Barbell&irgwc=1",
     "pros": [
-      "Belt-driven steel fan — smoother and quieter than chain",
-      "LCD console with Bluetooth/ANT+ connectivity",
-      "Built like a tank at 123 lbs — zero wobble",
-      "Great for HIIT, steady-state, and warm-ups",
-      "Accommodates riders 5'2\" to 6'5\""
+      "4.7+ star rating on Amazon",
+      "1,000 lb capacity at mid-range price",
+      "Needle bearings provide smooth spin for Olympic lifts",
+      "190K PSI tensile strength",
+      "Dual knurling marks for powerlifting and Olympic lifts",
+      "Best Amazon-available upgrade from budget bars"
     ],
     "cons": [
-      "Heavy at 123 lbs — difficult to move",
-      "Gets exponentially harder at high RPMs",
-      "No programmable workout modes on console",
-      "Premium price at $945"
+      "Black phosphate finish requires regular oiling",
+      "Not made in the USA",
+      "Knurling is slightly less aggressive than premium bars"
+    ]
+  },
+  "assault-airbike-classic": {
+    "name": "Assault AirBike Classic",
+    "brand": "Assault Fitness",
+    "price": "$749.00",
+    "image": "/images/products/assault-airbike.svg",
+    "specs": {
+      "weightCapacity": "350 lbs user weight",
+      "footprint": "50.95\" L x 23.34\" W x 50\" H",
+      "material": "Steel Frame (98 lbs)"
+    },
+    "amazonLink": "https://amazon.com/dp/B00F74RX40?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Assault-AirBike-Classic/29832456?irgwc=1",
+    "pros": [
+      "4.5+ star rating on Amazon with 3,000+ reviews",
+      "The original and most iconic air bike",
+      "Programmable workouts (Tabata, HIIT, custom)",
+      "LCD console with chest strap heart rate support",
+      "Proven durability over a decade",
+      "Great for CrossFit-style conditioning"
+    ],
+    "cons": [
+      "Chain-driven (louder than belt-driven competitors)",
+      "Requires occasional chain lubrication",
+      "Heavy at 98 lbs — hard to relocate",
+      "Premium price vs. budget air bikes"
     ]
   },
   "flybird-adjustable-bench": {
@@ -193,6 +224,7 @@
     "amazonLink": "https://amazon.com/dp/B07DNYSJ8W?tag=garagegym-20",
     "walmartLink": "https://walmart.com/ip/Flybird-Collapsible-Adjustable-Weight-Bench/465166903?irgwc=1",
     "pros": [
+      "4.6+ star rating on Amazon with 25,000+ reviews",
       "Unbeatable value under $120",
       "ASTM-certified 800 lb weight capacity",
       "8 backrest angles (90° to -30° FID)",
@@ -204,6 +236,113 @@
       "No decline position on some variants",
       "Pad is narrower (10.2\") than premium benches (12\")",
       "Feet can slide on smooth concrete without rubber mats"
+    ]
+  },
+  "marcy-olympic-bench": {
+    "name": "Marcy Olympic Weight Bench MD-857",
+    "brand": "Marcy",
+    "price": "$239.99",
+    "image": "/images/products/marcy-bench.svg",
+    "specs": {
+      "weightCapacity": "300 lbs on-the-bar",
+      "footprint": "74\" L x 49\" W x 50\" H",
+      "material": "14-Gauge Tubular Steel"
+    },
+    "amazonLink": "https://amazon.com/dp/B003LQSXSG?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Marcy-Olympic-Weight-Bench/14628073?irgwc=1",
+    "pros": [
+      "4.4+ star rating on Amazon with 4,000+ reviews",
+      "Includes Olympic bar catches and uprights",
+      "4 bench positions: flat, incline, decline, upright",
+      "Built-in arm curl pad and leg developer",
+      "All-in-one home gym solution",
+      "Great for lifters without a separate rack"
+    ],
+    "cons": [
+      "300 lb on-the-bar limit restricts advanced lifters",
+      "Upright posts are close-set — not full squat rack",
+      "Heavy assembly (2+ hours)",
+      "Leg developer pads can wear over time"
+    ]
+  },
+  "yes4all-olympic-plates": {
+    "name": "Yes4All Olympic Cast Iron Weight Plates (Pair)",
+    "brand": "Yes4All",
+    "price": "$89.99",
+    "image": "/images/products/yes4all-plates.svg",
+    "specs": {
+      "weightCapacity": "Pair of 45 lb plates (90 lb total)",
+      "footprint": "17\" diameter",
+      "material": "Cast Iron"
+    },
+    "amazonLink": "https://amazon.com/dp/B073HKB3HT?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Yes4All-Olympic-Weight-Plates/23784612?irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 10,000+ reviews",
+      "Cast iron durability",
+      "Standard Olympic 2\" hole fits all bars",
+      "Available in individual pairs to build up your set",
+      "Great for expanding an existing set",
+      "Best value for adding weight"
+    ],
+    "cons": [
+      "Not competition-calibrated (weight tolerance ±2%)",
+      "Painted finish can chip",
+      "Not safe to drop on concrete (no rubber coating)",
+      "Thicker than premium plates"
+    ]
+  },
+  "yes4all-kettlebell-set": {
+    "name": "Yes4All Cast Iron Kettlebell Set",
+    "brand": "Yes4All",
+    "price": "$149.99",
+    "image": "/images/products/yes4all-kettlebells.svg",
+    "specs": {
+      "weightCapacity": "10, 15, 20, 25, 30 lb set",
+      "footprint": "Varies by weight",
+      "material": "Solid Cast Iron with Painted Finish"
+    },
+    "amazonLink": "https://amazon.com/dp/B00XM2MRGC?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Yes4All-Cast-Iron-Kettlebells/48264012?irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 12,000+ reviews",
+      "Solid cast iron construction",
+      "Durable painted finish",
+      "Standard grip width for most users",
+      "Available individually or in sets",
+      "Best budget kettlebell option"
+    ],
+    "cons": [
+      "Cheaper competition-grade bells exist",
+      "Paint can chip with heavy use",
+      "Not ideal for kettlebell sport (uniform size)",
+      "Handle texture varies between batches"
+    ]
+  },
+  "titan-deadlift-jack": {
+    "name": "Titan Fitness Full Deadlift Bar Jack",
+    "brand": "Titan Fitness",
+    "price": "$189.99",
+    "image": "/images/products/titan-deadlift-jack.svg",
+    "specs": {
+      "weightCapacity": "2,000 lbs lift capacity",
+      "footprint": "38\" L x 26\" W",
+      "material": "Powder-Coated Steel"
+    },
+    "amazonLink": "https://amazon.com/dp/B09GWCQD6M?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Titan-Fitness-Deadlift-Bar-Jack/582648310?irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon",
+      "Lifts entire loaded barbell with one handle",
+      "2,000 lb lift capacity handles anything",
+      "Saves your back when loading deadlift plates",
+      "Fits standard Olympic bars",
+      "Sturdy powder-coated construction"
+    ],
+    "cons": [
+      "Bulky to store (38\" x 26\" footprint)",
+      "Premium price for a simple accessory",
+      "Only useful for deadlifts and loading plates"
     ]
   }
 }

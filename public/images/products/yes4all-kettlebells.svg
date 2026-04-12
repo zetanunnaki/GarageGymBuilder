@@ -1,0 +1,16 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#18181b"/>
+  <ellipse cx="150" cy="380" rx="45" ry="50" fill="#3f3f46"/>
+  <path d="M130 340 Q130 320 150 320 Q170 320 170 340" fill="none" stroke="#52525b" stroke-width="10"/>
+  <text x="150" y="390" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="14" font-weight="900">10</text>
+  <ellipse cx="260" cy="370" rx="55" ry="60" fill="#3f3f46"/>
+  <path d="M235 322 Q235 300 260 300 Q285 300 285 322" fill="none" stroke="#52525b" stroke-width="12"/>
+  <text x="260" y="385" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="16" font-weight="900">20</text>
+  <ellipse cx="390" cy="360" rx="65" ry="70" fill="#3f3f46"/>
+  <path d="M360 300 Q360 278 390 278 Q420 278 420 300" fill="none" stroke="#52525b" stroke-width="14"/>
+  <text x="390" y="375" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="18" font-weight="900">25</text>
+  <ellipse cx="510" cy="355" rx="70" ry="75" fill="#3f3f46"/>
+  <path d="M478 290 Q478 265 510 265 Q542 265 542 290" fill="none" stroke="#52525b" stroke-width="16"/>
+  <text x="510" y="370" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="20" font-weight="900">30</text>
+  <text x="300" y="560" text-anchor="middle" fill="#3f3f46" font-family="system-ui" font-size="14" font-weight="900" letter-spacing="4">YES4ALL KETTLEBELL SET</text>
+</svg>

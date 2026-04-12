@@ -56,13 +56,17 @@ export async function generateMetadata({
 function extractProductIdFromSlug(slug: string): string | null {
   const mapping: Record<string, string> = {
     "fitness-reality-810xlt-review": "fitness-reality-810xlt",
-    "rep-fitness-pr4000-review": "rep-pr-4000",
     "bowflex-selecttech-552-review": "bowflex-selecttech-552",
-    "titan-t3-power-rack-review": "titan-t3",
-    "rogue-echo-bike-review": "rogue-echo-bike",
-    "flybird-adjustable-bench-review": "flybird-adjustable-bench",
     "cap-barbell-300-review": "cap-barbell-olympic",
-    "rogue-monster-lite-r3-review": "rogue-monster-lite-r3",
+    "flybird-adjustable-bench-review": "flybird-adjustable-bench",
+    "concept2-rowerg-review": "concept2-rowerg",
+    "powerblock-elite-90-review": "powerblock-elite-90",
+    "assault-airbike-review": "assault-airbike-classic",
+    "mikolo-f4-power-cage-review": "mikolo-f4-power-cage",
+    "sportsroyals-power-cage-review": "sportsroyals-power-cage",
+    "synergee-olympic-barbell-review": "synergee-olympic-barbell",
+    "marcy-olympic-bench-review": "marcy-olympic-bench",
+    "yes4all-kettlebell-set-review": "yes4all-kettlebell-set",
   };
   return mapping[slug] || null;
 }
