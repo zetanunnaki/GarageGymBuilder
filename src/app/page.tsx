@@ -11,7 +11,23 @@ import {
   ShieldCheck,
   Weight,
   CalendarDays,
+  Shield,
+  Disc,
+  Layers,
+  Armchair,
+  Grid3x3,
+  Circle,
 } from "lucide-react";
+
+const buyersGuides = [
+  { href: "/guides/how-to-choose-power-rack", label: "Power Rack", Icon: Shield },
+  { href: "/guides/how-to-choose-barbell", label: "Barbell", Icon: Weight },
+  { href: "/guides/how-to-choose-adjustable-dumbbells", label: "Adjustable Dumbbells", Icon: Dumbbell },
+  { href: "/guides/how-to-choose-weight-bench", label: "Weight Bench", Icon: Armchair },
+  { href: "/guides/how-to-choose-weight-plates", label: "Weight Plates", Icon: Disc },
+  { href: "/guides/how-to-choose-kettlebell", label: "Kettlebell", Icon: Circle },
+  { href: "/guides/how-to-choose-gym-flooring", label: "Gym Flooring", Icon: Grid3x3 },
+];
 
 const contentTypeMap: Record<string, string> = {
   "best-gear": "Best Gear",
@@ -130,6 +146,37 @@ export default function HomePage() {
 
       {/* POPULAR PRODUCTS */}
       <PopularProducts />
+
+      {/* BUYER'S GUIDES */}
+      <section className="border-t border-zinc-800 bg-zinc-900/30 px-6 py-20">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="mb-4 border-l-8 border-orange-600 pl-6 text-4xl font-black uppercase italic tracking-tighter">
+            Buyer&apos;s Guides
+          </h2>
+          <p className="mb-12 pl-8 text-zinc-500">
+            Don&apos;t buy gear blind. Learn what actually matters before you spend.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {buyersGuides.map(({ href, label, Icon }) => (
+              <Link
+                key={href}
+                href={href}
+                className="group flex items-center gap-4 border border-zinc-800 bg-zinc-900/40 p-6 transition-colors hover:border-orange-600/50"
+              >
+                <Icon className="shrink-0 text-orange-500 transition-transform group-hover:scale-110" size={32} />
+                <div>
+                  <div className="text-[10px] font-black uppercase tracking-widest text-zinc-600">
+                    How to Choose
+                  </div>
+                  <div className="text-sm font-black uppercase italic tracking-tighter text-zinc-200 transition-colors group-hover:text-orange-500">
+                    {label}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* RECENT ARTICLES */}
       <section className="px-6 py-20">
