@@ -399,11 +399,39 @@
     "category": "Gym Setup"
   },
   {
+    "title": "Garage Gym Summer Cooling: Train Through the Heat (2026)",
+    "description": "How to keep your garage gym cool in summer. Fans, AC, ventilation, and timing strategies for hot weather training.",
+    "slug": "garage-gym-summer-cooling",
+    "contentType": "guides",
+    "category": "Setup"
+  },
+  {
     "title": "Garage Gym Ventilation & Climate Control Guide (2026)",
     "description": "How to keep your garage gym cool in summer and warm in winter. Complete guide to fans, heaters, insulation, and airflow.",
     "slug": "garage-gym-ventilation-guide",
     "contentType": "guides",
     "category": "Gym Setup"
+  },
+  {
+    "title": "Home Gym for Back Pain Sufferers: Train Without Hurting (2026)",
+    "description": "How to train safely with chronic or recurring back pain. Equipment, exercises, and programming for lifters with back issues.",
+    "slug": "home-gym-back-pain",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym for Boxing: Equipment & Training Guide (2026)",
+    "description": "How to build a complete boxing gym at home. Heavy bag, gloves, jump rope, and strength training equipment for fighters and fitness boxers.",
+    "slug": "home-gym-for-boxing",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
+    "title": "Home Gym for Cyclists: Strength Training to Ride Faster (2026)",
+    "description": "How cyclists can use a home gym to ride faster and prevent injuries. Strength training equipment, programs, and recovery for road, gravel, and MTB riders.",
+    "slug": "home-gym-for-cyclists",
+    "contentType": "guides",
+    "category": "Training"
   },
   {
     "title": "Home Gym for Kids & Teens: Safe Strength Training Guide",
@@ -469,6 +497,13 @@
     "category": "Training"
   },
   {
+    "title": "Home Gym for Postpartum Recovery: Safe Return to Training (2026)",
+    "description": "How new mothers can safely return to strength training with a home gym. Postpartum-specific equipment, programming, and recovery guidance.",
+    "slug": "home-gym-postpartum",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
     "title": "Home Gym Training Programs: What to Run With Limited Equipment",
     "description": "The best strength training programs you can run with a basic home gym setup. Barbell-only, rack + bench, and full home gym programs.",
     "slug": "home-gym-programming-guide",
@@ -495,6 +530,13 @@
     "slug": "home-gym-vs-commercial-gym",
     "contentType": "guides",
     "category": "Gym Setup"
+  },
+  {
+    "title": "How to Anchor a Power Rack: Concrete & Wood Floor Guide (2026)",
+    "description": "Step-by-step guide to anchoring your power rack to concrete or wood subfloor. Tools, hardware, and safety considerations.",
+    "slug": "how-to-anchor-power-rack",
+    "contentType": "guides",
+    "category": "Setup"
   },
   {
     "title": "How to Build a Garage Gym: The Complete Beginner's Guide",
@@ -525,6 +567,13 @@
     "category": "Buying Guides"
   },
   {
+    "title": "How to Choose a Cardio Machine for Home: Buyer's Guide (2026)",
+    "description": "How to choose the right cardio machine for your home gym. Treadmills, rowers, bikes, and ellipticals compared with pros, cons, and recommendations.",
+    "slug": "how-to-choose-cardio-machine",
+    "contentType": "guides",
+    "category": "Buying Guides"
+  },
+  {
     "title": "How to Choose Home Gym Flooring: Complete Buyer's Guide (2026)",
     "description": "Everything you need to know about home gym flooring. Rubber mats, tiles, rolled rubber, foam — which is right for your garage gym?",
     "slug": "how-to-choose-gym-flooring",
@@ -546,6 +595,13 @@
     "category": "Buying Guides"
   },
   {
+    "title": "How to Choose a Pull-Up Bar: Complete Buyer's Guide (2026)",
+    "description": "Everything you need to know before buying a pull-up bar. Doorway, wall-mounted, ceiling-mounted, and free-standing options compared.",
+    "slug": "how-to-choose-pull-up-bar",
+    "contentType": "guides",
+    "category": "Buying Guides"
+  },
+  {
     "title": "How to Choose a Weight Bench: Complete Buyer's Guide (2026)",
     "description": "Everything you need to know before buying a weight bench. Adjustable vs flat, pad width, weight capacity, stability — all explained.",
     "slug": "how-to-choose-weight-bench",
@@ -558,6 +614,13 @@
     "slug": "how-to-choose-weight-plates",
     "contentType": "guides",
     "category": "Buying Guides"
+  },
+  {
+    "title": "How to Clean & Maintain Home Gym Equipment (2026 Guide)",
+    "description": "Step-by-step cleaning and maintenance guide for barbells, plates, racks, benches, and cardio equipment. Make your gear last decades.",
+    "slug": "how-to-clean-gym-equipment",
+    "contentType": "guides",
+    "category": "Maintenance"
   },
   {
     "title": "How to Organize Your Garage Gym (Layout & Storage Guide)",
@@ -635,5 +698,12 @@
     "slug": "home-gym-under-500",
     "contentType": "builds",
     "category": "Budget Builds"
+  },
+  {
+    "title": "Home Gym Under $750: The Smart Sweet Spot Build (2026)",
+    "description": "How to build a complete home gym for under $750. Power rack, barbell, plates, bench, and accessories — all Amazon/Walmart verified.",
+    "slug": "home-gym-under-750",
+    "contentType": "builds",
+    "category": "Build Guides"
   }
 ]
