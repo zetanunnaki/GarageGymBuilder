@@ -25,23 +25,31 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const { frontmatter } = getArticleBySlug(CONTENT_TYPE, slug);
+  const canonicalPath = `/${CONTENT_TYPE}/${slug}/`;
   return {
     title: frontmatter.seoTitle || frontmatter.title,
     description: frontmatter.description,
+    alternates: { canonical: canonicalPath },
     openGraph: {
       title: frontmatter.seoTitle || frontmatter.title,
       description: frontmatter.description,
       type: "article",
+      url: canonicalPath,
+      siteName: "GarageGymBuilders",
       publishedTime: frontmatter.date,
+      modifiedTime: frontmatter.date,
       authors: [frontmatter.author],
+      tags: frontmatter.category ? [frontmatter.category] : [],
       images: frontmatter.featuredImage
-        ? [{ url: frontmatter.featuredImage, width: 1200, height: 630 }]
+        ? [{ url: frontmatter.featuredImage, width: 1200, height: 630, alt: frontmatter.title }]
         : [],
     },
     twitter: {
       card: "summary_large_image",
       title: frontmatter.seoTitle || frontmatter.title,
       description: frontmatter.description,
+      site: "@garagegymbuilders",
+      creator: "@garagegymbuilders",
       images: frontmatter.featuredImage ? [frontmatter.featuredImage] : [],
     },
   };
@@ -86,6 +94,9 @@ export default async function BuildPage({
             alt={frontmatter.title}
             className="h-full w-full object-cover"
             loading="eager"
+            fetchPriority="high"
+            width={1200}
+            height={675}
           />
         </div>
       )}

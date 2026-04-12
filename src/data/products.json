@@ -475,6 +475,167 @@
       "Not as smooth as Concept2 air resistance"
     ]
   },
+  "iron-gym-pull-up-bar": {
+    "name": "Iron Gym Total Upper Body Workout Bar",
+    "brand": "Iron Gym",
+    "price": "$29.99",
+    "image": "/images/products/iron-gym-bar.svg",
+    "specs": {
+      "weightCapacity": "300 lbs user weight",
+      "footprint": "Fits doorways 24-32 inches wide",
+      "material": "Steel / Foam Grips"
+    },
+    "amazonLink": "https://amazon.com/dp/B001EJMS6K?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Iron-Gym-Total-Upper-Body-Workout-Bar/14628273?irgwc=1",
+    "pros": [
+      "4.5+ star rating on Amazon with 60,000+ reviews",
+      "No screws or installation required",
+      "Multiple grip positions (wide, narrow, neutral)",
+      "Removable for door access",
+      "Best-selling doorway pull-up bar on Amazon",
+      "Cheapest entry into upper body training"
+    ],
+    "cons": [
+      "Limited to 300 lb user weight",
+      "Cannot be used for kipping or muscle-ups",
+      "Can damage doorframe trim with heavy use",
+      "Width restricted to standard doorways"
+    ]
+  },
+  "cap-hex-dumbbells": {
+    "name": "CAP Barbell Cast Iron Hex Dumbbell (Pair)",
+    "brand": "CAP Barbell",
+    "price": "$39.99",
+    "image": "/images/products/cap-hex-dumbbells.svg",
+    "specs": {
+      "weightCapacity": "Pairs from 5 lbs to 50 lbs",
+      "footprint": "Hex shape prevents rolling",
+      "material": "Cast Iron with Painted Finish"
+    },
+    "amazonLink": "https://amazon.com/dp/B001ARYU58?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/CAP-Barbell-Cast-Iron-Hex-Dumbbell/16562802?irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 30,000+ reviews",
+      "Solid cast iron — virtually indestructible",
+      "Hex shape prevents rolling",
+      "Available in pairs from 5 to 50 lbs",
+      "Cheapest fixed dumbbells per pound on Amazon",
+      "Standard ergonomic handles"
+    ],
+    "cons": [
+      "Painted finish chips with heavy use",
+      "Need multiple pairs to build a full set",
+      "Requires significant storage space vs adjustable dumbbells",
+      "No quick weight changes between exercises"
+    ]
+  },
+  "dark-iron-lifting-belt": {
+    "name": "Dark Iron Fitness Genuine Leather Lifting Belt",
+    "brand": "Dark Iron Fitness",
+    "price": "$54.97",
+    "image": "/images/products/dark-iron-belt.svg",
+    "specs": {
+      "weightCapacity": "Suitable for any lifting weight",
+      "footprint": "5\" wide leather belt with steel buckle",
+      "material": "Genuine Buffalo Leather / Steel Buckle"
+    },
+    "amazonLink": "https://amazon.com/dp/B073V6ZYBZ?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Dark+Iron+Fitness+Lifting+Belt&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 12,000+ reviews",
+      "Genuine buffalo leather (not bonded leather)",
+      "5-inch wide consistent thickness",
+      "Lifetime replacement guarantee",
+      "Steel buckle (not flimsy plastic or cheap velcro)",
+      "Best leather lifting belt under $100"
+    ],
+    "cons": [
+      "Stiff out of the box — needs break-in period",
+      "Single-prong design (some prefer double-prong)",
+      "Sizing runs small — order up one size",
+      "Leather smell takes a week to fade"
+    ]
+  },
+  "trx-go-suspension-trainer": {
+    "name": "TRX GO Suspension Trainer System",
+    "brand": "TRX",
+    "price": "$129.95",
+    "image": "/images/products/trx-go.svg",
+    "specs": {
+      "weightCapacity": "350 lbs user weight",
+      "footprint": "Fits in a small bag",
+      "material": "Mil-Spec Nylon Webbing / Reinforced Hardware"
+    },
+    "amazonLink": "https://amazon.com/dp/B07W4LHDKD?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/TRX-GO-Suspension-Trainer-System/52146734?irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 5,000+ reviews",
+      "Original TRX brand quality",
+      "Fits in a backpack (best for travel)",
+      "300+ exercises possible",
+      "Includes door anchor and carry bag",
+      "Lifetime warranty on hardware"
+    ],
+    "cons": [
+      "Pricier than knockoff suspension trainers",
+      "Requires a sturdy anchor point overhead",
+      "Door anchor only works on inward-opening doors",
+      "Not ideal for explosive movements"
+    ]
+  },
+  "yes4all-slam-ball": {
+    "name": "Yes4All Slam Ball (Sand-Filled)",
+    "brand": "Yes4All",
+    "price": "$24.99",
+    "image": "/images/products/yes4all-slam-ball.svg",
+    "specs": {
+      "weightCapacity": "Sizes 10-50 lbs",
+      "footprint": "9-13 inch diameter",
+      "material": "Heavy-Duty PVC / Sand Fill"
+    },
+    "amazonLink": "https://amazon.com/dp/B019OMJAOI?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Yes4All-Slam-Ball/49584136?irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 15,000+ reviews",
+      "Heavy-duty PVC outer shell resists tears",
+      "Sand fill prevents bouncing",
+      "Available from 10-50 lbs",
+      "Great for HIIT and conditioning",
+      "Best value slam ball on Amazon"
+    ],
+    "cons": [
+      "Stitching can wear over years of heavy use",
+      "Surface can crack on rough concrete",
+      "No grip texture (gets slippery with sweat)"
+    ]
+  },
+  "yes4all-roman-chair": {
+    "name": "Yes4All Adjustable Ab/Hyperextension Bench",
+    "brand": "Yes4All",
+    "price": "$129.99",
+    "image": "/images/products/yes4all-roman-chair.svg",
+    "specs": {
+      "weightCapacity": "550 lbs user weight",
+      "footprint": "47\" L x 24\" W x 33\" H",
+      "material": "Heavy-Duty Steel Frame / Foam Pads"
+    },
+    "amazonLink": "https://amazon.com/dp/B073CXDSS4?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Yes4All-Adjustable-Hyperextension-Bench/56214738?irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 4,000+ reviews",
+      "Trains lower back, glutes, hamstrings, and abs",
+      "Adjustable footplate for different heights",
+      "550 lb user weight capacity",
+      "Folds for storage",
+      "Best Roman chair under $150"
+    ],
+    "cons": [
+      "Foam pads compress over years of use",
+      "Assembly takes 45 minutes",
+      "Footplate adjustment requires unlocking pin",
+      "Single function (compared to a full bench)"
+    ]
+  },
   "titan-deadlift-jack": {
     "name": "Titan Fitness Full Deadlift Bar Jack",
     "brand": "Titan Fitness",

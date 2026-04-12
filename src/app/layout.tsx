@@ -19,14 +19,88 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_NAME = "GarageGymBuilders";
+const SITE_URL = "https://garagegymbuilders.com";
+const SITE_DESCRIPTION =
+  "Expert reviews, budget builds, and guides to help you build the perfect garage gym. Compare power racks, weights, and cardio equipment.";
+const DEFAULT_OG_IMAGE = `${SITE_URL}/images/covers/hero-bg.webp`;
+
 export const metadata: Metadata = {
   title: {
     default: "GarageGymBuilders - Build Your Iron Paradise",
     template: "%s | GarageGymBuilders",
   },
-  description:
-    "Expert reviews, budget builds, and guides to help you build the perfect garage gym. Compare power racks, weights, and cardio equipment.",
-  metadataBase: new URL("https://garagegymbuilders.com"),
+  description: SITE_DESCRIPTION,
+  metadataBase: new URL(SITE_URL),
+  applicationName: SITE_NAME,
+  authors: [{ name: SITE_NAME }],
+  generator: "Next.js",
+  keywords: [
+    "home gym",
+    "garage gym",
+    "power rack",
+    "barbell",
+    "adjustable dumbbells",
+    "home gym equipment",
+    "best home gym",
+    "garage gym ideas",
+    "home gym reviews",
+    "build a home gym",
+  ],
+  referrer: "origin-when-cross-origin",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: "GarageGymBuilders - Build Your Iron Paradise",
+    description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "GarageGymBuilders - Build Your Iron Paradise",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GarageGymBuilders - Build Your Iron Paradise",
+    description: SITE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+    creator: "@garagegymbuilders",
+    site: "@garagegymbuilders",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
+  verification: {
+    google: "",
+  },
+};
+
+export const viewport = {
+  themeColor: "#ea580c",
+  colorScheme: "dark",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

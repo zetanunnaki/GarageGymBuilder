@@ -1,0 +1,18 @@
+{
+  "name": "GarageGymBuilders",
+  "short_name": "GarageGym",
+  "description": "Expert reviews, budget builds, and guides to help you build the perfect garage gym.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ea580c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

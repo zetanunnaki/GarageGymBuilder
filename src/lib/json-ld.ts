@@ -103,7 +103,8 @@ export function generateProductSchema(
   productBrand: string,
   price: string,
   reviewRating: number | undefined,
-  slug: string
+  slug: string,
+  productImage?: string
 ) {
   const numericPrice = price.replace(/[^0-9.]/g, "");
   return {
@@ -114,12 +115,23 @@ export function generateProductSchema(
       "@type": "Brand",
       name: productBrand,
     },
+    image: productImage ? `${SITE_URL}${productImage}` : undefined,
     offers: {
       "@type": "Offer",
       priceCurrency: "USD",
       price: numericPrice,
       availability: "https://schema.org/InStock",
+      url: `${SITE_URL}/reviews/${slug}/`,
     },
+    aggregateRating: reviewRating
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: reviewRating,
+          bestRating: 5,
+          worstRating: 1,
+          reviewCount: 1,
+        }
+      : undefined,
     review: reviewRating
       ? {
           "@type": "Review",
@@ -134,7 +146,24 @@ export function generateProductSchema(
           },
         }
       : undefined,
-    url: `${SITE_URL}/reviews/${slug}`,
+    url: `${SITE_URL}/reviews/${slug}/`,
+  };
+}
+
+export function generateOrganizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "GarageGymBuilders",
+    url: SITE_URL,
+    logo: `${SITE_URL}/icon.svg`,
+    description:
+      "Expert reviews, budget builds, and guides to help you build the perfect garage gym.",
+    sameAs: [
+      "https://twitter.com/garagegymbuilders",
+      "https://www.facebook.com/garagegymbuilders",
+      "https://www.pinterest.com/garagegymbuilders",
+    ],
   };
 }
 
@@ -160,6 +189,7 @@ export function generateWebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "GarageGymBuilders",
+    alternateName: "Garage Gym Builders",
     url: SITE_URL,
     description:
       "Expert reviews, budget builds, and guides to help you build the perfect garage gym.",
@@ -168,8 +198,16 @@ export function generateWebsiteSchema() {
       name: "GarageGymBuilders",
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/images/logo.png`,
+        url: `${SITE_URL}/icon.svg`,
       },
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/search/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
     },
   };
 }

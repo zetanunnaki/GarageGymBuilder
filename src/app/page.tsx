@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getAllContent } from "@/lib/mdx";
-import { generateWebsiteSchema } from "@/lib/json-ld";
+import { generateWebsiteSchema, generateOrganizationSchema } from "@/lib/json-ld";
 import { PopularProducts } from "@/components/popular-products";
 import { AnimatedCounter } from "@/components/animated-counter";
 import {
@@ -40,12 +40,17 @@ export default function HomePage() {
   const recentArticles = getAllContent().slice(0, 6);
 
   const websiteSchema = generateWebsiteSchema();
+  const organizationSchema = generateOrganizationSchema();
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
       {/* HERO SECTION */}
       <section className="relative overflow-hidden px-6 pt-40 pb-20">
@@ -81,7 +86,7 @@ export default function HomePage() {
       <section className="border-y border-zinc-800 bg-zinc-900/30">
         <div className="mx-auto grid max-w-7xl grid-cols-3 divide-x divide-zinc-800">
           <AnimatedCounter value="200+" label="Hours Testing" />
-          <AnimatedCounter value="20" label="Products Reviewed" />
+          <AnimatedCounter value="26" label="Products Reviewed" />
           <AnimatedCounter value="55+" label="Articles Published" />
         </div>
       </section>

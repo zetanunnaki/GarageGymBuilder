@@ -210,11 +210,25 @@
     "category": "Barbells"
   },
   {
+    "title": "CAP Barbell Hex Dumbbells Review: The Indestructible Budget Choice",
+    "description": "Hands-on review of the CAP Barbell Cast Iron Hex Dumbbells. Cheapest fixed dumbbells on Amazon — but are they good enough for serious training?",
+    "slug": "cap-hex-dumbbells-review",
+    "contentType": "reviews",
+    "category": "Dumbbells"
+  },
+  {
     "title": "Concept2 RowErg Review: Still the King of Rowing Machines in 2026?",
     "description": "Our in-depth review of the Concept2 RowErg (formerly Model D) after 6 months of daily use. Is it still the best indoor rower for home gyms?",
     "slug": "concept2-rowerg-review",
     "contentType": "reviews",
     "category": "Cardio"
+  },
+  {
+    "title": "Dark Iron Fitness Leather Lifting Belt Review (2026)",
+    "description": "Hands-on review of the Dark Iron Fitness Genuine Leather Lifting Belt. Best leather belt under $100 — but how does it compare to premium options?",
+    "slug": "dark-iron-lifting-belt-review",
+    "contentType": "reviews",
+    "category": "Accessories"
   },
   {
     "title": "Fitness Reality 810XLT Review: The Best Budget Power Cage?",
@@ -234,6 +248,13 @@
     "title": "Iron Bull Strength Dip Belt Review: 270 lbs of Weighted Pull-Ups for $50",
     "description": "Hands-on review of the Iron Bull Strength Dip Belt. Best budget dip belt on Amazon — but does it hold up to heavy loading?",
     "slug": "iron-bull-dip-belt-review",
+    "contentType": "reviews",
+    "category": "Accessories"
+  },
+  {
+    "title": "Iron Gym Pull-Up Bar Review: 60,000 Amazon Reviews Can't Be Wrong",
+    "description": "Hands-on review of the Iron Gym Total Upper Body Workout Bar. The most popular doorway pull-up bar on Amazon. Is it worth $30?",
+    "slug": "iron-gym-pull-up-bar-review",
     "contentType": "reviews",
     "category": "Accessories"
   },
@@ -294,6 +315,13 @@
     "category": "Accessories"
   },
   {
+    "title": "TRX GO Suspension Trainer Review: The Original Travel Gym",
+    "description": "Hands-on review of the TRX GO Suspension Trainer System. The pocket gym for travel, apartments, and bodyweight training.",
+    "slug": "trx-go-suspension-trainer-review",
+    "contentType": "reviews",
+    "category": "Accessories"
+  },
+  {
     "title": "WOD Nation Speed Jump Rope Review: The Best $15 Upgrade in Fitness",
     "description": "Hands-on review of the WOD Nation Speed Jump Rope. 30,000+ Amazon reviews can't be wrong — but is it really the best speed rope?",
     "slug": "wod-nation-jump-rope-review",
@@ -325,6 +353,20 @@
     "title": "Yes4All 3-in-1 Wooden Plyo Box Review: Best Plyo Box Under $150",
     "description": "Hands-on review of the Yes4All 3-in-1 Wooden Plyo Box. Three heights in one box for $120 — is it worth it?",
     "slug": "yes4all-plyo-box-review",
+    "contentType": "reviews",
+    "category": "Conditioning"
+  },
+  {
+    "title": "Yes4All Hyperextension Bench Review: Roman Chair on a Budget",
+    "description": "Hands-on review of the Yes4All Adjustable Hyperextension Bench. Best Roman chair under $150 for back, glute, and core training.",
+    "slug": "yes4all-roman-chair-review",
+    "contentType": "reviews",
+    "category": "Benches"
+  },
+  {
+    "title": "Yes4All Slam Ball Review: The Best HIIT Tool Under $30",
+    "description": "Hands-on review of the Yes4All Slam Ball. Best budget slam ball on Amazon for HIIT, conditioning, and explosive training.",
+    "slug": "yes4all-slam-ball-review",
     "contentType": "reviews",
     "category": "Conditioning"
   },
