@@ -63,11 +63,10 @@ export default function HomePage() {
 
       {/* STATS BAR */}
       <section className="border-y border-zinc-800 bg-zinc-900/30">
-        <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-zinc-800 sm:grid-cols-4">
+        <div className="mx-auto grid max-w-7xl grid-cols-3 divide-x divide-zinc-800">
           <AnimatedCounter value="200+" label="Hours Testing" />
-          <AnimatedCounter value="8" label="Products Reviewed" />
-          <AnimatedCounter value="26+" label="Articles Published" />
-          <AnimatedCounter value="$0" label="Database Cost" />
+          <AnimatedCounter value="14" label="Products Reviewed" />
+          <AnimatedCounter value="55+" label="Articles Published" />
         </div>
       </section>
 

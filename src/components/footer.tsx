@@ -11,13 +11,13 @@ export function Footer() {
             <Dumbbell className="skew-x-[12deg] text-white" size={20} />
           </div>
           <span className="text-lg font-black uppercase italic tracking-tighter">
-            GarageGymBuilder
+            GarageGym<span className="text-orange-600">Builders</span>
           </span>
         </div>
 
         {/* Disclaimer */}
         <p className="mx-auto mb-10 max-w-2xl text-[10px] uppercase leading-loose tracking-[0.3em] text-zinc-600">
-          GarageGymBuilder is a participant in the Amazon Services LLC Associates
+          GarageGymBuilders is a participant in the Amazon Services LLC Associates
           Program and Walmart Associates Program. We may earn a commission on
           purchases made through our links.
         </p>
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
 
         <p className="mt-10 text-[10px] tracking-widest text-zinc-700">
-          &copy; {new Date().getFullYear()} GarageGymBuilder. All rights reserved.
+          &copy; {new Date().getFullYear()} GarageGymBuilders. All rights reserved.
         </p>
       </div>
     </footer>

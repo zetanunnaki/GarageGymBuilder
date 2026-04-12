@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "GarageGymBuilder privacy policy and data handling practices.",
+  description: "GarageGymBuilders privacy policy and data handling practices.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Information We Collect</h2>
         <p>
-          GarageGymBuilder is a static website. We do not collect personal
+          GarageGymBuilders is a static website. We do not collect personal
           information directly. However, we use third-party services that may
           collect data as described below.
         </p>

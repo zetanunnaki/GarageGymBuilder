@@ -21,8 +21,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "GarageGymBuilder - Build Your Iron Paradise",
-    template: "%s | GarageGymBuilder",
+    default: "GarageGymBuilders - Build Your Iron Paradise",
+    template: "%s | GarageGymBuilders",
   },
   description:
     "Expert reviews, budget builds, and guides to help you build the perfect garage gym. Compare power racks, weights, and cardio equipment.",

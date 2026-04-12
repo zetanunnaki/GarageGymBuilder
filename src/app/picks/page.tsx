@@ -6,15 +6,16 @@ import { Award } from "lucide-react";
 export const metadata: Metadata = {
   title: "Our Picks — Every Product We Recommend",
   description:
-    "Every product GarageGymBuilder recommends in one place. Tested, reviewed, and ranked by our team.",
+    "Every product GarageGymBuilders recommends in one place. Tested, reviewed, and ranked by our team.",
 };
 
 const categoryOrder = [
-  { label: "Power Racks", ids: ["fitness-reality-810xlt", "rogue-monster-lite-r3", "rep-pr-4000", "titan-t3"] },
-  { label: "Dumbbells", ids: ["bowflex-selecttech-552"] },
-  { label: "Barbells & Weights", ids: ["cap-barbell-olympic"] },
-  { label: "Cardio", ids: ["rogue-echo-bike"] },
-  { label: "Benches", ids: ["flybird-adjustable-bench"] },
+  { label: "Power Racks", ids: ["fitness-reality-810xlt", "mikolo-f4-power-cage", "sportsroyals-power-cage"] },
+  { label: "Dumbbells", ids: ["bowflex-selecttech-552", "powerblock-elite-90"] },
+  { label: "Barbells & Weights", ids: ["cap-barbell-olympic", "synergee-olympic-barbell", "yes4all-olympic-plates"] },
+  { label: "Cardio", ids: ["rogue-echo-bike", "assault-airbike-classic", "concept2-rowerg"] },
+  { label: "Benches", ids: ["flybird-adjustable-bench", "marcy-olympic-bench"] },
+  { label: "Accessories", ids: ["yes4all-kettlebell-set", "titan-deadlift-jack"] },
 ];
 
 export default function PicksPage() {

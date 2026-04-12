@@ -18,11 +18,11 @@ export function generateArticleSchema(
     datePublished: frontmatter.date,
     author: {
       "@type": "Organization",
-      name: frontmatter.author || "GarageGymBuilder",
+      name: frontmatter.author || "GarageGymBuilders",
     },
     publisher: {
       "@type": "Organization",
-      name: "GarageGymBuilder",
+      name: "GarageGymBuilders",
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/images/logo.png`,
@@ -47,7 +47,7 @@ export function generateReviewSchema(
     datePublished: frontmatter.date,
     author: {
       "@type": "Organization",
-      name: frontmatter.author || "GarageGymBuilder",
+      name: frontmatter.author || "GarageGymBuilders",
     },
     reviewRating: frontmatter.rating
       ? {
@@ -59,7 +59,7 @@ export function generateReviewSchema(
       : undefined,
     publisher: {
       "@type": "Organization",
-      name: "GarageGymBuilder",
+      name: "GarageGymBuilders",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -130,7 +130,7 @@ export function generateProductSchema(
           },
           author: {
             "@type": "Organization",
-            name: "GarageGymBuilder",
+            name: "GarageGymBuilders",
           },
         }
       : undefined,
@@ -159,13 +159,13 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "GarageGymBuilder",
+    name: "GarageGymBuilders",
     url: SITE_URL,
     description:
       "Expert reviews, budget builds, and guides to help you build the perfect garage gym.",
     publisher: {
       "@type": "Organization",
-      name: "GarageGymBuilder",
+      name: "GarageGymBuilders",
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/images/logo.png`,

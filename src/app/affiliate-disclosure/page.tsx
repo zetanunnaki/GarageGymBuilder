@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
   description:
-    "FTC affiliate disclosure for GarageGymBuilder. Learn how we earn commissions.",
+    "FTC affiliate disclosure for GarageGymBuilders. Learn how we earn commissions.",
 };
 
 export default function AffiliateDisclosurePage() {
@@ -20,7 +20,7 @@ export default function AffiliateDisclosurePage() {
 
         <h2>FTC Disclosure</h2>
         <p>
-          GarageGymBuilder is a participant in the Amazon Services LLC Associates
+          GarageGymBuilders is a participant in the Amazon Services LLC Associates
           Program, an affiliate advertising program designed to provide a means
           for sites to earn advertising fees by advertising and linking to
           Amazon.com.
@@ -49,7 +49,7 @@ export default function AffiliateDisclosurePage() {
 
         <h2>Product Pricing</h2>
         <p>
-          Prices shown on GarageGymBuilder are accurate at the time of
+          Prices shown on GarageGymBuilders are accurate at the time of
           publication but may change. We recommend checking the current price on
           the retailer&apos;s website before purchasing.
         </p>

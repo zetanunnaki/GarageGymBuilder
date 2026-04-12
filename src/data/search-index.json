@@ -1,14 +1,14 @@
 [
   {
     "title": "The 5 Best Adjustable Dumbbells for Home Gyms (2026)",
-    "description": "We tested every major adjustable dumbbell on the market. Here are the ones worth your money for a garage gym setup.",
+    "description": "We tested every major adjustable dumbbell on Amazon. Here are the best options for garage gym training at every budget.",
     "slug": "best-adjustable-dumbbells",
     "contentType": "best-gear",
     "category": "Dumbbells"
   },
   {
-    "title": "The 5 Best Air Bikes for Home Gyms (2026 Tested)",
-    "description": "We tested every major air bike on the market. Here are the best fan bikes for conditioning, HIIT, and cardio in your garage gym.",
+    "title": "The Best Air Bikes for Home Gyms (2026 Tested)",
+    "description": "We tested every major air bike on Amazon. Here are the best fan bikes for conditioning, HIIT, and cardio in your garage gym.",
     "slug": "best-air-bikes",
     "contentType": "best-gear",
     "category": "Cardio"
@@ -71,7 +71,7 @@
   },
   {
     "title": "The 7 Best Power Racks Under $500 (2026 Testing)",
-    "description": "We tested the top budget power racks. Here are the safest and most versatile cages for your home gym without breaking the bank.",
+    "description": "We tested the top budget power racks on Amazon. Here are the safest and most versatile cages for your home gym without breaking the bank.",
     "slug": "best-power-racks-under-500",
     "contentType": "best-gear",
     "category": "Strength Equipment"
@@ -117,6 +117,27 @@
     "slug": "best-weight-sets",
     "contentType": "best-gear",
     "category": "Weights"
+  },
+  {
+    "title": "Bowflex 552 vs PowerBlock 90: Which Adjustable Dumbbells Should You Buy?",
+    "description": "The ultimate adjustable dumbbell comparison: Bowflex SelectTech 552 vs PowerBlock Elite 90. We tested both — here's which one wins for your home gym.",
+    "slug": "bowflex-552-vs-powerblock-90",
+    "contentType": "best-gear",
+    "category": "Dumbbells"
+  },
+  {
+    "title": "Concept2 RowErg vs Assault AirBike: Which Cardio Machine Should You Buy?",
+    "description": "Rower vs air bike for home gym cardio. We tested both the Concept2 RowErg and Assault AirBike for 6 months — here's which one wins.",
+    "slug": "concept2-vs-assault-bike",
+    "contentType": "best-gear",
+    "category": "Cardio"
+  },
+  {
+    "title": "Mikolo F4 vs Fitness Reality 810XLT: Which Budget Rack Should You Buy?",
+    "description": "Head-to-head comparison of the two most popular budget power racks on Amazon. Mikolo F4 vs Fitness Reality 810XLT — which one wins?",
+    "slug": "mikolo-f4-vs-fitness-reality-810xlt",
+    "contentType": "best-gear",
+    "category": "Power Racks"
   },
   {
     "title": "Mikolo F4 vs Sportsroyals Power Cage: Which Amazon Rack Wins?",
@@ -210,11 +231,25 @@
     "category": "Barbells"
   },
   {
+    "title": "Titan Fitness Deadlift Jack Review: Save Your Back When Loading Plates",
+    "description": "Our hands-on review of the Titan Fitness Full Deadlift Bar Jack. Is it worth $190 to save your back during plate changes?",
+    "slug": "titan-deadlift-jack-review",
+    "contentType": "reviews",
+    "category": "Accessories"
+  },
+  {
     "title": "Yes4All Kettlebell Set Review: Best Budget Kettlebells on Amazon?",
     "description": "Our review of the Yes4All Cast Iron Kettlebell Set. Are these the best budget kettlebells for home gym training on Amazon?",
     "slug": "yes4all-kettlebell-set-review",
     "contentType": "reviews",
     "category": "Kettlebells"
+  },
+  {
+    "title": "Yes4All Olympic Plates Review: Best Budget Cast Iron Plates on Amazon?",
+    "description": "Our hands-on review of Yes4All Olympic Cast Iron Weight Plates. Are they the best way to expand your weight set on a budget?",
+    "slug": "yes4all-olympic-plates-review",
+    "contentType": "reviews",
+    "category": "Weights"
   },
   {
     "title": "How to Maintain Your Barbell: Cleaning & Care Guide",

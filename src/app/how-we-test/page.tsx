@@ -62,7 +62,7 @@ export default function HowWeTestPage() {
           How We Test
         </h1>
         <p className="max-w-2xl text-lg text-zinc-500">
-          Every product on GarageGymBuilder has been purchased, assembled, and
+          Every product on GarageGymBuilders has been purchased, assembled, and
           trained with by our team. Here&apos;s exactly how we evaluate
           equipment.
         </p>

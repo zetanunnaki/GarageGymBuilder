@@ -27,7 +27,7 @@ export function Navbar() {
             <Dumbbell className="skew-x-[12deg] text-black" size={22} />
           </div>
           <span className="text-xl font-black uppercase italic tracking-tighter text-white">
-            GarageGym<span className="text-orange-600">Builder</span>
+            GarageGym<span className="text-orange-600">Builders</span>
           </span>
         </Link>
 

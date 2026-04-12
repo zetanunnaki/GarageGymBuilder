@@ -4,7 +4,7 @@ import { Dumbbell } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about GarageGymBuilder and our mission to help you build the perfect home gym.",
+    "Learn about GarageGymBuilders and our mission to help you build the perfect home gym.",
 };
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
 
       <div className="prose prose-lg prose-invert max-w-none prose-headings:font-black prose-headings:uppercase prose-headings:italic prose-headings:tracking-tighter prose-p:text-zinc-400 prose-p:leading-relaxed prose-strong:text-zinc-200">
         <p>
-          GarageGymBuilder was founded with a simple mission: help people build
+          GarageGymBuilders was founded with a simple mission: help people build
           great home gyms without wasting money on equipment they don&apos;t
           need.
         </p>
@@ -35,7 +35,7 @@ export default function AboutPage() {
 
         <h2>How We Make Money</h2>
         <p>
-          GarageGymBuilder is reader-supported. When you buy through links on our
+          GarageGymBuilders is reader-supported. When you buy through links on our
           site, we may earn an affiliate commission at no additional cost to you.
           This helps us keep testing equipment and publishing free content.
         </p>

@@ -67,6 +67,8 @@ function extractProductIdFromSlug(slug: string): string | null {
     "synergee-olympic-barbell-review": "synergee-olympic-barbell",
     "marcy-olympic-bench-review": "marcy-olympic-bench",
     "yes4all-kettlebell-set-review": "yes4all-kettlebell-set",
+    "yes4all-olympic-plates-review": "yes4all-olympic-plates",
+    "titan-deadlift-jack-review": "titan-deadlift-jack",
   };
   return mapping[slug] || null;
 }
