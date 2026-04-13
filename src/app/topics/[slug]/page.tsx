@@ -1,9 +1,12 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import fs from "fs";
+import path from "path";
 import { topics, getTopic } from "@/data/topics";
 import { getArticlesForTopic } from "@/lib/topic-matching";
 import { ArticleCard } from "@/components/article-card";
+import { MdxContent } from "@/components/mdx/mdx-content";
 import {
   generateBreadcrumbSchema,
   generateCollectionPageSchema,
@@ -76,6 +79,16 @@ export default async function TopicPage({
   const articles = getArticlesForTopic(topic);
   const Icon = iconMap[topic.icon];
 
+  // Read long-form hub content if it exists
+  const hubMdxPath = path.join(
+    process.cwd(),
+    "src/content/topics",
+    `${slug}.mdx`
+  );
+  const hubContent = fs.existsSync(hubMdxPath)
+    ? fs.readFileSync(hubMdxPath, "utf8")
+    : null;
+
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
     { name: "Topics", url: "/topics" },
@@ -147,6 +160,24 @@ export default async function TopicPage({
           topic
         </div>
       </header>
+
+      {/* Long-form hub content */}
+      {hubContent && (
+        <section className="mb-16">
+          <MdxContent source={hubContent} />
+        </section>
+      )}
+
+      {/* Article grid header */}
+      {articles.length > 0 && hubContent && (
+        <div className="mb-8 flex items-center gap-3">
+          <div className="h-px flex-1 bg-zinc-800" />
+          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-orange-500">
+            All {topic.name} Articles
+          </span>
+          <div className="h-px flex-1 bg-zinc-800" />
+        </div>
+      )}
 
       {articles.length === 0 ? (
         <div className="border border-zinc-800 bg-zinc-900/40 p-12 text-center text-zinc-500">
