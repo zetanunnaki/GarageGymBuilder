@@ -15,18 +15,47 @@ function getArticleSlugs(contentType) {
     .map((f) => f.replace(/\.mdx$/, ""));
 }
 
+// Static topic slugs kept in sync with src/data/topics.ts
+const TOPIC_SLUGS = [
+  "powerlifting",
+  "bodybuilding",
+  "crossfit",
+  "mma-combat",
+  "beginners",
+  "budget-builds",
+  "small-spaces",
+  "cardio",
+  "recovery",
+  "women",
+  "seniors",
+  "safety",
+  "buying-guides",
+  "comparisons",
+  "maintenance",
+  "programming",
+];
+
 const staticPages = [
   { url: "/", priority: "1.0" },
   { url: "/best-gear", priority: "0.9" },
   { url: "/reviews", priority: "0.9" },
   { url: "/guides", priority: "0.9" },
   { url: "/builds", priority: "0.9" },
+  { url: "/topics", priority: "0.8" },
   { url: "/picks", priority: "0.7" },
-  { url: "/calculator", priority: "0.6" },
+  { url: "/compare", priority: "0.7" },
+  { url: "/calculator", priority: "0.7" },
+  { url: "/glossary", priority: "0.7" },
+  { url: "/team", priority: "0.6" },
+  { url: "/search", priority: "0.4" },
   { url: "/how-we-test", priority: "0.5" },
   { url: "/about", priority: "0.3" },
   { url: "/privacy-policy", priority: "0.3" },
   { url: "/affiliate-disclosure", priority: "0.3" },
+  ...TOPIC_SLUGS.map((slug) => ({
+    url: `/topics/${slug}`,
+    priority: "0.7",
+  })),
 ];
 
 function readArticleFrontmatter(type, slug) {
