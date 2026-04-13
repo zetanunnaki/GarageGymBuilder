@@ -178,7 +178,7 @@ export default function HomePage() {
         />
         <div className="relative mx-auto grid max-w-7xl grid-cols-3 divide-x divide-zinc-800">
           <AnimatedCounter value="200+" label="Hours Testing" />
-          <AnimatedCounter value="30" label="Products Reviewed" />
+          <AnimatedCounter value="36" label="Products Reviewed" />
           <AnimatedCounter value="135+" label="Articles Published" />
         </div>
       </section>

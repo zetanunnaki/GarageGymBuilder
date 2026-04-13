@@ -94,6 +94,12 @@ function extractProductIdFromSlug(slug: string): string | null {
     "rogue-style-weight-vest-review": "rogue-style-weight-vest",
     "yes4all-sandbag-review": "yes4all-sandbag",
     "perfect-fitness-ab-wheel-review": "perfect-fitness-ab-wheel",
+    "nordic-lifting-knee-sleeves-review": "nordic-lifting-knee-sleeves",
+    "harbinger-lifting-straps-review": "harbinger-lifting-straps",
+    "rip-toned-wrist-wraps-review": "rip-toned-wrist-wraps",
+    "luxfit-foam-roller-review": "luxfit-foam-roller",
+    "power-guidance-battle-rope-review": "power-guidance-battle-rope",
+    "yes4all-parallettes-review": "yes4all-parallettes",
   };
   return mapping[slug] || null;
 }

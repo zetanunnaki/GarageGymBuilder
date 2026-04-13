@@ -742,6 +742,162 @@
       "Foam handles wear over years of use"
     ]
   },
+  "nordic-lifting-knee-sleeves": {
+    "name": "Nordic Lifting Knee Sleeves (7mm Pair)",
+    "brand": "Nordic Lifting",
+    "price": "$39.97",
+    "image": "/images/products/nordic-knee-sleeves.svg",
+    "specs": {
+      "weightCapacity": "Supports any lifting weight",
+      "footprint": "7mm neoprene thickness",
+      "material": "SBR Neoprene"
+    },
+    "amazonLink": "https://amazon.com/dp/B01GYZKE4W?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Nordic+Lifting+Knee+Sleeves&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 20,000+ reviews",
+      "7mm neoprene is powerlifting-standard thickness",
+      "Sold as a pair with storage bag",
+      "Reinforced stitching resists tearing",
+      "Supports knees during heavy squats",
+      "Best budget knee sleeves on Amazon"
+    ],
+    "cons": [
+      "Run small — order one size up",
+      "Neoprene smell lasts 2-3 weeks",
+      "Not IPF-approved for competition (use Rehband for meets)"
+    ]
+  },
+  "harbinger-lifting-straps": {
+    "name": "Harbinger Padded Cotton Lifting Straps",
+    "brand": "Harbinger",
+    "price": "$12.99",
+    "image": "/images/products/harbinger-straps.svg",
+    "specs": {
+      "weightCapacity": "Suitable for any grip load",
+      "footprint": "One-size adjustable",
+      "material": "Heavy-Duty Cotton / NeoTek Padding"
+    },
+    "amazonLink": "https://amazon.com/dp/B005P0NNMG?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Harbinger-Padded-Cotton-Lifting-Straps/15693481?irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 15,000+ reviews",
+      "NeoTek padding protects wrists from strap bite",
+      "Heavy-duty cotton construction lasts years",
+      "Cheapest quality straps on Amazon",
+      "Best for deadlifts, shrugs, rows",
+      "Trusted pro brand since 1988"
+    ],
+    "cons": [
+      "Cotton absorbs sweat — rinse after heavy sessions",
+      "Takes practice to wrap correctly",
+      "Not ideal for Olympic lifting (use figure-8s instead)"
+    ]
+  },
+  "rip-toned-wrist-wraps": {
+    "name": "Rip Toned Wrist Wraps (18\" Pair)",
+    "brand": "Rip Toned",
+    "price": "$14.97",
+    "image": "/images/products/rip-toned-wraps.svg",
+    "specs": {
+      "weightCapacity": "Suitable for any lifting weight",
+      "footprint": "18 inch length, 3 inch width",
+      "material": "Nylon / Elastic / Thumb Loop"
+    },
+    "amazonLink": "https://amazon.com/dp/B00GDL0UQY?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=Rip+Toned+Wrist+Wraps&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 25,000+ reviews",
+      "18 inch length gives multiple wrap options",
+      "Thumb loop keeps wrap secure",
+      "Heavy-duty velcro closure",
+      "Lifetime replacement warranty",
+      "Best budget wrist wraps on Amazon"
+    ],
+    "cons": [
+      "18 inches may be too long for small wrists",
+      "Velcro wears out after 3-4 years of heavy use",
+      "Not IPF-approved (check your federation rules)"
+    ]
+  },
+  "luxfit-foam-roller": {
+    "name": "LuxFit Premium High-Density Foam Roller",
+    "brand": "LuxFit",
+    "price": "$19.99",
+    "image": "/images/products/luxfit-foam-roller.svg",
+    "specs": {
+      "weightCapacity": "All user weights",
+      "footprint": "36 inch x 6 inch cylinder",
+      "material": "High-Density EPP Foam"
+    },
+    "amazonLink": "https://amazon.com/dp/B00H5SK75M?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/LuxFit-Foam-Roller/22943581?irgwc=1",
+    "pros": [
+      "4.7+ star rating on Amazon with 30,000+ reviews",
+      "High-density foam doesn't compress over time",
+      "36 inch length supports full spine rolling",
+      "2-year warranty",
+      "Molded one-piece (no core to break)",
+      "Best budget foam roller on Amazon"
+    ],
+    "cons": [
+      "Smooth surface (not textured like TriggerPoint GRID)",
+      "Large — takes storage space",
+      "Hard for beginners — work up to it"
+    ]
+  },
+  "power-guidance-battle-rope": {
+    "name": "POWER GUIDANCE Battle Rope (30 ft / 1.5\")",
+    "brand": "POWER GUIDANCE",
+    "price": "$39.99",
+    "image": "/images/products/battle-rope.svg",
+    "specs": {
+      "weightCapacity": "Cardio and conditioning",
+      "footprint": "30 ft length, 1.5 inch diameter",
+      "material": "Heavy-Duty Poly Dacron / Heat Shrink Handles"
+    },
+    "amazonLink": "https://amazon.com/dp/B01HC1S6AG?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/search?q=POWER+GUIDANCE+Battle+Rope&irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 7,000+ reviews",
+      "Heavy-duty poly dacron doesn't fray easily",
+      "Heat shrink handles prevent slipping",
+      "30 ft is the CrossFit standard length",
+      "Includes anchor kit and carry bag",
+      "Best value battle rope on Amazon"
+    ],
+    "cons": [
+      "Needs a sturdy anchor point (tree, pole, rack)",
+      "Too loud for apartments (rope slaps floor)",
+      "1.5 inch diameter is challenging for small hands"
+    ]
+  },
+  "yes4all-parallettes": {
+    "name": "Yes4All Parallettes Push-Up Bars",
+    "brand": "Yes4All",
+    "price": "$29.99",
+    "image": "/images/products/yes4all-parallettes.svg",
+    "specs": {
+      "weightCapacity": "660 lbs (pair)",
+      "footprint": "15.7\" L x 7.5\" W x 8.7\" H each",
+      "material": "Heavy-Duty Steel / Foam Grip"
+    },
+    "amazonLink": "https://amazon.com/dp/B071V7N4RW?tag=garagegym-20",
+    "walmartLink": "https://walmart.com/ip/Yes4All-Parallettes-Push-Up-Bars/43894275?irgwc=1",
+    "pros": [
+      "4.6+ star rating on Amazon with 5,000+ reviews",
+      "660 lb weight capacity (pair)",
+      "Heavy-duty steel construction",
+      "Foam grips reduce hand fatigue",
+      "Unlocks L-sits, planche progressions, handstand push-ups",
+      "Best budget parallettes on Amazon"
+    ],
+    "cons": [
+      "Feet can slide on smooth concrete",
+      "Low profile limits some variations",
+      "Foam grips compress after 1-2 years"
+    ]
+  },
   "titan-deadlift-jack": {
     "name": "Titan Fitness Full Deadlift Bar Jack",
     "brand": "Titan Fitness",
