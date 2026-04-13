@@ -9,12 +9,26 @@ interface ShareButtonsProps {
   contentType: string;
 }
 
+function withUtm(baseUrl: string, source: string): string {
+  const sep = baseUrl.includes("?") ? "&" : "?";
+  return `${baseUrl}${sep}utm_source=${source}&utm_medium=social&utm_campaign=share`;
+}
+
 export function ShareButtons({ title, slug, contentType }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
-  const url = `https://garagegymbuilders.com/${contentType}/${slug}/`;
-  const encodedUrl = encodeURIComponent(url);
+  const baseUrl = `https://garagegymbuilders.com/${contentType}/${slug}/`;
+
+  const twitterUrl = withUtm(baseUrl, "twitter");
+  const facebookUrl = withUtm(baseUrl, "facebook");
+  const redditUrl = withUtm(baseUrl, "reddit");
+  const linkedinUrl = withUtm(baseUrl, "linkedin");
+  const pinterestUrl = withUtm(baseUrl, "pinterest");
+  const whatsappUrl = withUtm(baseUrl, "whatsapp");
+  const emailUrl = withUtm(baseUrl, "email");
+
   const encodedTitle = encodeURIComponent(title);
-  const encodedTitleAndUrl = encodeURIComponent(`${title} - ${url}`);
+  // Use bare URL (no UTM) for clipboard copy so users can share cleanly
+  const url = baseUrl;
 
   const handleCopy = async () => {
     try {
@@ -39,23 +53,23 @@ export function ShareButtons({ title, slug, contentType }: ShareButtonsProps) {
   const links = [
     {
       label: "X",
-      href: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&via=garagegymbuilders`,
+      href: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodeURIComponent(twitterUrl)}&via=garagegymbuilders`,
     },
     {
       label: "Facebook",
-      href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+      href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(facebookUrl)}`,
     },
     {
       label: "Reddit",
-      href: `https://www.reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`,
+      href: `https://www.reddit.com/submit?url=${encodeURIComponent(redditUrl)}&title=${encodedTitle}`,
     },
     {
       label: "LinkedIn",
-      href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(linkedinUrl)}`,
     },
     {
       label: "Pinterest",
-      href: `https://pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}`,
+      href: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pinterestUrl)}&description=${encodedTitle}`,
     },
   ];
 
@@ -77,7 +91,7 @@ export function ShareButtons({ title, slug, contentType }: ShareButtonsProps) {
         </a>
       ))}
       <a
-        href={`https://api.whatsapp.com/send?text=${encodedTitleAndUrl}`}
+        href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`${title} - ${whatsappUrl}`)}`}
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-zinc-500 transition-colors hover:text-orange-500"
@@ -86,7 +100,7 @@ export function ShareButtons({ title, slug, contentType }: ShareButtonsProps) {
         WhatsApp
       </a>
       <a
-        href={`mailto:?subject=${encodedTitle}&body=${encodedTitleAndUrl}`}
+        href={`mailto:?subject=${encodedTitle}&body=${encodeURIComponent(`${title} - ${emailUrl}`)}`}
         className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-zinc-500 transition-colors hover:text-orange-500"
       >
         <Mail size={10} />

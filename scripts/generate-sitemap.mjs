@@ -29,31 +29,81 @@ const staticPages = [
   { url: "/affiliate-disclosure", priority: "0.3" },
 ];
 
-const articleUrls = contentTypes.flatMap((type) =>
-  getArticleSlugs(type).map((slug) => ({
-    url: `/${type}/${slug}`,
-    priority: "0.8",
-  }))
+function readArticleFrontmatter(type, slug) {
+  const filePath = path.join(contentDir, type, `${slug}.mdx`);
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  const { data } = matter(fileContents);
+  return data;
+}
+
+const articleEntries = contentTypes.flatMap((type) =>
+  getArticleSlugs(type).map((slug) => {
+    const fm = readArticleFrontmatter(type, slug);
+    return {
+      url: `/${type}/${slug}/`,
+      priority: "0.8",
+      image: fm.featuredImage || null,
+      title: fm.title || slug,
+      lastmod: fm.date || null,
+    };
+  })
 );
 
-const allUrls = [...staticPages, ...articleUrls];
+const articleUrls = articleEntries.map((e) => ({
+  url: e.url,
+  priority: e.priority,
+  image: e.image,
+  title: e.title,
+  lastmod: e.lastmod,
+}));
+
+const allUrls = [
+  ...staticPages.map((p) => ({
+    url: p.url,
+    priority: p.priority,
+    image: null,
+    title: null,
+    lastmod: null,
+  })),
+  ...articleUrls,
+];
 const today = new Date().toISOString().split("T")[0];
 
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${allUrls
-  .map(
-    (entry) => `  <url>
+  .map((entry) => {
+    const lastmod = entry.lastmod || today;
+    const imageBlock = entry.image
+      ? `
+    <image:image>
+      <image:loc>${SITE_URL}${entry.image}</image:loc>
+      <image:title>${escapeXml(entry.title || "")}</image:title>
+    </image:image>`
+      : "";
+    return `  <url>
     <loc>${SITE_URL}${entry.url}</loc>
-    <lastmod>${today}</lastmod>
-    <priority>${entry.priority}</priority>
-  </url>`
-  )
+    <lastmod>${lastmod}</lastmod>
+    <priority>${entry.priority}</priority>${imageBlock}
+  </url>`;
+  })
   .join("\n")}
 </urlset>`;
 
 fs.writeFileSync(path.join(process.cwd(), "public/sitemap.xml"), xml);
-console.log(`Sitemap generated with ${allUrls.length} URLs`);
+console.log(
+  `Sitemap generated with ${allUrls.length} URLs (${articleEntries.filter((e) => e.image).length} with images)`
+);
 
 // Generate search index
 const searchIndex = contentTypes.flatMap((type) =>

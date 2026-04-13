@@ -2,12 +2,14 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
+import { generateCollectionPageSchema } from "@/lib/json-ld";
 import { BookOpen, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Guides",
   description:
     "Complete guides to building your home gym. Flooring, lighting, ventilation, and everything else.",
+  alternates: { canonical: "/guides/" },
 };
 
 export default function GuidesIndexPage() {
@@ -15,8 +17,24 @@ export default function GuidesIndexPage() {
   const featured = articles[0];
   const rest = articles.slice(1);
 
+  const collectionSchema = generateCollectionPageSchema(
+    "Home Gym Guides",
+    "Complete guides to building your home gym.",
+    "/guides/",
+    articles.map((a) => ({
+      name: a.title,
+      url: `/guides/${a.slug}/`,
+      description: a.description,
+      image: a.featuredImage,
+    }))
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 pt-32 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
       <header className="mb-16">
         <div className="mb-4 flex items-center gap-3">
           <div className="skew-x-[-12deg] bg-orange-600 p-2">

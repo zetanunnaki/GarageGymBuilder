@@ -2,12 +2,14 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
+import { generateCollectionPageSchema } from "@/lib/json-ld";
 import { Trophy, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Best Gear Roundups",
   description:
     "Our tested picks for the best home gym equipment. Power racks, dumbbells, barbells, and more — ranked and compared.",
+  alternates: { canonical: "/best-gear/" },
 };
 
 export default function BestGearIndexPage() {
@@ -15,8 +17,24 @@ export default function BestGearIndexPage() {
   const featured = articles[0];
   const rest = articles.slice(1);
 
+  const collectionSchema = generateCollectionPageSchema(
+    "Best Home Gym Gear",
+    "Our tested picks for the best home gym equipment.",
+    "/best-gear/",
+    articles.map((a) => ({
+      name: a.title,
+      url: `/best-gear/${a.slug}/`,
+      description: a.description,
+      image: a.featuredImage,
+    }))
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 pt-32 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
       <header className="mb-16">
         <div className="mb-4 flex items-center gap-3">
           <div className="skew-x-[-12deg] bg-orange-600 p-2">

@@ -2,7 +2,11 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getArticleBySlug, getArticleSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/mdx-content";
-import { generateBreadcrumbSchema } from "@/lib/json-ld";
+import {
+  generateBreadcrumbSchema,
+  generateArticleSchema,
+  generateHowToSchema,
+} from "@/lib/json-ld";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedArticles } from "@/components/related-articles";
@@ -70,18 +74,52 @@ export default async function GuidePage({
   }
 
   const { frontmatter, content, readingTime } = article;
+  const wordCount = content.split(/\s+/).length;
+  const articleSchema = generateArticleSchema(frontmatter, slug, CONTENT_TYPE, {
+    wordCount,
+    readingTimeMinutes: readingTime,
+  });
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
     { name: "Guides", url: "/guides" },
     { name: frontmatter.title, url: `/guides/${slug}` },
   ]);
 
+  // HowTo schema for "how-to-*" guides — extract H3 section headings as steps
+  const isHowTo = slug.startsWith("how-to-");
+  const howToSchema = isHowTo
+    ? (() => {
+        const stepMatches = Array.from(
+          content.matchAll(/^###\s+(.+?)$([\s\S]*?)(?=^###\s|^##\s|$)/gm)
+        );
+        if (stepMatches.length < 2) return null;
+        const steps = stepMatches.slice(0, 10).map((match) => ({
+          name: match[1].trim().replace(/[*_`]/g, ""),
+          text: match[2]
+            .trim()
+            .replace(/[*_`#\[\]()]/g, "")
+            .slice(0, 500),
+        }));
+        return generateHowToSchema(frontmatter, slug, steps);
+      })()
+    : null;
+
   return (
     <article className="mx-auto max-w-4xl px-6 pt-32 pb-20">
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
       <Breadcrumbs
         items={[
           { label: "Guides", href: "/guides" },

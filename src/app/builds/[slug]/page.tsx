@@ -2,7 +2,10 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getArticleBySlug, getArticleSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/mdx-content";
-import { generateBreadcrumbSchema } from "@/lib/json-ld";
+import {
+  generateBreadcrumbSchema,
+  generateArticleSchema,
+} from "@/lib/json-ld";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedArticles } from "@/components/related-articles";
@@ -70,6 +73,11 @@ export default async function BuildPage({
   }
 
   const { frontmatter, content, readingTime } = article;
+  const wordCount = content.split(/\s+/).length;
+  const articleSchema = generateArticleSchema(frontmatter, slug, CONTENT_TYPE, {
+    wordCount,
+    readingTimeMinutes: readingTime,
+  });
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
     { name: "Budget Builds", url: "/builds" },
@@ -78,6 +86,10 @@ export default async function BuildPage({
 
   return (
     <article className="mx-auto max-w-4xl px-6 pt-32 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

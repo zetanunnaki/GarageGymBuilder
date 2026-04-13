@@ -73,7 +73,11 @@ export default async function BestGearPage({
   }
 
   const { frontmatter, content, readingTime } = article;
-  const articleSchema = generateArticleSchema(frontmatter, slug, CONTENT_TYPE);
+  const wordCount = content.split(/\s+/).length;
+  const articleSchema = generateArticleSchema(frontmatter, slug, CONTENT_TYPE, {
+    wordCount,
+    readingTimeMinutes: readingTime,
+  });
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
     { name: "Best Gear", url: "/best-gear" },

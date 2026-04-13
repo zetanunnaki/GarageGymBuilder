@@ -2,19 +2,37 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
+import { generateCollectionPageSchema } from "@/lib/json-ld";
 import { DollarSign, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Budget Builds",
   description:
     "Complete home gym builds at every budget. From $500 starter setups to $2,000+ dream gyms.",
+  alternates: { canonical: "/builds/" },
 };
 
 export default function BuildsIndexPage() {
   const articles = getAllArticles("builds");
 
+  const collectionSchema = generateCollectionPageSchema(
+    "Home Gym Builds",
+    "Complete home gym builds at every budget.",
+    "/builds/",
+    articles.map((a) => ({
+      name: a.title,
+      url: `/builds/${a.slug}/`,
+      description: a.description,
+      image: a.featuredImage,
+    }))
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 pt-32 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
       <header className="mb-16">
         <div className="mb-4 flex items-center gap-3">
           <div className="skew-x-[-12deg] bg-orange-600 p-2">

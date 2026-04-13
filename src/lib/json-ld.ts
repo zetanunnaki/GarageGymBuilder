@@ -5,12 +5,77 @@ const SITE_URL = "https://garagegymbuilders.com";
 export function generateArticleSchema(
   frontmatter: ArticleFrontmatter,
   slug: string,
-  contentType: string
+  contentType: string,
+  options?: {
+    wordCount?: number;
+    readingTimeMinutes?: number;
+    authorSlug?: string;
+  }
+) {
+  const authorObj = options?.authorSlug
+    ? {
+        "@type": "Person",
+        name: frontmatter.author || "GarageGymBuilders",
+        url: `${SITE_URL}/team/${options.authorSlug}/`,
+      }
+    : {
+        "@type": "Organization",
+        name: frontmatter.author || "GarageGymBuilders",
+        url: `${SITE_URL}/team/`,
+      };
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: frontmatter.title,
+    name: frontmatter.title,
+    description: frontmatter.description,
+    image: frontmatter.featuredImage
+      ? {
+          "@type": "ImageObject",
+          url: `${SITE_URL}${frontmatter.featuredImage}`,
+          width: 1200,
+          height: 675,
+        }
+      : undefined,
+    datePublished: frontmatter.date,
+    dateModified: frontmatter.date,
+    author: authorObj,
+    publisher: {
+      "@type": "Organization",
+      name: "GarageGymBuilders",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/icon.svg`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/${contentType}/${slug}/`,
+    },
+    articleSection: frontmatter.category,
+    inLanguage: "en-US",
+    wordCount: options?.wordCount,
+    timeRequired: options?.readingTimeMinutes
+      ? `PT${options.readingTimeMinutes}M`
+      : undefined,
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", ".article-description"],
+    },
+  };
+}
+
+export function generateHowToSchema(
+  frontmatter: ArticleFrontmatter,
+  slug: string,
+  steps: { name: string; text: string }[]
 ) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: frontmatter.title,
+    "@type": "HowTo",
+    name: frontmatter.title,
     description: frontmatter.description,
     image: frontmatter.featuredImage
       ? `${SITE_URL}${frontmatter.featuredImage}`
@@ -18,19 +83,47 @@ export function generateArticleSchema(
     datePublished: frontmatter.date,
     author: {
       "@type": "Organization",
-      name: frontmatter.author || "GarageGymBuilders",
-    },
-    publisher: {
-      "@type": "Organization",
       name: "GarageGymBuilders",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/images/logo.png`,
-      },
+      url: SITE_URL,
     },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${SITE_URL}/${contentType}/${slug}`,
+    step: steps.map((step, idx) => ({
+      "@type": "HowToStep",
+      position: idx + 1,
+      name: step.name,
+      text: step.text,
+      url: `${SITE_URL}/guides/${slug}/#step-${idx + 1}`,
+    })),
+  };
+}
+
+export function generateCollectionPageSchema(
+  name: string,
+  description: string,
+  url: string,
+  items: { name: string; url: string; description?: string; image?: string }[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url: `${SITE_URL}${url}`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: items.length,
+      itemListElement: items.map((item, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${SITE_URL}${item.url}`,
+        name: item.name,
+        description: item.description,
+        image: item.image ? `${SITE_URL}${item.image}` : undefined,
+      })),
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "GarageGymBuilders",
+      url: SITE_URL,
     },
   };
 }

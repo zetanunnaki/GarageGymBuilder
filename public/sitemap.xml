@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://garagegymbuilders.com/</loc>
     <lastmod>2026-04-13</lastmod>
@@ -56,613 +57,1101 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-adjustable-dumbbells</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-adjustable-dumbbells/</loc>
+    <lastmod>2026-04-08</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-adjustable-dumbbells.webp</image:loc>
+      <image:title>The 5 Best Adjustable Dumbbells for Home Gyms (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-air-bikes</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-air-bikes/</loc>
+    <lastmod>2026-03-26</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-air-bikes.webp</image:loc>
+      <image:title>The Best Air Bikes for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-budget-barbells</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-budget-barbells/</loc>
+    <lastmod>2026-04-02</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-budget-barbells.webp</image:loc>
+      <image:title>The Best Budget Barbells Under $300 (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-bumper-plates</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-bumper-plates/</loc>
+    <lastmod>2026-03-04</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-bumper-plates.webp</image:loc>
+      <image:title>The Best Bumper Plates for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-dip-belts</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-dip-belts/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-dip-belts.webp</image:loc>
+      <image:title>The Best Dip Belts for Weighted Pull-Ups &amp; Dips (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-garage-gym-accessories</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-garage-gym-accessories/</loc>
+    <lastmod>2026-03-10</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-garage-gym-accessories.webp</image:loc>
+      <image:title>The 10 Best Garage Gym Accessories Under $50 (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-gym-flooring</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-gym-flooring/</loc>
+    <lastmod>2026-04-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-gym-flooring.webp</image:loc>
+      <image:title>The Best Garage Gym Flooring Options (2026 Tested &amp; Compared)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-gym-mirrors</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-gym-mirrors/</loc>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-gym-mirrors.webp</image:loc>
+      <image:title>The Best Mirrors for Garage Gyms (2026 Guide)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-jump-ropes</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-jump-ropes/</loc>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-jump-ropes.webp</image:loc>
+      <image:title>The Best Jump Ropes for Home Gym Conditioning (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-kettlebells</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-kettlebells/</loc>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-kettlebells.webp</image:loc>
+      <image:title>The Best Kettlebells for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-olympic-barbells</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-olympic-barbells/</loc>
+    <lastmod>2026-04-06</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-olympic-barbells.webp</image:loc>
+      <image:title>The Best Olympic Barbells on Amazon (2026 Buyer&apos;s Guide)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-plyo-boxes</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-plyo-boxes/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-plyo-boxes.webp</image:loc>
+      <image:title>The Best Plyo Boxes for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-power-racks-under-500</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-power-racks-under-500/</loc>
+    <lastmod>2026-04-10</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-power-racks-under-500.webp</image:loc>
+      <image:title>The 7 Best Power Racks Under $500 (2026 Testing)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-pull-up-bars</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-pull-up-bars/</loc>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-pull-up-bars.webp</image:loc>
+      <image:title>The Best Pull-Up Bars for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-recovery-tools</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-recovery-tools/</loc>
+    <lastmod>2026-03-02</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-recovery-tools.webp</image:loc>
+      <image:title>The Best Recovery Tools for Home Gyms (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-resistance-bands</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-resistance-bands/</loc>
+    <lastmod>2026-04-09</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-resistance-bands.webp</image:loc>
+      <image:title>The Best Resistance Bands for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-rowing-machines</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-rowing-machines/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-rowing-machines.webp</image:loc>
+      <image:title>The Best Rowing Machines for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-trap-bars</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-trap-bars/</loc>
+    <lastmod>2026-03-08</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-trap-bars.webp</image:loc>
+      <image:title>The Best Trap Bars (Hex Bars) for Home Gyms (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-weight-benches</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-weight-benches/</loc>
+    <lastmod>2026-03-24</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-weight-benches.webp</image:loc>
+      <image:title>The 5 Best Weight Benches for Home Gyms (2026 Tested)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/best-weight-sets</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/best-weight-sets/</loc>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/best-weight-sets.webp</image:loc>
+      <image:title>The Best Olympic Weight Sets for Home Gyms (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/bowflex-552-vs-powerblock-90</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/bowflex-552-vs-powerblock-90/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/bowflex-552-vs-powerblock-90.webp</image:loc>
+      <image:title>Bowflex 552 vs PowerBlock 90: Which Adjustable Dumbbells Should You Buy?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/cap-hex-vs-bowflex-552</loc>
+    <loc>https://garagegymbuilders.com/best-gear/cap-hex-vs-bowflex-552/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/cap-hex-vs-bowflex-552.webp</image:loc>
+      <image:title>CAP Hex Dumbbells vs Bowflex 552: Fixed or Adjustable?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/cap-vs-synergee-barbell</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/cap-vs-synergee-barbell/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/cap-vs-synergee-barbell.webp</image:loc>
+      <image:title>CAP Barbell vs Synergee Games Barbell: Budget vs Mid-Range Showdown</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/concept2-vs-assault-bike</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/concept2-vs-assault-bike/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/concept2-vs-assault-bike.webp</image:loc>
+      <image:title>Concept2 RowErg vs Assault AirBike: Which Cardio Machine Should You Buy?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/iron-bull-vs-spud-dip-belt</loc>
+    <loc>https://garagegymbuilders.com/best-gear/iron-bull-vs-spud-dip-belt/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/iron-bull-vs-spud-dip-belt.webp</image:loc>
+      <image:title>Iron Bull vs Spud Inc Dip Belt: Which Is Worth the Price?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/iron-gym-vs-wall-mounted-bar</loc>
+    <loc>https://garagegymbuilders.com/best-gear/iron-gym-vs-wall-mounted-bar/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/iron-gym-vs-wall-mounted-bar.webp</image:loc>
+      <image:title>Doorway vs Wall-Mounted Pull-Up Bar: Which Should You Buy?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/mikolo-f4-vs-fitness-reality-810xlt</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/mikolo-f4-vs-fitness-reality-810xlt/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/mikolo-f4-vs-fitness-reality-810xlt.webp</image:loc>
+      <image:title>Mikolo F4 vs Fitness Reality 810XLT: Which Budget Rack Should You Buy?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/mikolo-vs-sportsroyals</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/mikolo-vs-sportsroyals/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/rep-pr4000-vs-rogue-r3.webp</image:loc>
+      <image:title>Mikolo F4 vs Sportsroyals Power Cage: Which Amazon Rack Wins?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/sunny-rower-vs-concept2</loc>
+    <loc>https://garagegymbuilders.com/best-gear/sunny-rower-vs-concept2/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/sunny-rower-vs-concept2.webp</image:loc>
+      <image:title>Sunny SF-RW5515 vs Concept2 RowErg: Which Rower Should You Buy?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/three-way-rack-comparison</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/best-gear/three-way-rack-comparison/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/three-way-rack-comparison.webp</image:loc>
+      <image:title>Fitness Reality vs Mikolo F4 vs Sportsroyals: The Ultimate Amazon Rack Comparison</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/trx-vs-bodylastics</loc>
+    <loc>https://garagegymbuilders.com/best-gear/trx-vs-bodylastics/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/trx-vs-bodylastics.webp</image:loc>
+      <image:title>TRX GO vs Bodylastics: Which Travel Gym Should You Buy?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/wod-nation-vs-crossrope</loc>
+    <loc>https://garagegymbuilders.com/best-gear/wod-nation-vs-crossrope/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/wod-nation-vs-crossrope.webp</image:loc>
+      <image:title>WOD Nation vs Crossrope: Speed Rope vs Weighted Rope?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/best-gear/yes4all-trap-bar-vs-rogue</loc>
+    <loc>https://garagegymbuilders.com/best-gear/yes4all-trap-bar-vs-rogue/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-trap-bar-vs-rogue.webp</image:loc>
+      <image:title>Yes4All Hex Trap Bar vs Rogue TB-2: Is the Premium Worth It?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/assault-airbike-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/assault-airbike-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/assault-airbike-review.webp</image:loc>
+      <image:title>Assault AirBike Classic Review: The Original vs the Rogue Echo</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/bodylastics-resistance-bands-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/bodylastics-resistance-bands-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/bodylastics-resistance-bands-review.webp</image:loc>
+      <image:title>Bodylastics Resistance Bands Review: The Anti-Snap Bands That Actually Last</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/bowflex-selecttech-552-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/bowflex-selecttech-552-review/</loc>
+    <lastmod>2026-03-28</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/bowflex-selecttech-552-review.webp</image:loc>
+      <image:title>Bowflex SelectTech 552 Review: Still Worth It in 2026?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/cap-barbell-300-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/cap-barbell-300-review/</loc>
+    <lastmod>2026-03-16</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/cap-barbell-300-review.webp</image:loc>
+      <image:title>CAP Barbell 300 lb Olympic Set Review: The Best Starter Weight Set?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/cap-hex-dumbbells-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/cap-hex-dumbbells-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/cap-hex-dumbbells-review.webp</image:loc>
+      <image:title>CAP Barbell Hex Dumbbells Review: The Indestructible Budget Choice</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/concept2-rowerg-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/concept2-rowerg-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/concept2-rowerg-review.webp</image:loc>
+      <image:title>Concept2 RowErg Review: Still the King of Rowing Machines in 2026?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/dark-iron-lifting-belt-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/dark-iron-lifting-belt-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/dark-iron-lifting-belt-review.webp</image:loc>
+      <image:title>Dark Iron Fitness Leather Lifting Belt Review (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/fitness-reality-810xlt-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/fitness-reality-810xlt-review/</loc>
+    <lastmod>2026-04-08</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/fitness-reality-810xlt-review.webp</image:loc>
+      <image:title>Fitness Reality 810XLT Review: The Best Budget Power Cage?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/flybird-adjustable-bench-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/flybird-adjustable-bench-review/</loc>
+    <lastmod>2026-03-22</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/flybird-adjustable-bench-review.webp</image:loc>
+      <image:title>FLYBIRD Adjustable Bench Review: Best Budget Bench in 2026?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/iron-bull-dip-belt-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/iron-bull-dip-belt-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/iron-bull-dip-belt-review.webp</image:loc>
+      <image:title>Iron Bull Strength Dip Belt Review: 270 lbs of Weighted Pull-Ups for $50</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/iron-gym-pull-up-bar-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/iron-gym-pull-up-bar-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/iron-gym-pull-up-bar-review.webp</image:loc>
+      <image:title>Iron Gym Pull-Up Bar Review: 60,000 Amazon Reviews Can&apos;t Be Wrong</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/marcy-olympic-bench-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/marcy-olympic-bench-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/marcy-olympic-bench-review.webp</image:loc>
+      <image:title>Marcy Olympic Weight Bench Review: All-in-One Home Gym Solution?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/mikolo-f4-power-cage-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/mikolo-f4-power-cage-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/mikolo-f4-power-cage-review.webp</image:loc>
+      <image:title>Mikolo F4 2.0 Power Cage Review: Best Budget Rack on Amazon?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/perfect-fitness-ab-wheel-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/perfect-fitness-ab-wheel-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/perfect-fitness-ab-wheel-review.webp</image:loc>
+      <image:title>Perfect Fitness Ab Carver Pro Review (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/powerblock-elite-90-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/powerblock-elite-90-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/powerblock-elite-90-review.webp</image:loc>
+      <image:title>PowerBlock Elite 90 Review: Are These Worth $870?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/rogue-echo-bike-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/rogue-echo-bike-review/</loc>
+    <lastmod>2026-03-30</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/rogue-echo-bike-review.webp</image:loc>
+      <image:title>Rogue Echo Bike Review: The Ultimate Home Gym Cardio Machine?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/rogue-style-gymnastic-rings-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/rogue-style-gymnastic-rings-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/rogue-style-gymnastic-rings-review.webp</image:loc>
+      <image:title>Yes4All Wood Gymnastic Rings Review (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/rogue-style-weight-vest-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/rogue-style-weight-vest-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/rogue-style-weight-vest-review.webp</image:loc>
+      <image:title>RUNFast Pro Weight Vest Review (2026): Best Budget Weight Vest</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/sportsroyals-power-cage-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/sportsroyals-power-cage-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/sportsroyals-power-cage-review.webp</image:loc>
+      <image:title>Sportsroyals Power Cage Review: 1,600 lb Capacity for $550?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/sunny-sf-rw5515-rower-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/sunny-sf-rw5515-rower-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/sunny-sf-rw5515-rower-review.webp</image:loc>
+      <image:title>Sunny Health SF-RW5515 Rower Review: The Best Rower Under $300</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/synergee-olympic-barbell-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/synergee-olympic-barbell-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/synergee-olympic-barbell-review.webp</image:loc>
+      <image:title>Synergee Games Olympic Barbell Review: The Best Amazon Bar Under $200?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/titan-deadlift-jack-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/titan-deadlift-jack-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/titan-deadlift-jack-review.webp</image:loc>
+      <image:title>Titan Fitness Deadlift Jack Review: Save Your Back When Loading Plates</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/trx-go-suspension-trainer-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/trx-go-suspension-trainer-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/trx-go-suspension-trainer-review.webp</image:loc>
+      <image:title>TRX GO Suspension Trainer Review: The Original Travel Gym</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/wod-nation-jump-rope-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/wod-nation-jump-rope-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/wod-nation-jump-rope-review.webp</image:loc>
+      <image:title>WOD Nation Speed Jump Rope Review: The Best $15 Upgrade in Fitness</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-hex-trap-bar-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-hex-trap-bar-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-hex-trap-bar-review.webp</image:loc>
+      <image:title>Yes4All Hex Trap Bar Review: The Best Budget Trap Bar on Amazon</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-kettlebell-set-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-kettlebell-set-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-kettlebell-set-review.webp</image:loc>
+      <image:title>Yes4All Kettlebell Set Review: Best Budget Kettlebells on Amazon?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-olympic-plates-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-olympic-plates-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-olympic-plates-review.webp</image:loc>
+      <image:title>Yes4All Olympic Plates Review: Best Budget Cast Iron Plates on Amazon?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-plyo-box-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-plyo-box-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-plyo-box-review.webp</image:loc>
+      <image:title>Yes4All 3-in-1 Wooden Plyo Box Review: Best Plyo Box Under $150</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-roman-chair-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-roman-chair-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-roman-chair-review.webp</image:loc>
+      <image:title>Yes4All Hyperextension Bench Review: Roman Chair on a Budget</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-sandbag-review</loc>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-sandbag-review/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-sandbag-review.webp</image:loc>
+      <image:title>Yes4All Workout Sandbag Review (2026): The Strongman Tool Under $60</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/reviews/yes4all-slam-ball-review</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/reviews/yes4all-slam-ball-review/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/yes4all-slam-ball-review.webp</image:loc>
+      <image:title>Yes4All Slam Ball Review: The Best HIIT Tool Under $30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/barbell-maintenance-guide</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/barbell-maintenance-guide/</loc>
+    <lastmod>2026-03-08</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/barbell-maintenance-guide.webp</image:loc>
+      <image:title>How to Maintain Your Barbell: Cleaning &amp; Care Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/barbell-only-exercises</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/barbell-only-exercises/</loc>
+    <lastmod>2026-02-10</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/barbell-only-exercises.webp</image:loc>
+      <image:title>50 Exercises You Can Do With Just a Barbell (Complete List)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/bodybuilding-home-gym-setup</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/bodybuilding-home-gym-setup/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/bodybuilding-home-gym-setup.webp</image:loc>
+      <image:title>Bodybuilding Home Gym Setup: Equipment &amp; Training Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/buying-used-gym-equipment</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/buying-used-gym-equipment/</loc>
+    <lastmod>2026-02-20</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/buying-used-gym-equipment.webp</image:loc>
+      <image:title>How to Buy Used Gym Equipment (Without Getting Ripped Off)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/crossfit-home-gym-setup</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/crossfit-home-gym-setup/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/crossfit-home-gym-setup.webp</image:loc>
+      <image:title>CrossFit Home Gym Setup: Complete Equipment Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-electrical-setup</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-electrical-setup/</loc>
+    <lastmod>2026-02-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-electrical-setup.webp</image:loc>
+      <image:title>Garage Gym Electrical &amp; Power Setup Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-flooring-guide</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-flooring-guide/</loc>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-flooring-guide.webp</image:loc>
+      <image:title>The Complete Guide to Garage Gym Flooring (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-lighting-guide</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-lighting-guide/</loc>
+    <lastmod>2026-03-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-lighting-guide.webp</image:loc>
+      <image:title>Garage Gym Lighting Guide: Best Lights for Training (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-mistakes-to-avoid</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-mistakes-to-avoid/</loc>
+    <lastmod>2026-03-01</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-mistakes-to-avoid.webp</image:loc>
+      <image:title>12 Garage Gym Mistakes That Waste Your Money (And How to Avoid Them)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-safety</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-safety/</loc>
+    <lastmod>2026-02-15</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-safety.webp</image:loc>
+      <image:title>Garage Gym Safety: Essential Rules for Training Alone</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-summer-cooling</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-summer-cooling/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-summer-cooling.webp</image:loc>
+      <image:title>Garage Gym Summer Cooling: Train Through the Heat (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/garage-gym-ventilation-guide</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/garage-gym-ventilation-guide/</loc>
+    <lastmod>2026-03-18</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/garage-gym-ventilation-guide.webp</image:loc>
+      <image:title>Garage Gym Ventilation &amp; Climate Control Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-back-pain</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-back-pain/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-back-pain.webp</image:loc>
+      <image:title>Home Gym for Back Pain Sufferers: Train Without Hurting (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-boxing</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-boxing/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-boxing.webp</image:loc>
+      <image:title>Home Gym for Boxing: Equipment &amp; Training Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-cyclists</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-cyclists/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-cyclists.webp</image:loc>
+      <image:title>Home Gym for Cyclists: Strength Training to Ride Faster (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-kids-teens</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-kids-teens/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-kids-teens.webp</image:loc>
+      <image:title>Home Gym for Kids &amp; Teens: Safe Strength Training Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-mma</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-mma/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-mma.webp</image:loc>
+      <image:title>Home Gym for MMA &amp; Combat Sports: Complete Equipment Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-runners</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-runners/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-runners.webp</image:loc>
+      <image:title>Home Gym for Runners: Strength Training for Better Running</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-seniors</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-seniors/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-seniors.webp</image:loc>
+      <image:title>Home Gym for Seniors: Equipment &amp; Training Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-travel</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-travel/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-travel.webp</image:loc>
+      <image:title>Mikolo vs Sportsroyals vs Fitness Reality: Budget vs Features vs Price</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-for-women</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-for-women/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-for-women.webp</image:loc>
+      <image:title>Home Gym for Women: Complete Equipment &amp; Training Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-insurance-liability</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-insurance-liability/</loc>
+    <lastmod>2026-01-20</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-insurance-liability.webp</image:loc>
+      <image:title>Home Gym Insurance &amp; Liability: What You Need to Know</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-nutrition-basics</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-nutrition-basics/</loc>
+    <lastmod>2026-01-10</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-nutrition-basics.webp</image:loc>
+      <image:title>Home Gym Nutrition Basics: What to Eat for Your Training Goals</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-over-40</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-over-40/</loc>
+    <lastmod>2026-02-18</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-over-40.webp</image:loc>
+      <image:title>Building a Home Gym After 40: Equipment &amp; Training Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-postpartum</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-postpartum/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-postpartum.webp</image:loc>
+      <image:title>Home Gym for Postpartum Recovery: Safe Return to Training (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-programming-guide</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-programming-guide/</loc>
+    <lastmod>2026-03-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-programming-guide.webp</image:loc>
+      <image:title>Home Gym Training Programs: What to Run With Limited Equipment</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-rehab-recovery</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-rehab-recovery/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-rehab-recovery.webp</image:loc>
+      <image:title>Home Gym for Injury Rehab &amp; Recovery: Equipment Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-small-spaces</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-small-spaces/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-small-spaces.webp</image:loc>
+      <image:title>Home Gym in Small Spaces: Building in Under 100 Sq Ft</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/home-gym-vs-commercial-gym</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/home-gym-vs-commercial-gym/</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-vs-commercial-gym.webp</image:loc>
+      <image:title>Home Gym vs Commercial Gym: The Real Cost Comparison (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-anchor-power-rack</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-anchor-power-rack/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-anchor-power-rack.webp</image:loc>
+      <image:title>How to Anchor a Power Rack: Concrete &amp; Wood Floor Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-build-a-garage-gym</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-build-a-garage-gym/</loc>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-build-a-garage-gym.webp</image:loc>
+      <image:title>How to Build a Garage Gym: The Complete Beginner&apos;s Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-build-lifting-platform</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-build-lifting-platform/</loc>
+    <lastmod>2026-03-16</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-build-lifting-platform.webp</image:loc>
+      <image:title>How to Build a DIY Lifting Platform (Step-by-Step Guide)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-adjustable-dumbbells</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-adjustable-dumbbells/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-adjustable-dumbbells.webp</image:loc>
+      <image:title>How to Choose Adjustable Dumbbells: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-barbell</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-barbell/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-barbell.webp</image:loc>
+      <image:title>How to Choose a Barbell: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-cardio-machine</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-cardio-machine/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-cardio-machine.webp</image:loc>
+      <image:title>How to Choose a Cardio Machine for Home: Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-gym-flooring</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-gym-flooring/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-gym-flooring.webp</image:loc>
+      <image:title>How to Choose Home Gym Flooring: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-kettlebell</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-kettlebell/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-kettlebell.webp</image:loc>
+      <image:title>How to Choose a Kettlebell: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-power-rack</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-power-rack/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-power-rack.webp</image:loc>
+      <image:title>How to Choose a Power Rack: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-pull-up-bar</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-pull-up-bar/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-pull-up-bar.webp</image:loc>
+      <image:title>How to Choose a Pull-Up Bar: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-weight-bench</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-weight-bench/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-weight-bench.webp</image:loc>
+      <image:title>How to Choose a Weight Bench: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-choose-weight-plates</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-choose-weight-plates/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-choose-weight-plates.webp</image:loc>
+      <image:title>How to Choose Weight Plates: Complete Buyer&apos;s Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/how-to-clean-gym-equipment</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/how-to-clean-gym-equipment/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/how-to-clean-gym-equipment.webp</image:loc>
+      <image:title>How to Clean &amp; Maintain Home Gym Equipment (2026 Guide)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/organizing-your-garage-gym</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/organizing-your-garage-gym/</loc>
+    <lastmod>2026-02-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/organizing-your-garage-gym.webp</image:loc>
+      <image:title>How to Organize Your Garage Gym (Layout &amp; Storage Guide)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/powerlifting-home-gym-setup</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/powerlifting-home-gym-setup/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/powerlifting-home-gym-setup.webp</image:loc>
+      <image:title>Powerlifting Home Gym Setup: Equipment &amp; Building Guide (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/soundproofing-garage-gym</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/soundproofing-garage-gym/</loc>
+    <lastmod>2026-03-14</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/soundproofing-garage-gym.webp</image:loc>
+      <image:title>How to Soundproof Your Garage Gym (Without Breaking the Bank)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/guides/winter-garage-gym-training</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/guides/winter-garage-gym-training/</loc>
+    <lastmod>2026-01-15</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/winter-garage-gym-training.webp</image:loc>
+      <image:title>Training in a Cold Garage Gym: Winter Survival Guide</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/apartment-gym-under-300</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/apartment-gym-under-300/</loc>
+    <lastmod>2026-02-08</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/apartment-gym-under-300.webp</image:loc>
+      <image:title>Apartment Home Gym Under $300 (No Noise, No Space, No Problem)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/bodybuilder-home-gym-build</loc>
+    <loc>https://garagegymbuilders.com/builds/bodybuilder-home-gym-build/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/bodybuilder-home-gym-build.webp</image:loc>
+      <image:title>Bodybuilder Home Gym Build: $1,500 Hypertrophy Setup (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/crossfit-home-gym-build</loc>
+    <loc>https://garagegymbuilders.com/builds/crossfit-home-gym-build/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/crossfit-home-gym-build.webp</image:loc>
+      <image:title>CrossFit Home Gym Build: $2,000 Complete Box (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/dream-gym-under-5000</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/dream-gym-under-5000/</loc>
+    <lastmod>2026-03-19</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/dream-gym-under-5000.webp</image:loc>
+      <image:title>The Ultimate $5,000 Dream Home Gym Build (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/home-gym-under-1000</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/home-gym-under-1000/</loc>
+    <lastmod>2026-04-01</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-under-1000.webp</image:loc>
+      <image:title>Complete Home Gym Setup Under $1,000 (2026 Build Guide)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/home-gym-under-2000</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/home-gym-under-2000/</loc>
+    <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-under-2000.webp</image:loc>
+      <image:title>The Ultimate Home Gym Under $2,000 (2026 Premium Build)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/home-gym-under-3000</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/home-gym-under-3000/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-under-3000.webp</image:loc>
+      <image:title>The Complete Home Gym Under $3,000 (Premium Build Guide 2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/home-gym-under-4000</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/home-gym-under-4000/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-under-4000.webp</image:loc>
+      <image:title>The Ultimate Home Gym Under $4,000 (Commercial-Grade Build 2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/home-gym-under-500</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/home-gym-under-500/</loc>
+    <lastmod>2026-03-25</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-under-500.webp</image:loc>
+      <image:title>The Best Home Gym Setup Under $500 (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/home-gym-under-750</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://garagegymbuilders.com/builds/home-gym-under-750/</loc>
+    <lastmod>2026-04-12</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/home-gym-under-750.webp</image:loc>
+      <image:title>Home Gym Under $750: The Smart Sweet Spot Build (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/mma-fighter-home-gym-build</loc>
+    <loc>https://garagegymbuilders.com/builds/mma-fighter-home-gym-build/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/mma-fighter-home-gym-build.webp</image:loc>
+      <image:title>MMA Fighter Home Gym Build: $1,000 Combat Sports Setup (2026)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://garagegymbuilders.com/builds/powerlifter-home-gym-build</loc>
+    <loc>https://garagegymbuilders.com/builds/powerlifter-home-gym-build/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garagegymbuilders.com/images/covers/powerlifter-home-gym-build.webp</image:loc>
+      <image:title>Powerlifter Home Gym Build: $1,500 Complete Setup (2026)</image:title>
+    </image:image>
   </url>
 </urlset>
