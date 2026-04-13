@@ -12,15 +12,18 @@ const svgPath = path.join(process.cwd(), "src/app/icon.svg");
 // Read the svg; scale up for crisp rendering
 const svgBuffer = fs.readFileSync(svgPath);
 
-// High-res base svg we'll re-encode for higher densities
-// Recreate the icon as a 512x512 SVG for crisp scaling
-const scaledSvg = `<svg width="512" height="512" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" fill="#ea580c"/>
-  <rect x="4" y="9" width="5" height="14" rx="1" fill="#000"/>
-  <rect x="23" y="9" width="5" height="14" rx="1" fill="#000"/>
-  <rect x="8" y="11" width="3" height="10" rx="0.5" fill="#000"/>
-  <rect x="21" y="11" width="3" height="10" rx="0.5" fill="#000"/>
-  <rect x="11" y="14.5" width="10" height="3" rx="0.5" fill="#000"/>
+// Re-encode the icon at 1024x1024 for crisp scaling at every favicon size.
+// This intentionally duplicates the source SVG so favicon generation is
+// hermetic and the script can be re-run without reading icon.svg.
+const scaledSvg = `<svg width="1024" height="1024" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="#0a0a0a"/>
+  <rect x="0" y="0" width="64" height="3" fill="#ea580c"/>
+  <rect x="6" y="20" width="4" height="24" fill="#ea580c"/>
+  <rect x="10" y="24" width="3" height="16" fill="#ea580c"/>
+  <rect x="13" y="29" width="38" height="6" fill="#ea580c"/>
+  <rect x="51" y="24" width="3" height="16" fill="#ea580c"/>
+  <rect x="54" y="20" width="4" height="24" fill="#ea580c"/>
+  <rect x="0" y="61" width="64" height="3" fill="#ea580c"/>
 </svg>`;
 
 const hiRes = Buffer.from(scaledSvg);

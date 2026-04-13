@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import {
-  Dumbbell,
   Menu,
   X,
   Trophy,
@@ -17,6 +16,7 @@ import {
   Users,
 } from "lucide-react";
 import { Search } from "./search";
+import { LogoMark } from "./logo-mark";
 import searchIndex from "@/data/search-index.json";
 
 const navLinks = [
@@ -98,18 +98,15 @@ export function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="group flex items-center gap-2 transition-transform hover:scale-[1.02]"
+            className="group flex items-center gap-2.5 transition-transform hover:scale-[1.02]"
             aria-label="GarageGymBuilders home"
           >
             <div
-              className={`skew-x-[-12deg] bg-orange-600 transition-all duration-300 group-hover:bg-orange-500 ${
-                scrolled ? "p-1" : "p-1.5"
+              className={`flex items-center justify-center border-2 border-orange-500 bg-[#0a0a0a] text-orange-500 transition-all duration-300 group-hover:border-orange-400 group-hover:text-orange-400 ${
+                scrolled ? "h-8 w-8" : "h-9 w-9 sm:h-10 sm:w-10"
               }`}
             >
-              <Dumbbell
-                className="skew-x-[12deg] text-black"
-                size={scrolled ? 18 : 22}
-              />
+              <LogoMark size={scrolled ? 24 : 28} />
             </div>
             <span
               className={`font-black uppercase italic tracking-tighter text-white transition-all duration-300 ${
@@ -192,10 +189,10 @@ export function Navbar() {
             <Link
               href="/"
               onClick={() => setOpen(false)}
-              className="flex items-center gap-2"
+              className="flex items-center gap-2.5"
             >
-              <div className="skew-x-[-12deg] bg-orange-600 p-1">
-                <Dumbbell className="skew-x-[12deg] text-black" size={18} />
+              <div className="flex h-8 w-8 items-center justify-center border-2 border-orange-500 bg-[#0a0a0a] text-orange-500">
+                <LogoMark size={22} />
               </div>
               <span className="text-base font-black uppercase italic tracking-tighter text-white">
                 GarageGym<span className="text-orange-500">Builders</span>

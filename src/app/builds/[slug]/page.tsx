@@ -47,7 +47,7 @@ export async function generateMetadata({
       tags: frontmatter.category ? [frontmatter.category] : [],
       images: frontmatter.featuredImage
         ? [{ url: frontmatter.featuredImage, width: 1200, height: 630, alt: frontmatter.title }]
-        : [],
+        : [{ url: "/og/build.png", width: 1200, height: 630, alt: frontmatter.title, type: "image/png" }],
     },
     twitter: {
       card: "summary_large_image",
@@ -55,7 +55,7 @@ export async function generateMetadata({
       description: frontmatter.description,
       site: "@garagegymbuilders",
       creator: "@garagegymbuilders",
-      images: frontmatter.featuredImage ? [frontmatter.featuredImage] : [],
+      images: frontmatter.featuredImage ? [frontmatter.featuredImage] : ["/og/build.png"],
     },
   };
 }

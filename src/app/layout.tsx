@@ -23,7 +23,9 @@ const SITE_NAME = "GarageGymBuilders";
 const SITE_URL = "https://garagegymbuilders.com";
 const SITE_DESCRIPTION =
   "Expert reviews, budget builds, and guides to help you build the perfect garage gym. Compare power racks, weights, and cardio equipment.";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/images/covers/hero-bg.webp`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
+const DEFAULT_OG_IMAGE_ALT =
+  "GarageGymBuilders — Build Your Iron Paradise. Expert reviews, real testing, no fluff.";
 
 export const metadata: Metadata = {
   title: {
@@ -63,7 +65,8 @@ export const metadata: Metadata = {
         url: DEFAULT_OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "GarageGymBuilders - Build Your Iron Paradise",
+        alt: DEFAULT_OG_IMAGE_ALT,
+        type: "image/png",
       },
     ],
   },
@@ -71,7 +74,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GarageGymBuilders - Build Your Iron Paradise",
     description: SITE_DESCRIPTION,
-    images: [DEFAULT_OG_IMAGE],
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        alt: DEFAULT_OG_IMAGE_ALT,
+        width: 1200,
+        height: 630,
+      },
+    ],
     creator: "@garagegymbuilders",
     site: "@garagegymbuilders",
   },

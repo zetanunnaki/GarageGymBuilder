@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Dumbbell, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { LogoMark } from "./logo-mark";
 
 export function Footer() {
   const sections = [
@@ -57,13 +58,10 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link
               href="/"
-              className="mb-4 inline-flex items-center gap-2"
+              className="mb-4 inline-flex items-center gap-2.5"
             >
-              <div className="skew-x-[-12deg] bg-orange-600 p-1.5">
-                <Dumbbell
-                  className="skew-x-[12deg] text-black"
-                  size={20}
-                />
+              <div className="flex h-9 w-9 items-center justify-center border-2 border-orange-500 bg-[#0a0a0a] text-orange-500">
+                <LogoMark size={26} />
               </div>
               <span className="text-lg font-black uppercase italic tracking-tighter">
                 GarageGym<span className="text-orange-500">Builders</span>
