@@ -14,6 +14,7 @@ const navLinks = [
   { href: "/picks", label: "Our Picks" },
   { href: "/calculator", label: "Calculator" },
   { href: "/compare", label: "Compare" },
+  { href: "/glossary", label: "Glossary" },
   { href: "/team", label: "Team" },
 ];
 
