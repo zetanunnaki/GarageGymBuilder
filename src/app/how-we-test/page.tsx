@@ -48,7 +48,7 @@ const testingSteps = [
 
 export default function HowWeTestPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 pt-32 pb-20">
+    <div className="mx-auto max-w-4xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <header className="mb-16">
         <div className="mb-4 flex items-center gap-3">
           <div className="skew-x-[-12deg] bg-orange-600 p-2">

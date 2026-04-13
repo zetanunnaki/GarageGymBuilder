@@ -42,7 +42,7 @@ export default function NotFound() {
   ];
 
   return (
-    <section className="relative overflow-hidden px-6 pt-32 pb-20">
+    <section className="relative overflow-hidden px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       {/* Background grid + glow */}
       <div className="absolute inset-0 grid-pattern opacity-40" />
       <div

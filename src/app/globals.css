@@ -137,6 +137,88 @@
 }
 
 /* ============================================================= */
+/* Fluid typography — scales from mobile to desktop smoothly     */
+/* ============================================================= */
+
+/* Display sizes — scale between mobile and 4k */
+.text-display-xl {
+  font-size: clamp(3rem, 12vw, 10rem);
+  line-height: 0.85;
+}
+.text-display-lg {
+  font-size: clamp(2.5rem, 9vw, 7rem);
+  line-height: 0.85;
+}
+.text-display-md {
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  line-height: 0.9;
+}
+.text-display-sm {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  line-height: 1;
+}
+
+/* Body sizes */
+.text-fluid-lg {
+  font-size: clamp(1rem, 1.2vw, 1.25rem);
+  line-height: 1.5;
+}
+.text-fluid-base {
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  line-height: 1.6;
+}
+
+/* Container queries — cards adapt to their parent */
+@container (max-width: 320px) {
+  .cq-stack {
+    flex-direction: column;
+  }
+}
+
+/* Touch device improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Disable hover-only effects on touch devices to prevent stuck states */
+  .group:hover .group-hover\:scale-105,
+  .group:hover .group-hover\:scale-110 {
+    transform: none;
+  }
+  /* Larger tap targets on mobile */
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  /* Inline links (in prose, breadcrumbs, etc.) keep natural size */
+  p a,
+  li a,
+  .breadcrumb a,
+  .prose a,
+  span a {
+    min-height: 0;
+    min-width: 0;
+  }
+}
+
+/* Safe area for notched devices */
+@supports (padding: env(safe-area-inset-bottom)) {
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Better text rendering on hi-dpi */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Tap highlight color (mobile) */
+* {
+  -webkit-tap-highlight-color: rgba(234, 88, 12, 0.2);
+}
+
+/* ============================================================= */
 /* Design System Enhancements                                    */
 /* ============================================================= */
 

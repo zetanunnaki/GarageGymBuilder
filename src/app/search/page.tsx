@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function SearchPage() {
   return (
-    <section className="mx-auto max-w-4xl px-6 pt-32 pb-20">
+    <section className="mx-auto max-w-4xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <h1 className="mb-4 text-5xl font-black uppercase italic leading-none tracking-tighter md:text-6xl">
         Search
       </h1>

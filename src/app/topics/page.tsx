@@ -50,7 +50,7 @@ export default function TopicsPage() {
   });
 
   return (
-    <div className="relative mx-auto max-w-6xl px-6 pt-32 pb-20">
+    <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <header className="mb-12">
         <div className="mb-4 flex items-center gap-3">
           <div className="skew-x-[-12deg] bg-orange-600 p-2">

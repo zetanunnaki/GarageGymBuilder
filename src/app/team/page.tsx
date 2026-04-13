@@ -21,7 +21,7 @@ export default function TeamPage() {
   const authors = getAllAuthors();
 
   return (
-    <div className="mx-auto max-w-4xl px-6 pt-32 pb-20">
+    <div className="mx-auto max-w-4xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <div className="mb-12">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-orange-400">
           <Dumbbell size={12} /> Real Lifters. Real Testing.

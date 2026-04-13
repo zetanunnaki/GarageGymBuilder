@@ -55,7 +55,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden px-6 pt-40 pb-24">
+      <section className="relative overflow-hidden px-4 pt-32 pb-16 sm:px-6 sm:pt-40 sm:pb-24">
         {/* Background image */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-25"
@@ -99,7 +99,7 @@ export default function HomePage() {
           </div>
           <h1
             data-reveal="1"
-            className="mb-8 text-7xl font-black uppercase italic leading-[0.82] tracking-tighter md:text-[10rem]"
+            className="text-display-xl mb-6 font-black uppercase italic tracking-tighter sm:mb-8"
           >
             Build Your <br />
             <span className="bg-gradient-to-br from-orange-300 via-orange-500 to-orange-800 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(234,88,12,0.4)]">
@@ -108,7 +108,7 @@ export default function HomePage() {
           </h1>
           <p
             data-reveal="2"
-            className="mx-auto mb-12 max-w-2xl text-lg font-medium leading-relaxed text-zinc-400 md:text-xl"
+            className="mx-auto mb-10 max-w-2xl text-base font-medium leading-relaxed text-zinc-400 sm:mb-12 sm:text-lg md:text-xl"
           >
             Expert, database-free reviews.{" "}
             <span className="text-zinc-200">We pull the data,</span>{" "}
@@ -116,21 +116,21 @@ export default function HomePage() {
           </p>
           <div
             data-reveal="3"
-            className="flex flex-wrap items-center justify-center gap-4"
+            className="flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4"
           >
             <Link
               href="/builds/home-gym-under-1000/"
-              className="pulse-orange skew-x-[-12deg] bg-orange-600 px-10 py-5 text-lg font-black uppercase italic tracking-tighter text-white transition hover:bg-orange-500"
+              className="pulse-orange skew-x-[-12deg] bg-orange-600 px-8 py-4 text-base font-black uppercase italic tracking-tighter text-white transition hover:bg-orange-500 sm:px-10 sm:py-5 sm:text-lg"
             >
-              <span className="flex skew-x-[12deg] items-center gap-3">
-                Start a Budget Build <MoveRight />
+              <span className="flex skew-x-[12deg] items-center justify-center gap-3">
+                Start a Budget Build <MoveRight size={18} />
               </span>
             </Link>
             <Link
               href="/best-gear/"
-              className="skew-x-[-12deg] border-2 border-zinc-700 px-10 py-5 text-lg font-black uppercase italic tracking-tighter text-zinc-300 transition hover:border-orange-500 hover:text-orange-400"
+              className="skew-x-[-12deg] border-2 border-zinc-700 bg-zinc-900/40 px-8 py-4 text-base font-black uppercase italic tracking-tighter text-zinc-300 backdrop-blur-sm transition hover:border-orange-500 hover:text-orange-400 sm:px-10 sm:py-5 sm:text-lg"
             >
-              <span className="flex skew-x-[12deg] items-center gap-3">
+              <span className="flex skew-x-[12deg] items-center justify-center gap-3">
                 Browse Best Gear
               </span>
             </Link>
@@ -184,7 +184,7 @@ export default function HomePage() {
       </section>
 
       {/* BENTO GRID */}
-      <section className="relative mx-auto max-w-7xl px-6 py-24">
+      <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
         <SectionHeading
           number="01"
           eyebrow="Explore"
@@ -294,7 +294,7 @@ export default function HomePage() {
       <PopularProducts />
 
       {/* BUYER'S GUIDES */}
-      <section className="relative overflow-hidden border-t border-zinc-800 bg-zinc-900/30 px-6 py-24">
+      <section className="relative overflow-hidden border-t border-zinc-800 bg-zinc-900/30 px-4 py-16 sm:px-6 sm:py-24">
         <div className="absolute inset-0 grid-pattern opacity-30" />
         <div
           className="glow-orb"
@@ -345,7 +345,7 @@ export default function HomePage() {
       </section>
 
       {/* RECENT ARTICLES */}
-      <section className="relative px-6 py-24">
+      <section className="relative px-4 py-16 sm:px-6 sm:py-24">
         <div className="mx-auto max-w-7xl">
           <SectionHeading
             number="03"
@@ -428,7 +428,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA BANNER */}
-      <section className="relative overflow-hidden border-t border-zinc-800 px-6 py-24">
+      <section className="relative overflow-hidden border-t border-zinc-800 px-4 py-16 sm:px-6 sm:py-24">
         <div className="absolute inset-0 grid-pattern opacity-30" />
         <div
           className="glow-orb"
@@ -445,32 +445,32 @@ export default function HomePage() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-orange-400 backdrop-blur-sm">
             <Zap size={12} fill="currentColor" /> No Wasted Dollars
           </div>
-          <h2 className="mb-6 text-5xl font-black uppercase italic leading-[0.85] tracking-tighter md:text-7xl">
+          <h2 className="text-display-lg mb-6 font-black uppercase italic tracking-tighter">
             Ready to <br />
             <span className="bg-gradient-to-br from-orange-300 via-orange-500 to-orange-800 bg-clip-text text-transparent">
               Build?
             </span>
           </h2>
-          <p className="mx-auto mb-10 max-w-xl text-lg leading-relaxed text-zinc-400">
+          <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-zinc-400 sm:mb-10 sm:text-lg">
             Pick your budget and we&apos;ll show you exactly what to buy.
             Every product tested, every dollar accounted for.
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
             <Link
               href="/builds/home-gym-under-500/"
-              className="group skew-x-[-12deg] border-2 border-zinc-700 bg-zinc-900/50 px-8 py-4 text-lg font-black italic uppercase tracking-tighter text-zinc-300 backdrop-blur-sm transition-all hover:border-orange-600 hover:bg-orange-600/10 hover:text-orange-400"
+              className="group skew-x-[-12deg] border-2 border-zinc-700 bg-zinc-900/50 px-6 py-4 text-base font-black italic uppercase tracking-tighter text-zinc-300 backdrop-blur-sm transition-all hover:border-orange-600 hover:bg-orange-600/10 hover:text-orange-400 sm:px-8 sm:text-lg"
             >
               <span className="inline-block skew-x-[12deg]">$500 Build</span>
             </Link>
             <Link
               href="/builds/home-gym-under-1000/"
-              className="pulse-orange skew-x-[-12deg] bg-orange-600 px-10 py-4 text-lg font-black italic uppercase tracking-tighter text-white transition hover:bg-orange-500"
+              className="pulse-orange skew-x-[-12deg] bg-orange-600 px-8 py-4 text-base font-black italic uppercase tracking-tighter text-white transition hover:bg-orange-500 sm:px-10 sm:text-lg"
             >
               <span className="inline-block skew-x-[12deg]">$1,000 Build</span>
             </Link>
             <Link
               href="/builds/home-gym-under-2000/"
-              className="group skew-x-[-12deg] border-2 border-zinc-700 bg-zinc-900/50 px-8 py-4 text-lg font-black italic uppercase tracking-tighter text-zinc-300 backdrop-blur-sm transition-all hover:border-orange-600 hover:bg-orange-600/10 hover:text-orange-400"
+              className="group skew-x-[-12deg] border-2 border-zinc-700 bg-zinc-900/50 px-6 py-4 text-base font-black italic uppercase tracking-tighter text-zinc-300 backdrop-blur-sm transition-all hover:border-orange-600 hover:bg-orange-600/10 hover:text-orange-400 sm:px-8 sm:text-lg"
             >
               <span className="inline-block skew-x-[12deg]">$2,000 Build</span>
             </Link>

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const authors = getAllAuthors();
   return (
-    <div className="mx-auto max-w-3xl px-6 pt-32 pb-20">
+    <div className="mx-auto max-w-3xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <div className="mb-8 flex items-center gap-3">
         <div className="skew-x-[-12deg] bg-orange-600 p-1.5">
           <Dumbbell className="skew-x-[12deg] text-black" size={24} />

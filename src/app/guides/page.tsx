@@ -30,7 +30,7 @@ export default function GuidesIndexPage() {
   );
 
   return (
-    <div className="mx-auto max-w-7xl px-6 pt-32 pb-20">
+    <div className="mx-auto max-w-7xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}

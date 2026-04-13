@@ -24,11 +24,11 @@ export function SectionHeading({
           {eyebrow}
         </span>
       </div>
-      <h2 className="text-4xl font-black uppercase italic leading-none tracking-tighter md:text-6xl">
+      <h2 className="text-display-md font-black uppercase italic tracking-tighter">
         {title}
       </h2>
       {subtitle && (
-        <p className="mt-4 max-w-2xl text-lg italic leading-relaxed text-zinc-500">
+        <p className="mt-3 max-w-2xl text-base italic leading-relaxed text-zinc-500 sm:mt-4 sm:text-lg">
           {subtitle}
         </p>
       )}
