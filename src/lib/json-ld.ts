@@ -37,14 +37,43 @@ export function generateArticleSchema(
 
 export function generateReviewSchema(
   frontmatter: ArticleFrontmatter & { rating?: number },
-  slug: string
+  slug: string,
+  product?: {
+    name: string;
+    brand: string;
+    image?: string;
+  }
 ) {
+  const itemReviewed = product
+    ? {
+        "@type": "Product",
+        name: product.name,
+        brand: {
+          "@type": "Brand",
+          name: product.brand,
+        },
+        image: product.image
+          ? `${SITE_URL}${product.image}`
+          : frontmatter.featuredImage
+          ? `${SITE_URL}${frontmatter.featuredImage}`
+          : undefined,
+      }
+    : {
+        "@type": "Product",
+        name: frontmatter.title.replace(/ Review.*$/i, "").trim(),
+        image: frontmatter.featuredImage
+          ? `${SITE_URL}${frontmatter.featuredImage}`
+          : undefined,
+      };
+
   return {
     "@context": "https://schema.org",
     "@type": "Review",
     headline: frontmatter.title,
+    name: frontmatter.title,
     description: frontmatter.description,
     datePublished: frontmatter.date,
+    itemReviewed,
     author: {
       "@type": "Organization",
       name: frontmatter.author || "GarageGymBuilders",
@@ -63,7 +92,7 @@ export function generateReviewSchema(
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/reviews/${slug}`,
+      "@id": `${SITE_URL}/reviews/${slug}/`,
     },
   };
 }

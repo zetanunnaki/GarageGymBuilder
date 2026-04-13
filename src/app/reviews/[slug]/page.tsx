@@ -112,16 +112,28 @@ export default async function ReviewPage({
   }
 
   const { frontmatter, content, readingTime } = article;
-  const reviewSchema = generateReviewSchema(frontmatter, slug);
+
+  // Resolve product first so Review schema can reference it
+  const productId = extractProductIdFromSlug(slug);
+  const product = productId ? getProduct(productId) : null;
+
+  const reviewSchema = generateReviewSchema(
+    frontmatter,
+    slug,
+    product
+      ? {
+          name: product.name,
+          brand: product.brand,
+          image: product.image,
+        }
+      : undefined
+  );
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
     { name: "Reviews", url: "/reviews" },
     { name: frontmatter.title, url: `/reviews/${slug}` },
   ]);
 
-  // Generate Product schema if we can map the review to a product
-  const productId = extractProductIdFromSlug(slug);
-  const product = productId ? getProduct(productId) : null;
   const productSchema =
     product && productId
       ? generateProductSchema(
