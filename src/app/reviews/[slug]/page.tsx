@@ -131,6 +131,7 @@ export default async function ReviewPage({
       ? {
           name: product.name,
           brand: product.brand,
+          price: product.price,
           image: product.image,
         }
       : undefined

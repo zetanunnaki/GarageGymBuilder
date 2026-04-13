@@ -134,6 +134,7 @@ export function generateReviewSchema(
   product?: {
     name: string;
     brand: string;
+    price?: string;
     image?: string;
   }
 ) {
@@ -149,6 +150,15 @@ export function generateReviewSchema(
           ? `${SITE_URL}${product.image}`
           : frontmatter.featuredImage
           ? `${SITE_URL}${frontmatter.featuredImage}`
+          : undefined,
+        offers: product.price
+          ? {
+              "@type": "Offer",
+              priceCurrency: "USD",
+              price: product.price.replace(/[^0-9.]/g, ""),
+              availability: "https://schema.org/InStock",
+              url: `${SITE_URL}/reviews/${slug}/`,
+            }
           : undefined,
       }
     : {
