@@ -17,6 +17,7 @@ import { AuthorBio } from "@/components/author-bio";
 import { StarRating } from "@/components/star-rating";
 import { LastUpdatedBadge } from "@/components/last-updated-badge";
 import { PinterestSave } from "@/components/pinterest-save";
+import { MobileActionBar } from "@/components/mobile-action-bar";
 import { CalendarDays, User, Clock } from "lucide-react";
 
 const CONTENT_TYPE = "reviews";
@@ -200,7 +201,7 @@ export default async function ReviewPage({
           </span>
           <LastUpdatedBadge date={frontmatter.date} />
         </div>
-        <h1 className="mb-6 text-4xl font-black uppercase italic leading-none tracking-tighter md:text-5xl">
+        <h1 className="text-display-md mb-6 font-black uppercase italic tracking-tighter">
           {frontmatter.title}
         </h1>
         {frontmatter.rating && (
@@ -236,6 +237,10 @@ export default async function ReviewPage({
       <AuthorBio author={frontmatter.author} />
       <ShareButtons title={frontmatter.title} slug={slug} contentType={CONTENT_TYPE} />
       <RelatedArticles currentSlug={slug} contentType={CONTENT_TYPE} />
+      <MobileActionBar
+        shareTitle={frontmatter.title}
+        shareUrl={`/${CONTENT_TYPE}/${slug}/`}
+      />
     </article>
   );
 }
