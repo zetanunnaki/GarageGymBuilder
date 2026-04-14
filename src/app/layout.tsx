@@ -8,7 +8,7 @@ import { BackToTop } from "@/components/back-to-top";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { CookieConsent } from "@/components/cookie-consent";
 
-const GA_ID = "G-FEZWDYPY41";
+const GA_ID = "G-DV31K7JCHG";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
