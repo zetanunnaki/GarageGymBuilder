@@ -9,9 +9,13 @@ export interface ArticleFrontmatter {
   seoTitle: string;
   description: string;
   author: string;
+  authorSlug?: string;
   date: string;
+  updated?: string;
   featuredImage: string;
   category: string;
+  tags?: string[];
+  keywords?: string[];
   rating?: number;
 }
 
