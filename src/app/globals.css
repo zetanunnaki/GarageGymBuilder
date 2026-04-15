@@ -175,6 +175,44 @@
   }
 }
 
+/* Fluid section spacing — scales breathing room with viewport */
+.fluid-section-y {
+  padding-top: clamp(3rem, 8vw, 7rem);
+  padding-bottom: clamp(3rem, 8vw, 7rem);
+}
+.fluid-section-x {
+  padding-left: clamp(1rem, 4vw, 2rem);
+  padding-right: clamp(1rem, 4vw, 2rem);
+}
+.fluid-gap-md {
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+/* Card-as-container query host */
+.cq-card {
+  container-type: inline-size;
+}
+@container (max-width: 240px) {
+  .cq-card-title {
+    font-size: 0.8125rem;
+    line-height: 1.1;
+  }
+  .cq-card-meta {
+    display: none;
+  }
+}
+
+/* Prevent any rogue horizontal scroll */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Anchor scroll offset so fixed navbar doesn't eat targets */
+:target {
+  scroll-margin-top: 6rem;
+}
+
 /* Touch device improvements */
 @media (hover: none) and (pointer: coarse) {
   /* Disable hover-only effects on touch devices to prevent stuck states */
