@@ -409,6 +409,248 @@ textarea:focus-visible {
   outline-offset: 2px;
 }
 
+/* ============================================================= */
+/* Signature design system — push past default templates         */
+/* ============================================================= */
+
+/* Registered custom property for conic gradient rotation */
+@property --conic-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes conic-spin {
+  to {
+    --conic-angle: 360deg;
+  }
+}
+
+/* Rotating conic-gradient border — applied to any .conic-border element */
+.conic-border {
+  position: relative;
+  isolation: isolate;
+}
+.conic-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--conic-angle),
+    transparent 0deg,
+    transparent 200deg,
+    rgba(234, 88, 12, 0.9) 280deg,
+    rgba(249, 115, 22, 0.6) 320deg,
+    transparent 360deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: conic-spin 6s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Outlined display text (stroked via -webkit-text-stroke) */
+.text-outline {
+  -webkit-text-stroke: 2px rgba(234, 88, 12, 0.85);
+  color: transparent;
+}
+@supports (-webkit-text-stroke: 1px red) {
+  .text-outline-zinc {
+    -webkit-text-stroke: 1.5px rgba(161, 161, 170, 0.45);
+    color: transparent;
+  }
+}
+
+/* Massive hero etched-metal headline — layered shadow for depth */
+.etched-metal {
+  background: linear-gradient(
+    180deg,
+    #f4f4f5 0%,
+    #a1a1aa 40%,
+    #52525b 55%,
+    #27272a 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.04);
+  filter: drop-shadow(0 24px 40px rgba(0, 0, 0, 0.6));
+}
+
+/* Scroll-linked view-timeline animations (Chrome 115+, Safari 26+) */
+@supports (animation-timeline: view()) {
+  @keyframes scroll-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .scroll-reveal {
+    animation: scroll-reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+  }
+
+  @keyframes outline-fill {
+    0% {
+      -webkit-text-stroke-color: rgba(234, 88, 12, 0.9);
+      background-size: 100% 0%;
+    }
+    100% {
+      -webkit-text-stroke-color: transparent;
+      background-size: 100% 100%;
+    }
+  }
+  .text-fill-on-scroll {
+    -webkit-text-stroke: 2px rgba(234, 88, 12, 0.9);
+    color: transparent;
+    background: linear-gradient(
+        180deg,
+        #fed7aa 0%,
+        #ea580c 50%,
+        #9a3412 100%
+      )
+      no-repeat bottom;
+    background-size: 100% 0%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: outline-fill linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 60%;
+  }
+
+  @keyframes parallax-up {
+    from {
+      transform: translateY(80px);
+    }
+    to {
+      transform: translateY(-80px);
+    }
+  }
+  .parallax-up {
+    animation: parallax-up linear both;
+    animation-timeline: view();
+    animation-range: cover;
+  }
+}
+
+/* Cursor spotlight mask — driven by --mx / --my CSS vars from JS */
+.spotlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    600px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(234, 88, 12, 0.18),
+    rgba(234, 88, 12, 0.06) 25%,
+    transparent 50%
+  );
+  transition: background 80ms linear;
+  mix-blend-mode: screen;
+}
+
+/* Signature barbell plate-load animation */
+@keyframes plate-load {
+  0% {
+    opacity: 0;
+    transform: translateX(-16px) scale(0.85);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(2px) scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+.plate-load-r {
+  transform-origin: left center;
+  animation: plate-load 0.65s cubic-bezier(0.22, 1.2, 0.36, 1) both;
+}
+.plate-load-l {
+  transform-origin: right center;
+  animation: plate-load 0.65s cubic-bezier(0.22, 1.2, 0.36, 1) both;
+  animation-name: plate-load-mirrored;
+}
+@keyframes plate-load-mirrored {
+  0% {
+    opacity: 0;
+    transform: translateX(16px) scale(0.85);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-2px) scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Stroke-dash draw-in for the barbell itself */
+@keyframes draw-in {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.stroke-draw {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  animation: draw-in 1.4s 0.15s ease-out forwards;
+}
+
+/* Heavy slash divider — asymmetric brutalist block */
+.slash-block {
+  position: relative;
+}
+.slash-block::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -12deg,
+    transparent 0,
+    transparent 22px,
+    rgba(234, 88, 12, 0.08) 22px,
+    rgba(234, 88, 12, 0.08) 24px
+  );
+  pointer-events: none;
+}
+
+/* Magnetic button sheen */
+.btn-sheen {
+  position: relative;
+  overflow: hidden;
+}
+.btn-sheen::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgba(255, 255, 255, 0.22),
+    transparent
+  );
+  transition: left 0.9s ease;
+  pointer-events: none;
+}
+.btn-sheen:hover::after {
+  left: 140%;
+}
+
 /* Reduced motion — disable all animations for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -429,6 +671,18 @@ textarea:focus-visible {
   }
   .pulse-orange {
     animation: none !important;
+  }
+  .conic-border::before,
+  .stroke-draw,
+  .plate-load-l,
+  .plate-load-r,
+  .scroll-reveal,
+  .text-fill-on-scroll,
+  .parallax-up {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
