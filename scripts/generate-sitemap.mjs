@@ -71,9 +71,11 @@ const articleEntries = contentTypes.flatMap((type) =>
     return {
       url: `/${type}/${slug}/`,
       priority: "0.8",
+      changefreq: "weekly",
       image: fm.featuredImage || null,
       title: fm.title || slug,
-      lastmod: fm.date || null,
+      caption: fm.description || fm.title || "",
+      lastmod: fm.updated || fm.date || null,
     };
   })
 );
@@ -81,8 +83,10 @@ const articleEntries = contentTypes.flatMap((type) =>
 const articleUrls = articleEntries.map((e) => ({
   url: e.url,
   priority: e.priority,
+  changefreq: e.changefreq,
   image: e.image,
   title: e.title,
+  caption: e.caption,
   lastmod: e.lastmod,
 }));
 
@@ -90,8 +94,10 @@ const allUrls = [
   ...staticPages.map((p) => ({
     url: p.url,
     priority: p.priority,
+    changefreq: p.priority === "1.0" ? "daily" : "monthly",
     image: null,
     title: null,
+    caption: null,
     lastmod: null,
   })),
   ...articleUrls,
@@ -109,7 +115,8 @@ function escapeXml(str) {
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${allUrls
   .map((entry) => {
     const lastmod = entry.lastmod || today;
@@ -118,12 +125,17 @@ ${allUrls
     <image:image>
       <image:loc>${SITE_URL}${entry.image}</image:loc>
       <image:title>${escapeXml(entry.title || "")}</image:title>
+      <image:caption>${escapeXml(entry.caption || entry.title || "")}</image:caption>
     </image:image>`
       : "";
+    const alternate = `
+    <xhtml:link rel="alternate" hreflang="en-US" href="${SITE_URL}${entry.url}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${entry.url}" />`;
     return `  <url>
     <loc>${SITE_URL}${entry.url}</loc>
     <lastmod>${lastmod}</lastmod>
-    <priority>${entry.priority}</priority>${imageBlock}
+    <changefreq>${entry.changefreq}</changefreq>
+    <priority>${entry.priority}</priority>${alternate}${imageBlock}
   </url>`;
   })
   .join("\n")}

@@ -20,24 +20,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_NAME = "GarageGymBuilders";
-const SITE_URL = "https://garagegymbuilders.com";
-const SITE_DESCRIPTION =
-  "Expert reviews, budget builds, and guides to help you build the perfect garage gym. Compare power racks, weights, and cardio equipment.";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
-const DEFAULT_OG_IMAGE_ALT =
-  "GarageGymBuilders — Build Your Iron Paradise. Expert reviews, real testing, no fluff.";
+import { SITE } from "@/lib/site-config";
+
+const SITE_NAME = SITE.name;
+const SITE_URL = SITE.url;
+const SITE_DESCRIPTION = SITE.description;
+const DEFAULT_OG_IMAGE = `${SITE_URL}${SITE.defaultOgImage}`;
+const DEFAULT_OG_IMAGE_ALT = `${SITE_NAME} — ${SITE.tagline}. Expert reviews, real testing, no fluff.`;
 
 export const metadata: Metadata = {
   title: {
-    default: "GarageGymBuilders - Build Your Iron Paradise",
-    template: "%s | GarageGymBuilders",
+    default: `${SITE_NAME} — ${SITE.tagline}`,
+    template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
   applicationName: SITE_NAME,
-  authors: [{ name: SITE_NAME }],
+  authors: [{ name: SITE_NAME, url: SITE_URL }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
   generator: "Next.js",
+  category: "Sports & Fitness",
   keywords: [
     "home gym",
     "garage gym",
@@ -49,17 +52,33 @@ export const metadata: Metadata = {
     "garage gym ideas",
     "home gym reviews",
     "build a home gym",
+    "budget home gym",
+    "home gym on a budget",
+    "garage gym setup",
+    "olympic barbell",
+    "home gym flooring",
   ],
   referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   alternates: {
     canonical: "/",
+    languages: { "en-US": "/", "x-default": "/" },
+    types: {
+      "application/rss+xml": [
+        { url: SITE.feed.rss, title: `${SITE_NAME} — RSS Feed` },
+      ],
+    },
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: SITE.locale,
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: "GarageGymBuilders - Build Your Iron Paradise",
+    title: `${SITE_NAME} — ${SITE.tagline}`,
     description: SITE_DESCRIPTION,
     images: [
       {
@@ -73,7 +92,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "GarageGymBuilders - Build Your Iron Paradise",
+    title: `${SITE_NAME} — ${SITE.tagline}`,
     description: SITE_DESCRIPTION,
     images: [
       {
@@ -83,8 +102,8 @@ export const metadata: Metadata = {
         height: 630,
       },
     ],
-    creator: "@garagegymbuilders",
-    site: "@garagegymbuilders",
+    creator: SITE.twitter,
+    site: SITE.twitter,
   },
   robots: {
     index: true,
@@ -111,16 +130,26 @@ export const metadata: Metadata = {
     apple: { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
     shortcut: "/favicon.ico",
   },
-  verification: {
-    google: "",
+  appleWebApp: {
+    capable: true,
+    title: SITE_NAME,
+    statusBarStyle: "black-translucent",
+  },
+  other: {
+    "msapplication-TileColor": "#ea580c",
+    "msapplication-config": "/browserconfig.xml",
   },
 };
 
 export const viewport = {
-  themeColor: "#ea580c",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ea580c" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+  ],
   colorScheme: "dark",
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
@@ -140,6 +169,26 @@ export default function RootLayout({
           href="/images/covers/hero-bg.webp"
           type="image/webp"
           fetchPriority="high"
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title={`${SITE_NAME} — RSS Feed`}
+          href="/feed.xml"
+        />
+        <link
+          rel="alternate"
+          type="application/atom+xml"
+          title={`${SITE_NAME} — Atom Feed`}
+          href="/atom.xml"
+        />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link
+          rel="search"
+          type="application/opensearchdescription+xml"
+          title={SITE_NAME}
+          href="/opensearch.xml"
         />
       </head>
       <body className="min-h-full flex flex-col bg-[#0a0a0a] text-zinc-100">

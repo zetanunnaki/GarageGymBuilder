@@ -1,6 +1,31 @@
 import { ArticleFrontmatter } from "./mdx";
+import { SITE, absoluteUrl, parsePrice } from "./site-config";
 
-const SITE_URL = "https://garagegymbuilders.com";
+const SITE_URL = SITE.url;
+
+const publisher = {
+  "@type": "Organization",
+  name: SITE.name,
+  url: SITE_URL,
+  logo: {
+    "@type": "ImageObject",
+    url: absoluteUrl("/icon-512.png"),
+    width: 512,
+    height: 512,
+  },
+} as const;
+
+function articleImage(frontmatter: ArticleFrontmatter, fallback?: string) {
+  const src = frontmatter.featuredImage || fallback;
+  if (!src) return undefined;
+  return {
+    "@type": "ImageObject",
+    url: absoluteUrl(src),
+    width: 1200,
+    height: 675,
+    caption: frontmatter.title,
+  };
+}
 
 export function generateArticleSchema(
   frontmatter: ArticleFrontmatter,
@@ -12,17 +37,20 @@ export function generateArticleSchema(
     authorSlug?: string;
   }
 ) {
-  const authorObj = options?.authorSlug
+  const authorSlug = options?.authorSlug || frontmatter.authorSlug;
+  const authorObj = authorSlug
     ? {
         "@type": "Person",
-        name: frontmatter.author || "GarageGymBuilders",
-        url: `${SITE_URL}/team/${options.authorSlug}/`,
+        name: frontmatter.author || SITE.name,
+        url: `${SITE_URL}/team/${authorSlug}/`,
       }
     : {
         "@type": "Organization",
-        name: frontmatter.author || "GarageGymBuilders",
+        name: frontmatter.author || SITE.name,
         url: `${SITE_URL}/team/`,
       };
+
+  const canonicalUrl = `${SITE_URL}/${contentType}/${slug}/`;
 
   return {
     "@context": "https://schema.org",
@@ -30,36 +58,29 @@ export function generateArticleSchema(
     headline: frontmatter.title,
     name: frontmatter.title,
     description: frontmatter.description,
-    image: frontmatter.featuredImage
-      ? {
-          "@type": "ImageObject",
-          url: `${SITE_URL}${frontmatter.featuredImage}`,
-          width: 1200,
-          height: 675,
-        }
-      : undefined,
+    image: articleImage(frontmatter),
     datePublished: frontmatter.date,
-    dateModified: frontmatter.date,
+    dateModified: frontmatter.updated || frontmatter.date,
     author: authorObj,
-    publisher: {
-      "@type": "Organization",
-      name: "GarageGymBuilders",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/icon.svg`,
-      },
-    },
+    publisher,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/${contentType}/${slug}/`,
+      "@id": canonicalUrl,
     },
+    url: canonicalUrl,
     articleSection: frontmatter.category,
-    inLanguage: "en-US",
+    keywords:
+      frontmatter.keywords?.join(", ") ||
+      frontmatter.tags?.join(", ") ||
+      frontmatter.category,
+    inLanguage: SITE.language,
     wordCount: options?.wordCount,
     timeRequired: options?.readingTimeMinutes
       ? `PT${options.readingTimeMinutes}M`
       : undefined,
     isAccessibleForFree: true,
+    copyrightHolder: publisher,
+    copyrightYear: new Date(frontmatter.date).getFullYear(),
     speakable: {
       "@type": "SpeakableSpecification",
       cssSelector: ["h1", ".article-description"],
@@ -78,14 +99,16 @@ export function generateHowToSchema(
     name: frontmatter.title,
     description: frontmatter.description,
     image: frontmatter.featuredImage
-      ? `${SITE_URL}${frontmatter.featuredImage}`
+      ? absoluteUrl(frontmatter.featuredImage)
       : undefined,
     datePublished: frontmatter.date,
+    dateModified: frontmatter.updated || frontmatter.date,
     author: {
       "@type": "Organization",
-      name: "GarageGymBuilders",
+      name: SITE.name,
       url: SITE_URL,
     },
+    publisher,
     step: steps.map((step, idx) => ({
       "@type": "HowToStep",
       position: idx + 1,
@@ -107,22 +130,24 @@ export function generateCollectionPageSchema(
     "@type": "CollectionPage",
     name,
     description,
-    url: `${SITE_URL}${url}`,
+    url: absoluteUrl(url),
+    inLanguage: SITE.language,
+    publisher,
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: items.length,
       itemListElement: items.map((item, idx) => ({
         "@type": "ListItem",
         position: idx + 1,
-        url: `${SITE_URL}${item.url}`,
+        url: absoluteUrl(item.url),
         name: item.name,
         description: item.description,
-        image: item.image ? `${SITE_URL}${item.image}` : undefined,
+        image: item.image ? absoluteUrl(item.image) : undefined,
       })),
     },
     isPartOf: {
       "@type": "WebSite",
-      name: "GarageGymBuilders",
+      name: SITE.name,
       url: SITE_URL,
     },
   };
@@ -138,6 +163,9 @@ export function generateReviewSchema(
     image?: string;
   }
 ) {
+  const { price, priceRange } = parsePrice(product?.price);
+  const canonicalUrl = `${SITE_URL}/reviews/${slug}/`;
+
   const itemReviewed = product
     ? {
         "@type": "Product",
@@ -146,18 +174,28 @@ export function generateReviewSchema(
           "@type": "Brand",
           name: product.brand,
         },
-        image: product.image
-          ? `${SITE_URL}${product.image}`
-          : frontmatter.featuredImage
-          ? `${SITE_URL}${frontmatter.featuredImage}`
-          : undefined,
-        offers: product.price
+        image: absoluteUrl(
+          product.image || frontmatter.featuredImage || ""
+        ),
+        offers: price
           ? {
               "@type": "Offer",
               priceCurrency: "USD",
-              price: product.price.replace(/[^0-9.]/g, ""),
+              price,
+              priceRange,
               availability: "https://schema.org/InStock",
-              url: `${SITE_URL}/reviews/${slug}/`,
+              url: canonicalUrl,
+              seller: { "@type": "Organization", name: SITE.name },
+            }
+          : undefined,
+        aggregateRating: frontmatter.rating
+          ? {
+              "@type": "AggregateRating",
+              ratingValue: frontmatter.rating,
+              bestRating: 5,
+              worstRating: 1,
+              reviewCount: 1,
+              ratingCount: 1,
             }
           : undefined,
       }
@@ -165,8 +203,20 @@ export function generateReviewSchema(
         "@type": "Product",
         name: frontmatter.title.replace(/ Review.*$/i, "").trim(),
         image: frontmatter.featuredImage
-          ? `${SITE_URL}${frontmatter.featuredImage}`
+          ? absoluteUrl(frontmatter.featuredImage)
           : undefined,
+      };
+
+  const authorSlug = frontmatter.authorSlug;
+  const authorObj = authorSlug
+    ? {
+        "@type": "Person",
+        name: frontmatter.author || SITE.name,
+        url: `${SITE_URL}/team/${authorSlug}/`,
+      }
+    : {
+        "@type": "Organization",
+        name: frontmatter.author || SITE.name,
       };
 
   return {
@@ -176,11 +226,10 @@ export function generateReviewSchema(
     name: frontmatter.title,
     description: frontmatter.description,
     datePublished: frontmatter.date,
+    dateModified: frontmatter.updated || frontmatter.date,
+    inLanguage: SITE.language,
     itemReviewed,
-    author: {
-      "@type": "Organization",
-      name: frontmatter.author || "GarageGymBuilders",
-    },
+    author: authorObj,
     reviewRating: frontmatter.rating
       ? {
           "@type": "Rating",
@@ -189,14 +238,12 @@ export function generateReviewSchema(
           worstRating: 1,
         }
       : undefined,
-    publisher: {
-      "@type": "Organization",
-      name: "GarageGymBuilders",
-    },
+    publisher,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/reviews/${slug}/`,
+      "@id": canonicalUrl,
     },
+    url: canonicalUrl,
   };
 }
 
@@ -210,7 +257,7 @@ export function generateItemListSchema(
       "@type": "ListItem",
       position: item.position,
       name: item.name,
-      url: item.url,
+      url: absoluteUrl(item.url),
     })),
   };
 }
@@ -225,7 +272,7 @@ export function generateBreadcrumbSchema(
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `${SITE_URL}${item.url}`,
+      item: absoluteUrl(item.url),
     })),
   };
 }
@@ -238,7 +285,8 @@ export function generateProductSchema(
   slug: string,
   productImage?: string
 ) {
-  const numericPrice = price.replace(/[^0-9.]/g, "");
+  const { price: numericPrice, priceRange } = parsePrice(price);
+  const canonicalUrl = `${SITE_URL}/reviews/${slug}/`;
   return {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -247,13 +295,15 @@ export function generateProductSchema(
       "@type": "Brand",
       name: productBrand,
     },
-    image: productImage ? `${SITE_URL}${productImage}` : undefined,
+    image: productImage ? absoluteUrl(productImage) : undefined,
     offers: {
       "@type": "Offer",
       priceCurrency: "USD",
       price: numericPrice,
+      priceRange,
       availability: "https://schema.org/InStock",
-      url: `${SITE_URL}/reviews/${slug}/`,
+      url: canonicalUrl,
+      seller: { "@type": "Organization", name: SITE.name },
     },
     aggregateRating: reviewRating
       ? {
@@ -262,6 +312,7 @@ export function generateProductSchema(
           bestRating: 5,
           worstRating: 1,
           reviewCount: 1,
+          ratingCount: 1,
         }
       : undefined,
     review: reviewRating
@@ -274,11 +325,11 @@ export function generateProductSchema(
           },
           author: {
             "@type": "Organization",
-            name: "GarageGymBuilders",
+            name: SITE.name,
           },
         }
       : undefined,
-    url: `${SITE_URL}/reviews/${slug}/`,
+    url: canonicalUrl,
   };
 }
 
@@ -304,7 +355,7 @@ export function generatePersonSchema(author: {
     })),
     worksFor: {
       "@type": "Organization",
-      name: "GarageGymBuilders",
+      name: SITE.name,
       url: SITE_URL,
     },
   };
@@ -314,16 +365,24 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "GarageGymBuilders",
+    "@id": `${SITE_URL}#organization`,
+    name: SITE.name,
+    alternateName: SITE.alternateName,
     url: SITE_URL,
-    logo: `${SITE_URL}/icon.svg`,
-    description:
-      "Expert reviews, budget builds, and guides to help you build the perfect garage gym.",
-    sameAs: [
-      "https://twitter.com/garagegymbuilders",
-      "https://www.facebook.com/garagegymbuilders",
-      "https://www.pinterest.com/garagegymbuilders",
-    ],
+    logo: {
+      "@type": "ImageObject",
+      url: absoluteUrl("/icon-512.png"),
+      width: 512,
+      height: 512,
+    },
+    description: SITE.description,
+    sameAs: Object.values(SITE.social).filter(Boolean),
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: SITE.email,
+      availableLanguage: ["English"],
+    },
   };
 }
 
@@ -348,19 +407,13 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "GarageGymBuilders",
-    alternateName: "Garage Gym Builders",
+    "@id": `${SITE_URL}#website`,
+    name: SITE.name,
+    alternateName: SITE.alternateName,
     url: SITE_URL,
-    description:
-      "Expert reviews, budget builds, and guides to help you build the perfect garage gym.",
-    publisher: {
-      "@type": "Organization",
-      name: "GarageGymBuilders",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/icon.svg`,
-      },
-    },
+    description: SITE.description,
+    inLanguage: SITE.language,
+    publisher: { "@id": `${SITE_URL}#organization` },
     potentialAction: {
       "@type": "SearchAction",
       target: {
