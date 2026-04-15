@@ -45,9 +45,13 @@ export async function generateMetadata({
       url: canonicalPath,
       siteName: "GarageGymBuilders",
       publishedTime: frontmatter.date,
-      modifiedTime: frontmatter.date,
+      modifiedTime: frontmatter.updated || frontmatter.date,
       authors: [frontmatter.author],
-      tags: frontmatter.category ? [frontmatter.category] : [],
+      section: frontmatter.category,
+      tags: [
+        ...(frontmatter.tags || []),
+        ...(frontmatter.category ? [frontmatter.category] : []),
+      ],
       images: frontmatter.featuredImage
         ? [{ url: frontmatter.featuredImage, width: 1200, height: 630, alt: frontmatter.title }]
         : [{ url: "/og/review.png", width: 1200, height: 630, alt: frontmatter.title, type: "image/png" }],

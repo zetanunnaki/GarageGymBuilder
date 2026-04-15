@@ -11,6 +11,7 @@ import {
   generateBreadcrumbSchema,
   generateCollectionPageSchema,
 } from "@/lib/json-ld";
+import { buildMetadata } from "@/lib/metadata";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import {
   Target,
@@ -54,17 +55,13 @@ export async function generateMetadata({
   const { slug } = await params;
   const topic = getTopic(slug);
   if (!topic) return { title: "Topic Not Found" };
-  return {
-    title: `${topic.name} Topic`,
+  return buildMetadata({
+    title: `${topic.name} — Home Gym Hub`,
     description: topic.description,
-    alternates: { canonical: `/topics/${slug}/` },
-    openGraph: {
-      title: `${topic.name} - All Articles`,
-      description: topic.description,
-      type: "website",
-      url: `/topics/${slug}/`,
-    },
-  };
+    path: `/topics/${slug}/`,
+    image: "/og-default.png",
+    keywords: topic.keywords || [topic.name, "home gym", "garage gym"],
+  });
 }
 
 export default async function TopicPage({
