@@ -3,14 +3,24 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
 import { generateCollectionPageSchema } from "@/lib/json-ld";
+import { buildMetadata } from "@/lib/metadata";
 import { DollarSign, ArrowRight } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Budget Builds",
+export const metadata: Metadata = buildMetadata({
+  title: "Budget Home Gym Builds",
   description:
-    "Complete home gym builds at every budget. From $500 starter setups to $2,000+ dream gyms.",
-  alternates: { canonical: "/builds/" },
-};
+    "Complete home gym builds at every budget. From $500 starter setups to $2,000+ dream gyms — every product tested, every dollar accounted for.",
+  path: "/builds/",
+  image: "/og/build.png",
+  keywords: [
+    "budget home gym",
+    "$500 home gym",
+    "$1000 home gym",
+    "$2000 home gym",
+    "cheap home gym setup",
+    "home gym on a budget",
+  ],
+});
 
 export default function BuildsIndexPage() {
   const articles = getAllArticles("builds");

@@ -3,14 +3,23 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
 import { generateCollectionPageSchema } from "@/lib/json-ld";
+import { buildMetadata } from "@/lib/metadata";
 import { BookOpen, ArrowRight } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Guides",
+export const metadata: Metadata = buildMetadata({
+  title: "Home Gym Guides",
   description:
-    "Complete guides to building your home gym. Flooring, lighting, ventilation, and everything else.",
-  alternates: { canonical: "/guides/" },
-};
+    "Complete guides to building your home gym. Flooring, lighting, ventilation, programming, maintenance, and everything else.",
+  path: "/guides/",
+  image: "/og/guide.png",
+  keywords: [
+    "home gym guide",
+    "garage gym setup",
+    "home gym flooring",
+    "home gym ventilation",
+    "home gym programming",
+  ],
+});
 
 export default function GuidesIndexPage() {
   const articles = getAllArticles("guides");

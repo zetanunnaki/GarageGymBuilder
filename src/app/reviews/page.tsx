@@ -3,14 +3,23 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
 import { generateCollectionPageSchema } from "@/lib/json-ld";
+import { buildMetadata } from "@/lib/metadata";
 import { Search, ArrowRight, Star } from "lucide-react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Equipment Reviews",
   description:
-    "In-depth, hands-on reviews of home gym equipment. Real testing, real opinions.",
-  alternates: { canonical: "/reviews/" },
-};
+    "In-depth, hands-on reviews of home gym equipment. Real testing, real opinions — no sponsored fluff.",
+  path: "/reviews/",
+  image: "/og/review.png",
+  keywords: [
+    "home gym reviews",
+    "power rack review",
+    "barbell review",
+    "adjustable dumbbells review",
+    "home gym equipment review",
+  ],
+});
 
 export default function ReviewsIndexPage() {
   const articles = getAllArticles("reviews");

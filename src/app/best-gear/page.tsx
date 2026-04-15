@@ -3,14 +3,23 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/mdx";
 import { ArticleCard } from "@/components/article-card";
 import { generateCollectionPageSchema } from "@/lib/json-ld";
+import { buildMetadata } from "@/lib/metadata";
 import { Trophy, ArrowRight } from "lucide-react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Best Gear Roundups",
   description:
-    "Our tested picks for the best home gym equipment. Power racks, dumbbells, barbells, and more — ranked and compared.",
-  alternates: { canonical: "/best-gear/" },
-};
+    "Our tested picks for the best home gym equipment. Power racks, dumbbells, barbells, and more — ranked, compared, and updated.",
+  path: "/best-gear/",
+  image: "/og/best-gear.png",
+  keywords: [
+    "best home gym equipment",
+    "best power rack",
+    "best barbell",
+    "best adjustable dumbbells",
+    "home gym roundups",
+  ],
+});
 
 export default function BestGearIndexPage() {
   const articles = getAllArticles("best-gear");
