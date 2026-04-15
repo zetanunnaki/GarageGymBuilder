@@ -2,12 +2,20 @@ import { Metadata } from "next";
 import { getAllProducts } from "@/lib/products";
 import { BuyButtons } from "@/components/mdx/buy-buttons";
 import { Award } from "lucide-react";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Our Picks — Every Product We Recommend",
   description:
     "Every product GarageGymBuilders recommends in one place. Tested, reviewed, and ranked by our team.",
-};
+  path: "/picks/",
+  image: "/og-default.png",
+  keywords: [
+    "home gym recommendations",
+    "best home gym products",
+    "tested home gym gear",
+  ],
+});
 
 const categoryOrder = [
   { label: "Power Racks", ids: ["fitness-reality-810xlt", "mikolo-f4-power-cage", "sportsroyals-power-cage"] },

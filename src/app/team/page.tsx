@@ -2,26 +2,53 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getAllAuthors } from "@/data/authors";
 import { Dumbbell, ArrowRight } from "lucide-react";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Meet the Team",
   description:
     "Meet the powerlifters, coaches, and equipment specialists behind GarageGymBuilders. Real lifters, real testing, real reviews.",
-  alternates: { canonical: "/team/" },
-  openGraph: {
-    title: "Meet the Team",
-    description:
-      "Meet the powerlifters, coaches, and equipment specialists behind GarageGymBuilders.",
-    type: "website",
-    url: "/team/",
-  },
-};
+  path: "/team/",
+  image: "/og-default.png",
+  keywords: [
+    "home gym experts",
+    "powerlifting coaches",
+    "garagegymbuilders team",
+  ],
+});
 
 export default function TeamPage() {
   const authors = getAllAuthors();
+  const teamSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "GarageGymBuilders Team",
+    description:
+      "Real lifters, coaches, and equipment specialists behind every review at GarageGymBuilders.",
+    itemListElement: authors.map((author, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      item: {
+        "@type": "Person",
+        name: author.name,
+        jobTitle: author.role,
+        description: author.shortBio,
+        url: `https://garagegymbuilders.com/team/${author.slug}/`,
+        worksFor: {
+          "@type": "Organization",
+          name: "GarageGymBuilders",
+          url: "https://garagegymbuilders.com",
+        },
+      },
+    })),
+  };
 
   return (
     <div className="mx-auto max-w-4xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(teamSchema) }}
+      />
       <div className="mb-12">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-orange-400">
           <Dumbbell size={12} /> Real Lifters. Real Testing.

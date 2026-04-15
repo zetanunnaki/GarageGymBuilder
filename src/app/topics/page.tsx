@@ -18,12 +18,21 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-export const metadata: Metadata = {
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
   title: "All Topics",
   description:
     "Browse all home gym topics — powerlifting, CrossFit, cardio, recovery, budget builds, safety, and more.",
-  alternates: { canonical: "/topics/" },
-};
+  path: "/topics/",
+  image: "/og-default.png",
+  keywords: [
+    "home gym topics",
+    "powerlifting home gym",
+    "crossfit home gym",
+    "home gym categories",
+  ],
+});
 
 const iconMap = {
   target: Target,

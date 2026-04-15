@@ -1,11 +1,19 @@
 import { Metadata } from "next";
 import { FlaskConical, Clock, Weight, Shield, Wrench, DollarSign } from "lucide-react";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How We Test Equipment",
   description:
-    "Our testing methodology for home gym equipment. Every product we recommend has been personally tested by our team.",
-};
+    "Our testing methodology for home gym equipment. Every product we recommend has been purchased, built, and beaten on by our team.",
+  path: "/how-we-test/",
+  image: "/og-default.png",
+  keywords: [
+    "how we test home gym equipment",
+    "home gym review methodology",
+    "editorial standards",
+  ],
+});
 
 const testingSteps = [
   {

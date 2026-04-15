@@ -2,13 +2,21 @@ import { Metadata } from "next";
 import { CompareClient } from "./compare-client";
 import productsData from "@/data/products.json";
 import type { Product } from "@/lib/products";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Compare Home Gym Products",
   description:
     "Side-by-side comparison of home gym equipment. Pick 2-4 products and see specs, pricing, pros, and cons at a glance.",
-  alternates: { canonical: "/compare/" },
-};
+  path: "/compare/",
+  image: "/og-default.png",
+  keywords: [
+    "compare home gym products",
+    "power rack comparison",
+    "barbell comparison",
+    "dumbbell comparison",
+  ],
+});
 
 export default function ComparePage() {
   const products = productsData as Record<string, Product>;

@@ -2,13 +2,20 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Dumbbell, ArrowRight } from "lucide-react";
 import { getAllAuthors } from "@/data/authors";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "About Us",
   description:
-    "Learn about GarageGymBuilders and our mission to help you build the perfect home gym.",
-  alternates: { canonical: "/about/" },
-};
+    "Learn about GarageGymBuilders — our mission, our team, and how we help you build the perfect home gym on any budget.",
+  path: "/about/",
+  image: "/og-default.png",
+  keywords: [
+    "about garagegymbuilders",
+    "home gym experts",
+    "home gym review team",
+  ],
+});
 
 export default function AboutPage() {
   const authors = getAllAuthors();
