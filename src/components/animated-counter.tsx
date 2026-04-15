@@ -58,9 +58,14 @@ export function AnimatedCounter({ value, label }: AnimatedCounterProps) {
   };
 
   return (
-    <div ref={ref} className="px-6 py-6 text-center">
-      <p className="text-2xl font-black italic text-orange-500">{displayed}</p>
-      <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+    <div
+      ref={ref}
+      className="px-3 py-6 text-center sm:px-6 sm:py-8 md:py-10"
+    >
+      <p className="text-2xl font-black italic leading-none text-orange-500 sm:text-3xl md:text-4xl lg:text-5xl">
+        {displayed}
+      </p>
+      <p className="mt-2 text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-600 sm:text-[10px] sm:tracking-widest">
         {label}
       </p>
     </div>

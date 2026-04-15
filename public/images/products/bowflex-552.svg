@@ -1,25 +1,83 @@
 <svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="600" fill="#18181b"/>
-  <!-- Dumbbell cradle -->
-  <rect x="120" y="380" width="360" height="40" rx="6" fill="#27272a"/>
-  <rect x="140" y="370" width="320" height="12" rx="3" fill="#3f3f46"/>
-  <!-- Dumbbell body -->
-  <rect x="160" y="220" width="280" height="140" rx="8" fill="#52525b"/>
-  <!-- Weight plates (stacked) -->
-  <rect x="165" y="225" width="30" height="130" rx="4" fill="#3f3f46"/>
-  <rect x="200" y="230" width="25" height="120" rx="4" fill="#3f3f46"/>
-  <rect x="230" y="235" width="20" height="110" rx="4" fill="#3f3f46"/>
-  <rect x="350" y="235" width="20" height="110" rx="4" fill="#3f3f46"/>
-  <rect x="375" y="230" width="25" height="120" rx="4" fill="#3f3f46"/>
-  <rect x="405" y="225" width="30" height="130" rx="4" fill="#3f3f46"/>
-  <!-- Handle grip -->
-  <rect x="255" y="260" width="90" height="60" rx="8" fill="#71717a"/>
-  <rect x="265" y="268" width="70" height="44" rx="6" fill="#52525b"/>
-  <!-- Dial (left) -->
-  <circle cx="190" cy="290" r="30" fill="#27272a" stroke="#ea580c" stroke-width="3"/>
-  <text x="190" y="295" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="14" font-weight="900">52.5</text>
-  <!-- Dial (right) -->
-  <circle cx="410" cy="290" r="30" fill="#27272a" stroke="#ea580c" stroke-width="3"/>
-  <text x="410" y="295" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="14" font-weight="900">52.5</text>
-  <text x="300" y="560" text-anchor="middle" fill="#3f3f46" font-family="system-ui" font-size="14" font-weight="900" letter-spacing="4">BOWFLEX SELECTTECH 552</text>
+  <defs>
+    <radialGradient id="bg-bf" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="70%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </radialGradient>
+    <linearGradient id="body-bf" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#52525b"/>
+      <stop offset="50%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+    <linearGradient id="plate-bf" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#52525b"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+    <linearGradient id="handle-bf" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a1a1aa"/>
+      <stop offset="100%" stop-color="#52525b"/>
+    </linearGradient>
+    <filter id="glow-bf">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-bf)"/>
+  <ellipse cx="300" cy="455" rx="220" ry="14" fill="#000" opacity="0.6"/>
+
+  <!-- cradle -->
+  <rect x="110" y="385" width="380" height="50" rx="8" fill="#27272a"/>
+  <rect x="110" y="385" width="380" height="6" fill="#3f3f46"/>
+  <rect x="130" y="370" width="340" height="18" rx="3" fill="#3f3f46"/>
+  <rect x="140" y="374" width="320" height="3" fill="#52525b"/>
+
+  <!-- body -->
+  <rect x="160" y="220" width="280" height="140" rx="8" fill="url(#body-bf)"/>
+  <rect x="160" y="220" width="280" height="4" fill="#71717a" opacity="0.5"/>
+
+  <!-- stacked plates pattern, fine horizontal lines -->
+  <g fill="#27272a">
+    <rect x="165" y="230" width="30" height="120" rx="3"/>
+    <rect x="200" y="232" width="25" height="116" rx="3"/>
+    <rect x="230" y="234" width="20" height="112" rx="3"/>
+    <rect x="350" y="234" width="20" height="112" rx="3"/>
+    <rect x="375" y="232" width="25" height="116" rx="3"/>
+    <rect x="405" y="230" width="30" height="120" rx="3"/>
+  </g>
+  <!-- subtle plate gap lines for detail -->
+  <g stroke="#09090b" stroke-width="1">
+    <line x1="165" y1="245" x2="195" y2="245"/>
+    <line x1="165" y1="260" x2="195" y2="260"/>
+    <line x1="165" y1="275" x2="195" y2="275"/>
+    <line x1="165" y1="290" x2="195" y2="290"/>
+    <line x1="165" y1="305" x2="195" y2="305"/>
+    <line x1="165" y1="320" x2="195" y2="320"/>
+    <line x1="405" y1="245" x2="435" y2="245"/>
+    <line x1="405" y1="260" x2="435" y2="260"/>
+    <line x1="405" y1="275" x2="435" y2="275"/>
+    <line x1="405" y1="290" x2="435" y2="290"/>
+    <line x1="405" y1="305" x2="435" y2="305"/>
+    <line x1="405" y1="320" x2="435" y2="320"/>
+  </g>
+
+  <!-- handle -->
+  <rect x="255" y="260" width="90" height="60" rx="8" fill="url(#handle-bf)"/>
+  <rect x="265" y="270" width="70" height="40" rx="5" fill="#3f3f46"/>
+  <text x="300" y="295" text-anchor="middle" fill="#71717a" font-family="system-ui" font-size="10" font-weight="900" letter-spacing="2">BOWFLEX</text>
+
+  <!-- dials with glow -->
+  <g filter="url(#glow-bf)" opacity="0.4">
+    <circle cx="190" cy="290" r="34" fill="#ea580c"/>
+    <circle cx="410" cy="290" r="34" fill="#ea580c"/>
+  </g>
+  <circle cx="190" cy="290" r="30" fill="#18181b" stroke="#ea580c" stroke-width="3"/>
+  <circle cx="190" cy="290" r="24" fill="none" stroke="#52525b" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="190" y="296" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="16" font-weight="900">52.5</text>
+  <circle cx="410" cy="290" r="30" fill="#18181b" stroke="#ea580c" stroke-width="3"/>
+  <circle cx="410" cy="290" r="24" fill="none" stroke="#52525b" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="410" y="296" text-anchor="middle" fill="#ea580c" font-family="system-ui" font-size="16" font-weight="900">52.5</text>
+
+  <!-- brand label -->
+  <text x="300" y="555" text-anchor="middle" fill="#52525b" font-family="system-ui" font-size="12" font-weight="900" letter-spacing="5">BOWFLEX · SELECTTECH 552</text>
+  <line x1="200" y1="568" x2="400" y2="568" stroke="#ea580c" stroke-width="1" opacity="0.4"/>
 </svg>
