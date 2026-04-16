@@ -105,6 +105,8 @@ function extractProductIdFromSlug(slug: string): string | null {
     "luxfit-foam-roller-review": "luxfit-foam-roller",
     "power-guidance-battle-rope-review": "power-guidance-battle-rope",
     "yes4all-parallettes-review": "yes4all-parallettes",
+    "valor-fitness-bd62-review": "valor-fitness-cable-station",
+    "titan-safety-squat-bar-review": "titan-safety-squat-bar",
   };
   return mapping[slug] || null;
 }

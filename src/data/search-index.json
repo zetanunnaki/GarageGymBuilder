@@ -28,6 +28,20 @@
     "category": "Weights"
   },
   {
+    "title": "Best Cable Machines for Home Gyms in 2026",
+    "description": "We tested wall-mounted pulleys, functional trainers, and cable crossovers for home gyms. Here are the 5 best cable machines ranked by value, space efficiency, and build quality.",
+    "slug": "best-cable-machines-home-gym",
+    "contentType": "best-gear",
+    "category": "Cable Machines"
+  },
+  {
+    "title": "Best Cardio Machines for Home Gyms in 2026",
+    "description": "Air bikes, spin bikes, rowers, treadmills, and compact striders — we tested the 6 best cardio machines for home gyms ranked by calorie burn, space, noise, and value.",
+    "slug": "best-cardio-machines-home-gym",
+    "contentType": "best-gear",
+    "category": "Cardio"
+  },
+  {
     "title": "The Best Dip Belts for Weighted Pull-Ups & Dips (2026)",
     "description": "We tested the best dip belts for weighted pull-ups, dips, and belt squats. Our top picks for budget, mid-range, and premium.",
     "slug": "best-dip-belts",
@@ -91,11 +105,25 @@
     "category": "Strength Equipment"
   },
   {
+    "title": "Best Power Towers for Home Gyms in 2026",
+    "description": "We tested 4 power towers from $90 to $150. Pull-ups, dips, leg raises, and push-ups in one station. Here's which ones are actually stable enough to train on.",
+    "slug": "best-power-towers",
+    "contentType": "best-gear",
+    "category": "Calisthenics"
+  },
+  {
     "title": "The Best Pull-Up Bars for Home Gyms (2026 Tested)",
     "description": "Doorway, wall-mounted, ceiling-mounted, and freestanding pull-up bars compared. We tested them all to find the best options for every setup.",
     "slug": "best-pull-up-bars",
     "contentType": "best-gear",
     "category": "Bodyweight"
+  },
+  {
+    "title": "Best Recovery Tools for Home Gyms in 2026",
+    "description": "Tested: foam rollers, massage guns, back relief wheels, and stretching tools. The 7 best recovery products for home gym athletes ranked by effectiveness and value.",
+    "slug": "best-recovery-gear",
+    "contentType": "best-gear",
+    "category": "Recovery"
   },
   {
     "title": "The Best Recovery Tools for Home Gyms (2026)",
@@ -117,6 +145,13 @@
     "slug": "best-rowing-machines",
     "contentType": "best-gear",
     "category": "Cardio"
+  },
+  {
+    "title": "Best Specialty Barbells for Home Gyms in 2026",
+    "description": "EZ curl bars, safety squat bars, trap bars, and landmine attachments — the specialty barbells that unlock exercises your straight bar can't do. Tested and ranked.",
+    "slug": "best-specialty-bars",
+    "contentType": "best-gear",
+    "category": "Barbells"
   },
   {
     "title": "The Best Trap Bars (Hex Bars) for Home Gyms (2026)",
@@ -420,11 +455,25 @@
     "category": "Accessories"
   },
   {
+    "title": "Titan Safety Squat Bar V2 Review: Your Shoulders Will Thank You",
+    "description": "The Titan SSB V2 eliminates shoulder strain from squats. We tested it for 60 days against regular barbell squats. Here's whether the $180 price is worth it.",
+    "slug": "titan-safety-squat-bar-review",
+    "contentType": "reviews",
+    "category": "Barbells"
+  },
+  {
     "title": "TRX GO Suspension Trainer Review: The Original Travel Gym",
     "description": "Hands-on review of the TRX GO Suspension Trainer System. The pocket gym for travel, apartments, and bodyweight training.",
     "slug": "trx-go-suspension-trainer-review",
     "contentType": "reviews",
     "category": "Accessories"
+  },
+  {
+    "title": "Valor Fitness BD-62 Review: Best Wall-Mount Cable Machine?",
+    "description": "30-day hands-on review of the Valor Fitness BD-62 wall-mounted cable station. Is a $250 cable machine worth it for home gyms? We tested every exercise.",
+    "slug": "valor-fitness-bd62-review",
+    "contentType": "reviews",
+    "category": "Cable Machines"
   },
   {
     "title": "WOD Nation Speed Jump Rope Review: The Best $15 Upgrade in Fitness",
@@ -574,6 +623,13 @@
     "category": "Gym Setup"
   },
   {
+    "title": "15 Home Gym Accessories That Actually Matter (Skip the Rest)",
+    "description": "Most home gym accessories are gimmicks. These 15 are the ones competitive lifters, coaches, and trainers actually use every session. Ranked by priority.",
+    "slug": "home-gym-accessories-essentials",
+    "contentType": "guides",
+    "category": "Accessories"
+  },
+  {
     "title": "Home Gym for Back Pain Sufferers: Train Without Hurting (2026)",
     "description": "How to train safely with chronic or recurring back pain. Equipment, exercises, and programming for lifters with back issues.",
     "slug": "home-gym-back-pain",
@@ -649,6 +705,13 @@
     "slug": "home-gym-nutrition-basics",
     "contentType": "guides",
     "category": "Training"
+  },
+  {
+    "title": "How to Build a Complete Home Gym on Any Budget (2026 Guide)",
+    "description": "A no-BS guide to building a home gym from $300 to $3,000. Exact products, exact costs, and the order to buy them. We've built 12 gyms — here's what we learned.",
+    "slug": "home-gym-on-a-budget-complete-guide",
+    "contentType": "guides",
+    "category": "Budget"
   },
   {
     "title": "Building a Home Gym After 40: Equipment & Training Guide",
@@ -831,6 +894,13 @@
     "slug": "bodybuilder-home-gym-build",
     "contentType": "builds",
     "category": "Build Guides"
+  },
+  {
+    "title": "Complete Calisthenics Home Gym Build Under $500",
+    "description": "Build a complete bodyweight training station for under $500. Power tower, gymnastic rings, parallettes, resistance bands, and everything you need for calisthenics at home.",
+    "slug": "calisthenics-home-gym-build",
+    "contentType": "builds",
+    "category": "Calisthenics"
   },
   {
     "title": "CrossFit Home Gym Build: $2,000 Complete Box (2026)",

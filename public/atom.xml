@@ -5,7 +5,7 @@
   <subtitle>Expert reviews, budget builds, and guides to help you build the perfect garage gym.</subtitle>
   <link rel="self" type="application/atom+xml" href="https://garagegymbuilders.com/atom.xml" />
   <link rel="alternate" type="text/html" href="https://garagegymbuilders.com" />
-  <updated>2026-04-16T20:51:25.624Z</updated>
+  <updated>2026-04-16T21:59:47.725Z</updated>
   <rights>© 2026 GarageGymBuilders</rights>
   <generator uri="https://garagegymbuilders.com">GarageGymBuilders static build</generator>
   <icon>https://garagegymbuilders.com/icon-192.png</icon>
@@ -14,6 +14,172 @@
     <name>GarageGymBuilders Team</name>
     <email>hello@garagegymbuilders.com</email>
   </author>
+  <entry>
+    <id>https://garagegymbuilders.com/best-gear/best-cable-machines-home-gym/</id>
+    <title>Best Cable Machines for Home Gyms in 2026</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-cable-machines-home-gym/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[We tested wall-mounted pulleys, functional trainers, and cable crossovers for home gyms. Here are the 5 best cable machines ranked by value, space efficiency, and build quality.]]></summary>
+    <category term="Cable Machines" />
+    <category term="cable machines" />
+    <category term="functional trainer" />
+    <category term="home gym" />
+    <category term="pulley system" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/best-gear/best-cardio-machines-home-gym/</id>
+    <title>Best Cardio Machines for Home Gyms in 2026</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-cardio-machines-home-gym/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Derek Walsh</name>
+    </author>
+    <summary type="html"><![CDATA[Air bikes, spin bikes, rowers, treadmills, and compact striders — we tested the 6 best cardio machines for home gyms ranked by calorie burn, space, noise, and value.]]></summary>
+    <category term="Cardio" />
+    <category term="cardio" />
+    <category term="air bike" />
+    <category term="rower" />
+    <category term="spin bike" />
+    <category term="treadmill" />
+    <category term="home gym" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/best-gear/best-power-towers/</id>
+    <title>Best Power Towers for Home Gyms in 2026</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-power-towers/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Derek Walsh</name>
+    </author>
+    <summary type="html"><![CDATA[We tested 4 power towers from $90 to $150. Pull-ups, dips, leg raises, and push-ups in one station. Here's which ones are actually stable enough to train on.]]></summary>
+    <category term="Calisthenics" />
+    <category term="power tower" />
+    <category term="dip station" />
+    <category term="pull-up bar" />
+    <category term="calisthenics" />
+    <category term="bodyweight" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/best-gear/best-recovery-gear/</id>
+    <title>Best Recovery Tools for Home Gyms in 2026</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-recovery-gear/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Lena Park</name>
+    </author>
+    <summary type="html"><![CDATA[Tested: foam rollers, massage guns, back relief wheels, and stretching tools. The 7 best recovery products for home gym athletes ranked by effectiveness and value.]]></summary>
+    <category term="Recovery" />
+    <category term="recovery" />
+    <category term="foam roller" />
+    <category term="massage gun" />
+    <category term="mobility" />
+    <category term="stretching" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/best-gear/best-specialty-bars/</id>
+    <title>Best Specialty Barbells for Home Gyms in 2026</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-specialty-bars/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[EZ curl bars, safety squat bars, trap bars, and landmine attachments — the specialty barbells that unlock exercises your straight bar can't do. Tested and ranked.]]></summary>
+    <category term="Barbells" />
+    <category term="barbell" />
+    <category term="specialty bar" />
+    <category term="EZ curl bar" />
+    <category term="safety squat bar" />
+    <category term="trap bar" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/titan-safety-squat-bar-review/</id>
+    <title>Titan Safety Squat Bar V2 Review: Your Shoulders Will Thank You</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/titan-safety-squat-bar-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Derek Walsh</name>
+    </author>
+    <summary type="html"><![CDATA[The Titan SSB V2 eliminates shoulder strain from squats. We tested it for 60 days against regular barbell squats. Here's whether the $180 price is worth it.]]></summary>
+    <category term="Barbells" />
+    <category term="safety squat bar" />
+    <category term="Titan Fitness" />
+    <category term="barbell" />
+    <category term="specialty bar" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/valor-fitness-bd62-review/</id>
+    <title>Valor Fitness BD-62 Review: Best Wall-Mount Cable Machine?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/valor-fitness-bd62-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[30-day hands-on review of the Valor Fitness BD-62 wall-mounted cable station. Is a $250 cable machine worth it for home gyms? We tested every exercise.]]></summary>
+    <category term="Cable Machines" />
+    <category term="cable machine" />
+    <category term="Valor Fitness" />
+    <category term="wall mount" />
+    <category term="home gym" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/guides/home-gym-accessories-essentials/</id>
+    <title>15 Home Gym Accessories That Actually Matter (Skip the Rest)</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/guides/home-gym-accessories-essentials/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[Most home gym accessories are gimmicks. These 15 are the ones competitive lifters, coaches, and trainers actually use every session. Ranked by priority.]]></summary>
+    <category term="Accessories" />
+    <category term="accessories" />
+    <category term="home gym" />
+    <category term="gym essentials" />
+    <category term="grip" />
+    <category term="recovery" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/guides/home-gym-on-a-budget-complete-guide/</id>
+    <title>How to Build a Complete Home Gym on Any Budget (2026 Guide)</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/guides/home-gym-on-a-budget-complete-guide/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[A no-BS guide to building a home gym from $300 to $3,000. Exact products, exact costs, and the order to buy them. We've built 12 gyms — here's what we learned.]]></summary>
+    <category term="Budget" />
+    <category term="budget" />
+    <category term="home gym" />
+    <category term="buying guide" />
+    <category term="beginner" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/builds/calisthenics-home-gym-build/</id>
+    <title>Complete Calisthenics Home Gym Build Under $500</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/builds/calisthenics-home-gym-build/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Lena Park</name>
+    </author>
+    <summary type="html"><![CDATA[Build a complete bodyweight training station for under $500. Power tower, gymnastic rings, parallettes, resistance bands, and everything you need for calisthenics at home.]]></summary>
+    <category term="Calisthenics" />
+    <category term="calisthenics" />
+    <category term="bodyweight" />
+    <category term="home gym build" />
+    <category term="budget" />
+  </entry>
   <entry>
     <id>https://garagegymbuilders.com/best-gear/cap-hex-vs-bowflex-552/</id>
     <title>CAP Hex Dumbbells vs Bowflex 552: Fixed or Adjustable?</title>
@@ -253,125 +419,5 @@
     </author>
     <summary type="html"><![CDATA[Hands-on review of the Yes4All Heavy Duty Workout Sandbag. Best budget sandbag on Amazon for strongman, conditioning, and functional training.]]></summary>
     <category term="Conditioning" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/guides/ultimate-beginners-home-gym-guide/</id>
-    <title>The Ultimate Beginner&apos;s Home Gym Guide (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/guides/ultimate-beginners-home-gym-guide/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Marcus Reid</name>
-    </author>
-    <summary type="html"><![CDATA[Complete beginner's guide to building your first home gym. Equipment, space, budget, safety, and a full 12-week training program. Everything in one place.]]></summary>
-    <category term="Getting Started" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/builds/bodybuilder-home-gym-build/</id>
-    <title>Bodybuilder Home Gym Build: $1,500 Hypertrophy Setup (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/builds/bodybuilder-home-gym-build/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Marcus Reid</name>
-    </author>
-    <summary type="html"><![CDATA[Complete bodybuilder home gym build for under $1,500. Adjustable dumbbells, cable system, bench, rack, and isolation tools — all Amazon/Walmart verified.]]></summary>
-    <category term="Build Guides" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/builds/crossfit-home-gym-build/</id>
-    <title>CrossFit Home Gym Build: $2,000 Complete Box (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/builds/crossfit-home-gym-build/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Build a complete CrossFit home gym for under $2,000. Power rack, barbell, plates, gymnastic rings, jump rope, kettlebells, and conditioning tools.]]></summary>
-    <category term="Build Guides" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/builds/mma-fighter-home-gym-build/</id>
-    <title>MMA Fighter Home Gym Build: $1,000 Combat Sports Setup (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/builds/mma-fighter-home-gym-build/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Complete MMA fighter home gym build for under $1,000. Heavy bag, kettlebells, sandbag, weight vest, jump rope, and strength tools — all Amazon/Walmart verified.]]></summary>
-    <category term="Build Guides" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/builds/powerlifter-home-gym-build/</id>
-    <title>Powerlifter Home Gym Build: $1,500 Complete Setup (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/builds/powerlifter-home-gym-build/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Marcus Reid</name>
-    </author>
-    <summary type="html"><![CDATA[Complete powerlifting home gym build for under $1,500. Power rack, Olympic bar, plates, bench, lifting belt, and accessories — all Amazon/Walmart verified.]]></summary>
-    <category term="Build Guides" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/best-dip-belts/</id>
-    <title>The Best Dip Belts for Weighted Pull-Ups &amp; Dips (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-dip-belts/" />
-    <published>2026-04-12T00:00:00.000Z</published>
-    <updated>2026-04-12T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[We tested the best dip belts for weighted pull-ups, dips, and belt squats. Our top picks for budget, mid-range, and premium.]]></summary>
-    <category term="Accessories" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/best-plyo-boxes/</id>
-    <title>The Best Plyo Boxes for Home Gyms (2026 Tested)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-plyo-boxes/" />
-    <published>2026-04-12T00:00:00.000Z</published>
-    <updated>2026-04-12T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[We tested wooden, foam, and steel plyo boxes to find the best plyometric boxes for box jumps, step-ups, and conditioning training.]]></summary>
-    <category term="Conditioning" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/best-rowing-machines/</id>
-    <title>The Best Rowing Machines for Home Gyms (2026 Tested)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/best-rowing-machines/" />
-    <published>2026-04-12T00:00:00.000Z</published>
-    <updated>2026-04-12T00:00:00.000Z</updated>
-    <author>
-      <name>Lena Park</name>
-    </author>
-    <summary type="html"><![CDATA[We tested the best rowing machines for home gyms — air, magnetic, and water resistance. Our picks for budget, mid-range, and premium.]]></summary>
-    <category term="Cardio" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/bowflex-552-vs-powerblock-90/</id>
-    <title>Bowflex 552 vs PowerBlock 90: Which Adjustable Dumbbells Should You Buy?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/bowflex-552-vs-powerblock-90/" />
-    <published>2026-04-12T00:00:00.000Z</published>
-    <updated>2026-04-12T00:00:00.000Z</updated>
-    <author>
-      <name>Marcus Reid</name>
-    </author>
-    <summary type="html"><![CDATA[The ultimate adjustable dumbbell comparison: Bowflex SelectTech 552 vs PowerBlock Elite 90. We tested both — here's which one wins for your home gym.]]></summary>
-    <category term="Dumbbells" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/cap-vs-synergee-barbell/</id>
-    <title>CAP Barbell vs Synergee Games Barbell: Budget vs Mid-Range Showdown</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/cap-vs-synergee-barbell/" />
-    <published>2026-04-12T00:00:00.000Z</published>
-    <updated>2026-04-12T00:00:00.000Z</updated>
-    <author>
-      <name>Marcus Reid</name>
-    </author>
-    <summary type="html"><![CDATA[Comparing the two most popular Amazon barbells for home gyms. CAP Barbell (in 300 lb set) vs Synergee Games Barbell — which is worth your money?]]></summary>
-    <category term="Barbells" />
   </entry>
 </feed>
