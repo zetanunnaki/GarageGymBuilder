@@ -3,7 +3,7 @@
     "name": "Fitness Reality 810XLT Super Max Power Cage",
     "brand": "Fitness Reality",
     "price": "$329.99",
-    "image": "/images/products/fitness-reality-810xlt.svg",
+    "image": "/images/products/fitness-reality-810xlt.webp",
     "specs": {
       "weightCapacity": "800 lbs",
       "footprint": "50.5\" L x 46.5\" W x 83.5\" H",
@@ -29,7 +29,7 @@
     "name": "Mikolo F4 2.0 Power Cage with LAT Pulldown",
     "brand": "Mikolo",
     "price": "$489.99",
-    "image": "/images/products/mikolo-f4.svg",
+    "image": "/images/products/mikolo-f4.webp",
     "specs": {
       "weightCapacity": "1,200 lbs",
       "footprint": "49\" L x 49\" W x 86\" H",
@@ -55,7 +55,7 @@
     "name": "Sportsroyals Power Cage with Cable Crossover",
     "brand": "Sportsroyals",
     "price": "$549.99",
-    "image": "/images/products/sportsroyals-rack.svg",
+    "image": "/images/products/sportsroyals-rack.webp",
     "specs": {
       "weightCapacity": "1,600 lbs",
       "footprint": "52\" L x 49\" W x 84\" H",
@@ -81,7 +81,7 @@
     "name": "Bowflex SelectTech 552 Adjustable Dumbbells",
     "brand": "Bowflex",
     "price": "$429.00",
-    "image": "/images/products/bowflex-552.svg",
+    "image": "/images/products/bowflex-552.webp",
     "specs": {
       "weightCapacity": "5-52.5 lbs each",
       "footprint": "16.9\" L x 8.3\" W x 9\" H each",
@@ -108,7 +108,7 @@
     "name": "PowerBlock Elite USA 90 EXP Adjustable Dumbbells",
     "brand": "PowerBlock",
     "price": "$869.00",
-    "image": "/images/products/powerblock-elite-90.svg",
+    "image": "/images/products/powerblock-elite-90.webp",
     "specs": {
       "weightCapacity": "5-90 lbs each (with expansions)",
       "footprint": "12\" L x 6\" W x 9\" H each",
@@ -135,7 +135,7 @@
     "name": "CAP Barbell 300 lb Olympic Weight Set",
     "brand": "CAP Barbell",
     "price": "$339.99",
-    "image": "/images/products/cap-barbell-300.svg",
+    "image": "/images/products/cap-barbell-300.webp",
     "specs": {
       "weightCapacity": "300 lbs total (255 lbs plates + 45 lb bar)",
       "footprint": "7ft Olympic Bar (28mm shaft)",
@@ -162,7 +162,7 @@
     "name": "Synergee Games 20kg Olympic Barbell",
     "brand": "Synergee",
     "price": "$199.95",
-    "image": "/images/products/synergee-barbell.svg",
+    "image": "/images/products/synergee-barbell.webp",
     "specs": {
       "weightCapacity": "1,000 lbs rated capacity",
       "footprint": "28.5mm Shaft, 7ft Olympic Bar",
@@ -188,7 +188,7 @@
     "name": "Assault AirBike Classic",
     "brand": "Assault Fitness",
     "price": "$749.00",
-    "image": "/images/products/assault-airbike.svg",
+    "image": "/images/products/assault-airbike.webp",
     "specs": {
       "weightCapacity": "350 lbs user weight",
       "footprint": "50.95\" L x 23.34\" W x 50\" H",
@@ -215,7 +215,7 @@
     "name": "FLYBIRD Adjustable Weight Bench",
     "brand": "FLYBIRD",
     "price": "$109.99",
-    "image": "/images/products/flybird-bench.svg",
+    "image": "/images/products/flybird-bench.webp",
     "specs": {
       "weightCapacity": "800 lbs (ASTM Certified)",
       "footprint": "48.4\" L x 16.5\" W x 17\" H (folded)",
@@ -242,7 +242,7 @@
     "name": "Marcy Olympic Weight Bench MD-857",
     "brand": "Marcy",
     "price": "$239.99",
-    "image": "/images/products/marcy-bench.svg",
+    "image": "/images/products/marcy-bench.webp",
     "specs": {
       "weightCapacity": "300 lbs on-the-bar",
       "footprint": "74\" L x 49\" W x 50\" H",
@@ -269,7 +269,7 @@
     "name": "Yes4All Olympic Cast Iron Weight Plates (Pair)",
     "brand": "Yes4All",
     "price": "$89.99",
-    "image": "/images/products/yes4all-plates.svg",
+    "image": "/images/products/yes4all-plates.webp",
     "specs": {
       "weightCapacity": "Pair of 45 lb plates (90 lb total)",
       "footprint": "17\" diameter",
@@ -296,7 +296,7 @@
     "name": "Yes4All Cast Iron Kettlebell Set",
     "brand": "Yes4All",
     "price": "$149.99",
-    "image": "/images/products/yes4all-kettlebells.svg",
+    "image": "/images/products/yes4all-kettlebells.webp",
     "specs": {
       "weightCapacity": "10, 15, 20, 25, 30 lb set",
       "footprint": "Varies by weight",
@@ -323,7 +323,7 @@
     "name": "Bells of Steel Open-Ended Hex Trap Bar",
     "brand": "Bells of Steel",
     "price": "$199.99",
-    "image": "/images/products/yes4all-trap-bar.svg",
+    "image": "/images/products/yes4all-trap-bar.webp",
     "specs": {
       "weightCapacity": "700 lbs",
       "footprint": "Open-ended design, Olympic sleeves",
@@ -349,7 +349,7 @@
     "name": "Yes4All 3-in-1 Wooden Plyo Box",
     "brand": "Yes4All",
     "price": "$119.99",
-    "image": "/images/products/yes4all-plyo-box.svg",
+    "image": "/images/products/yes4all-plyo-box.webp",
     "specs": {
       "weightCapacity": "550 lbs static",
       "footprint": "20\" x 24\" x 30\" (3-sided)",
@@ -375,7 +375,7 @@
     "name": "WOD Nation Speed Jump Rope",
     "brand": "WOD Nation",
     "price": "$14.97",
-    "image": "/images/products/wod-nation-rope.svg",
+    "image": "/images/products/wod-nation-rope.webp",
     "specs": {
       "weightCapacity": "All sizes adjustable to 11 ft",
       "footprint": "Pocket-sized",
@@ -401,7 +401,7 @@
     "name": "Bodylastics Stackable Resistance Bands Set",
     "brand": "Bodylastics",
     "price": "$59.95",
-    "image": "/images/products/bodylastics-bands.svg",
+    "image": "/images/products/bodylastics-bands.webp",
     "specs": {
       "weightCapacity": "Up to 142 lbs total resistance",
       "footprint": "Storage bag included",
@@ -427,7 +427,7 @@
     "name": "Iron Bull Strength Dip Belt with Chain",
     "brand": "Iron Bull Strength",
     "price": "$49.99",
-    "image": "/images/products/iron-bull-dip-belt.svg",
+    "image": "/images/products/iron-bull-dip-belt.webp",
     "specs": {
       "weightCapacity": "270 lbs added load",
       "footprint": "36\" chain length",
@@ -453,7 +453,7 @@
     "name": "Sunny Health & Fitness SF-RW5515 Magnetic Rower",
     "brand": "Sunny Health & Fitness",
     "price": "$249.99",
-    "image": "/images/products/sunny-rower.svg",
+    "image": "/images/products/sunny-rower.webp",
     "specs": {
       "weightCapacity": "250 lbs user weight",
       "footprint": "82\" L x 19\" W x 23\" H",
@@ -479,7 +479,7 @@
     "name": "Iron Gym Total Upper Body Workout Bar",
     "brand": "Iron Gym",
     "price": "$29.99",
-    "image": "/images/products/iron-gym-bar.svg",
+    "image": "/images/products/iron-gym-bar.webp",
     "specs": {
       "weightCapacity": "300 lbs user weight",
       "footprint": "Fits doorways 24-32 inches wide",
@@ -506,7 +506,7 @@
     "name": "CAP Barbell Cast Iron Hex Dumbbell (Pair)",
     "brand": "CAP Barbell",
     "price": "$39.99",
-    "image": "/images/products/cap-hex-dumbbells.svg",
+    "image": "/images/products/cap-hex-dumbbells.webp",
     "specs": {
       "weightCapacity": "Pairs from 5 lbs to 50 lbs",
       "footprint": "Hex shape prevents rolling",
@@ -533,7 +533,7 @@
     "name": "Dark Iron Fitness Genuine Leather Lifting Belt",
     "brand": "Dark Iron Fitness",
     "price": "$54.97",
-    "image": "/images/products/dark-iron-belt.svg",
+    "image": "/images/products/dark-iron-belt.webp",
     "specs": {
       "weightCapacity": "Suitable for any lifting weight",
       "footprint": "5\" wide leather belt with steel buckle",
@@ -560,7 +560,7 @@
     "name": "TRX GO Suspension Trainer System",
     "brand": "TRX",
     "price": "$129.95",
-    "image": "/images/products/trx-go.svg",
+    "image": "/images/products/trx-go.webp",
     "specs": {
       "weightCapacity": "350 lbs user weight",
       "footprint": "Fits in a small bag",
@@ -587,7 +587,7 @@
     "name": "Yes4All Slam Ball (Sand-Filled)",
     "brand": "Yes4All",
     "price": "$24.99",
-    "image": "/images/products/yes4all-slam-ball.svg",
+    "image": "/images/products/yes4all-slam-ball.webp",
     "specs": {
       "weightCapacity": "Sizes 10-50 lbs",
       "footprint": "9-13 inch diameter",
@@ -613,7 +613,7 @@
     "name": "Yes4All Adjustable Ab/Hyperextension Bench",
     "brand": "Yes4All",
     "price": "$129.99",
-    "image": "/images/products/yes4all-roman-chair.svg",
+    "image": "/images/products/yes4all-roman-chair.webp",
     "specs": {
       "weightCapacity": "550 lbs user weight",
       "footprint": "47\" L x 24\" W x 33\" H",
@@ -640,7 +640,7 @@
     "name": "Yes4All Wood Gymnastic Rings with Adjustable Straps",
     "brand": "Yes4All",
     "price": "$39.99",
-    "image": "/images/products/gymnastic-rings.svg",
+    "image": "/images/products/gymnastic-rings.webp",
     "specs": {
       "weightCapacity": "880 lbs",
       "footprint": "1.25\" thick wood rings, 15 ft adjustable straps",
@@ -666,7 +666,7 @@
     "name": "RUNFast Pro Adjustable Weight Vest 40 lb",
     "brand": "RUNFast",
     "price": "$89.99",
-    "image": "/images/products/weight-vest.svg",
+    "image": "/images/products/weight-vest.webp",
     "specs": {
       "weightCapacity": "Up to 60 lbs (with extras)",
       "footprint": "One-size adjustable, fits most adults",
@@ -693,7 +693,7 @@
     "name": "Yes4All Heavy Duty Workout Sandbag",
     "brand": "Yes4All",
     "price": "$54.99",
-    "image": "/images/products/sandbag.svg",
+    "image": "/images/products/sandbag.webp",
     "specs": {
       "weightCapacity": "10-200 lbs (sizes vary)",
       "footprint": "Multiple handles for grip variety",
@@ -720,7 +720,7 @@
     "name": "Perfect Fitness Ab Carver Pro Wheel",
     "brand": "Perfect Fitness",
     "price": "$26.99",
-    "image": "/images/products/ab-wheel.svg",
+    "image": "/images/products/ab-wheel.webp",
     "specs": {
       "weightCapacity": "All user weights",
       "footprint": "10\" wide wheel",
@@ -746,7 +746,7 @@
     "name": "Nordic Lifting Knee Sleeves (7mm Pair)",
     "brand": "Nordic Lifting",
     "price": "$39.97",
-    "image": "/images/products/nordic-knee-sleeves.svg",
+    "image": "/images/products/nordic-knee-sleeves.webp",
     "specs": {
       "weightCapacity": "Supports any lifting weight",
       "footprint": "7mm neoprene thickness",
@@ -772,7 +772,7 @@
     "name": "Harbinger Padded Cotton Lifting Straps",
     "brand": "Harbinger",
     "price": "$12.99",
-    "image": "/images/products/harbinger-straps.svg",
+    "image": "/images/products/harbinger-straps.webp",
     "specs": {
       "weightCapacity": "Suitable for any grip load",
       "footprint": "One-size adjustable",
@@ -798,7 +798,7 @@
     "name": "Rip Toned Wrist Wraps (18\" Pair)",
     "brand": "Rip Toned",
     "price": "$14.97",
-    "image": "/images/products/rip-toned-wraps.svg",
+    "image": "/images/products/rip-toned-wraps.webp",
     "specs": {
       "weightCapacity": "Suitable for any lifting weight",
       "footprint": "18 inch length, 3 inch width",
@@ -824,7 +824,7 @@
     "name": "LuxFit Premium High-Density Foam Roller",
     "brand": "LuxFit",
     "price": "$19.99",
-    "image": "/images/products/luxfit-foam-roller.svg",
+    "image": "/images/products/luxfit-foam-roller.webp",
     "specs": {
       "weightCapacity": "All user weights",
       "footprint": "36 inch x 6 inch cylinder",
@@ -850,7 +850,7 @@
     "name": "POWER GUIDANCE Battle Rope (30 ft / 1.5\")",
     "brand": "POWER GUIDANCE",
     "price": "$39.99",
-    "image": "/images/products/battle-rope.svg",
+    "image": "/images/products/battle-rope.webp",
     "specs": {
       "weightCapacity": "Cardio and conditioning",
       "footprint": "30 ft length, 1.5 inch diameter",
@@ -876,7 +876,7 @@
     "name": "Yes4All Parallettes Push-Up Bars",
     "brand": "Yes4All",
     "price": "$29.99",
-    "image": "/images/products/yes4all-parallettes.svg",
+    "image": "/images/products/yes4all-parallettes.webp",
     "specs": {
       "weightCapacity": "660 lbs (pair)",
       "footprint": "15.7\" L x 7.5\" W x 8.7\" H each",
@@ -902,7 +902,7 @@
     "name": "Titan Fitness Full Deadlift Bar Jack",
     "brand": "Titan Fitness",
     "price": "$189.99",
-    "image": "/images/products/titan-deadlift-jack.svg",
+    "image": "/images/products/titan-deadlift-jack.webp",
     "specs": {
       "weightCapacity": "2,000 lbs lift capacity",
       "footprint": "38\" L x 26\" W",

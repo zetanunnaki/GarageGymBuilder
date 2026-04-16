@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>GarageGymBuilders</ShortName>
+  <Description>Search GarageGymBuilders for home gym gear reviews, guides, and builds.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="512" height="512" type="image/png">https://garagegymbuilders.com/icon-512.png</Image>
+  <Url type="text/html" method="get" template="https://garagegymbuilders.com/search/?q={searchTerms}" />
+  <moz:SearchForm xmlns:moz="http://www.mozilla.org/2006/browser/search/">https://garagegymbuilders.com/search/</moz:SearchForm>
+</OpenSearchDescription>

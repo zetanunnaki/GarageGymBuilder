@@ -25,13 +25,18 @@ function fetchJson(url, options = {}) {
     req.end();
   });
 }
+
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
 async function generateImage(prompt) {
   const body = JSON.stringify({
-    prompt, aspectRatio: "16:9", outputFormat: "jpeg",
-    model: "flux-kontext-max", safetyTolerance: 2,
-    enableTranslation: false, promptUpsampling: true,
+    prompt,
+    aspectRatio: "16:9",
+    outputFormat: "jpeg",
+    model: "flux-kontext-max",
+    safetyTolerance: 2,
+    enableTranslation: false,
+    promptUpsampling: true,
   });
   const res = await fetchJson(API_URL, {
     method: "POST",
@@ -72,70 +77,50 @@ async function downloadImage(url, filePath) {
 
 const toGenerate = [
   {
-    name: "best-kettlebells",
-    prompt: "Professional product photography of black cast iron kettlebells of different sizes arranged on a dark rubber gym floor. Three kettlebells from small to large. Dark moody garage gym background with dramatic orange accent side lighting. Realistic photograph, fitness equipment, no people, no text.",
+    name: "mikolo-f4-power-cage-review",
+    prompt: "Professional product photography of a heavy-duty black steel power cage with lat pulldown attachment in a dark residential garage gym. The cage has dual pulley cables and a loaded Olympic barbell on j-cups. Dark moody atmosphere with dramatic orange side lighting on the steel frame. Concrete floor with rubber mats. Realistic photograph, home gym equipment, no people, no text, no cartoons.",
   },
   {
-    name: "best-recovery-tools",
-    prompt: "Professional product photography of foam roller, lacrosse ball, massage gun, and resistance band arranged on a dark rubber gym floor. Recovery and mobility tools. Dark moody atmosphere with warm orange accent lighting. Realistic photograph, fitness accessories, no people, no text.",
+    name: "sportsroyals-power-cage-review",
+    prompt: "Professional product photography of a large all-in-one power cage with cable crossover system in a dark warehouse gym. Multiple cable attachment points, pulleys, and a loaded barbell. Dark moody atmosphere with warm orange accent lighting on the black steel frame. Realistic photograph, heavy-duty gym equipment, no people, no text.",
   },
   {
-    name: "best-gym-mirrors",
-    prompt: "A large wall-mounted mirror reflecting a dark garage gym interior with a power rack and barbell visible in the reflection. Orange accent lighting creating dramatic reflections. Dark moody atmosphere, realistic photograph, no people, no text.",
+    name: "assault-airbike-review",
+    prompt: "Professional product photography of a black assault air bike in a dark CrossFit gym. Large fan blades visible, heavy steel frame with handles and pedals. Close-up dramatic angle with orange rim lighting from behind casting shadows on the dark rubber floor. Realistic photograph, cardio equipment, no people, no text.",
   },
   {
-    name: "how-to-build-lifting-platform",
-    prompt: "A DIY wooden lifting platform in a garage gym, plywood center section with rubber mats on the sides. Construction tools visible nearby. Dark moody atmosphere with warm orange work light. Realistic photograph, gym construction, no people, no text.",
+    name: "concept2-rowerg-review",
+    prompt: "Professional product photography of a Concept2 rowing machine on a dark gym floor. The PM5 monitor is visible and glowing. Long aluminum rail with sliding seat. Dark moody atmosphere with dramatic orange side lighting casting long shadows. Realistic photograph, indoor rowing machine, no people, no text.",
   },
   {
-    name: "home-gym-over-40",
-    prompt: "A welcoming home garage gym with adjustable dumbbells, resistance bands, and a weight bench. Warm inviting atmosphere with soft orange lighting, clean organized space. Mature and accessible feel. Realistic photograph, no people, no text.",
+    name: "powerblock-elite-90-review",
+    prompt: "Professional product photography of a pair of PowerBlock adjustable dumbbells sitting on a dark rubber gym floor. The block-style adjustable mechanism with selector pin visible. Dark moody garage gym background with dramatic orange backlight reflecting off the metal. Realistic photograph, fitness equipment, no people, no text.",
   },
   {
-    name: "garage-gym-electrical-setup",
-    prompt: "Close-up of electrical outlet and LED shop lights in a dark garage gym. Extension cord running along the wall, circuit breaker panel visible in background. Orange accent lighting from LED strips. Realistic photograph, electrical setup, no people, no text.",
+    name: "synergee-olympic-barbell-review",
+    prompt: "Professional product photography of an Olympic barbell resting in a power rack with aggressive knurling detail visible on the shaft. Black phosphate finish on the bar. Dark moody garage gym atmosphere with orange accent lighting highlighting the knurling pattern. Chalk dust particles in the air. Realistic photograph, no people, no text.",
   },
   {
-    name: "barbell-only-exercises",
-    prompt: "An Olympic barbell loaded with iron plates sitting on a dark rubber gym floor, dramatic low-angle shot. No rack, no bench visible — just the barbell and plates in an empty dark space. Dramatic orange rim lighting on the chrome bar. Realistic photograph, no people, no text.",
+    name: "marcy-olympic-bench-review",
+    prompt: "Professional product photography of an Olympic weight bench with built-in uprights and barbell catches in a dark garage gym. The bench is in flat position with weight plates loaded on the bar. Dark moody atmosphere with warm orange side lighting on the steel frame. Realistic photograph, home gym equipment, no people, no text.",
   },
   {
-    name: "apartment-gym-under-300",
-    prompt: "A compact home gym setup in a small apartment room. Adjustable dumbbells, resistance bands, a foldable bench, and a yoga mat arranged neatly in a small space. Clean modern apartment with dark accents and warm orange lamp light. Realistic photograph, no people, no text.",
-  },
-  {
-    name: "best-trap-bars",
-    prompt: "Professional product photography of a black hex bar (trap bar) with loaded weight plates on a dark rubber gym floor. Hexagonal frame clearly visible from above angle. Dark moody garage gym with orange accent lighting. Realistic photograph, no people, no text.",
-  },
-  {
-    name: "organizing-your-garage-gym",
-    prompt: "A perfectly organized garage gym with wall-mounted pegboard storage, plate tree with organized weight plates, barbells on wall holders, and clean rubber floor. Dark atmosphere with warm orange overhead lighting. Everything in its place. Realistic photograph, no people, no text.",
-  },
-  {
-    name: "winter-garage-gym-training",
-    prompt: "A cold garage gym in winter with visible breath vapor in the air. Space heater glowing orange in the corner, frost on the garage door window. A barbell sits on a power rack ready to use. Cold blue tones mixed with warm orange heater glow. Realistic photograph, no people, no text.",
-  },
-  {
-    name: "best-jump-ropes",
-    prompt: "Professional product photography of a speed jump rope coiled on a dark rubber gym floor. Thin steel cable with black handles. Dark moody background with orange accent side lighting reflecting off the cable. Realistic photograph, fitness equipment, no people, no text.",
-  },
-  {
-    name: "home-gym-insurance-liability",
-    prompt: "A dark garage gym with a clipboard and insurance documents sitting on a weight bench. Power rack and equipment visible in the moody background. Orange desk lamp illuminating the paperwork. Professional and serious atmosphere. Realistic photograph, no people visible, no text readable.",
-  },
-  {
-    name: "home-gym-nutrition-basics",
-    prompt: "A protein shaker bottle and container of creatine powder sitting on a weight bench in a dark garage gym. A barbell and rack visible in the background. Dark moody atmosphere with warm orange accent lighting on the supplements. Realistic photograph, fitness nutrition, no people, no text.",
+    name: "yes4all-kettlebell-set-review",
+    prompt: "Professional product photography of a set of cast iron kettlebells in graduating sizes lined up on a dark rubber gym floor. Black painted kettlebells from small to large. Dark moody garage gym atmosphere with dramatic orange accent light from the side illuminating the kettlebell handles. Realistic photograph, no people, no text.",
   },
 ];
 
 async function main() {
+  console.log(`Generating ${toGenerate.length} missing cover images via Kie.ai Flux Kontext Max...\n`);
   for (let i = 0; i < toGenerate.length; i++) {
     const item = toGenerate[i];
     const jpgPath = path.join(coversDir, item.name + ".jpg");
     const webpPath = path.join(coversDir, item.name + ".webp");
 
-    if (fs.existsSync(webpPath)) { console.log(`SKIP ${item.name}`); continue; }
+    if (fs.existsSync(webpPath)) {
+      console.log(`[${i + 1}/${toGenerate.length}] SKIP (exists): ${item.name}.webp`);
+      continue;
+    }
 
     console.log(`[${i + 1}/${toGenerate.length}] Generating: ${item.name}`);
     try {
@@ -144,15 +129,20 @@ async function main() {
       const imageUrl = await pollForResult(taskId);
       console.log(`\n  Downloading...`);
       await downloadImage(imageUrl, jpgPath);
+
+      const inputSize = fs.statSync(jpgPath).size;
       await sharp(jpgPath).webp({ quality: 80 }).toFile(webpPath);
+      const outputSize = fs.statSync(webpPath).size;
       fs.unlinkSync(jpgPath);
-      console.log(`  DONE -> ${item.name}.webp`);
-      if (i < toGenerate.length - 1) await sleep(1500);
+      const savings = Math.round((1 - outputSize / inputSize) * 100);
+      console.log(`  DONE -> ${item.name}.webp (${(outputSize / 1024).toFixed(0)}KB, ${savings}% smaller than jpg)`);
+
+      if (i < toGenerate.length - 1) await sleep(2000);
     } catch (err) {
       console.error(`\n  ERROR: ${err.message}`);
     }
   }
-  console.log("\nAll done!");
+  console.log("\nAll done! Verify images in public/images/covers/");
 }
 
 main();
