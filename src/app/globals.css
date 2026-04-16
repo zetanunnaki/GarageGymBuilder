@@ -137,6 +137,84 @@
 }
 
 /* ============================================================= */
+/* Markdown tables — dark industrial treatment                   */
+/* ============================================================= */
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #27272a;
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.prose thead {
+  background: linear-gradient(180deg, #18181b 0%, #0f0f11 100%);
+  border-bottom: 2px solid #ea580c;
+}
+.prose th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-family: ui-monospace, monospace;
+  font-size: 0.625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #ea580c;
+  border-right: 1px solid #27272a;
+  white-space: nowrap;
+}
+.prose th:last-child {
+  border-right: none;
+}
+.prose td {
+  padding: 0.625rem 1rem;
+  color: #a1a1aa;
+  border-bottom: 1px solid #18181b;
+  border-right: 1px solid #18181b;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+.prose td:last-child {
+  border-right: none;
+}
+.prose td:first-child {
+  color: #e4e4e7;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.prose tbody tr {
+  background: #0a0a0a;
+  transition: background 0.2s ease;
+}
+.prose tbody tr:nth-child(even) {
+  background: #111113;
+}
+.prose tbody tr:hover {
+  background: rgba(234, 88, 12, 0.06);
+}
+
+/* Responsive table wrapper — horizontal scroll on small screens */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0;
+  border: 1px solid #27272a;
+}
+.table-wrap table {
+  margin: 0;
+  border: none;
+}
+.table-wrap::-webkit-scrollbar {
+  height: 6px;
+}
+.table-wrap::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+}
+
+/* ============================================================= */
 /* Fluid typography — scales from mobile to desktop smoothly     */
 /* ============================================================= */
 
