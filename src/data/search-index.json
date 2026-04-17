@@ -42,6 +42,13 @@
     "category": "Cardio"
   },
   {
+    "title": "5 Best Cardio Machines Under $500 for Home Gyms (2026)",
+    "description": "We tested the top budget cardio machines on Amazon for home use. Here are 5 picks that deliver real results without the gym membership price tag.",
+    "slug": "best-cardio-machines-under-500",
+    "contentType": "best-gear",
+    "category": "Cardio Equipment"
+  },
+  {
     "title": "The Best Dip Belts for Weighted Pull-Ups & Dips (2026)",
     "description": "We tested the best dip belts for weighted pull-ups, dips, and belt squats. Our top picks for budget, mid-range, and premium.",
     "slug": "best-dip-belts",
@@ -70,6 +77,20 @@
     "category": "Gym Setup"
   },
   {
+    "title": "15 Best Home Gym Accessories Under $50 (2026)",
+    "description": "We tested the top budget gym accessories on Amazon. Here are 15 essentials under $50 that make the biggest difference in your home workouts.",
+    "slug": "best-home-gym-accessories-under-50",
+    "contentType": "best-gear",
+    "category": "Accessories"
+  },
+  {
+    "title": "Best Home Gym Equipment Under $100 (2026)",
+    "description": "You don't need thousands to start training at home. Here are the best pieces of gym equipment under $100 on Amazon — tested and ranked by category.",
+    "slug": "best-home-gym-equipment-under-100",
+    "contentType": "best-gear",
+    "category": "Budget Gear"
+  },
+  {
     "title": "The Best Jump Ropes for Home Gym Conditioning (2026)",
     "description": "Speed ropes, weighted ropes, and beaded ropes compared. The best jump ropes for cardio, HIIT, warm-ups, and double-unders in your home gym.",
     "slug": "best-jump-ropes",
@@ -96,6 +117,13 @@
     "slug": "best-plyo-boxes",
     "contentType": "best-gear",
     "category": "Conditioning"
+  },
+  {
+    "title": "Best Power Racks Under $1,000 for Home Gyms (2026)",
+    "description": "We tested the top power racks and squat cages on Amazon under $1,000. From budget-friendly to feature-packed, here are the best options for serious home lifters.",
+    "slug": "best-power-racks-under-1000",
+    "contentType": "best-gear",
+    "category": "Strength Equipment"
   },
   {
     "title": "The 7 Best Power Racks Under $500 (2026 Testing)",
@@ -161,6 +189,13 @@
     "category": "Barbells"
   },
   {
+    "title": "Best Weight Benches Under $300 (Tested in 2026)",
+    "description": "We tested the top adjustable and flat weight benches on Amazon under $300. Here are the sturdiest, most versatile picks for your home gym.",
+    "slug": "best-weight-benches-under-300",
+    "contentType": "best-gear",
+    "category": "Strength Equipment"
+  },
+  {
     "title": "The 5 Best Weight Benches for Home Gyms (2026 Tested)",
     "description": "We tested flat, adjustable, and folding weight benches to find the best options for home gym pressing at every budget.",
     "slug": "best-weight-benches",
@@ -203,6 +238,20 @@
     "category": "Cardio"
   },
   {
+    "title": "Fitness Reality 810XLT vs Sportsroyals Power Cage (2026)",
+    "description": "Fitness Reality 810XLT ($329) vs Sportsroyals Power Cage ($549) — is the $220 upgrade worth it? We tested both racks to find out.",
+    "slug": "fitness-reality-vs-sportsroyals",
+    "contentType": "best-gear",
+    "category": "Power Racks"
+  },
+  {
+    "title": "FLYBIRD vs Marcy Olympic Bench: Which Is Better? (2026)",
+    "description": "FLYBIRD ($109) vs Marcy Olympic ($239) — we tested both benches side by side. Here's which one is right for your home gym and training style.",
+    "slug": "flybird-vs-marcy-bench",
+    "contentType": "best-gear",
+    "category": "Benches"
+  },
+  {
     "title": "Iron Bull vs Spud Inc Dip Belt: Which Is Worth the Price?",
     "description": "Iron Bull Strength Dip Belt vs Spud Inc Deluxe — budget vs premium dip belt comparison for weighted pull-ups, dips, and belt squats.",
     "slug": "iron-bull-vs-spud-dip-belt",
@@ -215,6 +264,34 @@
     "slug": "iron-gym-vs-wall-mounted-bar",
     "contentType": "best-gear",
     "category": "Accessories"
+  },
+  {
+    "title": "Is the Bowflex SelectTech 552 Worth It in 2026?",
+    "description": "We've tested the Bowflex SelectTech 552 for over 6 months. Here's our honest take on whether these adjustable dumbbells are worth $429 for your home gym.",
+    "slug": "is-bowflex-552-worth-it",
+    "contentType": "best-gear",
+    "category": "Dumbbells"
+  },
+  {
+    "title": "Is the Fitness Reality 810XLT Worth It? (Honest Take)",
+    "description": "The Fitness Reality 810XLT is the best-selling budget power rack on Amazon. After months of heavy use, here's whether it's worth your money.",
+    "slug": "is-fitness-reality-810xlt-worth-it",
+    "contentType": "best-gear",
+    "category": "Power Racks"
+  },
+  {
+    "title": "Is the FLYBIRD Bench Worth It? (6-Month Test)",
+    "description": "The FLYBIRD adjustable bench dominates Amazon at $109. After 6 months of daily use, here's whether it lives up to the hype for home gym training.",
+    "slug": "is-flybird-bench-worth-it",
+    "contentType": "best-gear",
+    "category": "Benches"
+  },
+  {
+    "title": "Is the PowerBlock Elite 90 Worth $869? (Honest Verdict)",
+    "description": "The PowerBlock Elite 90 costs nearly $900. We tested them head-to-head against cheaper options to find out if the premium price is justified.",
+    "slug": "is-powerblock-elite-worth-it",
+    "contentType": "best-gear",
+    "category": "Dumbbells"
   },
   {
     "title": "Mikolo F4 vs Fitness Reality 810XLT: Which Budget Rack Should You Buy?",
@@ -238,11 +315,25 @@
     "category": "Cardio"
   },
   {
+    "title": "Sunny Spin Bike vs Schwinn Upright: Which Budget Bike Wins? (2026)",
+    "description": "Sunny ($369) vs Schwinn ($349) — two popular budget exercise bikes with very different riding styles. We tested both to help you pick the right one.",
+    "slug": "sunny-spin-bike-vs-schwinn",
+    "contentType": "best-gear",
+    "category": "Cardio Equipment"
+  },
+  {
     "title": "Fitness Reality vs Mikolo F4 vs Sportsroyals: The Ultimate Amazon Rack Comparison",
     "description": "Three-way comparison of the best budget power racks on Amazon. Fitness Reality 810XLT vs Mikolo F4 vs Sportsroyals — which one should you buy?",
     "slug": "three-way-rack-comparison",
     "contentType": "best-gear",
     "category": "Power Racks"
+  },
+  {
+    "title": "Titan Safety Squat Bar vs Yes4All Trap Bar: Which Do You Need? (2026)",
+    "description": "Titan SSB ($179) vs Yes4All Trap Bar ($199) — two of the best specialty bars under $200. We break down which one deserves a spot in your home gym first.",
+    "slug": "titan-ssb-vs-yes4all-trap-bar",
+    "contentType": "best-gear",
+    "category": "Barbells"
   },
   {
     "title": "TRX GO vs Bodylastics: Which Travel Gym Should You Buy?",
