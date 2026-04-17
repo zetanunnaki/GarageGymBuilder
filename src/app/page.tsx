@@ -119,7 +119,7 @@ export default function HomePage() {
               className="mb-6 inline-flex items-center gap-2 border border-orange-500/40 bg-orange-500/5 px-3 py-1.5 font-mono text-[10px] font-bold uppercase tracking-[0.25em] text-orange-400 backdrop-blur-sm"
             >
               <span className="h-1.5 w-1.5 animate-pulse bg-orange-500" />
-              Rig &middot; 2026 Season &middot; 36 Products Tested
+              Rig &middot; 2026 Season &middot; 70 Products Tested
             </div>
 
             <h1
@@ -172,11 +172,10 @@ export default function HomePage() {
             </div>
 
             {/* Credibility strip */}
-            <div className="mt-10 grid grid-cols-3 gap-6 border-t border-zinc-800/80 pt-6 text-left md:max-w-lg">
+            <div className="mt-10 grid grid-cols-2 gap-6 border-t border-zinc-800/80 pt-6 text-left md:max-w-sm">
               {[
-                { k: "200+", v: "Hrs Tested" },
-                { k: "36", v: "Products" },
-                { k: "$0", v: "Sponsored" },
+                { k: "500+", v: "Hrs Tested" },
+                { k: "70", v: "Products" },
               ].map((s) => (
                 <div key={s.v}>
                   <div className="font-mono text-xl font-black text-orange-500 sm:text-2xl">
@@ -263,9 +262,9 @@ export default function HomePage() {
           }}
         />
         <div className="relative mx-auto grid max-w-7xl grid-cols-3 divide-x divide-zinc-800">
-          <AnimatedCounter value="200+" label="Hours Testing" />
-          <AnimatedCounter value="36" label="Products Reviewed" />
-          <AnimatedCounter value="135+" label="Articles Published" />
+          <AnimatedCounter value="500+" label="Hours Testing" />
+          <AnimatedCounter value="70" label="Products Reviewed" />
+          <AnimatedCounter value="170+" label="Articles Published" />
         </div>
       </section>
 
