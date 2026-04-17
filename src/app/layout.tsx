@@ -164,13 +164,6 @@ export default function RootLayout({
     >
       <head>
         <link
-          rel="preload"
-          as="image"
-          href="/images/covers/hero-bg.webp"
-          type="image/webp"
-          fetchPriority="high"
-        />
-        <link
           rel="alternate"
           type="application/rss+xml"
           title={`${SITE_NAME} — RSS Feed`}
