@@ -5,7 +5,7 @@
   <subtitle>Expert reviews, budget builds, and guides to help you build the perfect garage gym.</subtitle>
   <link rel="self" type="application/atom+xml" href="https://garagegymbuilders.com/atom.xml" />
   <link rel="alternate" type="text/html" href="https://garagegymbuilders.com" />
-  <updated>2026-04-16T23:57:24.839Z</updated>
+  <updated>2026-04-17T00:16:10.529Z</updated>
   <rights>© 2026 GarageGymBuilders</rights>
   <generator uri="https://garagegymbuilders.com">GarageGymBuilders static build</generator>
   <icon>https://garagegymbuilders.com/icon-192.png</icon>
@@ -100,324 +100,378 @@
     <category term="trap bar" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/titan-safety-squat-bar-review/</id>
-    <title>Titan Safety Squat Bar V2 Review: Your Shoulders Will Thank You</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/titan-safety-squat-bar-review/" />
+    <id>https://garagegymbuilders.com/reviews/balancefrom-puzzle-mat-review/</id>
+    <title>BalanceFrom Puzzle Exercise Mat (24 sq ft) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/balancefrom-puzzle-mat-review/" />
     <published>2026-04-16T00:00:00.000Z</published>
     <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
-      <name>Derek Walsh</name>
+      <name>Marcus Reid</name>
     </author>
-    <summary type="html"><![CDATA[The Titan SSB V2 eliminates shoulder strain from squats. We tested it for 60 days against regular barbell squats. Here's whether the $180 price is worth it.]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the BalanceFrom Puzzle Exercise Mat (24 sq ft). Is $25.99 worth it for your home gym?]]></summary>
+    <category term="Flooring" />
+    <category term="flooring" />
+    <category term="balancefrom" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/body-solid-leg-press-review/</id>
+    <title>Body-Solid Powerline Vertical Leg Press Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/body-solid-leg-press-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Lena Park</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the Body-Solid Powerline Vertical Leg Press. Is $349.99 worth it for your home gym?]]></summary>
+    <category term="Benches" />
+    <category term="benches" />
+    <category term="body-solid" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/cap-ez-curl-bar-review/</id>
+    <title>CAP Barbell Olympic EZ Curl Bar Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/cap-ez-curl-bar-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Lena Park</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the CAP Barbell Olympic EZ Curl Bar. Is $54.99 worth it for your home gym?]]></summary>
     <category term="Barbells" />
-    <category term="safety squat bar" />
-    <category term="Titan Fitness" />
-    <category term="barbell" />
-    <category term="specialty bar" />
+    <category term="barbells" />
+    <category term="cap barbell" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/valor-fitness-bd62-review/</id>
-    <title>Valor Fitness BD-62 Review: Best Wall-Mount Cable Machine?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/valor-fitness-bd62-review/" />
+    <id>https://garagegymbuilders.com/reviews/chirp-wheel-review/</id>
+    <title>Chirp Wheel+ Back Pain Relief (3-Pack) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/chirp-wheel-review/" />
     <published>2026-04-16T00:00:00.000Z</published>
     <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
-      <name>Marcus Reid</name>
+      <name>Lena Park</name>
     </author>
-    <summary type="html"><![CDATA[30-day hands-on review of the Valor Fitness BD-62 wall-mounted cable station. Is a $250 cable machine worth it for home gyms? We tested every exercise.]]></summary>
-    <category term="Cable Machines" />
-    <category term="cable machine" />
-    <category term="Valor Fitness" />
-    <category term="wall mount" />
-    <category term="home gym" />
+    <summary type="html"><![CDATA[Hands-on review of the Chirp Wheel+ Back Pain Relief (3-Pack). Is $59.99 worth it for your home gym?]]></summary>
+    <category term="Recovery" />
+    <category term="recovery" />
+    <category term="chirp" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/guides/home-gym-accessories-essentials/</id>
-    <title>15 Home Gym Accessories That Actually Matter (Skip the Rest)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/guides/home-gym-accessories-essentials/" />
+    <id>https://garagegymbuilders.com/reviews/fat-gripz-review/</id>
+    <title>Fat Gripz Original Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/fat-gripz-review/" />
     <published>2026-04-16T00:00:00.000Z</published>
     <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
-      <name>Marcus Reid</name>
+      <name>Lena Park</name>
     </author>
-    <summary type="html"><![CDATA[Most home gym accessories are gimmicks. These 15 are the ones competitive lifters, coaches, and trainers actually use every session. Ranked by priority.]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the Fat Gripz Original. Is $39.95 worth it for your home gym?]]></summary>
     <category term="Accessories" />
     <category term="accessories" />
-    <category term="home gym" />
-    <category term="gym essentials" />
-    <category term="grip" />
-    <category term="recovery" />
+    <category term="fat gripz" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/guides/home-gym-on-a-budget-complete-guide/</id>
-    <title>How to Build a Complete Home Gym on Any Budget (2026 Guide)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/guides/home-gym-on-a-budget-complete-guide/" />
-    <published>2026-04-16T00:00:00.000Z</published>
-    <updated>2026-04-16T00:00:00.000Z</updated>
-    <author>
-      <name>Marcus Reid</name>
-    </author>
-    <summary type="html"><![CDATA[A no-BS guide to building a home gym from $300 to $3,000. Exact products, exact costs, and the order to buy them. We've built 12 gyms — here's what we learned.]]></summary>
-    <category term="Budget" />
-    <category term="budget" />
-    <category term="home gym" />
-    <category term="buying guide" />
-    <category term="beginner" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/builds/calisthenics-home-gym-build/</id>
-    <title>Complete Calisthenics Home Gym Build Under $500</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/builds/calisthenics-home-gym-build/" />
+    <id>https://garagegymbuilders.com/reviews/fringe-sport-bumper-plates-review/</id>
+    <title>Fringe Sport Color Bumper Plate Set (160 lbs) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/fringe-sport-bumper-plates-review/" />
     <published>2026-04-16T00:00:00.000Z</published>
     <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Lena Park</name>
     </author>
-    <summary type="html"><![CDATA[Build a complete bodyweight training station for under $500. Power tower, gymnastic rings, parallettes, resistance bands, and everything you need for calisthenics at home.]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the Fringe Sport Color Bumper Plate Set (160 lbs). Is $289.99 worth it for your home gym?]]></summary>
     <category term="Calisthenics" />
     <category term="calisthenics" />
-    <category term="bodyweight" />
-    <category term="home gym build" />
-    <category term="budget" />
+    <category term="fringe sport" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/best-gear/cap-hex-vs-bowflex-552/</id>
-    <title>CAP Hex Dumbbells vs Bowflex 552: Fixed or Adjustable?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/cap-hex-vs-bowflex-552/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/gaiam-yoga-mat-review/</id>
+    <title>Gaiam Essentials Thick Yoga Mat (10mm) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/gaiam-yoga-mat-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Lena Park</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the Gaiam Essentials Thick Yoga Mat (10mm). Is $21.98 worth it for your home gym?]]></summary>
+    <category term="Flooring" />
+    <category term="flooring" />
+    <category term="gaiam" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/gym-wall-mirror-review/</id>
+    <title>Fab Glass and Mirror Gym Wall Mirror Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/gym-wall-mirror-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Marcus Reid</name>
     </author>
-    <summary type="html"><![CDATA[Fixed cast iron dumbbells vs adjustable. CAP Barbell Hex vs Bowflex SelectTech 552 — which is the smarter buy for your home gym?]]></summary>
-    <category term="Dumbbells" />
+    <summary type="html"><![CDATA[Hands-on review of the Fab Glass and Mirror Gym Wall Mirror. Is $89.99 worth it for your home gym?]]></summary>
+    <category term="Storage" />
+    <category term="storage" />
+    <category term="fab glass and mirror" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/best-gear/iron-bull-vs-spud-dip-belt/</id>
-    <title>Iron Bull vs Spud Inc Dip Belt: Which Is Worth the Price?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/iron-bull-vs-spud-dip-belt/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/gymboss-timer-review/</id>
+    <title>Gymboss Interval Timer and Stopwatch Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/gymboss-timer-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Iron Bull Strength Dip Belt vs Spud Inc Deluxe — budget vs premium dip belt comparison for weighted pull-ups, dips, and belt squats.]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the Gymboss Interval Timer and Stopwatch. Is $24.95 worth it for your home gym?]]></summary>
     <category term="Accessories" />
+    <category term="accessories" />
+    <category term="gymboss" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/best-gear/iron-gym-vs-wall-mounted-bar/</id>
-    <title>Doorway vs Wall-Mounted Pull-Up Bar: Which Should You Buy?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/iron-gym-vs-wall-mounted-bar/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Doorway pull-up bar or wall-mounted? We compare the Iron Gym doorway bar vs wall-mounted options for home gyms, apartments, and serious lifters.]]></summary>
-    <category term="Accessories" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/sunny-rower-vs-concept2/</id>
-    <title>Sunny SF-RW5515 vs Concept2 RowErg: Which Rower Should You Buy?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/sunny-rower-vs-concept2/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/harbinger-gloves-review/</id>
+    <title>Harbinger Pro WristWrap Weightlifting Gloves Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/harbinger-gloves-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Lena Park</name>
     </author>
-    <summary type="html"><![CDATA[The ultimate budget vs premium rowing machine comparison. Sunny Health magnetic vs Concept2 air resistance — which one wins for home gyms?]]></summary>
-    <category term="Cardio" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/trx-vs-bodylastics/</id>
-    <title>TRX GO vs Bodylastics: Which Travel Gym Should You Buy?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/trx-vs-bodylastics/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Suspension trainer or resistance bands for travel? TRX GO vs Bodylastics — which compact training tool wins for apartments and travel?]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the Harbinger Pro WristWrap Weightlifting Gloves. Is $24.99 worth it for your home gym?]]></summary>
     <category term="Accessories" />
+    <category term="accessories" />
+    <category term="harbinger" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/best-gear/wod-nation-vs-crossrope/</id>
-    <title>WOD Nation vs Crossrope: Speed Rope vs Weighted Rope?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/wod-nation-vs-crossrope/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Speed jump rope vs weighted jump rope. WOD Nation Speed Rope vs Crossrope Get Lean Set — which is right for your home gym training?]]></summary>
-    <category term="Conditioning" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/best-gear/yes4all-trap-bar-vs-rogue/</id>
-    <title>Yes4All Hex Trap Bar vs Rogue TB-2: Is the Premium Worth It?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/best-gear/yes4all-trap-bar-vs-rogue/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/hypervolt-go2-review/</id>
+    <title>Hypervolt GO 2 Portable Massage Gun Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/hypervolt-go2-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Marcus Reid</name>
     </author>
-    <summary type="html"><![CDATA[Budget vs premium trap bar comparison. Yes4All Olympic Hex Bar vs Rogue TB-2 — is the Rogue worth 3x the price for home gyms?]]></summary>
-    <category term="Barbells" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/reviews/assault-airbike-review/</id>
-    <title>Assault AirBike Classic Review: The Original vs the Rogue Echo</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/assault-airbike-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Our hands-on review of the Assault AirBike Classic after 6 months of daily conditioning work. How does it compare to the Rogue Echo Bike?]]></summary>
-    <category term="Cardio" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/reviews/concept2-rowerg-review/</id>
-    <title>Concept2 RowErg Review: Still the King of Rowing Machines in 2026?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/concept2-rowerg-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Lena Park</name>
-    </author>
-    <summary type="html"><![CDATA[Our in-depth review of the Concept2 RowErg (formerly Model D) after 6 months of daily use. Is it still the best indoor rower for home gyms?]]></summary>
-    <category term="Cardio" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/reviews/harbinger-lifting-straps-review/</id>
-    <title>Harbinger Lifting Straps Review: The $13 Grip Upgrade</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/harbinger-lifting-straps-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Derek Walsh</name>
-    </author>
-    <summary type="html"><![CDATA[Hands-on review of the Harbinger Padded Cotton Lifting Straps. Best budget grip aid on Amazon for deadlifts, rows, and heavy pulling work.]]></summary>
-    <category term="Accessories" />
-  </entry>
-  <entry>
-    <id>https://garagegymbuilders.com/reviews/luxfit-foam-roller-review/</id>
-    <title>LuxFit Foam Roller Review: The Cheap Recovery Essential</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/luxfit-foam-roller-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
-    <author>
-      <name>Lena Park</name>
-    </author>
-    <summary type="html"><![CDATA[Hands-on review of the LuxFit Premium High-Density Foam Roller. Best budget foam roller on Amazon for recovery, mobility, and injury prevention.]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the Hypervolt GO 2 Portable Massage Gun. Is $129.00 worth it for your home gym?]]></summary>
     <category term="Recovery" />
+    <category term="recovery" />
+    <category term="hyperice" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/nordic-lifting-knee-sleeves-review/</id>
-    <title>Nordic Lifting Knee Sleeves Review: The Budget Powerlifting Standard</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/nordic-lifting-knee-sleeves-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/ironmind-gripper-review/</id>
+    <title>IronMind Captains of Crush Hand Gripper Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/ironmind-gripper-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Derek Walsh</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the IronMind Captains of Crush Hand Gripper. Is $25.95 worth it for your home gym?]]></summary>
+    <category term="Accessories" />
+    <category term="accessories" />
+    <category term="ironmind" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/liquid-grip-chalk-review/</id>
+    <title>Liquid Grip Liquid Chalk (8 oz) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/liquid-grip-chalk-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Marcus Reid</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the Nordic Lifting 7mm Knee Sleeves. Best budget knee sleeves on Amazon for powerlifting, heavy squats, and knee support.]]></summary>
+    <summary type="html"><![CDATA[Hands-on review of the Liquid Grip Liquid Chalk (8 oz). Is $15.99 worth it for your home gym?]]></summary>
     <category term="Accessories" />
+    <category term="accessories" />
+    <category term="liquid grip" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/perfect-fitness-ab-wheel-review/</id>
-    <title>Perfect Fitness Ab Carver Pro Review (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/perfect-fitness-ab-wheel-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/marcy-smith-machine-review/</id>
+    <title>Marcy Smith Machine Cage System SM-4033 Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/marcy-smith-machine-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the Perfect Fitness Ab Carver Pro Wheel. Best ab wheel on Amazon with carbon steel spring assistance and wide stable design.]]></summary>
-    <category term="Accessories" />
+    <summary type="html"><![CDATA[Hands-on review of the Marcy Smith Machine Cage System SM-4033. Is $799.99 worth it for your home gym?]]></summary>
+    <category term="Power Racks" />
+    <category term="power racks" />
+    <category term="marcy" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/power-guidance-battle-rope-review/</id>
-    <title>POWER GUIDANCE Battle Rope Review: CrossFit Standard for $40</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/power-guidance-battle-rope-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/optp-foam-roller-review/</id>
+    <title>OPTP PRO-ROLLER Standard Density Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/optp-foam-roller-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the POWER GUIDANCE 30 ft Battle Rope. Best budget battle rope on Amazon for HIIT, CrossFit, and brutal conditioning.]]></summary>
-    <category term="Conditioning" />
+    <summary type="html"><![CDATA[Hands-on review of the OPTP PRO-ROLLER Standard Density. Is $27.95 worth it for your home gym?]]></summary>
+    <category term="Recovery" />
+    <category term="recovery" />
+    <category term="optp" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/powerblock-elite-90-review/</id>
-    <title>PowerBlock Elite 90 Review: Are These Worth $870?</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/powerblock-elite-90-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/prosourcefit-dip-stand-review/</id>
+    <title>ProsourceFit Dip Stand Station Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/prosourcefit-dip-stand-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Derek Walsh</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the ProsourceFit Dip Stand Station. Is $89.99 worth it for your home gym?]]></summary>
+    <category term="Calisthenics" />
+    <category term="calisthenics" />
+    <category term="prosourcefit" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/relife-power-tower-review/</id>
+    <title>RELIFE REBUILD YOUR LIFE Power Tower Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/relife-power-tower-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Lena Park</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the RELIFE REBUILD YOUR LIFE Power Tower. Is $129.99 worth it for your home gym?]]></summary>
+    <category term="Calisthenics" />
+    <category term="calisthenics" />
+    <category term="relife" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/schwinn-upright-bike-review/</id>
+    <title>Schwinn Fitness 170 Upright Exercise Bike Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/schwinn-upright-bike-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Marcus Reid</name>
     </author>
-    <summary type="html"><![CDATA[We tested the PowerBlock Elite 90 EXP adjustable dumbbells for 4 months. Are they worth the premium price over Bowflex 552s?]]></summary>
-    <category term="Dumbbells" />
+    <summary type="html"><![CDATA[Hands-on review of the Schwinn Fitness 170 Upright Exercise Bike. Is $349.99 worth it for your home gym?]]></summary>
+    <category term="Cardio" />
+    <category term="cardio" />
+    <category term="schwinn" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/rip-toned-wrist-wraps-review/</id>
-    <title>Rip Toned Wrist Wraps Review: Cheapest Wrap Upgrade on Amazon</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/rip-toned-wrist-wraps-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/sportsroyals-power-tower-review/</id>
+    <title>Sportsroyals Power Tower Dip Station Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/sportsroyals-power-tower-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Marcus Reid</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the Rip Toned 18 inch Wrist Wraps. Best budget wrist wraps on Amazon for bench press, overhead press, and heavy pushing.]]></summary>
-    <category term="Accessories" />
+    <summary type="html"><![CDATA[Hands-on review of the Sportsroyals Power Tower Dip Station. Is $149.99 worth it for your home gym?]]></summary>
+    <category term="Calisthenics" />
+    <category term="calisthenics" />
+    <category term="sportsroyals" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/rogue-style-gymnastic-rings-review/</id>
-    <title>Yes4All Wood Gymnastic Rings Review (2026)</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/rogue-style-gymnastic-rings-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/spri-medicine-ball-review/</id>
+    <title>SPRI Xerball Medicine Ball (12 lb) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/spri-medicine-ball-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the SPRI Xerball Medicine Ball (12 lb). Is $44.99 worth it for your home gym?]]></summary>
+    <category term="Free Weights" />
+    <category term="free weights" />
+    <category term="spri" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/stamina-compact-strider-review/</id>
+    <title>Stamina InMotion Compact Strider Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/stamina-compact-strider-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the Yes4All Wood Gymnastic Rings. Best budget rings on Amazon for muscle-ups, dips, rows, and ring training.]]></summary>
-    <category term="Accessories" />
+    <summary type="html"><![CDATA[Hands-on review of the Stamina InMotion Compact Strider. Is $79.99 worth it for your home gym?]]></summary>
+    <category term="Cardio" />
+    <category term="cardio" />
+    <category term="stamina" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/rogue-style-weight-vest-review/</id>
-    <title>RUNFast Pro Weight Vest Review (2026): Best Budget Weight Vest</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/rogue-style-weight-vest-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/stamina-power-tower-review/</id>
+    <title>Stamina 1690 Power Tower Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/stamina-power-tower-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the RUNFast Pro Adjustable 40 lb Weight Vest. Best budget weight vest on Amazon for rucking, conditioning, and pull-ups.]]></summary>
-    <category term="Accessories" />
+    <summary type="html"><![CDATA[Hands-on review of the Stamina 1690 Power Tower. Is $119.99 worth it for your home gym?]]></summary>
+    <category term="Calisthenics" />
+    <category term="calisthenics" />
+    <category term="stamina" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/yes4all-parallettes-review/</id>
-    <title>Yes4All Parallettes Review: Unlock Calisthenics for $30</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/yes4all-parallettes-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/sunny-spin-bike-review/</id>
+    <title>Sunny Health &amp; Fitness Indoor Cycling Bike SF-B1805 Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/sunny-spin-bike-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the Yes4All Parallettes Push-Up Bars. Best budget parallettes on Amazon for L-sits, planche progressions, and calisthenics.]]></summary>
-    <category term="Accessories" />
+    <summary type="html"><![CDATA[Hands-on review of the Sunny Health & Fitness Indoor Cycling Bike SF-B1805. Is $369.99 worth it for your home gym?]]></summary>
+    <category term="Cardio" />
+    <category term="cardio" />
+    <category term="sunny health &amp; fitness" />
+    <category term="review" />
   </entry>
   <entry>
-    <id>https://garagegymbuilders.com/reviews/yes4all-sandbag-review/</id>
-    <title>Yes4All Workout Sandbag Review (2026): The Strongman Tool Under $60</title>
-    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/yes4all-sandbag-review/" />
-    <published>2026-04-13T00:00:00.000Z</published>
-    <updated>2026-04-13T00:00:00.000Z</updated>
+    <id>https://garagegymbuilders.com/reviews/synergee-barbell-collars-review/</id>
+    <title>Synergee Aluminum Barbell Collars (Pair) Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/synergee-barbell-collars-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
     <author>
       <name>Derek Walsh</name>
     </author>
-    <summary type="html"><![CDATA[Hands-on review of the Yes4All Heavy Duty Workout Sandbag. Best budget sandbag on Amazon for strongman, conditioning, and functional training.]]></summary>
-    <category term="Conditioning" />
+    <summary type="html"><![CDATA[Hands-on review of the Synergee Aluminum Barbell Collars (Pair). Is $24.95 worth it for your home gym?]]></summary>
+    <category term="Barbells" />
+    <category term="barbells" />
+    <category term="synergee" />
+    <category term="review" />
+  </entry>
+  <entry>
+    <id>https://garagegymbuilders.com/reviews/theragun-mini-review/</id>
+    <title>Theragun Mini (2nd Gen) Percussive Therapy Review: Worth the Money?</title>
+    <link rel="alternate" type="text/html" href="https://garagegymbuilders.com/reviews/theragun-mini-review/" />
+    <published>2026-04-16T00:00:00.000Z</published>
+    <updated>2026-04-16T00:00:00.000Z</updated>
+    <author>
+      <name>Marcus Reid</name>
+    </author>
+    <summary type="html"><![CDATA[Hands-on review of the Theragun Mini (2nd Gen) Percussive Therapy. Is $149.00 worth it for your home gym?]]></summary>
+    <category term="Recovery" />
+    <category term="recovery" />
+    <category term="therabody" />
+    <category term="review" />
   </entry>
 </feed>
