@@ -71,19 +71,26 @@ async function downloadImage(url, filePath) {
   });
 }
 
-const baseSuffix = `. Dark moody garage gym photography with dramatic orange accent lighting, industrial atmosphere, realistic photograph, black and dark gray color palette with orange highlights, no people visible, no text, no watermarks, 16:9 aspect ratio, cinematic composition`;
+const S = `. Dark moody garage gym photography with dramatic orange accent lighting, industrial concrete and steel atmosphere, realistic photograph, black and dark gray color palette with orange highlights, no people visible, no text, no watermarks, no cartoons, 16:9 aspect ratio, cinematic composition`;
 
 const toGenerate = [
-  { name: "sunny-rower-vs-concept2", prompt: `Two rowing machines side by side in a dark garage gym - one magnetic resistance rower and one premium air resistance rower, dramatic orange accent lighting${baseSuffix}` },
-  { name: "cap-hex-vs-bowflex-552", prompt: `A pair of black cast iron hex dumbbells next to a pair of adjustable dumbbells with dial mechanism, both on a dark rubber gym floor, dramatic orange accent lighting${baseSuffix}` },
-  { name: "trx-vs-bodylastics", prompt: `A suspension trainer with yellow nylon webbing next to a set of resistance bands with handles, both arranged on a dark rubber gym floor, dramatic orange accent lighting${baseSuffix}` },
-  { name: "iron-gym-vs-wall-mounted-bar", prompt: `A doorway pull-up bar in a doorframe next to a wall-mounted pull-up bar bolted to a brick wall, dark moody garage gym, dramatic orange accent lighting${baseSuffix}` },
-  { name: "yes4all-trap-bar-vs-rogue", prompt: `Two hexagonal trap bars side by side, both with weight plates loaded, on a dark rubber gym floor, dramatic orange rim lighting${baseSuffix}` },
-  { name: "iron-bull-vs-spud-dip-belt", prompt: `Two weightlifting dip belts side by side - one with a steel chain and one with a heavy nylon strap, with a 45 lb plate hanging, dark moody background, dramatic orange rim lighting${baseSuffix}` },
-  { name: "wod-nation-vs-crossrope", prompt: `Two jump ropes side by side - one lightweight speed rope with thin handles and one heavy weighted rope with thick handles, on a dark rubber gym floor, dramatic orange accent lighting${baseSuffix}` },
+  { name: "best-home-gym-accessories-under-50", prompt: `Flat lay arrangement of home gym accessories on dark concrete floor: jump rope, ab wheel, foam roller, resistance bands, lifting straps, barbell collars, chalk block, wooden gymnastic rings. Items arranged in a clean grid pattern with space between each${S}` },
+  { name: "best-cardio-machines-under-500", prompt: `Row of four budget cardio machines in a dark garage gym: magnetic rowing machine, indoor spin bike, compact treadmill, upright exercise bike. Machines lined up on dark rubber flooring${S}` },
+  { name: "best-weight-benches-under-300", prompt: `Adjustable weight bench set at incline position in a dark garage gym, with a loaded Olympic barbell on a rack behind it. Black vinyl pad bench with steel frame${S}` },
+  { name: "best-power-racks-under-1000", prompt: `Three power racks of increasing size side by side in a dark warehouse gym. Small budget rack, mid-range rack with cable system, large feature-rich cage. Loaded barbells on each${S}` },
+  { name: "best-home-gym-equipment-under-100", prompt: `Collection of budget gym equipment arranged on a dark rubber floor: doorway pull-up bar, pair of hex dumbbells, resistance band set, ab roller wheel, slam ball, speed jump rope, foam roller, lifting belt. Artful arrangement${S}` },
+  { name: "is-bowflex-552-worth-it", prompt: `Close-up product photography of a pair of adjustable dumbbells with weight selection dial mechanism sitting on a dark rubber gym floor. The dial shows weight numbers. Dramatic orange side lighting on the dumbbell surface${S}` },
+  { name: "is-flybird-bench-worth-it", prompt: `Black adjustable weight bench set at incline angle in a dark garage gym. Compact foldable design with steel frame and padded vinyl surface. Single bench isolated on dark rubber floor${S}` },
+  { name: "is-fitness-reality-810xlt-worth-it", prompt: `Budget power rack with silver steel frame in a dark garage gym. Loaded Olympic barbell resting on J-hooks at chest height. Multi-grip pull-up bar on top. Simple clean rack design${S}` },
+  { name: "is-powerblock-elite-worth-it", prompt: `Pair of rectangular block-style adjustable dumbbells with black housing and metal selector pin sitting on dark rubber gym floor. The unique cage design of the dumbbells is visible${S}` },
+  { name: "flybird-vs-marcy-bench", prompt: `Two weight benches facing each other in a dark garage gym: lightweight foldable adjustable bench on the left, heavy-duty Olympic bench press station with built-in uprights and leg developer on the right. Orange light strip between them${S}` },
+  { name: "sunny-spin-bike-vs-schwinn", prompt: `Indoor spin bike with heavy flywheel on the left and upright exercise bike with digital display on the right, facing each other in a dark garage gym. Orange dividing light between them${S}` },
+  { name: "fitness-reality-vs-sportsroyals", prompt: `Basic silver steel power rack on the left and large black power cage with cable crossover system on the right, in a dark warehouse gym. Orange accent light between the two racks${S}` },
+  { name: "titan-ssb-vs-yes4all-trap-bar", prompt: `Safety squat bar with curved camber and padded shoulder yoke lying next to a hexagonal trap bar, both on a dark rubber gym floor. Close-up showing the unique shapes of each specialty barbell${S}` },
 ];
 
 async function main() {
+  console.log(`Generating ${toGenerate.length} cover images via Kie.ai Flux Kontext Max...\n`);
   for (let i = 0; i < toGenerate.length; i++) {
     const item = toGenerate[i];
     const jpgPath = path.join(coversDir, item.name + ".jpg");
@@ -98,9 +105,11 @@ async function main() {
       const imageUrl = await pollForResult(taskId);
       console.log(`\n  Downloading...`);
       await downloadImage(imageUrl, jpgPath);
+      const inputSize = fs.statSync(jpgPath).size;
       await sharp(jpgPath).webp({ quality: 80 }).toFile(webpPath);
+      const outputSize = fs.statSync(webpPath).size;
       fs.unlinkSync(jpgPath);
-      console.log(`  DONE -> ${item.name}.webp`);
+      console.log(`  DONE -> ${item.name}.webp (${(outputSize / 1024).toFixed(0)}KB, ${Math.round((1 - outputSize / inputSize) * 100)}% smaller)`);
       if (i < toGenerate.length - 1) await sleep(1500);
     } catch (err) {
       console.error(`\n  ERROR: ${err.message}`);
