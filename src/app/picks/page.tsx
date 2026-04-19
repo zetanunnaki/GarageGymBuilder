@@ -3,6 +3,7 @@ import { getAllProducts } from "@/lib/products";
 import { BuyButtons } from "@/components/mdx/buy-buttons";
 import { Award } from "lucide-react";
 import { buildMetadata } from "@/lib/metadata";
+import { generateCollectionPageSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = buildMetadata({
   title: "Our Picks — Every Product We Recommend",
@@ -19,17 +20,44 @@ export const metadata: Metadata = buildMetadata({
 
 const categoryOrder = [
   { label: "Power Racks", ids: ["fitness-reality-810xlt", "mikolo-f4-power-cage", "sportsroyals-power-cage"] },
-  { label: "Dumbbells", ids: ["bowflex-selecttech-552", "powerblock-elite-90"] },
-  { label: "Barbells & Weights", ids: ["cap-barbell-olympic", "synergee-olympic-barbell", "yes4all-olympic-plates"] },
-  { label: "Cardio", ids: ["rogue-echo-bike", "assault-airbike-classic", "concept2-rowerg"] },
+  { label: "Dumbbells", ids: ["bowflex-selecttech-552", "powerblock-elite-90", "cap-hex-dumbbells"] },
+  { label: "Barbells & Weights", ids: ["cap-barbell-olympic", "synergee-olympic-barbell", "yes4all-olympic-plates", "yes4all-hex-trap-bar", "cap-ez-curl-bar", "titan-safety-squat-bar"] },
+  { label: "Cardio", ids: ["rogue-echo-bike", "assault-airbike-classic", "concept2-rowerg", "sunny-sf-rw5515-rower", "sunny-spin-bike", "wod-nation-jump-rope"] },
   { label: "Benches", ids: ["flybird-adjustable-bench", "marcy-olympic-bench"] },
-  { label: "Accessories", ids: ["yes4all-kettlebell-set", "titan-deadlift-jack"] },
+  { label: "Kettlebells & Conditioning", ids: ["yes4all-kettlebell-set", "yes4all-slam-ball", "yes4all-sandbag", "power-guidance-battle-rope", "yes4all-plyo-box"] },
+  { label: "Bodyweight & Gymnastics", ids: ["iron-gym-pull-up-bar", "iron-bull-dip-belt", "rogue-style-gymnastic-rings", "yes4all-parallettes", "perfect-fitness-ab-wheel", "yes4all-roman-chair"] },
+  { label: "Bands & Mobility", ids: ["bodylastics-resistance-bands", "trx-go-suspension-trainer", "luxfit-foam-roller", "triggerpoint-grid"] },
+  { label: "Lifting Accessories", ids: ["dark-iron-lifting-belt", "harbinger-lifting-straps", "rip-toned-wrist-wraps", "nordic-lifting-knee-sleeves", "fat-gripz", "liquid-grip-chalk", "synergee-barbell-collars"] },
+  { label: "Storage & Organization", ids: ["titan-plate-tree", "yes4all-dumbbell-rack", "titan-deadlift-jack", "balancefrom-puzzle-mat", "gym-wall-mirror", "gymboss-timer"] },
 ];
 
 export default function PicksPage() {
   const allProducts = getAllProducts();
 
+  const picksItems = categoryOrder.flatMap((cat) =>
+    cat.ids
+      .filter((id) => allProducts[id])
+      .map((id) => ({
+        name: allProducts[id].name,
+        url: `/picks/#${id}`,
+        description: `${allProducts[id].brand} — ${allProducts[id].price}`,
+        image: allProducts[id].image,
+      }))
+  );
+
+  const picksSchema = generateCollectionPageSchema(
+    "Our Picks — Every Product We Recommend",
+    "Every product GarageGymBuilders recommends in one place. Tested, reviewed, and ranked by our team.",
+    "/picks/",
+    picksItems
+  );
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(picksSchema) }}
+      />
     <div className="mx-auto max-w-7xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <header className="mb-16">
         <div className="mb-4 flex items-center gap-3">
@@ -61,6 +89,7 @@ export default function PicksPage() {
               return (
                 <div
                   key={id}
+                  id={id}
                   className="grid items-center gap-6 border border-zinc-800 bg-zinc-900/40 p-4 md:grid-cols-12"
                 >
                   {/* Product image */}
@@ -121,5 +150,6 @@ export default function PicksPage() {
         </section>
       ))}
     </div>
+    </>
   );
 }

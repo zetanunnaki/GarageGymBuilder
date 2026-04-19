@@ -211,6 +211,61 @@
       "Premium price vs. budget air bikes"
     ]
   },
+  "rogue-echo-bike": {
+    "name": "Rogue Echo Bike",
+    "brand": "Rogue Fitness",
+    "price": "$895.00",
+    "image": "/images/products/rogue-echo-bike.webp",
+    "specs": {
+      "weightCapacity": "350 lbs user weight",
+      "footprint": "58.875\" L x 29.875\" W x 52.75\" H",
+      "material": "Steel Frame (127 lbs)"
+    },
+    "amazonLink": "",
+    "walmartLink": "",
+    "rogueLink": "https://www.roguecanada.ca/rogue-echo-bike",
+    "pros": [
+      "Belt-driven fan — quieter and zero chain maintenance",
+      "127 lbs of steel — the most stable air bike available",
+      "Powder-coated finish resists rust and scratches",
+      "Simple LCD console — no batteries, no Bluetooth, no failures",
+      "Overbuilt for commercial or garage gym abuse",
+      "Lifetime of use with zero maintenance"
+    ],
+    "cons": [
+      "No programmable workouts — manual only",
+      "127 lbs makes it very hard to relocate",
+      "Premium price at $895",
+      "No Bluetooth or app connectivity"
+    ]
+  },
+  "concept2-rowerg": {
+    "name": "Concept2 RowErg",
+    "brand": "Concept2",
+    "price": "$990.00",
+    "image": "/images/products/concept2-rowerg.webp",
+    "specs": {
+      "weightCapacity": "500 lbs user weight",
+      "footprint": "96\" L x 24\" W x 20\" H",
+      "material": "Aluminum/Steel Frame"
+    },
+    "amazonLink": "https://amazon.com/dp/B00NH9WEUA?tag=garagegymbu0e-20",
+    "walmartLink": "",
+    "pros": [
+      "The gold standard rowing machine — used in Olympics and every CrossFit gym",
+      "PM5 monitor with Bluetooth and ANT+ connectivity",
+      "Air resistance scales infinitely with effort",
+      "Separates in two pieces for easy storage",
+      "30+ year lifespan with minimal maintenance",
+      "Massive online community for training and competition"
+    ],
+    "cons": [
+      "Air resistance is louder than magnetic rowers",
+      "Premium price at $990",
+      "PM5 monitor uses 2 D-cell batteries",
+      "No manual resistance settings — effort-dependent only"
+    ]
+  },
   "flybird-adjustable-bench": {
     "name": "FLYBIRD Adjustable Weight Bench",
     "brand": "FLYBIRD",

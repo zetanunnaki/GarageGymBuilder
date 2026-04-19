@@ -18,7 +18,13 @@ const contentTypeLabels: Record<string, string> = {
   reviews: "Review",
   guides: "Guide",
   builds: "Build",
+  products: "Product",
 };
+
+function getResultHref(r: IndexEntry): string {
+  if (r.contentType === "products") return `/picks/#${r.slug}`;
+  return `/${r.contentType}/${r.slug}/`;
+}
 
 function score(entry: IndexEntry, terms: string[]): number {
   const title = entry.title.toLowerCase();
@@ -136,7 +142,7 @@ export function SearchClient() {
             {results.map((r) => (
               <li key={`${r.contentType}/${r.slug}`}>
                 <Link
-                  href={`/${r.contentType}/${r.slug}/`}
+                  href={getResultHref(r)}
                   className="block border border-zinc-800 bg-zinc-900/40 p-6 transition-colors hover:border-orange-600/50"
                 >
                   <div className="mb-2 text-[10px] font-black uppercase tracking-widest text-orange-500">

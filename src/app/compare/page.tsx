@@ -3,6 +3,7 @@ import { CompareClient } from "./compare-client";
 import productsData from "@/data/products.json";
 import type { Product } from "@/lib/products";
 import { buildMetadata } from "@/lib/metadata";
+import { generateSoftwareApplicationSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = buildMetadata({
   title: "Compare Home Gym Products",
@@ -33,7 +34,19 @@ export default function ComparePage() {
     walmartLink: product.walmartLink,
   }));
 
+  const compareSchema = generateSoftwareApplicationSchema(
+    "Home Gym Product Comparison Tool",
+    "Side-by-side comparison of home gym equipment. Pick 2-4 products and see specs, pricing, pros, and cons at a glance.",
+    "/compare/",
+    ["Side-by-side product specs", "Price comparison", "Pros and cons analysis", "Up to 4 products at once"]
+  );
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(compareSchema) }}
+      />
     <div className="mx-auto max-w-7xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <header className="mb-12">
         <div className="mb-4 flex items-center gap-3">
@@ -75,5 +88,6 @@ export default function ComparePage() {
 
       <CompareClient catalog={catalog} />
     </div>
+    </>
   );
 }

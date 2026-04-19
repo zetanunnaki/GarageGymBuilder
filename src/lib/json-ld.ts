@@ -403,6 +403,30 @@ export function generateFaqSchema(
   };
 }
 
+export function generateSoftwareApplicationSchema(
+  name: string,
+  description: string,
+  url: string,
+  featureList: string[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name,
+    description,
+    url: absoluteUrl(url),
+    applicationCategory: "UtilityApplication",
+    operatingSystem: "Web",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    featureList,
+    publisher,
+  };
+}
+
 export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",

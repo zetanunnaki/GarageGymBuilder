@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { FlaskConical, Clock, Weight, Shield, Wrench, DollarSign } from "lucide-react";
 import { buildMetadata } from "@/lib/metadata";
+import { absoluteUrl, SITE } from "@/lib/site-config";
 
 export const metadata: Metadata = buildMetadata({
   title: "How We Test Equipment",
@@ -55,7 +56,32 @@ const testingSteps = [
 ];
 
 export default function HowWeTestPage() {
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "How We Test Home Gym Equipment",
+    description:
+      "Our testing methodology for home gym equipment. Every product we recommend has been purchased, built, and beaten on by our team.",
+    url: absoluteUrl("/how-we-test/"),
+    step: testingSteps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: step.title,
+      text: step.description,
+    })),
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+    },
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+    />
     <div className="mx-auto max-w-4xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <header className="mb-16">
         <div className="mb-4 flex items-center gap-3">
@@ -151,5 +177,6 @@ export default function HowWeTestPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

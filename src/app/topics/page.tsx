@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 
 import { buildMetadata } from "@/lib/metadata";
+import { generateCollectionPageSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = buildMetadata({
   title: "All Topics",
@@ -51,6 +52,20 @@ const iconMap = {
 
 export default function TopicsPage() {
   const counts = getTopicCounts();
+
+  const topicsItems = topics.map((topic) => ({
+    name: topic.name,
+    url: `/topics/${topic.slug}/`,
+    description: topic.description,
+  }));
+
+  const topicsSchema = generateCollectionPageSchema(
+    "All Topics — Home Gym Training Categories",
+    "Browse all home gym topics — powerlifting, CrossFit, cardio, recovery, budget builds, safety, and more.",
+    "/topics/",
+    topicsItems
+  );
+
   const sorted = [...topics].sort((a, b) => {
     // Featured first, then by count
     if (a.featured && !b.featured) return -1;
@@ -59,6 +74,11 @@ export default function TopicsPage() {
   });
 
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(topicsSchema) }}
+    />
     <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-20">
       <header className="mb-12">
         <div className="mb-4 flex items-center gap-3">
@@ -123,5 +143,6 @@ export default function TopicsPage() {
         })}
       </div>
     </div>
+    </>
   );
 }

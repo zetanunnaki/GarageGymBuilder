@@ -1293,5 +1293,509 @@
     "slug": "powerlifter-home-gym-build",
     "contentType": "builds",
     "category": "Build Guides"
+  },
+  {
+    "title": "Fitness Reality 810XLT Super Max Power Cage",
+    "description": "Fitness Reality — $329.99. 4.5+ star rating on Amazon with 5,000+ reviews",
+    "slug": "fitness-reality-810xlt",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Mikolo F4 2.0 Power Cage with LAT Pulldown",
+    "description": "Mikolo — $489.99. 4.6+ star rating on Amazon with 3,000+ reviews",
+    "slug": "mikolo-f4-power-cage",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Sportsroyals Power Cage with Cable Crossover",
+    "description": "Sportsroyals — $549.99. 4.7+ star rating on Amazon",
+    "slug": "sportsroyals-power-cage",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Bowflex SelectTech 552 Adjustable Dumbbells",
+    "description": "Bowflex — $429.00. 4.7+ star rating on Amazon with 15,000+ reviews",
+    "slug": "bowflex-selecttech-552",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "PowerBlock Elite USA 90 EXP Adjustable Dumbbells",
+    "description": "PowerBlock — $869.00. 4.8+ star rating on Amazon with 2,000+ reviews",
+    "slug": "powerblock-elite-90",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "CAP Barbell 300 lb Olympic Weight Set",
+    "description": "CAP Barbell — $339.99. 4.5+ star rating with 8,000+ reviews",
+    "slug": "cap-barbell-olympic",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Synergee Games 20kg Olympic Barbell",
+    "description": "Synergee — $199.95. 4.7+ star rating on Amazon",
+    "slug": "synergee-olympic-barbell",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Assault AirBike Classic",
+    "description": "Assault Fitness — $749.00. 4.5+ star rating on Amazon with 3,000+ reviews",
+    "slug": "assault-airbike-classic",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Rogue Echo Bike",
+    "description": "Rogue Fitness — $895.00. Belt-driven fan — quieter and zero chain maintenance",
+    "slug": "rogue-echo-bike",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Concept2 RowErg",
+    "description": "Concept2 — $990.00. The gold standard rowing machine — used in Olympics and every CrossFit gym",
+    "slug": "concept2-rowerg",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "FLYBIRD Adjustable Weight Bench",
+    "description": "FLYBIRD — $109.99. 4.6+ star rating on Amazon with 25,000+ reviews",
+    "slug": "flybird-adjustable-bench",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Marcy Olympic Weight Bench MD-857",
+    "description": "Marcy — $239.99. 4.4+ star rating on Amazon with 4,000+ reviews",
+    "slug": "marcy-olympic-bench",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Olympic Cast Iron Weight Plates (Pair)",
+    "description": "Yes4All — $89.99. 4.6+ star rating on Amazon with 10,000+ reviews",
+    "slug": "yes4all-olympic-plates",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Cast Iron Kettlebell Set",
+    "description": "Yes4All — $149.99. 4.7+ star rating on Amazon with 12,000+ reviews",
+    "slug": "yes4all-kettlebell-set",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Bells of Steel Open-Ended Hex Trap Bar",
+    "description": "Bells of Steel — $199.99. Open-ended design allows easier plate loading",
+    "slug": "yes4all-hex-trap-bar",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All 3-in-1 Wooden Plyo Box",
+    "description": "Yes4All — $119.99. 4.7+ star rating on Amazon with 3,500+ reviews",
+    "slug": "yes4all-plyo-box",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "WOD Nation Speed Jump Rope",
+    "description": "WOD Nation — $14.97. 4.6+ star rating on Amazon with 30,000+ reviews",
+    "slug": "wod-nation-jump-rope",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Bodylastics Stackable Resistance Bands Set",
+    "description": "Bodylastics — $59.95. 4.6+ star rating on Amazon with 18,000+ reviews",
+    "slug": "bodylastics-resistance-bands",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Iron Bull Strength Dip Belt with Chain",
+    "description": "Iron Bull Strength — $49.99. 4.7+ star rating on Amazon with 5,000+ reviews",
+    "slug": "iron-bull-dip-belt",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Sunny Health & Fitness SF-RW5515 Magnetic Rower",
+    "description": "Sunny Health & Fitness — $249.99. 4.5+ star rating on Amazon with 25,000+ reviews",
+    "slug": "sunny-sf-rw5515-rower",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Iron Gym Total Upper Body Workout Bar",
+    "description": "Iron Gym — $29.99. 4.5+ star rating on Amazon with 60,000+ reviews",
+    "slug": "iron-gym-pull-up-bar",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "CAP Barbell Cast Iron Hex Dumbbell (Pair)",
+    "description": "CAP Barbell — $39.99. 4.7+ star rating on Amazon with 30,000+ reviews",
+    "slug": "cap-hex-dumbbells",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Dark Iron Fitness Genuine Leather Lifting Belt",
+    "description": "Dark Iron Fitness — $54.97. 4.6+ star rating on Amazon with 12,000+ reviews",
+    "slug": "dark-iron-lifting-belt",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "TRX GO Suspension Trainer System",
+    "description": "TRX — $129.95. 4.6+ star rating on Amazon with 5,000+ reviews",
+    "slug": "trx-go-suspension-trainer",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Slam Ball (Sand-Filled)",
+    "description": "Yes4All — $24.99. 4.7+ star rating on Amazon with 15,000+ reviews",
+    "slug": "yes4all-slam-ball",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Adjustable Ab/Hyperextension Bench",
+    "description": "Yes4All — $129.99. 4.6+ star rating on Amazon with 4,000+ reviews",
+    "slug": "yes4all-roman-chair",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Wood Gymnastic Rings with Adjustable Straps",
+    "description": "Yes4All — $39.99. 4.7+ star rating on Amazon with 8,000+ reviews",
+    "slug": "rogue-style-gymnastic-rings",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "RUNFast Pro Adjustable Weight Vest 40 lb",
+    "description": "RUNFast — $89.99. 4.5+ star rating on Amazon with 9,000+ reviews",
+    "slug": "rogue-style-weight-vest",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Heavy Duty Workout Sandbag",
+    "description": "Yes4All — $54.99. 4.6+ star rating on Amazon with 6,000+ reviews",
+    "slug": "yes4all-sandbag",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Perfect Fitness Ab Carver Pro Wheel",
+    "description": "Perfect Fitness — $26.99. 4.6+ star rating on Amazon with 25,000+ reviews",
+    "slug": "perfect-fitness-ab-wheel",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Nordic Lifting Knee Sleeves (7mm Pair)",
+    "description": "Nordic Lifting — $39.97. 4.6+ star rating on Amazon with 20,000+ reviews",
+    "slug": "nordic-lifting-knee-sleeves",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Harbinger Padded Cotton Lifting Straps",
+    "description": "Harbinger — $12.99. 4.7+ star rating on Amazon with 15,000+ reviews",
+    "slug": "harbinger-lifting-straps",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Rip Toned Wrist Wraps (18\" Pair)",
+    "description": "Rip Toned — $14.97. 4.6+ star rating on Amazon with 25,000+ reviews",
+    "slug": "rip-toned-wrist-wraps",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "LuxFit Premium High-Density Foam Roller",
+    "description": "LuxFit — $19.99. 4.7+ star rating on Amazon with 30,000+ reviews",
+    "slug": "luxfit-foam-roller",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "POWER GUIDANCE Battle Rope (30 ft / 1.5\")",
+    "description": "POWER GUIDANCE — $39.99. 4.6+ star rating on Amazon with 7,000+ reviews",
+    "slug": "power-guidance-battle-rope",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All Parallettes Push-Up Bars",
+    "description": "Yes4All — $29.99. 4.6+ star rating on Amazon with 5,000+ reviews",
+    "slug": "yes4all-parallettes",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Titan Fitness Full Deadlift Bar Jack",
+    "description": "Titan Fitness — $189.99. 4.6+ star rating on Amazon",
+    "slug": "titan-deadlift-jack",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "BalanceFrom Puzzle Exercise Mat (24 sq ft)",
+    "description": "BalanceFrom — $25.99. 4.5+ star rating on Amazon with 40,000+ reviews",
+    "slug": "balancefrom-puzzle-mat",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All 5-Tier A-Frame Dumbbell Rack",
+    "description": "Yes4All — $39.99. 4.6+ star rating on Amazon",
+    "slug": "yes4all-dumbbell-rack",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Valor Fitness BD-62 Wall Mount Cable Station",
+    "description": "Valor Fitness — $249.99. 4.5+ star rating on Amazon with 1,500+ reviews",
+    "slug": "valor-fitness-cable-station",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Titan Fitness Safety Squat Bar V2",
+    "description": "Titan Fitness — $179.99. 4.6+ star rating on Amazon",
+    "slug": "titan-safety-squat-bar",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "CAP Barbell Olympic EZ Curl Bar",
+    "description": "CAP Barbell — $54.99. 4.6+ star rating on Amazon with 5,000+ reviews",
+    "slug": "cap-ez-curl-bar",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Yes4All T-Bar Row Landmine Attachment",
+    "description": "Yes4All — $19.99. 4.6+ star rating on Amazon with 3,000+ reviews",
+    "slug": "yes4all-landmine",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Sunny Health & Fitness Indoor Cycling Bike SF-B1805",
+    "description": "Sunny Health & Fitness — $369.99. 4.5+ star rating on Amazon",
+    "slug": "sunny-spin-bike",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "XTERRA Fitness TR150 Folding Treadmill",
+    "description": "XTERRA Fitness — $249.99. 4.4+ star rating on Amazon with 10,000+ reviews",
+    "slug": "xterra-treadmill",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Sportsroyals Power Tower Dip Station",
+    "description": "Sportsroyals — $149.99. 4.5+ star rating on Amazon with 5,000+ reviews",
+    "slug": "sportsroyals-power-tower",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "ProsourceFit Dip Stand Station",
+    "description": "ProsourceFit — $89.99. 4.6+ star rating on Amazon with 3,000+ reviews",
+    "slug": "prosourcefit-dip-stand",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "TriggerPoint GRID Foam Roller",
+    "description": "TriggerPoint — $36.99. 4.7+ star rating on Amazon with 20,000+ reviews",
+    "slug": "triggerpoint-grid",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Theragun Mini (2nd Gen) Percussive Therapy",
+    "description": "Therabody — $149.00. 4.6+ star rating on Amazon with 8,000+ reviews",
+    "slug": "theragun-mini",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "IronMind Captains of Crush Hand Gripper",
+    "description": "IronMind — $25.95. 4.7+ star rating on Amazon with 10,000+ reviews",
+    "slug": "ironmind-gripper",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Fat Gripz Original (2.25\" Diameter)",
+    "description": "Fat Gripz — $39.95. 4.7+ star rating on Amazon with 8,000+ reviews",
+    "slug": "fat-gripz",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Liquid Grip Liquid Chalk (8 oz)",
+    "description": "Liquid Grip — $15.99. 4.5+ star rating on Amazon with 5,000+ reviews",
+    "slug": "liquid-grip-chalk",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Gymboss Interval Timer and Stopwatch",
+    "description": "Gymboss — $24.95. 4.5+ star rating on Amazon with 5,000+ reviews",
+    "slug": "gymboss-timer",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Gaiam Essentials Thick Yoga Mat (10mm)",
+    "description": "Gaiam — $21.98. 4.5+ star rating on Amazon with 50,000+ reviews",
+    "slug": "gaiam-yoga-mat",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "SPRI Xerball Medicine Ball (12 lb)",
+    "description": "SPRI — $44.99. 4.6+ star rating on Amazon with 3,000+ reviews",
+    "slug": "spri-medicine-ball",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Titan Fitness Olympic Plate Tree & Barbell Holder",
+    "description": "Titan Fitness — $89.99. 4.5+ star rating on Amazon",
+    "slug": "titan-plate-tree",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Harbinger Pro WristWrap Weightlifting Gloves",
+    "description": "Harbinger — $24.99. 4.5+ star rating on Amazon with 15,000+ reviews",
+    "slug": "harbinger-gloves",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Schwinn Fitness 170 Upright Exercise Bike",
+    "description": "Schwinn — $349.99. 4.4+ star rating on Amazon with 5,000+ reviews",
+    "slug": "schwinn-upright-bike",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Stamina InMotion Compact Strider",
+    "description": "Stamina — $79.99. 4.3+ star rating on Amazon with 15,000+ reviews",
+    "slug": "stamina-compact-strider",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Body-Solid Powerline Vertical Leg Press",
+    "description": "Body-Solid — $349.99. 4.4+ star rating on Amazon",
+    "slug": "body-solid-leg-press",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "XMark Seated Preacher Curl Bench",
+    "description": "XMark — $139.99. 4.5+ star rating on Amazon with 1,500+ reviews",
+    "slug": "xmark-preacher-curl",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Synergee Aluminum Barbell Collars (Pair)",
+    "description": "Synergee — $24.95. 4.7+ star rating on Amazon with 5,000+ reviews",
+    "slug": "synergee-barbell-collars",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Chirp Wheel+ Back Pain Relief (3-Pack)",
+    "description": "Chirp — $59.99. 4.5+ star rating on Amazon with 10,000+ reviews",
+    "slug": "chirp-wheel",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Titan Fitness Wall Mounted Pulley Tower",
+    "description": "Titan Fitness — $279.99. 4.5+ star rating on Amazon",
+    "slug": "titan-wall-pulley",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Marcy Smith Machine Cage System SM-4033",
+    "description": "Marcy — $799.99. 4.3+ star rating on Amazon with 2,000+ reviews",
+    "slug": "marcy-smith-machine",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "RELIFE REBUILD YOUR LIFE Power Tower",
+    "description": "RELIFE — $129.99. 4.4+ star rating on Amazon with 3,000+ reviews",
+    "slug": "relife-power-tower",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Hypervolt GO 2 Portable Massage Gun",
+    "description": "Hyperice — $129.00. 4.5+ star rating on Amazon with 2,000+ reviews",
+    "slug": "hypervolt-go2",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "OPTP PRO-ROLLER Standard Density (36\")",
+    "description": "OPTP — $27.95. 4.7+ star rating on Amazon with 3,000+ reviews",
+    "slug": "optp-foam-roller",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "TRX Bandit Resistance Band Handles",
+    "description": "TRX — $49.95. 4.6+ star rating on Amazon",
+    "slug": "trx-bandit-handles",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Fab Glass and Mirror Gym Wall Mirror (48\"x24\")",
+    "description": "Fab Glass and Mirror — $89.99. 4.4+ star rating on Amazon",
+    "slug": "gym-wall-mirror",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Stamina 1690 Power Tower",
+    "description": "Stamina — $119.99. 4.3+ star rating on Amazon with 5,000+ reviews",
+    "slug": "stamina-power-tower",
+    "contentType": "products",
+    "category": "Products"
+  },
+  {
+    "title": "Fringe Sport Color Bumper Plate Set (160 lbs)",
+    "description": "Fringe Sport — $289.99. 4.7+ star rating with 2,000+ reviews",
+    "slug": "fringe-sport-bumper-plates",
+    "contentType": "products",
+    "category": "Products"
   }
 ]
