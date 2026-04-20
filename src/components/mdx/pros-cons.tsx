@@ -1,12 +1,24 @@
 import { Check, X } from "lucide-react";
 
 interface ProsConsProps {
-  list: string[];
+  list?: string[];
+  data?: string;
   type: "pros" | "cons";
 }
 
-export function ProsCons({ list, type }: ProsConsProps) {
-  if (!list || !Array.isArray(list)) return null;
+export function ProsCons({ list, data, type }: ProsConsProps) {
+  let items: string[] = [];
+  if (list && Array.isArray(list)) {
+    items = list;
+  } else if (data) {
+    try {
+      items = JSON.parse(data);
+    } catch {
+      return null;
+    }
+  }
+  if (items.length === 0) return null;
+
   const isPros = type === "pros";
 
   return (
@@ -15,7 +27,7 @@ export function ProsCons({ list, type }: ProsConsProps) {
         className={`border ${isPros ? "border-green-900/50 bg-green-950/20" : "border-red-900/50 bg-red-950/20"}`}
       >
         <ul className="divide-y divide-zinc-800/50">
-          {list.map((item, i) => (
+          {items.map((item, i) => (
             <li key={i} className="flex items-start gap-3 px-5 py-3">
               <span
                 className={`mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${isPros ? "bg-green-500/15" : "bg-red-500/15"}`}
