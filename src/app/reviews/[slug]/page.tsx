@@ -277,7 +277,7 @@ export default async function ReviewPage({
       <MdxContent source={content} />
       <AuthorBio author={frontmatter.author} />
       <ShareButtons title={frontmatter.title} slug={slug} contentType={CONTENT_TYPE} />
-      <RelatedArticles currentSlug={slug} contentType={CONTENT_TYPE} />
+      <RelatedArticles currentSlug={slug} contentType={CONTENT_TYPE} category={frontmatter.category} tags={frontmatter.tags} />
       <MobileActionBar
         shareTitle={frontmatter.title}
         shareUrl={`/${CONTENT_TYPE}/${slug}/`}
