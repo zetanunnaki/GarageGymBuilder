@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import fs from "fs";
 import path from "path";
+import matter from "gray-matter";
 import { topics, getTopic } from "@/data/topics";
 import { getArticlesForTopic } from "@/lib/topic-matching";
 import { ArticleCard } from "@/components/article-card";
@@ -83,7 +84,7 @@ export default async function TopicPage({
     `${slug}.mdx`
   );
   const hubContent = fs.existsSync(hubMdxPath)
-    ? fs.readFileSync(hubMdxPath, "utf8")
+    ? matter(fs.readFileSync(hubMdxPath, "utf8")).content
     : null;
 
   const breadcrumbSchema = generateBreadcrumbSchema([
