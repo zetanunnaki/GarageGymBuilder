@@ -2,13 +2,24 @@ import { getProduct } from "@/lib/products";
 import { BuyButtons } from "./buy-buttons";
 
 interface ComparisonTableProps {
-  productIds: string[];
+  productIds?: string[];
+  data?: string;
 }
 
-export function ComparisonTable({ productIds }: ComparisonTableProps) {
-  if (!productIds || !Array.isArray(productIds)) return null;
+export function ComparisonTable({ productIds, data }: ComparisonTableProps) {
+  let ids: string[] = [];
+  if (productIds && Array.isArray(productIds)) {
+    ids = productIds;
+  } else if (data) {
+    try {
+      ids = JSON.parse(data);
+    } catch {
+      return null;
+    }
+  }
+  if (ids.length === 0) return null;
 
-  const products = productIds
+  const products = ids
     .map((id) => ({ id, product: getProduct(id) }))
     .filter((p) => p.product !== null);
 
