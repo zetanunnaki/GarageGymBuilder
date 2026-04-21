@@ -65,7 +65,7 @@ export function AnimatedCounter({ value, label }: AnimatedCounterProps) {
       <p className="text-2xl font-black italic leading-none text-orange-500 sm:text-3xl md:text-4xl lg:text-5xl">
         {displayed}
       </p>
-      <p className="mt-2 text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-600 sm:text-[10px] sm:tracking-widest">
+      <p className="mt-2 text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-400 sm:text-[10px] sm:tracking-widest">
         {label}
       </p>
     </div>

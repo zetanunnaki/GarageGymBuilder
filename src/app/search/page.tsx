@@ -15,7 +15,7 @@ export default function SearchPage() {
       <h1 className="mb-4 text-5xl font-black uppercase italic leading-none tracking-tighter md:text-6xl">
         Search
       </h1>
-      <p className="mb-10 text-lg italic text-zinc-500">
+      <p className="mb-10 text-lg italic text-zinc-400">
         Find reviews, guides, builds, and product comparisons across the entire site.
       </p>
       <SearchClient />

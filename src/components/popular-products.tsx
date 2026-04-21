@@ -104,7 +104,7 @@ export function PopularProducts() {
                     {tag}
                   </div>
                   {/* index / serial number top-right */}
-                  <div className="absolute right-3 top-3 z-10 font-mono text-[8px] font-bold tracking-[0.2em] text-zinc-600">
+                  <div className="absolute right-3 top-3 z-10 font-mono text-[8px] font-bold tracking-[0.2em] text-zinc-400">
                     #{String(idx + 1).padStart(2, "0")}
                   </div>
                   {/* Image */}
@@ -119,7 +119,7 @@ export function PopularProducts() {
                     />
                   </div>
                   {/* bottom editorial caption — signals intentional illustration */}
-                  <div className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-between border-t border-zinc-800/80 bg-black/60 px-3 py-1.5 font-mono text-[8px] tracking-[0.2em] text-zinc-600 backdrop-blur-sm">
+                  <div className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-between border-t border-zinc-800/80 bg-black/60 px-3 py-1.5 font-mono text-[8px] tracking-[0.2em] text-zinc-400 backdrop-blur-sm">
                     <span>ILLUSTRATED</span>
                     <span className="flex items-center gap-1 text-orange-500/70">
                       <CheckCircle2 size={9} strokeWidth={3} /> VERIFIED
@@ -130,7 +130,7 @@ export function PopularProducts() {
                 {/* INFO */}
                 <div className="flex flex-1 flex-col p-4">
                   <div className="mb-1 flex items-center justify-between gap-2">
-                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-500">
+                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-400">
                       {product.brand}
                     </p>
                     <span className="font-mono text-[8px] tracking-widest text-zinc-700">
@@ -144,7 +144,7 @@ export function PopularProducts() {
                     <span className="text-base font-black italic tracking-tight text-orange-500">
                       {product.price}
                     </span>
-                    <span className="flex items-center gap-1 text-[9px] font-black uppercase tracking-[0.2em] text-zinc-500 transition-all group-hover:text-orange-400">
+                    <span className="flex items-center gap-1 text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400 transition-all group-hover:text-orange-400">
                       Review
                       <ArrowRight
                         size={12}
@@ -159,7 +159,7 @@ export function PopularProducts() {
         </div>
 
         {/* Editorial footnote */}
-        <p className="mt-8 text-center text-[10px] font-mono tracking-[0.2em] text-zinc-600">
+        <p className="mt-8 text-center text-[10px] font-mono tracking-[0.2em] text-zinc-400">
           ILLUSTRATIONS ARE IN-HOUSE EDITORIAL RENDERS &middot; SEE EACH REVIEW FOR REAL-WORLD PHOTOS &amp; TESTING NOTES
         </p>
       </div>

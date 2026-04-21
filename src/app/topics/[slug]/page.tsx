@@ -150,10 +150,10 @@ export default async function TopicPage({
             </h1>
           </div>
         </div>
-        <p className="max-w-2xl text-lg leading-relaxed text-zinc-500">
+        <p className="max-w-2xl text-lg leading-relaxed text-zinc-400">
           {topic.description}
         </p>
-        <div className="mt-4 text-[10px] font-black uppercase tracking-widest text-zinc-600">
+        <div className="mt-4 text-[10px] font-black uppercase tracking-widest text-zinc-400">
           {articles.length} article{articles.length === 1 ? "" : "s"} in this
           topic
         </div>
@@ -178,7 +178,7 @@ export default async function TopicPage({
       )}
 
       {articles.length === 0 ? (
-        <div className="border border-zinc-800 bg-zinc-900/40 p-12 text-center text-zinc-500">
+        <div className="border border-zinc-800 bg-zinc-900/40 p-12 text-center text-zinc-400">
           No articles yet in this topic.{" "}
           <Link href="/" className="text-orange-500 hover:underline">
             Back to home
@@ -192,7 +192,7 @@ export default async function TopicPage({
             <section key={type} className="mb-12">
               <h2 className="mb-6 border-l-8 border-orange-600 pl-4 text-2xl font-black uppercase italic tracking-tighter">
                 {contentTypeLabels[type]}
-                <span className="ml-3 text-[10px] tracking-widest text-zinc-600">
+                <span className="ml-3 text-[10px] tracking-widest text-zinc-400">
                   ({items.length})
                 </span>
               </h2>
@@ -212,7 +212,7 @@ export default async function TopicPage({
 
       {/* Related topics */}
       <section className="mt-16 border-t border-zinc-800 pt-12">
-        <h2 className="mb-6 text-[10px] font-black uppercase tracking-[0.3em] text-zinc-500">
+        <h2 className="mb-6 text-[10px] font-black uppercase tracking-[0.3em] text-zinc-400">
           Other Topics
         </h2>
         <div className="flex flex-wrap gap-2">
@@ -223,7 +223,7 @@ export default async function TopicPage({
               <Link
                 key={t.slug}
                 href={`/topics/${t.slug}/`}
-                className="border border-zinc-800 bg-zinc-900/40 px-4 py-2 text-[10px] font-black uppercase tracking-widest text-zinc-500 transition-colors hover:border-orange-600/50 hover:text-orange-400"
+                className="border border-zinc-800 bg-zinc-900/40 px-4 py-2 text-[10px] font-black uppercase tracking-widest text-zinc-400 transition-colors hover:border-orange-600/50 hover:text-orange-400"
               >
                 {t.name}
               </Link>

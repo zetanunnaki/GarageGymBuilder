@@ -56,7 +56,7 @@ export default function TeamPage() {
         <h1 className="mb-6 text-5xl font-black uppercase italic leading-none tracking-tighter md:text-6xl">
           Meet the Team
         </h1>
-        <p className="text-lg italic leading-relaxed text-zinc-500">
+        <p className="text-lg italic leading-relaxed text-zinc-400">
           The lifters, coaches, and engineers behind every review. We assemble
           every rack, load every plate, and break every piece of equipment so
           you don&apos;t have to.
@@ -84,7 +84,7 @@ export default function TeamPage() {
                 <p className="mb-4 text-sm leading-relaxed text-zinc-400">
                   {author.shortBio}
                 </p>
-                <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                   <span>{author.yearsExperience}+ years experience</span>
                   <span>&middot;</span>
                   <span className="flex items-center gap-1 text-orange-500">

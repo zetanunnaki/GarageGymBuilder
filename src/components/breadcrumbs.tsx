@@ -14,7 +14,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   return (
     <nav
       aria-label="Breadcrumb"
-      className="mb-6 flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-zinc-600"
+      className="mb-6 flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-zinc-400"
     >
       <Link href="/" className="transition-colors hover:text-orange-500">
         Home

@@ -58,7 +58,7 @@ export function StickyToc() {
   return (
     <aside className="hidden xl:block fixed top-28 right-[max(1rem,calc((100vw-896px)/2-280px))] w-56">
       <div className="border border-zinc-800 bg-zinc-900/30 p-4">
-        <div className="mb-3 flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-zinc-600">
+        <div className="mb-3 flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-zinc-400">
           <List size={10} />
           On this page
         </div>
@@ -73,7 +73,7 @@ export function StickyToc() {
                     className={`block text-[11px] leading-tight transition-colors ${
                       activeId === heading.id
                         ? "font-bold text-orange-500"
-                        : "text-zinc-600 hover:text-zinc-400"
+                        : "text-zinc-400 hover:text-zinc-400"
                     }`}
                   >
                     {heading.text}

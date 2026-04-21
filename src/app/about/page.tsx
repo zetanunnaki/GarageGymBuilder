@@ -68,7 +68,7 @@ export default function AboutPage() {
         <h2 className="mb-4 text-3xl font-black uppercase italic tracking-tighter">
           Meet the Team
         </h2>
-        <p className="mb-8 text-zinc-500">
+        <p className="mb-8 text-zinc-400">
           The lifters and coaches behind every review.
         </p>
         <div className="grid gap-4 sm:grid-cols-3">
@@ -87,7 +87,7 @@ export default function AboutPage() {
               <p className="mb-2 text-base font-black uppercase italic tracking-tighter transition-colors group-hover:text-orange-500">
                 {author.name}
               </p>
-              <p className="text-xs leading-relaxed text-zinc-500">
+              <p className="text-xs leading-relaxed text-zinc-400">
                 {author.shortBio}
               </p>
             </Link>

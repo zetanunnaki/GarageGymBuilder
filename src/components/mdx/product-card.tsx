@@ -38,27 +38,27 @@ export function ProductCard({ productId, badge }: ProductCardProps) {
           {/* Specs Grid */}
           <div className="grid grid-cols-2 gap-4 border-y border-zinc-800/50 py-4">
             <div>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                 Capacity
               </p>
               <p className="font-bold">{product.specs.weightCapacity}</p>
             </div>
             <div>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                 Steel
               </p>
               <p className="font-bold">{product.specs.material}</p>
             </div>
             {product.specs.footprint && (
               <div>
-                <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                   Footprint
                 </p>
                 <p className="font-bold">{product.specs.footprint}</p>
               </div>
             )}
             <div>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                 Price
               </p>
               <p className="font-black italic text-orange-500">

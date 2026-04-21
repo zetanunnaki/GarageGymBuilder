@@ -53,10 +53,10 @@ export function ArticleCard({ article, showType = false }: ArticleCardProps) {
         <h3 className="mb-3 text-lg font-black uppercase italic leading-snug tracking-tighter transition-colors group-hover:text-orange-400">
           {article.title}
         </h3>
-        <p className="line-clamp-2 text-sm leading-relaxed text-zinc-500">
+        <p className="line-clamp-2 text-sm leading-relaxed text-zinc-400">
           {article.description}
         </p>
-        <div className="mt-4 flex items-center justify-between border-t border-zinc-800/50 pt-4 text-[10px] tracking-widest text-zinc-600">
+        <div className="mt-4 flex items-center justify-between border-t border-zinc-800/50 pt-4 text-[10px] tracking-widest text-zinc-400">
           <span className="flex items-center gap-1">
             <CalendarDays className="h-3 w-3" />
             {new Date(article.date).toLocaleDateString("en-US", {

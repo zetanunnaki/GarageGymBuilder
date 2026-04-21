@@ -1,162 +1,97 @@
 {
   "summary": {
-    "total": 129,
-    "orphans": 20,
-    "thin": 11,
-    "underLinkers": 42,
-    "generated": "2026-04-13T21:27:14.795Z"
+    "total": 185,
+    "orphans": 1,
+    "thin": 41,
+    "underLinkers": 0,
+    "generated": "2026-04-21T04:34:51.639Z"
   },
   "orphans": [
     {
-      "type": "best-gear",
-      "slug": "best-gym-mirrors",
-      "title": "The Best Mirrors for Garage Gyms (2026 Guide)",
-      "category": "Gym Setup",
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-plyo-boxes",
-      "title": "The Best Plyo Boxes for Home Gyms (2026 Tested)",
-      "category": "Conditioning",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "cap-hex-vs-bowflex-552",
-      "title": "CAP Hex Dumbbells vs Bowflex 552: Fixed or Adjustable?",
-      "category": "Dumbbells",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "iron-bull-vs-spud-dip-belt",
-      "title": "Iron Bull vs Spud Inc Dip Belt: Which Is Worth the Price?",
-      "category": "Accessories",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "iron-gym-vs-wall-mounted-bar",
-      "title": "Doorway vs Wall-Mounted Pull-Up Bar: Which Should You Buy?",
-      "category": "Accessories",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "sunny-rower-vs-concept2",
-      "title": "Sunny SF-RW5515 vs Concept2 RowErg: Which Rower Should You Buy?",
-      "category": "Cardio",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "trx-vs-bodylastics",
-      "title": "TRX GO vs Bodylastics: Which Travel Gym Should You Buy?",
-      "category": "Accessories",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "wod-nation-vs-crossrope",
-      "title": "WOD Nation vs Crossrope: Speed Rope vs Weighted Rope?",
-      "category": "Conditioning",
-      "outbound": 5
-    },
-    {
-      "type": "best-gear",
-      "slug": "yes4all-trap-bar-vs-rogue",
-      "title": "Yes4All Hex Trap Bar vs Rogue TB-2: Is the Premium Worth It?",
-      "category": "Barbells",
-      "outbound": 5
-    },
-    {
       "type": "reviews",
-      "slug": "harbinger-lifting-straps-review",
-      "title": "Harbinger Lifting Straps Review: The $13 Grip Upgrade",
+      "slug": "rogue-style-weight-vest-review",
+      "title": "RUNFast Pro Weight Vest Review (2026): Best Budget Weight Vest",
       "category": "Accessories",
-      "outbound": 5
-    },
-    {
-      "type": "reviews",
-      "slug": "luxfit-foam-roller-review",
-      "title": "LuxFit Foam Roller Review: The Cheap Recovery Essential",
-      "category": "Recovery",
-      "outbound": 5
-    },
-    {
-      "type": "reviews",
-      "slug": "power-guidance-battle-rope-review",
-      "title": "POWER GUIDANCE Battle Rope Review: CrossFit Standard for $40",
-      "category": "Conditioning",
-      "outbound": 5
-    },
-    {
-      "type": "reviews",
-      "slug": "rip-toned-wrist-wraps-review",
-      "title": "Rip Toned Wrist Wraps Review: Cheapest Wrap Upgrade on Amazon",
-      "category": "Accessories",
-      "outbound": 5
-    },
-    {
-      "type": "reviews",
-      "slug": "yes4all-parallettes-review",
-      "title": "Yes4All Parallettes Review: Unlock Calisthenics for $30",
-      "category": "Accessories",
-      "outbound": 5
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-for-kids-teens",
-      "title": "Home Gym for Kids & Teens: Safe Strength Training Guide",
-      "category": "Training",
-      "outbound": 8
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-insurance-liability",
-      "title": "Home Gym Insurance & Liability: What You Need to Know",
-      "category": "Legal",
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-postpartum",
-      "title": "Home Gym for Postpartum Recovery: Safe Return to Training (2026)",
-      "category": "Training",
       "outbound": 6
-    },
-    {
-      "type": "guides",
-      "slug": "how-to-choose-kettlebell",
-      "title": "How to Choose a Kettlebell: Complete Buyer's Guide (2026)",
-      "category": "Buying Guides",
-      "outbound": 6
-    },
-    {
-      "type": "guides",
-      "slug": "how-to-clean-gym-equipment",
-      "title": "How to Clean & Maintain Home Gym Equipment (2026 Guide)",
-      "category": "Maintenance",
-      "outbound": 5
-    },
-    {
-      "type": "guides",
-      "slug": "ultimate-beginners-home-gym-guide",
-      "title": "The Ultimate Beginner's Home Gym Guide (2026)",
-      "category": "Getting Started",
-      "outbound": 26
     }
   ],
   "thin": [
     {
       "type": "reviews",
-      "slug": "marcy-olympic-bench-review",
-      "title": "Marcy Olympic Weight Bench Review: All-in-One Home Gym Solution?",
+      "slug": "body-solid-leg-press-review",
+      "title": "Body-Solid Powerline Vertical Leg Press Review: The Space-Saving Leg Machine",
       "category": "Benches",
       "outbound": 5,
       "inbound": [
-        "/guides/how-to-choose-weight-bench/"
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "chirp-wheel-review",
+      "title": "Chirp Wheel+ Back Pain Relief (3-Pack) Review: Worth the Money?",
+      "category": "Recovery",
+      "outbound": 5,
+      "inbound": [
+        "/reviews/theragun-mini-review/",
+        "/best-gear/best-recovery-gear/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "gaiam-yoga-mat-review",
+      "title": "Gaiam Essentials Thick Yoga Mat (10mm) Review: Worth the Money?",
+      "category": "Flooring",
+      "outbound": 3,
+      "inbound": [
+        "/reviews/balancefrom-puzzle-mat-review/",
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "gym-wall-mirror-review",
+      "title": "Fab Glass and Mirror Gym Wall Mirror Review: Worth the Money?",
+      "category": "Storage",
+      "outbound": 5,
+      "inbound": [
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "harbinger-gloves-review",
+      "title": "Harbinger Pro WristWrap Weightlifting Gloves Review: Worth the Money?",
+      "category": "Accessories",
+      "outbound": 4,
+      "inbound": [
+        "/reviews/harbinger-lifting-straps-review/",
+        "/reviews/liquid-grip-chalk-review/",
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "hypervolt-go2-review",
+      "title": "Hypervolt GO 2 Portable Massage Gun Review: Worth the Money?",
+      "category": "Recovery",
+      "outbound": 4,
+      "inbound": [
+        "/reviews/theragun-mini-review/",
+        "/best-gear/best-recovery-gear/",
+        "/best-gear/best-recovery-tools/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "ironmind-gripper-review",
+      "title": "IronMind Captains of Crush Hand Gripper Review: Worth the Money?",
+      "category": "Accessories",
+      "outbound": 3,
+      "inbound": [
+        "/reviews/fat-gripz-review/",
+        "/best-gear/best-home-gym-accessories-under-50/",
+        "/guides/home-gym-accessories-essentials/"
       ]
     },
     {
@@ -164,9 +99,182 @@
       "slug": "perfect-fitness-ab-wheel-review",
       "title": "Perfect Fitness Ab Carver Pro Review (2026)",
       "category": "Accessories",
+      "outbound": 7,
+      "inbound": [
+        "/best-gear/best-garage-gym-accessories/",
+        "/best-gear/best-home-gym-accessories-under-50/",
+        "/builds/bodybuilder-home-gym-build/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "power-guidance-battle-rope-review",
+      "title": "POWER GUIDANCE Battle Rope Review: CrossFit Standard for $40",
+      "category": "Conditioning",
+      "outbound": 7,
+      "inbound": [
+        "/reviews/wod-nation-jump-rope-review/",
+        "/reviews/yes4all-slam-ball-review/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "relife-power-tower-review",
+      "title": "RELIFE Power Tower Review: The Best Power Tower Under $130?",
+      "category": "Calisthenics",
+      "outbound": 11,
+      "inbound": [
+        "/reviews/sportsroyals-power-tower-review/",
+        "/reviews/stamina-power-tower-review/",
+        "/best-gear/best-power-towers/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "spri-medicine-ball-review",
+      "title": "SPRI Xerball Medicine Ball (12 lb) Review: Worth the Money?",
+      "category": "Free Weights",
+      "outbound": 6,
+      "inbound": [
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "stamina-compact-strider-review",
+      "title": "Stamina InMotion Compact Strider Review: Worth the Money?",
+      "category": "Cardio",
       "outbound": 5,
       "inbound": [
-        "/builds/bodybuilder-home-gym-build/"
+        "/best-gear/best-cardio-machines-home-gym/",
+        "/best-gear/best-cardio-machines-under-500/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "stamina-power-tower-review",
+      "title": "Stamina 1690 Power Tower Review: Worth the Money?",
+      "category": "Calisthenics",
+      "outbound": 5,
+      "inbound": [
+        "/reviews/relife-power-tower-review/",
+        "/reviews/sportsroyals-power-tower-review/",
+        "/best-gear/best-power-towers/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "titan-plate-tree-review",
+      "title": "Titan Fitness Olympic Plate Tree & Barbell Holder Review: Worth the Money?",
+      "category": "Barbells",
+      "outbound": 7,
+      "inbound": [
+        "/reviews/yes4all-olympic-plates-review/",
+        "/guides/home-gym-accessories-essentials/",
+        "/guides/home-gym-on-a-budget-complete-guide/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "titan-wall-pulley-review",
+      "title": "Titan Fitness Wall Mounted Pulley Tower Review: Zero Floor Space Cable Training",
+      "category": "Calisthenics",
+      "outbound": 6,
+      "inbound": [
+        "/reviews/trx-bandit-handles-review/",
+        "/reviews/valor-fitness-bd62-review/",
+        "/builds/home-gym-under-750/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "trx-bandit-handles-review",
+      "title": "TRX Bandit Resistance Band Handles Review: Worth the Money?",
+      "category": "Conditioning",
+      "outbound": 6,
+      "inbound": [
+        "/reviews/bodylastics-resistance-bands-review/",
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "valor-fitness-bd62-review",
+      "title": "Valor Fitness BD-62 Review: Best Wall-Mount Cable Machine?",
+      "category": "Cable Machines",
+      "outbound": 4,
+      "inbound": [
+        "/reviews/titan-wall-pulley-review/",
+        "/guides/home-gym-on-a-budget-complete-guide/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "xmark-preacher-curl-review",
+      "title": "XMark Seated Preacher Curl Bench Review: Worth the Money?",
+      "category": "Benches",
+      "outbound": 3,
+      "inbound": [
+        "/reviews/cap-ez-curl-bar-review/",
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "xterra-treadmill-review",
+      "title": "XTERRA TR150 Folding Treadmill Review: Best Budget Treadmill Under $300?",
+      "category": "Cardio",
+      "outbound": 8,
+      "inbound": [
+        "/best-gear/best-cardio-machines-home-gym/",
+        "/best-gear/best-cardio-machines-under-500/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "yes4all-dumbbell-rack-review",
+      "title": "Yes4All 5-Tier A-Frame Dumbbell Rack Review: Worth the Money?",
+      "category": "Power Racks",
+      "outbound": 8,
+      "inbound": [
+        "/reviews/cap-hex-dumbbells-review/",
+        "/guides/home-gym-accessories-essentials/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "yes4all-landmine-review",
+      "title": "Yes4All T-Bar Row Landmine Attachment Review: Worth the Money?",
+      "category": "Barbells",
+      "outbound": 6,
+      "inbound": [
+        "/best-gear/best-home-gym-accessories-under-50/",
+        "/best-gear/best-specialty-bars/",
+        "/guides/barbell-only-exercises/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "yes4all-parallettes-review",
+      "title": "Yes4All Parallettes Review: Unlock Calisthenics for $30",
+      "category": "Accessories",
+      "outbound": 7,
+      "inbound": [
+        "/reviews/bodylastics-resistance-bands-review/",
+        "/best-gear/best-home-gym-accessories-under-50/",
+        "/guides/bodybuilding-home-gym-setup/"
+      ]
+    },
+    {
+      "type": "reviews",
+      "slug": "yes4all-plyo-box-review",
+      "title": "Yes4All 3-in-1 Wooden Plyo Box Review: Best Plyo Box Under $150",
+      "category": "Conditioning",
+      "outbound": 6,
+      "inbound": [
+        "/reviews/rogue-style-weight-vest-review/",
+        "/best-gear/best-plyo-boxes/",
+        "/builds/crossfit-home-gym-build/"
       ]
     },
     {
@@ -174,29 +282,98 @@
       "slug": "yes4all-sandbag-review",
       "title": "Yes4All Workout Sandbag Review (2026): The Strongman Tool Under $60",
       "category": "Conditioning",
+      "outbound": 7,
+      "inbound": [
+        "/reviews/yes4all-slam-ball-review/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "best-recovery-gear",
+      "title": "Best Recovery Tools for Home Gyms in 2026",
+      "category": "Recovery",
+      "outbound": 9,
+      "inbound": [
+        "/reviews/hypervolt-go2-review/",
+        "/best-gear/best-cardio-machines-home-gym/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "is-bowflex-552-worth-it",
+      "title": "Is the Bowflex SelectTech 552 Worth It in 2026?",
+      "category": "Dumbbells",
+      "outbound": 6,
+      "inbound": [
+        "/reviews/bowflex-selecttech-552-review/",
+        "/best-gear/best-adjustable-dumbbells/",
+        "/best-gear/is-powerblock-elite-worth-it/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "is-fitness-reality-810xlt-worth-it",
+      "title": "Is the Fitness Reality 810XLT Worth It? (Honest Take)",
+      "category": "Power Racks",
+      "outbound": 11,
+      "inbound": [
+        "/reviews/fitness-reality-810xlt-review/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "is-flybird-bench-worth-it",
+      "title": "Is the FLYBIRD Bench Worth It? (6-Month Test)",
+      "category": "Benches",
       "outbound": 5,
       "inbound": [
-        "/builds/mma-fighter-home-gym-build/"
+        "/reviews/flybird-adjustable-bench-review/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "is-powerblock-elite-worth-it",
+      "title": "Is the PowerBlock Elite 90 Worth $869? (Honest Verdict)",
+      "category": "Dumbbells",
+      "outbound": 6,
+      "inbound": [
+        "/reviews/powerblock-elite-90-review/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "titan-ssb-vs-yes4all-trap-bar",
+      "title": "Titan Safety Squat Bar vs Yes4All Trap Bar: Which Do You Need? (2026)",
+      "category": "Barbells",
+      "outbound": 5,
+      "inbound": [
+        "/reviews/titan-safety-squat-bar-review/",
+        "/best-gear/best-specialty-bars/",
+        "/best-gear/best-trap-bars/"
+      ]
+    },
+    {
+      "type": "best-gear",
+      "slug": "yes4all-trap-bar-vs-rogue",
+      "title": "Yes4All Hex Trap Bar vs Rogue TB-2: Is the Premium Worth It?",
+      "category": "Barbells",
+      "outbound": 15,
+      "inbound": [
+        "/reviews/yes4all-hex-trap-bar-review/",
+        "/best-gear/best-trap-bars/",
+        "/best-gear/titan-ssb-vs-yes4all-trap-bar/"
       ]
     },
     {
       "type": "guides",
-      "slug": "buying-used-gym-equipment",
-      "title": "How to Buy Used Gym Equipment (Without Getting Ripped Off)",
-      "category": "Gym Setup",
-      "outbound": 0,
+      "slug": "home-gym-for-boxing",
+      "title": "Home Gym for Boxing: Equipment & Training Guide (2026)",
+      "category": "Training",
+      "outbound": 10,
       "inbound": [
-        "/builds/home-gym-under-750/"
-      ]
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-summer-cooling",
-      "title": "Garage Gym Summer Cooling: Train Through the Heat (2026)",
-      "category": "Setup",
-      "outbound": 5,
-      "inbound": [
-        "/guides/ultimate-beginners-home-gym-guide/"
+        "/reviews/wod-nation-jump-rope-review/",
+        "/best-gear/wod-nation-vs-crossrope/",
+        "/guides/home-gym-for-mma/"
       ]
     },
     {
@@ -204,9 +381,21 @@
       "slug": "home-gym-for-cyclists",
       "title": "Home Gym for Cyclists: Strength Training to Ride Faster (2026)",
       "category": "Training",
-      "outbound": 7,
+      "outbound": 11,
       "inbound": [
-        "/reviews/luxfit-foam-roller-review/"
+        "/reviews/schwinn-upright-bike-review/",
+        "/reviews/sunny-spin-bike-review/"
+      ]
+    },
+    {
+      "type": "guides",
+      "slug": "home-gym-for-travel",
+      "title": "Mikolo vs Sportsroyals vs Fitness Reality: Budget vs Features vs Price",
+      "category": "Training",
+      "outbound": 8,
+      "inbound": [
+        "/reviews/bodylastics-resistance-bands-review/",
+        "/reviews/trx-go-suspension-trainer-review/"
       ]
     },
     {
@@ -214,39 +403,56 @@
       "slug": "home-gym-for-women",
       "title": "Home Gym for Women: Complete Equipment & Training Guide (2026)",
       "category": "Training",
-      "outbound": 8,
+      "outbound": 15,
       "inbound": [
         "/guides/home-gym-postpartum/"
       ]
     },
     {
       "type": "guides",
-      "slug": "how-to-choose-cardio-machine",
-      "title": "How to Choose a Cardio Machine for Home: Buyer's Guide (2026)",
-      "category": "Buying Guides",
+      "slug": "home-gym-insurance-liability",
+      "title": "Home Gym Insurance & Liability: What You Need to Know",
+      "category": "Legal",
       "outbound": 5,
       "inbound": [
-        "/best-gear/sunny-rower-vs-concept2/"
+        "/guides/garage-gym-mistakes-to-avoid/",
+        "/guides/garage-gym-safety/"
       ]
     },
     {
-      "type": "guides",
-      "slug": "how-to-choose-gym-flooring",
-      "title": "How to Choose Home Gym Flooring: Complete Buyer's Guide (2026)",
-      "category": "Buying Guides",
-      "outbound": 6,
+      "type": "builds",
+      "slug": "bodybuilder-home-gym-build",
+      "title": "Bodybuilder Home Gym Build: $1,500 Hypertrophy Setup (2026)",
+      "category": "Build Guides",
+      "outbound": 11,
       "inbound": [
+        "/reviews/body-solid-leg-press-review/",
+        "/reviews/titan-wall-pulley-review/",
         "/guides/ultimate-beginners-home-gym-guide/"
       ]
     },
     {
-      "type": "guides",
-      "slug": "how-to-choose-weight-plates",
-      "title": "How to Choose Weight Plates: Complete Buyer's Guide (2026)",
-      "category": "Buying Guides",
-      "outbound": 6,
+      "type": "builds",
+      "slug": "calisthenics-home-gym-build",
+      "title": "Complete Calisthenics Home Gym Build Under $500",
+      "category": "Calisthenics",
+      "outbound": 9,
       "inbound": [
-        "/guides/ultimate-beginners-home-gym-guide/"
+        "/reviews/relife-power-tower-review/",
+        "/reviews/sportsroyals-power-tower-review/",
+        "/best-gear/best-home-gym-accessories-under-50/"
+      ]
+    },
+    {
+      "type": "builds",
+      "slug": "home-gym-under-4000",
+      "title": "The Ultimate Home Gym Under $4,000 (Commercial-Grade Build 2026)",
+      "category": "Budget Builds",
+      "outbound": 25,
+      "inbound": [
+        "/guides/bodybuilding-home-gym-setup/",
+        "/builds/dream-gym-under-5000/",
+        "/builds/home-gym-under-3000/"
       ]
     },
     {
@@ -254,440 +460,117 @@
       "slug": "home-gym-under-750",
       "title": "Home Gym Under $750: The Smart Sweet Spot Build (2026)",
       "category": "Build Guides",
-      "outbound": 7,
+      "outbound": 16,
       "inbound": [
+        "/guides/ultimate-beginners-home-gym-guide/",
+        "/builds/home-gym-under-1000/",
+        "/builds/home-gym-under-500/"
+      ]
+    },
+    {
+      "type": "builds",
+      "slug": "mma-fighter-home-gym-build",
+      "title": "MMA Fighter Home Gym Build: $1,000 Combat Sports Setup (2026)",
+      "category": "Build Guides",
+      "outbound": 5,
+      "inbound": [
+        "/reviews/power-guidance-battle-rope-review/",
+        "/guides/home-gym-for-mma/",
         "/guides/ultimate-beginners-home-gym-guide/"
       ]
     }
   ],
-  "underLinkers": [
-    {
-      "type": "best-gear",
-      "slug": "best-budget-barbells",
-      "title": "The Best Budget Barbells Under $300 (2026 Tested)",
-      "category": "Barbells",
-      "inbound": 4,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-bumper-plates",
-      "title": "The Best Bumper Plates for Home Gyms (2026 Tested)",
-      "category": "Weights",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-garage-gym-accessories",
-      "title": "The 10 Best Garage Gym Accessories Under $50 (2026)",
-      "category": "Accessories",
-      "inbound": 6,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-gym-flooring",
-      "title": "The Best Garage Gym Flooring Options (2026 Tested & Compared)",
-      "category": "Flooring",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-gym-mirrors",
-      "title": "The Best Mirrors for Garage Gyms (2026 Guide)",
-      "category": "Gym Setup",
-      "inbound": 0,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-jump-ropes",
-      "title": "The Best Jump Ropes for Home Gym Conditioning (2026)",
-      "category": "Cardio",
-      "inbound": 2,
-      "outbound": 1
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-kettlebells",
-      "title": "The Best Kettlebells for Home Gyms (2026 Tested)",
-      "category": "Kettlebells",
-      "inbound": 6,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-pull-up-bars",
-      "title": "The Best Pull-Up Bars for Home Gyms (2026 Tested)",
-      "category": "Bodyweight",
-      "inbound": 5,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-recovery-tools",
-      "title": "The Best Recovery Tools for Home Gyms (2026)",
-      "category": "Recovery",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-resistance-bands",
-      "title": "The Best Resistance Bands for Home Gyms (2026 Tested)",
-      "category": "Accessories",
-      "inbound": 3,
-      "outbound": 1
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-trap-bars",
-      "title": "The Best Trap Bars (Hex Bars) for Home Gyms (2026)",
-      "category": "Barbells",
-      "inbound": 2,
-      "outbound": 1
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-weight-benches",
-      "title": "The 5 Best Weight Benches for Home Gyms (2026 Tested)",
-      "category": "Benches",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "best-weight-sets",
-      "title": "The Best Olympic Weight Sets for Home Gyms (2026)",
-      "category": "Weights",
-      "inbound": 5,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "bowflex-552-vs-powerblock-90",
-      "title": "Bowflex 552 vs PowerBlock 90: Which Adjustable Dumbbells Should You Buy?",
-      "category": "Dumbbells",
-      "inbound": 7,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "concept2-vs-assault-bike",
-      "title": "Concept2 RowErg vs Assault AirBike: Which Cardio Machine Should You Buy?",
-      "category": "Cardio",
-      "inbound": 11,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "mikolo-f4-vs-fitness-reality-810xlt",
-      "title": "Mikolo F4 vs Fitness Reality 810XLT: Which Budget Rack Should You Buy?",
-      "category": "Power Racks",
-      "inbound": 5,
-      "outbound": 0
-    },
-    {
-      "type": "best-gear",
-      "slug": "mikolo-vs-sportsroyals",
-      "title": "Mikolo F4 vs Sportsroyals Power Cage: Which Amazon Rack Wins?",
-      "category": "Power Racks",
-      "inbound": 7,
-      "outbound": 0
-    },
-    {
-      "type": "reviews",
-      "slug": "bowflex-selecttech-552-review",
-      "title": "Bowflex SelectTech 552 Review: Still Worth It in 2026?",
-      "category": "Dumbbells",
-      "inbound": 19,
-      "outbound": 0
-    },
-    {
-      "type": "reviews",
-      "slug": "cap-barbell-300-review",
-      "title": "CAP Barbell 300 lb Olympic Set Review: The Best Starter Weight Set?",
-      "category": "Barbells",
-      "inbound": 15,
-      "outbound": 0
-    },
-    {
-      "type": "reviews",
-      "slug": "fitness-reality-810xlt-review",
-      "title": "Fitness Reality 810XLT Review: The Best Budget Power Cage?",
-      "category": "Power Racks",
-      "inbound": 19,
-      "outbound": 0
-    },
-    {
-      "type": "reviews",
-      "slug": "flybird-adjustable-bench-review",
-      "title": "FLYBIRD Adjustable Bench Review: Best Budget Bench in 2026?",
-      "category": "Benches",
-      "inbound": 16,
-      "outbound": 0
-    },
-    {
-      "type": "reviews",
-      "slug": "rogue-echo-bike-review",
-      "title": "Rogue Echo Bike Review: The Ultimate Home Gym Cardio Machine?",
-      "category": "Cardio",
-      "inbound": 3,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "barbell-maintenance-guide",
-      "title": "How to Maintain Your Barbell: Cleaning & Care Guide",
-      "category": "Maintenance",
-      "inbound": 5,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "barbell-only-exercises",
-      "title": "50 Exercises You Can Do With Just a Barbell (Complete List)",
-      "category": "Training",
-      "inbound": 12,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "buying-used-gym-equipment",
-      "title": "How to Buy Used Gym Equipment (Without Getting Ripped Off)",
-      "category": "Gym Setup",
-      "inbound": 1,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-electrical-setup",
-      "title": "Garage Gym Electrical & Power Setup Guide (2026)",
-      "category": "Gym Setup",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-flooring-guide",
-      "title": "The Complete Guide to Garage Gym Flooring (2026)",
-      "category": "Gym Setup",
-      "inbound": 3,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-lighting-guide",
-      "title": "Garage Gym Lighting Guide: Best Lights for Training (2026)",
-      "category": "Gym Setup",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-mistakes-to-avoid",
-      "title": "12 Garage Gym Mistakes That Waste Your Money (And How to Avoid Them)",
-      "category": "Gym Setup",
-      "inbound": 9,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-safety",
-      "title": "Garage Gym Safety: Essential Rules for Training Alone",
-      "category": "Gym Setup",
-      "inbound": 12,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "garage-gym-ventilation-guide",
-      "title": "Garage Gym Ventilation & Climate Control Guide (2026)",
-      "category": "Gym Setup",
-      "inbound": 3,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-insurance-liability",
-      "title": "Home Gym Insurance & Liability: What You Need to Know",
-      "category": "Legal",
-      "inbound": 0,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-nutrition-basics",
-      "title": "Home Gym Nutrition Basics: What to Eat for Your Training Goals",
-      "category": "Training",
-      "inbound": 5,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-over-40",
-      "title": "Building a Home Gym After 40: Equipment & Training Guide",
-      "category": "Training",
-      "inbound": 7,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-programming-guide",
-      "title": "Home Gym Training Programs: What to Run With Limited Equipment",
-      "category": "Training",
-      "inbound": 17,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "home-gym-vs-commercial-gym",
-      "title": "Home Gym vs Commercial Gym: The Real Cost Comparison (2026)",
-      "category": "Gym Setup",
-      "inbound": 4,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "how-to-build-lifting-platform",
-      "title": "How to Build a DIY Lifting Platform (Step-by-Step Guide)",
-      "category": "Gym Setup",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "organizing-your-garage-gym",
-      "title": "How to Organize Your Garage Gym (Layout & Storage Guide)",
-      "category": "Gym Setup",
-      "inbound": 5,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "soundproofing-garage-gym",
-      "title": "How to Soundproof Your Garage Gym (Without Breaking the Bank)",
-      "category": "Gym Setup",
-      "inbound": 2,
-      "outbound": 0
-    },
-    {
-      "type": "guides",
-      "slug": "winter-garage-gym-training",
-      "title": "Training in a Cold Garage Gym: Winter Survival Guide",
-      "category": "Gym Setup",
-      "inbound": 3,
-      "outbound": 0
-    },
-    {
-      "type": "builds",
-      "slug": "apartment-gym-under-300",
-      "title": "Apartment Home Gym Under $300 (No Noise, No Space, No Problem)",
-      "category": "Budget Builds",
-      "inbound": 14,
-      "outbound": 0
-    },
-    {
-      "type": "builds",
-      "slug": "dream-gym-under-5000",
-      "title": "The Ultimate $5,000 Dream Home Gym Build (2026)",
-      "category": "Budget Builds",
-      "inbound": 4,
-      "outbound": 0
-    }
-  ],
+  "underLinkers": [],
   "topLinked": [
     {
-      "slug": "home-gym-under-1000",
-      "type": "builds",
-      "title": "Complete Home Gym Setup Under $1,000 (2026 Build Guide)",
-      "inbound": 24
-    },
-    {
-      "slug": "bowflex-selecttech-552-review",
-      "type": "reviews",
-      "title": "Bowflex SelectTech 552 Review: Still Worth It in 2026?",
-      "inbound": 19
-    },
-    {
-      "slug": "fitness-reality-810xlt-review",
-      "type": "reviews",
-      "title": "Fitness Reality 810XLT Review: The Best Budget Power Cage?",
-      "inbound": 19
-    },
-    {
-      "slug": "home-gym-programming-guide",
+      "slug": "garage-gym-flooring-guide",
       "type": "guides",
-      "title": "Home Gym Training Programs: What to Run With Limited Equipment",
-      "inbound": 17
+      "title": "The Complete Guide to Garage Gym Flooring (2026)",
+      "inbound": 49
     },
     {
-      "slug": "flybird-adjustable-bench-review",
-      "type": "reviews",
-      "title": "FLYBIRD Adjustable Bench Review: Best Budget Bench in 2026?",
-      "inbound": 16
-    },
-    {
-      "slug": "cap-barbell-300-review",
-      "type": "reviews",
-      "title": "CAP Barbell 300 lb Olympic Set Review: The Best Starter Weight Set?",
-      "inbound": 15
-    },
-    {
-      "slug": "synergee-olympic-barbell-review",
-      "type": "reviews",
-      "title": "Synergee Games Olympic Barbell Review: The Best Amazon Bar Under $200?",
-      "inbound": 15
-    },
-    {
-      "slug": "crossfit-home-gym-setup",
-      "type": "guides",
-      "title": "CrossFit Home Gym Setup: Complete Equipment Guide (2026)",
-      "inbound": 14
-    },
-    {
-      "slug": "apartment-gym-under-300",
-      "type": "builds",
-      "title": "Apartment Home Gym Under $300 (No Noise, No Space, No Problem)",
-      "inbound": 14
+      "slug": "best-power-racks-under-500",
+      "type": "best-gear",
+      "title": "The 7 Best Power Racks Under $500 (2026 Testing)",
+      "inbound": 46
     },
     {
       "slug": "how-to-build-a-garage-gym",
       "type": "guides",
-      "title": "How to Build a Garage Gym: The Complete Beginner's Guide",
-      "inbound": 13
+      "title": "How to Build a Garage Gym: The Complete Beginner''s Guide",
+      "inbound": 38
     },
     {
-      "slug": "mikolo-f4-power-cage-review",
-      "type": "reviews",
-      "title": "Mikolo F4 2.0 Power Cage Review: Best Budget Rack on Amazon?",
-      "inbound": 12
-    },
-    {
-      "slug": "barbell-only-exercises",
+      "slug": "home-gym-programming-guide",
       "type": "guides",
-      "title": "50 Exercises You Can Do With Just a Barbell (Complete List)",
-      "inbound": 12
+      "title": "Home Gym Training Programs: What to Run With Limited Equipment",
+      "inbound": 36
+    },
+    {
+      "slug": "barbell-maintenance-guide",
+      "type": "guides",
+      "title": "How to Maintain Your Barbell: Cleaning & Care Guide",
+      "inbound": 35
+    },
+    {
+      "slug": "home-gym-on-a-budget-complete-guide",
+      "type": "guides",
+      "title": "How to Build a Complete Home Gym on Any Budget (2026 Guide)",
+      "inbound": 33
     },
     {
       "slug": "garage-gym-safety",
       "type": "guides",
       "title": "Garage Gym Safety: Essential Rules for Training Alone",
-      "inbound": 12
+      "inbound": 32
     },
     {
-      "slug": "concept2-vs-assault-bike",
-      "type": "best-gear",
-      "title": "Concept2 RowErg vs Assault AirBike: Which Cardio Machine Should You Buy?",
-      "inbound": 11
-    },
-    {
-      "slug": "powerlifting-home-gym-setup",
+      "slug": "home-gym-accessories-essentials",
       "type": "guides",
-      "title": "Powerlifting Home Gym Setup: Equipment & Building Guide (2026)",
-      "inbound": 11
+      "title": "15 Home Gym Accessories That Actually Matter (Skip the Rest)",
+      "inbound": 30
+    },
+    {
+      "slug": "flybird-adjustable-bench-review",
+      "type": "reviews",
+      "title": "FLYBIRD Adjustable Bench Review: Best Budget Bench in 2026?",
+      "inbound": 28
+    },
+    {
+      "slug": "home-gym-small-spaces",
+      "type": "guides",
+      "title": "Home Gym in Small Spaces: Building in Under 100 Sq Ft",
+      "inbound": 27
+    },
+    {
+      "slug": "home-gym-under-1000",
+      "type": "builds",
+      "title": "Complete Home Gym Setup Under $1,000 (2026 Build Guide)",
+      "inbound": 27
+    },
+    {
+      "slug": "bowflex-selecttech-552-review",
+      "type": "reviews",
+      "title": "Bowflex SelectTech 552 Review: Still Worth It in 2026?",
+      "inbound": 26
+    },
+    {
+      "slug": "fitness-reality-810xlt-review",
+      "type": "reviews",
+      "title": "Fitness Reality 810XLT Review: The Best Budget Power Cage?",
+      "inbound": 26
+    },
+    {
+      "slug": "how-to-choose-power-rack",
+      "type": "guides",
+      "title": "How to Choose a Power Rack: Complete Buyer''s Guide (2026)",
+      "inbound": 26
+    },
+    {
+      "slug": "best-gym-flooring",
+      "type": "best-gear",
+      "title": "The Best Garage Gym Flooring Options (2026 Tested & Compared)",
+      "inbound": 24
     }
   ]
 }

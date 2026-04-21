@@ -133,7 +133,7 @@ export default function NotFound() {
                 </div>
                 <ArrowRight
                   size={18}
-                  className="shrink-0 text-zinc-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-orange-500"
+                  className="shrink-0 text-zinc-400 transition-all duration-300 group-hover:translate-x-1 group-hover:text-orange-500"
                 />
               </Link>
             ))}

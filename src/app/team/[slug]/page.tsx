@@ -79,7 +79,7 @@ export default async function AuthorPage({
             <h1 className="mb-3 text-5xl font-black uppercase italic leading-none tracking-tighter">
               {author.name}
             </h1>
-            <div className="flex flex-wrap items-center justify-center gap-3 text-[10px] font-bold uppercase tracking-widest text-zinc-600 md:justify-start">
+            <div className="flex flex-wrap items-center justify-center gap-3 text-[10px] font-bold uppercase tracking-widest text-zinc-400 md:justify-start">
               <span className="flex items-center gap-1">
                 <Calendar size={10} /> {author.yearsExperience}+ years
               </span>
@@ -142,7 +142,7 @@ export default async function AuthorPage({
       <div className="border-t border-zinc-800 pt-8">
         <Link
           href="/team/"
-          className="text-[10px] font-black uppercase tracking-widest text-zinc-500 transition-colors hover:text-orange-500"
+          className="text-[10px] font-black uppercase tracking-widest text-zinc-400 transition-colors hover:text-orange-500"
         >
           &larr; Back to Team
         </Link>

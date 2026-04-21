@@ -181,7 +181,7 @@ export default function HomePage() {
                   <div className="font-mono text-xl font-black text-orange-500 sm:text-2xl">
                     {s.k}
                   </div>
-                  <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500">
+                  <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400">
                     {s.v}
                   </div>
                 </div>
@@ -223,7 +223,7 @@ export default function HomePage() {
         </div>
 
         {/* Scroll tick */}
-        <div className="relative z-10 mt-16 flex flex-col items-center gap-2 font-mono text-[9px] font-bold uppercase tracking-[0.4em] text-zinc-600">
+        <div className="relative z-10 mt-16 flex flex-col items-center gap-2 font-mono text-[9px] font-bold uppercase tracking-[0.4em] text-zinc-400">
           <span>▼&nbsp; Scroll</span>
           <div className="h-10 w-px bg-gradient-to-b from-orange-500 to-transparent" />
         </div>
@@ -330,7 +330,7 @@ export default function HomePage() {
             <div className="conic-border relative border border-zinc-800 bg-zinc-950/80 p-6 backdrop-blur-sm sm:p-8">
               <div className="relative z-10">
                 <div className="mb-4 flex items-center justify-between border-b border-zinc-800 pb-3">
-                  <div className="font-mono text-[9px] tracking-[0.3em] text-zinc-500">
+                  <div className="font-mono text-[9px] tracking-[0.3em] text-zinc-400">
                     PLATE&nbsp;MATH&nbsp;//&nbsp;$&nbsp;→&nbsp;LB
                   </div>
                   <div className="flex items-center gap-1.5">
@@ -377,7 +377,7 @@ export default function HomePage() {
                     }`}
                   >
                     <div className="w-20 shrink-0">
-                      <div className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">
+                      <div className="font-mono text-[9px] uppercase tracking-widest text-zinc-400">
                         {row.label}
                       </div>
                       <div className="text-xl font-black italic leading-none tracking-tighter text-white sm:text-2xl">
@@ -413,7 +413,7 @@ export default function HomePage() {
                     </div>
 
                     <div className="w-16 shrink-0 text-right">
-                      <div className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">
+                      <div className="font-mono text-[9px] uppercase tracking-widest text-zinc-400">
                         Loaded
                       </div>
                       <div className="text-sm font-black tracking-tighter text-orange-400">
@@ -421,13 +421,13 @@ export default function HomePage() {
                       </div>
                     </div>
                     <MoveRight
-                      className="shrink-0 text-zinc-600 transition-all group-hover:translate-x-1 group-hover:text-orange-500"
+                      className="shrink-0 text-zinc-400 transition-all group-hover:translate-x-1 group-hover:text-orange-500"
                       size={16}
                     />
                   </Link>
                 ))}
 
-                <div className="mt-5 flex items-center justify-between border-t border-zinc-800 pt-3 font-mono text-[9px] tracking-[0.25em] text-zinc-600">
+                <div className="mt-5 flex items-center justify-between border-t border-zinc-800 pt-3 font-mono text-[9px] tracking-[0.25em] text-zinc-400">
                   <span>NO&nbsp;DB&nbsp;·&nbsp;NO&nbsp;FLUFF</span>
                   <span className="text-orange-500">
                     AUDITED&nbsp;2026.Q1
@@ -521,7 +521,7 @@ export default function HomePage() {
             <span className="relative z-10 text-xs font-black uppercase italic tracking-widest">
               Reviews
             </span>
-            <span className="relative z-10 mt-1 text-[9px] tracking-widest text-zinc-600">
+            <span className="relative z-10 mt-1 text-[9px] tracking-widest text-zinc-400">
               31 Tested
             </span>
           </Link>
@@ -539,7 +539,7 @@ export default function HomePage() {
             <span className="relative z-10 text-xs font-black uppercase italic tracking-widest">
               Guides
             </span>
-            <span className="relative z-10 mt-1 text-[9px] tracking-widest text-zinc-600">
+            <span className="relative z-10 mt-1 text-[9px] tracking-widest text-zinc-400">
               47 Articles
             </span>
           </Link>
@@ -587,7 +587,7 @@ export default function HomePage() {
                   />
                 </div>
                 <div>
-                  <div className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600">
+                  <div className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">
                     How to Choose
                   </div>
                   <div className="text-sm font-black uppercase italic tracking-tighter text-zinc-200 transition-colors group-hover:text-orange-400">
@@ -642,10 +642,10 @@ export default function HomePage() {
                   <h3 className="mb-3 text-lg font-black uppercase italic leading-snug tracking-tighter transition-colors group-hover:text-orange-400">
                     {article.title}
                   </h3>
-                  <p className="line-clamp-2 text-sm leading-relaxed text-zinc-500">
+                  <p className="line-clamp-2 text-sm leading-relaxed text-zinc-400">
                     {article.description}
                   </p>
-                  <div className="mt-4 flex items-center justify-between border-t border-zinc-800/50 pt-4 text-[10px] tracking-widest text-zinc-600">
+                  <div className="mt-4 flex items-center justify-between border-t border-zinc-800/50 pt-4 text-[10px] tracking-widest text-zinc-400">
                     <span className="flex items-center gap-1">
                       <CalendarDays className="h-3 w-3" />
                       {new Date(article.date).toLocaleDateString("en-US", {
@@ -674,7 +674,7 @@ export default function HomePage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="group skew-x-[-12deg] border border-zinc-800 bg-zinc-900/50 px-6 py-3 text-[10px] font-black uppercase tracking-widest text-zinc-500 transition-all hover:border-orange-600 hover:bg-orange-600/5 hover:text-orange-400"
+                className="group skew-x-[-12deg] border border-zinc-800 bg-zinc-900/50 px-6 py-3 text-[10px] font-black uppercase tracking-widest text-zinc-400 transition-all hover:border-orange-600 hover:bg-orange-600/5 hover:text-orange-400"
               >
                 <span className="inline-block skew-x-[12deg]">{link.label}</span>
               </Link>

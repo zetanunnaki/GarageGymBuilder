@@ -56,7 +56,7 @@ export default function GuidesIndexPage() {
         <h1 className="mb-4 text-5xl font-black uppercase italic tracking-tighter md:text-6xl">
           Guides
         </h1>
-        <p className="max-w-2xl text-lg text-zinc-500">
+        <p className="max-w-2xl text-lg text-zinc-400">
           Everything you need to know about building and optimizing your garage
           gym — from flooring to programming.
         </p>
@@ -84,7 +84,7 @@ export default function GuidesIndexPage() {
             <h2 className="mb-4 text-3xl font-black uppercase italic tracking-tighter transition-colors group-hover:text-orange-500 md:text-4xl">
               {featured.title}
             </h2>
-            <p className="mb-6 max-w-3xl text-zinc-500">{featured.description}</p>
+            <p className="mb-6 max-w-3xl text-zinc-400">{featured.description}</p>
             <span className="inline-flex items-center gap-2 text-sm font-black uppercase italic tracking-tighter text-orange-500">
               Read Guide <ArrowRight size={16} />
             </span>
@@ -99,7 +99,7 @@ export default function GuidesIndexPage() {
       </div>
 
       {articles.length === 0 && (
-        <p className="py-20 text-center text-zinc-600">
+        <p className="py-20 text-center text-zinc-400">
           No guides yet. Check back soon.
         </p>
       )}

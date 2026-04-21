@@ -95,7 +95,7 @@ export default function TopicsPage() {
             Topics
           </span>
         </h1>
-        <p className="max-w-2xl text-lg leading-relaxed text-zinc-500">
+        <p className="max-w-2xl text-lg leading-relaxed text-zinc-400">
           {topics.length} topics covering every corner of home gym training.
           Each page pulls in every article, review, build, and comparison on
           that subject.
@@ -127,11 +127,11 @@ export default function TopicsPage() {
               <h2 className="mb-2 text-2xl font-black uppercase italic leading-none tracking-tighter text-zinc-100 transition-colors group-hover:text-orange-400">
                 {topic.name}
               </h2>
-              <p className="mb-4 text-sm leading-relaxed text-zinc-500">
+              <p className="mb-4 text-sm leading-relaxed text-zinc-400">
                 {topic.description}
               </p>
               <div className="flex items-center justify-between border-t border-zinc-800/50 pt-4 text-[10px] font-black uppercase tracking-widest">
-                <span className="text-zinc-600">
+                <span className="text-zinc-400">
                   {count} article{count === 1 ? "" : "s"}
                 </span>
                 <span className="flex items-center gap-1 text-orange-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">

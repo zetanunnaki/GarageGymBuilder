@@ -120,14 +120,14 @@ function ArticleCard({
       className="group border border-zinc-800 bg-zinc-900/40 p-5 transition-colors hover:border-orange-600/50"
     >
       {badge && (
-        <span className="mb-2 inline-block text-[9px] font-black uppercase tracking-widest text-zinc-500">
+        <span className="mb-2 inline-block text-[9px] font-black uppercase tracking-widest text-zinc-400">
           {badge}
         </span>
       )}
       <h3 className="mb-2 text-sm font-black uppercase italic leading-snug tracking-tighter transition-colors group-hover:text-orange-500">
         {article.title}
       </h3>
-      <p className="line-clamp-2 text-xs text-zinc-600">
+      <p className="line-clamp-2 text-xs text-zinc-400">
         {article.description}
       </p>
       <div className="mt-3 flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-orange-600 transition-colors group-hover:text-orange-400">

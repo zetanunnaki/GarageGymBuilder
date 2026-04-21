@@ -35,7 +35,7 @@ export function ComparisonTable({ productIds, data }: ComparisonTableProps) {
       <div className="overflow-x-auto">
         <table className="w-full text-left">
           <thead>
-            <tr className="border-b border-zinc-800 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+            <tr className="border-b border-zinc-800 text-[10px] font-black uppercase tracking-widest text-zinc-400">
               <th className="p-6">Equipment</th>
               <th className="p-6">Capacity</th>
               <th className="p-6">Steel</th>

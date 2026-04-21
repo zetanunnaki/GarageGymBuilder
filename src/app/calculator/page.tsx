@@ -397,7 +397,7 @@ export default function CalculatorPage() {
             Planner
           </span>
         </h1>
-        <p className="max-w-2xl text-lg leading-relaxed text-zinc-500">
+        <p className="max-w-2xl text-lg leading-relaxed text-zinc-400">
           Pick your training goal, space, and budget. We&apos;ll match real
           Amazon/Walmart products from our tested catalog.
         </p>
@@ -405,7 +405,7 @@ export default function CalculatorPage() {
 
       {/* Goal Selector */}
       <section className="mb-8">
-        <div className="mb-3 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+        <div className="mb-3 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-400">
           <Target size={12} /> Training Goal
         </div>
         <div className="grid gap-2 sm:grid-cols-3 lg:grid-cols-5">
@@ -423,7 +423,7 @@ export default function CalculatorPage() {
               >
                 <Icon
                   size={18}
-                  className={goal === g ? "text-orange-500" : "text-zinc-600"}
+                  className={goal === g ? "text-orange-500" : "text-zinc-400"}
                 />
                 <div>
                   <div
@@ -433,7 +433,7 @@ export default function CalculatorPage() {
                   >
                     {goalLabels[g].label}
                   </div>
-                  <div className="mt-0.5 text-[10px] leading-tight text-zinc-600">
+                  <div className="mt-0.5 text-[10px] leading-tight text-zinc-400">
                     {goalLabels[g].desc}
                   </div>
                 </div>
@@ -445,7 +445,7 @@ export default function CalculatorPage() {
 
       {/* Space Selector */}
       <section className="mb-8">
-        <div className="mb-3 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+        <div className="mb-3 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-400">
           <Ruler size={12} /> Available Space
         </div>
         <div className="grid gap-2 sm:grid-cols-3">
@@ -466,7 +466,7 @@ export default function CalculatorPage() {
               >
                 {spaceLabels[s].label}
               </div>
-              <div className="mt-0.5 text-[10px] text-zinc-600">
+              <div className="mt-0.5 text-[10px] text-zinc-400">
                 {spaceLabels[s].desc}
               </div>
             </button>
@@ -477,7 +477,7 @@ export default function CalculatorPage() {
       {/* Budget Slider */}
       <section className="mb-10">
         <div className="mb-3 flex items-center justify-between">
-          <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+          <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-400">
             <Calculator size={12} /> Budget
           </div>
           <div className="text-2xl font-black italic text-orange-500">
@@ -494,7 +494,7 @@ export default function CalculatorPage() {
           className="w-full accent-orange-600"
           aria-label="Budget"
         />
-        <div className="mt-1 flex justify-between text-[10px] tracking-widest text-zinc-600">
+        <div className="mt-1 flex justify-between text-[10px] tracking-widest text-zinc-400">
           <span>$500</span>
           <span>$5,000</span>
         </div>
@@ -504,7 +504,7 @@ export default function CalculatorPage() {
       <section className="mb-10 border-2 border-orange-600/30 bg-orange-600/5 p-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <p className="text-[10px] font-black uppercase tracking-widest text-zinc-500">
+            <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400">
               Recommended Total
             </p>
             <p
@@ -514,7 +514,7 @@ export default function CalculatorPage() {
             >
               ${Math.round(recommended.total).toLocaleString()}
             </p>
-            <p className="mt-1 text-xs text-zinc-500">
+            <p className="mt-1 text-xs text-zinc-400">
               {recommended.picked.length} items &middot;{" "}
               {goalLabels[goal].label} &middot; {spaceLabels[space].label} space
             </p>
@@ -550,7 +550,7 @@ export default function CalculatorPage() {
 
       {/* Picked Items */}
       <section className="mb-8">
-        <h2 className="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+        <h2 className="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-400">
           <Check size={12} /> Your Recommended Kit ({recommended.picked.length})
         </h2>
         <div className="space-y-2">
@@ -577,7 +577,7 @@ export default function CalculatorPage() {
                       {priorityLabel[opt.priority]}
                     </span>
                   </div>
-                  <div className="text-[10px] uppercase tracking-widest text-zinc-600">
+                  <div className="text-[10px] uppercase tracking-widest text-zinc-400">
                     {opt.category} &middot; {product.brand}
                   </div>
                 </div>
@@ -588,14 +588,14 @@ export default function CalculatorPage() {
                   {opt.slug && (
                     <Link
                       href={`/reviews/${opt.slug}/`}
-                      className="text-[10px] font-black uppercase tracking-widest text-zinc-500 hover:text-orange-500"
+                      className="text-[10px] font-black uppercase tracking-widest text-zinc-400 hover:text-orange-500"
                     >
                       Review &rarr;
                     </Link>
                   )}
                   <button
                     onClick={() => toggle(opt.id)}
-                    className="text-[10px] font-black uppercase tracking-widest text-zinc-600 hover:text-red-400"
+                    className="text-[10px] font-black uppercase tracking-widest text-zinc-400 hover:text-red-400"
                     aria-label={`Remove ${product.name}`}
                   >
                     Skip
@@ -610,7 +610,7 @@ export default function CalculatorPage() {
       {/* Skipped Items */}
       {recommended.skipped.length > 0 && (
         <section>
-          <h2 className="mb-4 text-[10px] font-black uppercase tracking-widest text-zinc-500">
+          <h2 className="mb-4 text-[10px] font-black uppercase tracking-widest text-zinc-400">
             Not in budget ({recommended.skipped.length})
           </h2>
           <div className="space-y-2 opacity-60">
@@ -629,11 +629,11 @@ export default function CalculatorPage() {
                     <div className="truncate text-sm font-bold text-zinc-400">
                       {product.name}
                     </div>
-                    <div className="text-[10px] text-zinc-600">
+                    <div className="text-[10px] text-zinc-400">
                       {opt.category}
                     </div>
                   </div>
-                  <span className="text-sm font-bold italic text-zinc-500">
+                  <span className="text-sm font-bold italic text-zinc-400">
                     ${price}
                   </span>
                   {isExcluded && (

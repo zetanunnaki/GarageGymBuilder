@@ -124,7 +124,7 @@ export function ShareButtons({ title, slug, contentType }: ShareButtonsProps) {
 
   return (
     <div className="mt-12 border-t border-zinc-800 pt-6">
-      <div className="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] text-zinc-600">
+      <div className="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] text-zinc-400">
         <Share2 size={12} />
         Share
       </div>

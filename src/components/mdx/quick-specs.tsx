@@ -35,7 +35,7 @@ export function QuickSpecs({ productId }: QuickSpecsProps) {
   return (
     <div className="not-prose my-8 border border-zinc-800 bg-zinc-900/50">
       <div className="border-b border-zinc-800 bg-zinc-950/50 px-6 py-3">
-        <h4 className="text-[10px] font-black uppercase tracking-widest text-zinc-500">
+        <h4 className="text-[10px] font-black uppercase tracking-widest text-zinc-400">
           Quick Specs &middot; {product.name}
         </h4>
       </div>
@@ -46,7 +46,7 @@ export function QuickSpecs({ productId }: QuickSpecsProps) {
             className="flex flex-col items-center justify-center bg-zinc-900 p-4 text-center"
           >
             <spec.icon size={16} className="mb-2 text-orange-500" />
-            <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
               {spec.label}
             </span>
             <span className="mt-1 text-sm font-black italic">

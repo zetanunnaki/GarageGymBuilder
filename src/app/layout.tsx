@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import dynamic from "next/dynamic";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
-import { BackToTop } from "@/components/back-to-top";
-import { ScrollProgress } from "@/components/scroll-progress";
-import { CookieConsent } from "@/components/cookie-consent";
+
+const BackToTop = dynamic(() => import("@/components/back-to-top").then(m => m.BackToTop));
+const ScrollProgress = dynamic(() => import("@/components/scroll-progress").then(m => m.ScrollProgress));
+const CookieConsent = dynamic(() => import("@/components/cookie-consent").then(m => m.CookieConsent));
 
 const GA_ID = "G-FEZWDYPY41";
 

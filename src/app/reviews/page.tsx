@@ -56,7 +56,7 @@ export default function ReviewsIndexPage() {
         <h1 className="mb-4 text-5xl font-black uppercase italic tracking-tighter md:text-6xl">
           Reviews
         </h1>
-        <p className="max-w-2xl text-lg text-zinc-500">
+        <p className="max-w-2xl text-lg text-zinc-400">
           Hands-on reviews from people who actually lift. We buy it, build it,
           and beat on it before writing a word.
         </p>
@@ -92,7 +92,7 @@ export default function ReviewsIndexPage() {
             <h2 className="mb-4 text-3xl font-black uppercase italic tracking-tighter transition-colors group-hover:text-orange-500 md:text-4xl">
               {featured.title}
             </h2>
-            <p className="mb-6 max-w-3xl text-zinc-500">{featured.description}</p>
+            <p className="mb-6 max-w-3xl text-zinc-400">{featured.description}</p>
             <span className="inline-flex items-center gap-2 text-sm font-black uppercase italic tracking-tighter text-orange-500">
               Read Review <ArrowRight size={16} />
             </span>
@@ -107,7 +107,7 @@ export default function ReviewsIndexPage() {
       </div>
 
       {articles.length === 0 && (
-        <p className="py-20 text-center text-zinc-600">
+        <p className="py-20 text-center text-zinc-400">
           No reviews yet. Check back soon.
         </p>
       )}

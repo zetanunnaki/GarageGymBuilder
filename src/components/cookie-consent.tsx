@@ -91,7 +91,7 @@ export function CookieConsent() {
 
         <button
           onClick={decline}
-          className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center text-zinc-500 hover:text-orange-400"
+          className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center text-zinc-400 hover:text-orange-400"
           aria-label="Dismiss"
         >
           <X size={16} />

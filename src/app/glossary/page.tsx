@@ -62,7 +62,7 @@ export default function GlossaryPage() {
             Glossary
           </span>
         </h1>
-        <p className="max-w-2xl text-lg leading-relaxed text-zinc-500">
+        <p className="max-w-2xl text-lg leading-relaxed text-zinc-400">
           {glossaryTerms.length} terms defined — from AMRAP to Zone 2.
           Everything you need to speak gym fluently.
         </p>

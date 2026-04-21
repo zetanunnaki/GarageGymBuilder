@@ -76,7 +76,7 @@ export function SearchClient() {
     <div>
       <div className="relative mb-6">
         <SearchIcon
-          className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-zinc-500"
+          className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-zinc-400"
           size={20}
         />
         <input
@@ -85,12 +85,12 @@ export function SearchClient() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search reviews, guides, products..."
-          className="w-full border-2 border-zinc-800 bg-zinc-900/40 py-4 pl-12 pr-12 text-base text-zinc-100 placeholder:text-zinc-600 focus:border-orange-600 focus:outline-none"
+          className="w-full border-2 border-zinc-800 bg-zinc-900/40 py-4 pl-12 pr-12 text-base text-zinc-100 placeholder:text-zinc-400 focus:border-orange-600 focus:outline-none"
         />
         {query && (
           <button
             onClick={() => setQuery("")}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 transition-colors hover:text-orange-500"
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-400 transition-colors hover:text-orange-500"
             aria-label="Clear search"
           >
             <X size={18} />
@@ -106,7 +106,7 @@ export function SearchClient() {
             className={`border px-4 py-2 text-[10px] font-black uppercase tracking-widest transition-colors ${
               filter === f.key
                 ? "border-orange-600 bg-orange-600/10 text-orange-500"
-                : "border-zinc-800 text-zinc-500 hover:border-orange-600/50 hover:text-orange-500"
+                : "border-zinc-800 text-zinc-400 hover:border-orange-600/50 hover:text-orange-500"
             }`}
           >
             {f.label}
@@ -116,7 +116,7 @@ export function SearchClient() {
 
       {!query.trim() && (
         <div className="border border-zinc-800 bg-zinc-900/30 p-10 text-center">
-          <p className="text-zinc-500">
+          <p className="text-zinc-400">
             Start typing above to search across {(searchIndex as IndexEntry[]).length}+ articles.
           </p>
         </div>
@@ -127,7 +127,7 @@ export function SearchClient() {
           <p className="mb-2 text-zinc-400">
             No results for &ldquo;{query}&rdquo;.
           </p>
-          <p className="text-sm text-zinc-600">
+          <p className="text-sm text-zinc-400">
             Try a broader term or check the filter above.
           </p>
         </div>
@@ -135,7 +135,7 @@ export function SearchClient() {
 
       {results.length > 0 && (
         <>
-          <div className="mb-4 text-[10px] font-black uppercase tracking-widest text-zinc-600">
+          <div className="mb-4 text-[10px] font-black uppercase tracking-widest text-zinc-400">
             {results.length} result{results.length === 1 ? "" : "s"}
           </div>
           <ul className="space-y-3">
@@ -148,13 +148,13 @@ export function SearchClient() {
                   <div className="mb-2 text-[10px] font-black uppercase tracking-widest text-orange-500">
                     {contentTypeLabels[r.contentType] || r.contentType}
                     {r.category && (
-                      <span className="ml-2 text-zinc-600">&middot; {r.category}</span>
+                      <span className="ml-2 text-zinc-400">&middot; {r.category}</span>
                     )}
                   </div>
                   <h2 className="mb-2 text-lg font-black uppercase italic leading-tight tracking-tighter text-zinc-100 transition-colors group-hover:text-orange-500">
                     {r.title}
                   </h2>
-                  <p className="line-clamp-2 text-sm text-zinc-500">{r.description}</p>
+                  <p className="line-clamp-2 text-sm text-zinc-400">{r.description}</p>
                 </Link>
               </li>
             ))}

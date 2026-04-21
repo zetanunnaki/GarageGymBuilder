@@ -71,7 +71,7 @@ export function CompareClient({ catalog }: CompareClientProps) {
         <h2 className="mb-2 text-2xl font-black uppercase italic tracking-tighter">
           Start a Comparison
         </h2>
-        <p className="mb-8 text-zinc-500">
+        <p className="mb-8 text-zinc-400">
           Pick your first product to compare.
         </p>
         <button
@@ -112,13 +112,13 @@ export function CompareClient({ catalog }: CompareClientProps) {
           >
             <button
               onClick={() => removeProduct(product.id)}
-              className="absolute right-2 top-2 z-10 flex h-7 w-7 items-center justify-center border border-zinc-700 bg-zinc-900 text-zinc-500 transition-colors hover:border-red-500 hover:text-red-400"
+              className="absolute right-2 top-2 z-10 flex h-7 w-7 items-center justify-center border border-zinc-700 bg-zinc-900 text-zinc-400 transition-colors hover:border-red-500 hover:text-red-400"
               aria-label={`Remove ${product.name}`}
             >
               <X size={14} />
             </button>
             <div className="border-b border-zinc-800 p-5">
-              <div className="text-[9px] font-black uppercase tracking-widest text-zinc-600">
+              <div className="text-[9px] font-black uppercase tracking-widest text-zinc-400">
                 {product.brand}
               </div>
               <div className="mt-1 text-sm font-black uppercase italic leading-tight tracking-tighter">
@@ -131,7 +131,7 @@ export function CompareClient({ catalog }: CompareClientProps) {
 
             <div className="space-y-4 p-5 text-xs">
               <div>
-                <div className="mb-1 text-[9px] font-black uppercase tracking-widest text-zinc-600">
+                <div className="mb-1 text-[9px] font-black uppercase tracking-widest text-zinc-400">
                   Weight Capacity
                 </div>
                 <div className="text-zinc-300">
@@ -139,7 +139,7 @@ export function CompareClient({ catalog }: CompareClientProps) {
                 </div>
               </div>
               <div>
-                <div className="mb-1 text-[9px] font-black uppercase tracking-widest text-zinc-600">
+                <div className="mb-1 text-[9px] font-black uppercase tracking-widest text-zinc-400">
                   Footprint
                 </div>
                 <div className="text-zinc-300">
@@ -147,7 +147,7 @@ export function CompareClient({ catalog }: CompareClientProps) {
                 </div>
               </div>
               <div>
-                <div className="mb-1 text-[9px] font-black uppercase tracking-widest text-zinc-600">
+                <div className="mb-1 text-[9px] font-black uppercase tracking-widest text-zinc-400">
                   Material
                 </div>
                 <div className="text-zinc-300">
@@ -220,7 +220,7 @@ export function CompareClient({ catalog }: CompareClientProps) {
         {selectedProducts.length < 4 && (
           <button
             onClick={() => setPickerOpen(true)}
-            className="flex min-h-[320px] flex-col items-center justify-center gap-3 border-2 border-dashed border-zinc-800 bg-zinc-900/20 text-zinc-600 transition-colors hover:border-orange-600/60 hover:text-orange-500"
+            className="flex min-h-[320px] flex-col items-center justify-center gap-3 border-2 border-dashed border-zinc-800 bg-zinc-900/20 text-zinc-400 transition-colors hover:border-orange-600/60 hover:text-orange-500"
           >
             <div className="flex h-14 w-14 items-center justify-center border border-current">
               <Plus size={24} />
@@ -285,7 +285,7 @@ function Picker({
           />
           <button
             onClick={onClose}
-            className="text-zinc-500 hover:text-zinc-300"
+            className="text-zinc-400 hover:text-zinc-300"
             aria-label="Close"
           >
             <X size={16} />
@@ -293,7 +293,7 @@ function Picker({
         </div>
         <div className="max-h-96 overflow-y-auto">
           {catalog.length === 0 ? (
-            <div className="p-10 text-center text-sm text-zinc-600">
+            <div className="p-10 text-center text-sm text-zinc-400">
               No matches
             </div>
           ) : (

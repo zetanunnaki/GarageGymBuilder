@@ -34,7 +34,7 @@ export function AuthorBio({ author }: AuthorBioProps) {
           <p className="text-sm font-black uppercase italic tracking-tighter transition-colors group-hover:text-orange-500">
             {authorData.name}
           </p>
-          <p className="mt-1 text-xs leading-relaxed text-zinc-500">
+          <p className="mt-1 text-xs leading-relaxed text-zinc-400">
             {authorData.shortBio}
           </p>
           <span className="mt-2 inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-widest text-orange-500">
@@ -54,7 +54,7 @@ export function AuthorBio({ author }: AuthorBioProps) {
         <p className="text-sm font-black uppercase italic tracking-tighter">
           {author}
         </p>
-        <p className="mt-1 text-xs leading-relaxed text-zinc-500">
+        <p className="mt-1 text-xs leading-relaxed text-zinc-400">
           Our team tests every product hands-on before recommending it. We buy
           the equipment with our own money and train with it daily. No sponsored
           reviews, no pay-to-play rankings.{" "}

@@ -234,7 +234,7 @@ export function Navbar() {
                           <div className="text-sm font-black uppercase italic tracking-tighter text-zinc-100 transition-colors group-hover:text-orange-400">
                             {link.label}
                           </div>
-                          <div className="text-[10px] text-zinc-600">
+                          <div className="text-[10px] text-zinc-400">
                             {link.desc}
                           </div>
                         </div>

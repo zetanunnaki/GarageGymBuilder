@@ -71,7 +71,7 @@ export default function PicksPage() {
         <h1 className="mb-4 text-5xl font-black uppercase italic tracking-tighter md:text-6xl">
           Our Picks
         </h1>
-        <p className="max-w-2xl text-lg text-zinc-500">
+        <p className="max-w-2xl text-lg text-zinc-400">
           Every product we recommend, organized by category. We buy it, test it,
           and train with it before adding it here.
         </p>
@@ -104,7 +104,7 @@ export default function PicksPage() {
 
                   {/* Info */}
                   <div className="md:col-span-4">
-                    <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                       {product.brand}
                     </p>
                     <h3 className="mt-1 text-lg font-black uppercase italic tracking-tighter">
@@ -119,7 +119,7 @@ export default function PicksPage() {
                   <div className="md:col-span-2">
                     {product.specs.weightCapacity && (
                       <div className="mb-1">
-                        <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                        <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                           Capacity:{" "}
                         </span>
                         <span className="text-sm font-bold">
@@ -129,7 +129,7 @@ export default function PicksPage() {
                     )}
                     {product.specs.material && (
                       <div>
-                        <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                        <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                           Steel:{" "}
                         </span>
                         <span className="text-sm font-bold">

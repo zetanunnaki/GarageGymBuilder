@@ -45,7 +45,7 @@ export function GlossaryClient({ terms }: GlossaryClientProps) {
       {/* Search */}
       <div className="relative mb-6">
         <SearchIcon
-          className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-zinc-500"
+          className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-zinc-400"
           size={18}
         />
         <input
@@ -53,13 +53,13 @@ export function GlossaryClient({ terms }: GlossaryClientProps) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search terms..."
-          className="w-full border-2 border-zinc-800 bg-zinc-900/40 py-4 pl-12 pr-12 text-base text-zinc-100 placeholder:text-zinc-600 focus:border-orange-600 focus:outline-none"
+          className="w-full border-2 border-zinc-800 bg-zinc-900/40 py-4 pl-12 pr-12 text-base text-zinc-100 placeholder:text-zinc-400 focus:border-orange-600 focus:outline-none"
           aria-label="Search glossary"
         />
         {query && (
           <button
             onClick={() => setQuery("")}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-orange-500"
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-orange-500"
             aria-label="Clear search"
           >
             <X size={18} />
@@ -76,7 +76,7 @@ export function GlossaryClient({ terms }: GlossaryClientProps) {
             className={`border px-4 py-2 text-[10px] font-black uppercase tracking-widest transition-colors ${
               category === cat
                 ? "border-orange-600 bg-orange-600/10 text-orange-500"
-                : "border-zinc-800 text-zinc-500 hover:border-orange-600/50 hover:text-orange-400"
+                : "border-zinc-800 text-zinc-400 hover:border-orange-600/50 hover:text-orange-400"
             }`}
           >
             {cat}
@@ -85,12 +85,12 @@ export function GlossaryClient({ terms }: GlossaryClientProps) {
       </div>
 
       {/* Results */}
-      <div className="mb-4 text-[10px] font-black uppercase tracking-widest text-zinc-600">
+      <div className="mb-4 text-[10px] font-black uppercase tracking-widest text-zinc-400">
         {filtered.length} term{filtered.length === 1 ? "" : "s"}
       </div>
 
       {filtered.length === 0 ? (
-        <div className="border border-zinc-800 bg-zinc-900/30 p-12 text-center text-zinc-500">
+        <div className="border border-zinc-800 bg-zinc-900/30 p-12 text-center text-zinc-400">
           No matches for &ldquo;{query}&rdquo;
         </div>
       ) : (
@@ -110,7 +110,7 @@ export function GlossaryClient({ terms }: GlossaryClientProps) {
                     <span className="text-2xl font-black uppercase italic tracking-tighter text-zinc-100">
                       {t.term}
                     </span>
-                    <span className="text-[9px] font-black uppercase tracking-widest text-zinc-600">
+                    <span className="text-[9px] font-black uppercase tracking-widest text-zinc-400">
                       {t.category}
                     </span>
                   </dt>
@@ -120,7 +120,7 @@ export function GlossaryClient({ terms }: GlossaryClientProps) {
                       {t.long}
                     </p>
                     {t.related && t.related.length > 0 && (
-                      <div className="mt-3 flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                      <div className="mt-3 flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-400">
                         <span>Related:</span>
                         {t.related.map((r) => (
                           <a

@@ -38,7 +38,7 @@ export function BuyButtons({ productId }: BuyButtonsProps) {
           Walmart
         </AffiliateLink>
       </div>
-      <p className="mt-2 text-[9px] font-mono uppercase tracking-[0.2em] text-zinc-600">
+      <p className="mt-2 text-[9px] font-mono uppercase tracking-[0.2em] text-zinc-400">
         Price and availability may change &middot; As an Amazon Associate we earn from qualifying purchases
       </p>
     </div>

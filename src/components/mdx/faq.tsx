@@ -56,7 +56,7 @@ export function Faq({ items, data }: FaqProps) {
               {item.question}
               <ChevronDown
                 size={16}
-                className="shrink-0 text-zinc-500 transition-transform group-open:rotate-180"
+                className="shrink-0 text-zinc-400 transition-transform group-open:rotate-180"
               />
             </summary>
             <div className="border-t border-zinc-800 px-6 py-4 text-sm text-zinc-400">

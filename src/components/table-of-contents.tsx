@@ -74,13 +74,13 @@ export function TableOfContents() {
         <span className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-orange-500">
           <List size={14} />
           Table of Contents
-          <span className="ml-1 text-zinc-600">
+          <span className="ml-1 text-zinc-400">
             ({headings.length})
           </span>
         </span>
         <ChevronDown
           size={16}
-          className={`text-zinc-500 transition-transform duration-300 ${
+          className={`text-zinc-400 transition-transform duration-300 ${
             open ? "rotate-180" : ""
           }`}
         />
@@ -101,7 +101,7 @@ export function TableOfContents() {
                   className={`relative block py-1 text-sm transition-colors ${
                     activeId === heading.id
                       ? "font-bold text-orange-500"
-                      : "text-zinc-500 hover:text-zinc-300"
+                      : "text-zinc-400 hover:text-zinc-300"
                   }`}
                 >
                   {activeId === heading.id && (

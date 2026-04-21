@@ -53,12 +53,12 @@ export function Search({ articles }: SearchProps) {
     return (
       <button
         onClick={() => setOpen(true)}
-        className="hidden items-center gap-2 border border-zinc-800 bg-zinc-900/50 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-zinc-500 transition-colors hover:border-orange-600/50 hover:text-zinc-300 md:flex"
+        className="hidden items-center gap-2 border border-zinc-800 bg-zinc-900/50 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-zinc-400 transition-colors hover:border-orange-600/50 hover:text-zinc-300 md:flex"
         aria-label="Search"
       >
         <SearchIcon size={12} />
         Search
-        <kbd className="ml-1 rounded border border-zinc-700 px-1 text-[9px] text-zinc-600">
+        <kbd className="ml-1 rounded border border-zinc-700 px-1 text-[9px] text-zinc-400">
           Ctrl+K
         </kbd>
       </button>
@@ -94,7 +94,7 @@ export function Search({ articles }: SearchProps) {
               setOpen(false);
               setQuery("");
             }}
-            className="text-zinc-500 hover:text-zinc-300"
+            className="text-zinc-400 hover:text-zinc-300"
           >
             <X size={16} />
           </button>
@@ -104,7 +104,7 @@ export function Search({ articles }: SearchProps) {
         {query.length >= 2 && (
           <div className="max-h-80 overflow-y-auto">
             {results.length === 0 ? (
-              <div className="px-4 py-8 text-center text-sm text-zinc-600">
+              <div className="px-4 py-8 text-center text-sm text-zinc-400">
                 No results for &ldquo;{query}&rdquo;
               </div>
             ) : (
@@ -150,7 +150,7 @@ export function Search({ articles }: SearchProps) {
         )}
 
         {/* Footer */}
-        <div className="flex items-center justify-between border-t border-zinc-800 px-4 py-2 text-[10px] text-zinc-600">
+        <div className="flex items-center justify-between border-t border-zinc-800 px-4 py-2 text-[10px] text-zinc-400">
           <span>Type to search</span>
           <span>
             <kbd className="rounded border border-zinc-700 px-1">ESC</kbd> to

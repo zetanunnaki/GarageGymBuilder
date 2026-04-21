@@ -250,10 +250,10 @@ export default async function ReviewPage({
             <StarRating rating={frontmatter.rating} />
           </div>
         )}
-        <p className="mb-6 text-lg italic leading-relaxed text-zinc-500">
+        <p className="mb-6 text-lg italic leading-relaxed text-zinc-400">
           {frontmatter.description}
         </p>
-        <div className="flex items-center gap-4 border-t border-zinc-800 pt-4 text-[10px] uppercase tracking-widest text-zinc-600">
+        <div className="flex items-center gap-4 border-t border-zinc-800 pt-4 text-[10px] uppercase tracking-widest text-zinc-400">
           <span className="flex items-center gap-1">
             <User className="h-3 w-3" />
             {frontmatter.author}

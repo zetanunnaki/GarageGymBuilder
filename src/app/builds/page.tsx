@@ -55,7 +55,7 @@ export default function BuildsIndexPage() {
         <h1 className="mb-4 text-5xl font-black uppercase italic tracking-tighter md:text-6xl">
           Budget Builds
         </h1>
-        <p className="max-w-2xl text-lg text-zinc-500">
+        <p className="max-w-2xl text-lg text-zinc-400">
           Tested, complete home gym builds at every price point. Every dollar
           accounted for.
         </p>
@@ -76,7 +76,7 @@ export default function BuildsIndexPage() {
                 <p className="text-3xl font-black italic text-orange-500">
                   {budget || "Build"}
                 </p>
-                <p className="mt-1 text-xs text-zinc-500">
+                <p className="mt-1 text-xs text-zinc-400">
                   {article.description.slice(0, 60)}...
                 </p>
               </div>
@@ -96,7 +96,7 @@ export default function BuildsIndexPage() {
       </div>
 
       {articles.length === 0 && (
-        <p className="py-20 text-center text-zinc-600">
+        <p className="py-20 text-center text-zinc-400">
           No builds yet. Check back soon.
         </p>
       )}

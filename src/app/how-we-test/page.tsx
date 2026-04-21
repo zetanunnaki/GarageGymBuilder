@@ -95,7 +95,7 @@ export default function HowWeTestPage() {
         <h1 className="mb-4 text-4xl font-black uppercase italic tracking-tighter md:text-5xl">
           How We Test
         </h1>
-        <p className="max-w-2xl text-lg text-zinc-500">
+        <p className="max-w-2xl text-lg text-zinc-400">
           Every product on GarageGymBuilders has been purchased, assembled, and
           trained with by our team. Here&apos;s exactly how we evaluate
           equipment.
@@ -114,14 +114,14 @@ export default function HowWeTestPage() {
             </div>
             <div>
               <div className="flex items-center gap-3">
-                <span className="text-[10px] font-black tracking-widest text-zinc-600">
+                <span className="text-[10px] font-black tracking-widest text-zinc-400">
                   STEP {i + 1}
                 </span>
                 <h2 className="text-lg font-black uppercase italic tracking-tighter">
                   {step.title}
                 </h2>
               </div>
-              <p className="mt-2 text-sm text-zinc-500">{step.description}</p>
+              <p className="mt-2 text-sm text-zinc-400">{step.description}</p>
             </div>
           </div>
         ))}
@@ -148,7 +148,7 @@ export default function HowWeTestPage() {
                 {tier.rating}
               </span>
               <span className="w-32 text-sm font-bold">{tier.label}</span>
-              <span className="text-sm text-zinc-500">{tier.desc}</span>
+              <span className="text-sm text-zinc-400">{tier.desc}</span>
             </div>
           ))}
         </div>
