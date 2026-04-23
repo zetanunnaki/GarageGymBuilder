@@ -302,7 +302,7 @@
   },
   {
     "title": "Mikolo F4 vs Sportsroyals Power Cage: Which Amazon Rack Wins?",
-    "description": "Head-to-head comparison of the two best budget power cages on Amazon: Mikolo F4 vs Sportsroyals. We tested both — here's which one wins and why.",
+    "description": "Head-to-head comparison of the two best budget power cages on Amazon: Mikolo F4 vs Sportsroyals. We tested both for 6 months — here's which one wins and why.",
     "slug": "mikolo-vs-sportsroyals",
     "contentType": "best-gear",
     "category": "Power Racks"
@@ -959,6 +959,13 @@
     "category": "Training"
   },
   {
+    "title": "Home Gym Deload Guide: When and How to Back Off (2026)",
+    "description": "Learn when and how to deload in your home gym. Science-backed protocols, recovery strategies, and signs you need a rest week.",
+    "slug": "home-gym-deload-recovery-guide",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
     "title": "Home Gym for Boxing: Equipment & Training Guide (2026)",
     "description": "How to build a complete boxing gym at home. Heavy bag, gloves, jump rope, and strength training equipment for fighters and fitness boxers.",
     "slug": "home-gym-for-boxing",
@@ -1078,6 +1085,13 @@
     "category": "Gym Setup"
   },
   {
+    "title": "The Complete Home Gym Warm-Up Guide (2026)",
+    "description": "Stop skipping your warm-up. Complete warm-up protocols for every training style, plus the equipment that makes preparation effortless at home.",
+    "slug": "home-gym-warm-up-guide",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
     "title": "How to Anchor a Power Rack: Concrete & Wood Floor Guide (2026)",
     "description": "Step-by-step guide to anchoring your power rack to concrete or wood subfloor. Tools, hardware, and safety considerations.",
     "slug": "how-to-anchor-power-rack",
@@ -1190,6 +1204,13 @@
     "category": "Gym Setup"
   },
   {
+    "title": "Strength vs Hypertrophy: How to Program for Your Goals (2026)",
+    "description": "The definitive guide to programming for strength vs size in your home gym. Rep ranges, volume, intensity, and complete programs for both goals.",
+    "slug": "strength-vs-hypertrophy-programming",
+    "contentType": "guides",
+    "category": "Training"
+  },
+  {
     "title": "The Ultimate Beginner's Home Gym Guide (2026)",
     "description": "Complete beginner's guide to building your first home gym. Equipment, space, budget, safety, and a full 12-week training program. Everything in one place.",
     "slug": "ultimate-beginners-home-gym-guide",
@@ -1207,6 +1228,13 @@
     "title": "Apartment Home Gym Under $300 (No Noise, No Space, No Problem)",
     "description": "Build a complete apartment-friendly home gym for under $300. Compact, quiet equipment that won't annoy your neighbors or break your lease.",
     "slug": "apartment-gym-under-300",
+    "contentType": "builds",
+    "category": "Budget Builds"
+  },
+  {
+    "title": "The Complete Beginner Home Gym Build (2026)",
+    "description": "Your first home gym, done right. A tested beginner build with exactly what you need, nothing you don't, and a plan to grow.",
+    "slug": "beginner-home-gym-build",
     "contentType": "builds",
     "category": "Budget Builds"
   },
@@ -1288,9 +1316,30 @@
     "category": "Build Guides"
   },
   {
+    "title": "Olympic Weightlifting Home Gym Build (2026)",
+    "description": "Build a home gym for Olympic weightlifting. Platform specs, bar selection, bumper plates, and everything you need to snatch and clean at home.",
+    "slug": "olympic-weightlifting-home-gym-build",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
     "title": "Powerlifter Home Gym Build: $1,500 Complete Setup (2026)",
     "description": "Complete powerlifting home gym build for under $1,500. Power rack, Olympic bar, plates, bench, lifting belt, and accessories — all Amazon/Walmart verified.",
     "slug": "powerlifter-home-gym-build",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
+    "title": "The Best Home Gym Build for Seniors (2026)",
+    "description": "Build a safe, effective home gym for seniors. Joint-friendly equipment picks, fall-prevention features, and age-appropriate training programs.",
+    "slug": "senior-home-gym-build",
+    "contentType": "builds",
+    "category": "Build Guides"
+  },
+  {
+    "title": "Women's Home Gym Build: Complete Equipment Guide (2026)",
+    "description": "Build the perfect home gym for women. Glute-focused equipment, strength training essentials, and space-efficient picks for every budget.",
+    "slug": "womens-home-gym-build",
     "contentType": "builds",
     "category": "Build Guides"
   }

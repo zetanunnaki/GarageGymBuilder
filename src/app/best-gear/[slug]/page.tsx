@@ -85,8 +85,8 @@ export default async function BestGearPage({
   });
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
-    { name: "Best Gear", url: "/best-gear" },
-    { name: frontmatter.title, url: `/best-gear/${slug}` },
+    { name: "Best Gear", url: "/best-gear/" },
+    { name: frontmatter.title, url: `/best-gear/${slug}/` },
   ]);
 
   return (

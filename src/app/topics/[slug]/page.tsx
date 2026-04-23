@@ -89,8 +89,8 @@ export default async function TopicPage({
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
-    { name: "Topics", url: "/topics" },
-    { name: topic.name, url: `/topics/${slug}` },
+    { name: "Topics", url: "/topics/" },
+    { name: topic.name, url: `/topics/${slug}/` },
   ]);
 
   const collectionSchema = generateCollectionPageSchema(

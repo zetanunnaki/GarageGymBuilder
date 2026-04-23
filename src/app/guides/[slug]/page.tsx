@@ -86,8 +86,8 @@ export default async function GuidePage({
   });
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
-    { name: "Guides", url: "/guides" },
-    { name: frontmatter.title, url: `/guides/${slug}` },
+    { name: "Guides", url: "/guides/" },
+    { name: frontmatter.title, url: `/guides/${slug}/` },
   ]);
 
   // HowTo schema for "how-to-*" guides — extract H3 section headings as steps

@@ -85,8 +85,8 @@ export default async function BuildPage({
   });
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
-    { name: "Budget Builds", url: "/builds" },
-    { name: frontmatter.title, url: `/builds/${slug}` },
+    { name: "Budget Builds", url: "/builds/" },
+    { name: frontmatter.title, url: `/builds/${slug}/` },
   ]);
 
   return (

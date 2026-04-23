@@ -65,7 +65,7 @@ export default function ReviewsIndexPage() {
       {/* Featured Review */}
       {featured && (
         <Link
-          href={`/reviews/${featured.slug}`}
+          href={`/reviews/${featured.slug}/`}
           className="group mb-8 block overflow-hidden border-2 border-zinc-800 bg-zinc-900/60 transition-colors hover:border-orange-600/50"
         >
           {featured.featuredImage && (

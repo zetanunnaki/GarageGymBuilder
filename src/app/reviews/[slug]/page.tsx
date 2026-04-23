@@ -178,8 +178,8 @@ export default async function ReviewPage({
   );
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "/" },
-    { name: "Reviews", url: "/reviews" },
-    { name: frontmatter.title, url: `/reviews/${slug}` },
+    { name: "Reviews", url: "/reviews/" },
+    { name: frontmatter.title, url: `/reviews/${slug}/` },
   ]);
 
   const productSchema =

@@ -78,7 +78,7 @@ export function RelatedArticles({
               <ArticleCard
                 key={article.slug}
                 article={article}
-                href={`/${contentType}/${article.slug}`}
+                href={`/${contentType}/${article.slug}/`}
               />
             ))}
           </div>
@@ -94,7 +94,7 @@ export function RelatedArticles({
               <ArticleCard
                 key={`${article.contentType}-${article.slug}`}
                 article={article}
-                href={`/${article.contentType}/${article.slug}`}
+                href={`/${article.contentType}/${article.slug}/`}
                 badge={typeLabels[article.contentType]}
               />
             ))}

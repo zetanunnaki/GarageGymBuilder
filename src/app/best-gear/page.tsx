@@ -65,7 +65,7 @@ export default function BestGearIndexPage() {
       {/* Featured Article */}
       {featured && (
         <Link
-          href={`/best-gear/${featured.slug}`}
+          href={`/best-gear/${featured.slug}/`}
           className="group mb-8 block overflow-hidden border-2 border-zinc-800 bg-zinc-900/60 transition-colors hover:border-orange-600/50"
         >
           {featured.featuredImage && (

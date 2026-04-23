@@ -69,7 +69,7 @@ export default function BuildsIndexPage() {
           return (
             <Link
               key={article.slug}
-              href={`/builds/${article.slug}`}
+              href={`/builds/${article.slug}/`}
               className="group flex items-center justify-between border-2 border-zinc-800 bg-zinc-900/60 p-6 transition-colors hover:border-orange-600"
             >
               <div>
