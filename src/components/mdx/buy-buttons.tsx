@@ -27,7 +27,7 @@ export function BuyButtons({ productId }: BuyButtonsProps) {
         </AffiliateLink>
       </div>
       <p className="mt-2 text-[9px] font-mono uppercase tracking-[0.2em] text-zinc-400">
-        Price and availability may change &middot; As an Amazon Associate we earn from qualifying purchases
+        Price and availability may change
       </p>
     </div>
   );

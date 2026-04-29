@@ -114,9 +114,6 @@ export function Footer() {
             provide a means for sites to earn advertising fees by advertising
             and linking to Amazon.com.
           </p>
-          <p className="italic text-zinc-400">
-            As an Amazon Associate we earn from qualifying purchases.
-          </p>
           <p>
             Prices and availability are subject to change. Displayed prices
             were accurate at the time of publication and may differ on
