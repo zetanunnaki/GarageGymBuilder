@@ -42,9 +42,6 @@ export function Faq({ items, data }: FaqProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <h3 className="mb-6 text-xl font-black uppercase italic tracking-tighter">
-        Frequently Asked Questions
-      </h3>
       <div className="divide-y divide-zinc-800 border border-zinc-800">
         {faqItems.map((item, i) => (
           <details
