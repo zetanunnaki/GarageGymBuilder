@@ -25,11 +25,6 @@ export default function AffiliateDisclosurePage() {
           for sites to earn advertising fees by advertising and linking to
           Amazon.com.
         </p>
-        <p>
-          We are also a participant in the Walmart Associates Program and may
-          earn commissions from qualifying purchases made through links to
-          Walmart.com.
-        </p>
 
         <h2>How Affiliate Links Work</h2>
         <p>

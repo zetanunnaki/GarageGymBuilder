@@ -33,7 +33,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Affiliate Links</h2>
         <p>
-          Our site contains affiliate links to Amazon.com, Walmart.com, and other
+          Our site contains affiliate links to Amazon.com and other
           retailers. When you click these links, the respective retailer may
           place cookies on your device to track the referral.
         </p>

@@ -399,7 +399,7 @@ export default function CalculatorPage() {
         </h1>
         <p className="max-w-2xl text-lg leading-relaxed text-zinc-400">
           Pick your training goal, space, and budget. We&apos;ll match real
-          Amazon/Walmart products from our tested catalog.
+          Amazon products from our tested catalog.
         </p>
       </header>
 

@@ -120,7 +120,7 @@ export default function TeamPage() {
             <strong className="text-zinc-200">
               We disclose affiliate relationships.
             </strong>{" "}
-            We earn commissions from Amazon and Walmart links, but our
+            We earn commissions from Amazon affiliate links, but our
             recommendations come first. Read our{" "}
             <Link
               href="/affiliate-disclosure/"

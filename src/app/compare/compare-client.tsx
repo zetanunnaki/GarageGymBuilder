@@ -205,14 +205,6 @@ export function CompareClient({ catalog }: CompareClientProps) {
               >
                 Amazon
               </a>
-              <a
-                href={product.walmartLink}
-                target="_blank"
-                rel="sponsored nofollow noopener"
-                className="bg-[#0071CE] py-3 text-center text-[10px] font-black uppercase italic tracking-tighter text-white transition hover:brightness-110"
-              >
-                Walmart
-              </a>
             </div>
           </div>
         ))}

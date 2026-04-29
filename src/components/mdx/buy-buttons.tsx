@@ -25,18 +25,6 @@ export function BuyButtons({ productId }: BuyButtonsProps) {
           <ShoppingCart size={18} />
           Amazon
         </AffiliateLink>
-        <AffiliateLink
-          href={product.walmartLink}
-          merchant="walmart"
-          productId={productId}
-          productName={product.name}
-          price={product.price}
-          ariaLabel={`Buy ${product.name} on Walmart`}
-          className="flex flex-1 items-center justify-center gap-2 bg-[#0071CE] px-6 py-4 text-center text-sm font-black uppercase italic tracking-tighter text-white transition hover:brightness-110"
-        >
-          <ExternalLink size={18} />
-          Walmart
-        </AffiliateLink>
       </div>
       <p className="mt-2 text-[9px] font-mono uppercase tracking-[0.2em] text-zinc-400">
         Price and availability may change &middot; As an Amazon Associate we earn from qualifying purchases

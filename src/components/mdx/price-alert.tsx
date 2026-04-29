@@ -36,16 +36,6 @@ export function PriceAlert({ productId, note }: PriceAlertProps) {
             >
               Amazon <ExternalLink size={10} />
             </AffiliateLink>
-            <AffiliateLink
-              href={product.walmartLink}
-              merchant="walmart"
-              productId={productId}
-              productName={product.name}
-              price={product.price}
-              className="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-widest text-[#0071CE] hover:underline"
-            >
-              Walmart <ExternalLink size={10} />
-            </AffiliateLink>
           </div>
         </div>
       </div>

@@ -82,7 +82,7 @@ export default function ComparePage() {
         </h1>
         <p className="max-w-2xl text-lg leading-relaxed text-zinc-400">
           Pick 2-4 products and see specs, pricing, pros, and cons side by
-          side. Every product is Amazon/Walmart verified with 4.5+ stars.
+          side. Every product is Amazon verified with 4.5+ stars.
         </p>
       </header>
 
