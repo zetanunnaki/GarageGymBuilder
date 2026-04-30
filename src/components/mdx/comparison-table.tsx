@@ -34,14 +34,17 @@ export function ComparisonTable({ productIds, data }: ComparisonTableProps) {
       </div>
       <div className="overflow-x-auto">
         <table className="w-full text-left">
+          <caption className="sr-only">
+            Product comparison: {products.map(({ product }) => product!.name).join(" vs ")}
+          </caption>
           <thead>
             <tr className="border-b border-zinc-800 text-[10px] font-black uppercase tracking-widest text-zinc-400">
-              <th className="p-6">Equipment</th>
-              <th className="p-6">Capacity</th>
-              <th className="p-6">Steel</th>
-              <th className="p-6">Footprint</th>
-              <th className="p-6">Price</th>
-              <th className="p-6">Buy</th>
+              <th scope="col" className="p-6">Equipment</th>
+              <th scope="col" className="p-6">Capacity</th>
+              <th scope="col" className="p-6">Steel</th>
+              <th scope="col" className="p-6">Footprint</th>
+              <th scope="col" className="p-6">Price</th>
+              <th scope="col" className="p-6">Buy</th>
             </tr>
           </thead>
           <tbody className="text-sm">
@@ -50,9 +53,9 @@ export function ComparisonTable({ productIds, data }: ComparisonTableProps) {
                 key={id}
                 className="border-b border-zinc-800 hover:bg-white/[0.02]"
               >
-                <td className="p-6 font-bold uppercase italic">
+                <th scope="row" className="p-6 font-bold uppercase italic">
                   {product!.name}
-                </td>
+                </th>
                 <td className="p-6">
                   {product!.specs.weightCapacity ?? "---"}
                 </td>

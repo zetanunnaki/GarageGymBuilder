@@ -11,10 +11,11 @@ import { Faq } from "./faq";
 import { Callout } from "./callout";
 import { PriceAlert } from "./price-alert";
 import { EquipmentChecklist } from "./equipment-checklist";
+import { QuickAnswer } from "./quick-answer";
 
 function ResponsiveTable(props: React.ComponentProps<"table">) {
   return (
-    <div className="table-wrap">
+    <div className="table-wrap" role="region" aria-label="Data table" tabIndex={0}>
       <table {...props} />
     </div>
   );
@@ -34,6 +35,7 @@ const mdxComponents = {
   Callout,
   PriceAlert,
   EquipmentChecklist,
+  QuickAnswer,
   table: ResponsiveTable,
 };
 

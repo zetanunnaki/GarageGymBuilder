@@ -10,6 +10,7 @@ import {
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedArticles } from "@/components/related-articles";
+import { ArticleNav } from "@/components/article-nav";
 import { ShareButtons } from "@/components/share-buttons";
 import { AuthorBio } from "@/components/author-bio";
 import { StickyToc } from "@/components/sticky-toc";
@@ -186,6 +187,7 @@ export default async function GuidePage({
       <MdxContent source={content} />
       <AuthorBio author={frontmatter.author} />
       <ShareButtons title={frontmatter.title} slug={slug} contentType={CONTENT_TYPE} />
+      <ArticleNav currentSlug={slug} contentType={CONTENT_TYPE} />
       <RelatedArticles currentSlug={slug} contentType={CONTENT_TYPE} category={frontmatter.category} tags={frontmatter.tags} />
       <MobileActionBar
         shareTitle={frontmatter.title}

@@ -16,7 +16,11 @@ export function Faq({ items, data }: FaqProps) {
     faqItems = items;
   } else if (data) {
     try {
-      faqItems = JSON.parse(data);
+      const parsed = JSON.parse(data);
+      faqItems = parsed.map((item: Record<string, string>) => ({
+        question: item.question || item.q || "",
+        answer: item.answer || item.a || "",
+      }));
     } catch {
       return null;
     }
