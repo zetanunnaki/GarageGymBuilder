@@ -12,8 +12,7 @@ interface TocItem {
 export function TableOfContents() {
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>("");
-  // Collapsed by default on mobile, open on desktop
-  const [open, setOpen] = useState<boolean | null>(null);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const article = document.querySelector("article");
@@ -39,11 +38,6 @@ export function TableOfContents() {
     });
 
     setHeadings(items);
-
-    // Default open state: expanded if >= md breakpoint (768px+), collapsed on mobile
-    if (open === null) {
-      setOpen(window.matchMedia("(min-width: 768px)").matches);
-    }
 
     const observer = new IntersectionObserver(
       (entries) => {
