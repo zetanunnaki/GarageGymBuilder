@@ -8,8 +8,17 @@ interface ChecklistItem {
 
 interface EquipmentChecklistProps {
   title?: string;
-  items?: ChecklistItem[];
+  items?: ChecklistItem[] | string;
   data?: string;
+}
+
+function normalizeItems(raw: unknown[]): ChecklistItem[] {
+  return raw.map((item) => {
+    if (typeof item === "string") return { name: item };
+    if (item && typeof item === "object" && "name" in item)
+      return item as ChecklistItem;
+    return { name: String(item) };
+  });
 }
 
 export function EquipmentChecklist({
@@ -18,15 +27,19 @@ export function EquipmentChecklist({
   data,
 }: EquipmentChecklistProps) {
   let checklistItems: ChecklistItem[] = [];
-  if (items && Array.isArray(items)) {
-    checklistItems = items;
-  } else if (data) {
+
+  const source = data ?? (typeof items === "string" ? items : null);
+  if (source) {
     try {
-      checklistItems = JSON.parse(data);
+      const parsed = JSON.parse(source);
+      if (Array.isArray(parsed)) checklistItems = normalizeItems(parsed);
     } catch {
       return null;
     }
+  } else if (Array.isArray(items)) {
+    checklistItems = normalizeItems(items);
   }
+
   if (checklistItems.length === 0) return null;
 
   return (
