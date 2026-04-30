@@ -106,14 +106,7 @@ export function Footer() {
           ))}
         </div>
 
-        {/* Disclaimer — exact Amazon Associates Operating Agreement language */}
-        <div className="mx-auto mt-8 max-w-3xl space-y-3 text-center text-[10px] uppercase leading-loose tracking-[0.25em] text-zinc-400">
-          <p>
-            GarageGymBuilders is a participant in the Amazon Services LLC
-            Associates Program, an affiliate advertising program designed to
-            provide a means for sites to earn advertising fees by advertising
-            and linking to Amazon.com.
-          </p>
+        <div className="mx-auto mt-8 max-w-3xl text-center text-[10px] uppercase leading-loose tracking-[0.25em] text-zinc-400">
           <p>
             Prices and availability are subject to change. Displayed prices
             were accurate at the time of publication and may differ on

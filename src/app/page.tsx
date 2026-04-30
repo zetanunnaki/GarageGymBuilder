@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 const buyersGuides = [
-  { href: "/guides/how-to-choose-power-rack", label: "Power Rack", Icon: Shield },
-  { href: "/guides/how-to-choose-barbell", label: "Barbell", Icon: Weight },
-  { href: "/guides/how-to-choose-adjustable-dumbbells", label: "Adjustable Dumbbells", Icon: Dumbbell },
-  { href: "/guides/how-to-choose-weight-bench", label: "Weight Bench", Icon: Armchair },
-  { href: "/guides/how-to-choose-weight-plates", label: "Weight Plates", Icon: Disc },
-  { href: "/guides/how-to-choose-kettlebell", label: "Kettlebell", Icon: Circle },
-  { href: "/guides/how-to-choose-gym-flooring", label: "Gym Flooring", Icon: Grid3x3 },
+  { href: "/guides/how-to-choose-power-rack/", label: "Power Rack", Icon: Shield },
+  { href: "/guides/how-to-choose-barbell/", label: "Barbell", Icon: Weight },
+  { href: "/guides/how-to-choose-adjustable-dumbbells/", label: "Adjustable Dumbbells", Icon: Dumbbell },
+  { href: "/guides/how-to-choose-weight-bench/", label: "Weight Bench", Icon: Armchair },
+  { href: "/guides/how-to-choose-weight-plates/", label: "Weight Plates", Icon: Disc },
+  { href: "/guides/how-to-choose-kettlebell/", label: "Kettlebell", Icon: Circle },
+  { href: "/guides/how-to-choose-gym-flooring/", label: "Gym Flooring", Icon: Grid3x3 },
 ];
 
 const contentTypeMap: Record<string, string> = {
@@ -427,8 +427,7 @@ export default function HomePage() {
                   </Link>
                 ))}
 
-                <div className="mt-5 flex items-center justify-between border-t border-zinc-800 pt-3 font-mono text-[9px] tracking-[0.25em] text-zinc-400">
-                  <span>NO&nbsp;DB&nbsp;·&nbsp;NO&nbsp;FLUFF</span>
+                <div className="mt-5 flex items-center justify-end border-t border-zinc-800 pt-3 font-mono text-[9px] tracking-[0.25em] text-zinc-400">
                   <span className="text-orange-500">
                     AUDITED&nbsp;2026.Q1
                   </span>
