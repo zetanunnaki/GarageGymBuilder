@@ -62,7 +62,7 @@ export function ComparisonTable({ productIds, data }: ComparisonTableProps) {
                   {product!.price}
                 </td>
                 <td className="p-6">
-                  <BuyButtons productId={id} />
+                  <BuyButtons productId={id} compact />
                 </td>
               </tr>
             ))}

@@ -94,7 +94,7 @@ export function ProductCard({ productId, badge }: ProductCardProps) {
           </div>
 
           {/* Buy Buttons */}
-          <BuyButtons productId={productId} />
+          <BuyButtons productId={productId} compact />
         </div>
       </div>
     </div>

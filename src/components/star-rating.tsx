@@ -6,8 +6,12 @@ interface StarRatingProps {
 }
 
 export function StarRating({ rating, maxRating = 5 }: StarRatingProps) {
-  const fullStars = Math.floor(rating);
-  const hasHalf = rating % 1 >= 0.3 && rating % 1 <= 0.7;
+  const parsed = typeof rating === "number" ? rating : parseFloat(String(rating));
+  const safeRating = !isNaN(parsed)
+    ? Math.min(Math.max(parsed, 0), maxRating)
+    : 0;
+  const fullStars = Math.floor(safeRating);
+  const hasHalf = safeRating % 1 >= 0.3 && safeRating % 1 <= 0.7;
   const emptyStars = maxRating - fullStars - (hasHalf ? 1 : 0);
 
   return (
@@ -33,7 +37,7 @@ export function StarRating({ rating, maxRating = 5 }: StarRatingProps) {
         />
       ))}
       <span className="ml-2 text-sm font-black italic text-orange-500">
-        {rating}/{maxRating}
+        {safeRating}/{maxRating}
       </span>
     </div>
   );

@@ -141,7 +141,7 @@ export default function PicksPage() {
 
                   {/* Buy */}
                   <div className="md:col-span-4">
-                    <BuyButtons productId={id} />
+                    <BuyButtons productId={id} compact />
                   </div>
                 </div>
               );
