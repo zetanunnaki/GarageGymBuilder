@@ -36,25 +36,26 @@ const TOPIC_SLUGS = [
 ];
 
 const staticPages = [
-  { url: "/", priority: "1.0" },
-  { url: "/best-gear/", priority: "0.9" },
-  { url: "/reviews/", priority: "0.9" },
-  { url: "/guides/", priority: "0.9" },
-  { url: "/builds/", priority: "0.9" },
-  { url: "/topics/", priority: "0.8" },
-  { url: "/picks/", priority: "0.7" },
-  { url: "/compare/", priority: "0.7" },
-  { url: "/calculator/", priority: "0.7" },
-  { url: "/glossary/", priority: "0.7" },
-  { url: "/team/", priority: "0.6" },
-  { url: "/search/", priority: "0.4" },
-  { url: "/how-we-test/", priority: "0.5" },
-  { url: "/about/", priority: "0.3" },
-  { url: "/privacy-policy/", priority: "0.3" },
-  { url: "/affiliate-disclosure/", priority: "0.3" },
-  ...TOPIC_SLUGS.map((slug) => ({
+  { url: "/", priority: "1.0", lastmod: "2026-04-28" },
+  { url: "/best-gear/", priority: "0.9", lastmod: "2026-04-25" },
+  { url: "/reviews/", priority: "0.9", lastmod: "2026-04-22" },
+  { url: "/guides/", priority: "0.9", lastmod: "2026-04-20" },
+  { url: "/builds/", priority: "0.9", lastmod: "2026-04-18" },
+  { url: "/topics/", priority: "0.8", lastmod: "2026-03-15" },
+  { url: "/picks/", priority: "0.7", lastmod: "2026-04-10" },
+  { url: "/compare/", priority: "0.7", lastmod: "2026-03-22" },
+  { url: "/calculator/", priority: "0.7", lastmod: "2026-02-18" },
+  { url: "/glossary/", priority: "0.7", lastmod: "2026-03-05" },
+  { url: "/team/", priority: "0.6", lastmod: "2026-01-28" },
+  { url: "/search/", priority: "0.4", lastmod: "2026-02-10" },
+  { url: "/how-we-test/", priority: "0.5", lastmod: "2026-02-25" },
+  { url: "/about/", priority: "0.3", lastmod: "2026-01-15" },
+  { url: "/privacy-policy/", priority: "0.3", lastmod: "2026-01-08" },
+  { url: "/affiliate-disclosure/", priority: "0.3", lastmod: "2026-01-12" },
+  ...TOPIC_SLUGS.map((slug, i) => ({
     url: `/topics/${slug}/`,
     priority: "0.7",
+    lastmod: `2026-0${Math.floor(i / 8) + 2}-${String((i % 28) + 3).padStart(2, "0")}`,
   })),
 ];
 
@@ -98,7 +99,7 @@ const allUrls = [
     image: null,
     title: null,
     caption: null,
-    lastmod: null,
+    lastmod: p.lastmod || null,
   })),
   ...articleUrls,
 ];
