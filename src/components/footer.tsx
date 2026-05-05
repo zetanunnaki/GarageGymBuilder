@@ -30,8 +30,10 @@ export function Footer() {
         { href: "/team/", label: "Team" },
         { href: "/about/", label: "About" },
         { href: "/how-we-test/", label: "How We Test" },
+        { href: "/contact/", label: "Contact" },
         { href: "/affiliate-disclosure/", label: "Affiliate Disclosure" },
         { href: "/privacy-policy/", label: "Privacy" },
+        { href: "/terms-of-service/", label: "Terms of Service" },
       ],
     },
   ];
