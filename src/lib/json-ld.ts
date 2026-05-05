@@ -161,7 +161,8 @@ export function generateReviewSchema(
     brand: string;
     price?: string;
     image?: string;
-  }
+  },
+  reviewBody?: string
 ) {
   const { price, priceRange } = parsePrice(product?.price);
   const canonicalUrl = `${SITE_URL}/reviews/${slug}/`;
@@ -230,6 +231,7 @@ export function generateReviewSchema(
     inLanguage: SITE.language,
     itemReviewed,
     author: authorObj,
+    reviewBody: reviewBody || frontmatter.description,
     reviewRating: frontmatter.rating
       ? {
           "@type": "Rating",

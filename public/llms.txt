@@ -1,0 +1,40 @@
+# GarageGymBuilders
+
+> Expert reviews, budget builds, and guides to help you build the perfect garage gym.
+
+## About
+
+GarageGymBuilders is an independent home gym equipment review and guide site. We buy, test, and review equipment in real garage gym environments. Our content covers power racks, barbells, dumbbells, cardio machines, flooring, accessories, and complete build guides at every budget level.
+
+## Content Types
+
+- **Reviews** (/reviews/): In-depth equipment reviews with hands-on testing, ratings, and verdicts
+- **Best Gear** (/best-gear/): Curated roundups of top equipment in each category
+- **Guides** (/guides/): How-to guides for choosing equipment, building gyms, and training
+- **Builds** (/builds/): Complete garage gym build guides by budget and training style
+- **Comparisons** (/compare/): Side-by-side equipment comparisons with specs and recommendations
+
+## Key Pages
+
+- Homepage: https://garagegymbuilders.com/
+- All Reviews: https://garagegymbuilders.com/reviews/
+- Buying Guides: https://garagegymbuilders.com/guides/
+- Budget Builds: https://garagegymbuilders.com/builds/
+- Best Gear Roundups: https://garagegymbuilders.com/best-gear/
+- Equipment Comparisons: https://garagegymbuilders.com/compare/
+- Plate Calculator: https://garagegymbuilders.com/calculator/
+- Glossary: https://garagegymbuilders.com/glossary/
+
+## Feeds
+
+- RSS: https://garagegymbuilders.com/feed.xml
+- Atom: https://garagegymbuilders.com/atom.xml
+- Sitemap: https://garagegymbuilders.com/sitemap.xml
+
+## Team
+
+Content is written by experienced lifters who test equipment in their own garage gyms. See our team at https://garagegymbuilders.com/team/
+
+## Contact
+
+hello@garagegymbuilders.com
