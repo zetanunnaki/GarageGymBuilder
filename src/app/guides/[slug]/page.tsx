@@ -17,7 +17,6 @@ import { StickyToc } from "@/components/sticky-toc";
 import { LastUpdatedBadge } from "@/components/last-updated-badge";
 import { PinterestSave } from "@/components/pinterest-save";
 import { MobileActionBar } from "@/components/mobile-action-bar";
-import { AffiliateDisclaimer } from "@/components/mdx/affiliate-disclaimer";
 import { CalendarDays, User, Clock } from "lucide-react";
 
 const CONTENT_TYPE = "guides";
@@ -183,7 +182,6 @@ export default async function GuidePage({
           </span>
         </div>
       </header>
-      <AffiliateDisclaimer />
       <StickyToc />
       <TableOfContents />
       <MdxContent source={content} />

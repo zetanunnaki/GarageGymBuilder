@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { AffiliateDisclaimer } from "@/components/mdx/affiliate-disclaimer";
 
 const BackToTop = dynamic(() => import("@/components/back-to-top").then(m => m.BackToTop));
 const ScrollProgress = dynamic(() => import("@/components/scroll-progress").then(m => m.ScrollProgress));
@@ -222,6 +223,7 @@ export default function RootLayout({
         <Navbar />
         <ScrollProgress />
         <main id="main-content" className="flex-1">{children}</main>
+        <AffiliateDisclaimer />
         <Footer />
         <BackToTop />
         <CookieConsent />
