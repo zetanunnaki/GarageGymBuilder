@@ -31,7 +31,6 @@ export default function ComparePage() {
     pros: product.pros,
     cons: product.cons,
     amazonLink: product.amazonLink,
-    walmartLink: product.walmartLink,
   }));
 
   const compareSchema = generateSoftwareApplicationSchema(

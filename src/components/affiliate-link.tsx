@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 
 interface AffiliateLinkProps {
   href: string;
-  merchant: "amazon" | "walmart" | "other";
+  merchant: "amazon" | "other";
   productId: string;
   productName: string;
   price?: string;

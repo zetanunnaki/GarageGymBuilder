@@ -14,7 +14,6 @@ export interface Product {
   image: string;
   specs: ProductSpecs;
   amazonLink: string;
-  walmartLink: string;
   pros: string[];
   cons: string[];
   /** Populated by scripts/refresh-amazon-data.mjs from the Amazon Creators API. */

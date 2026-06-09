@@ -18,7 +18,6 @@ interface CatalogProduct {
   pros: string[];
   cons: string[];
   amazonLink: string;
-  walmartLink: string;
 }
 
 interface CompareClientProps {
