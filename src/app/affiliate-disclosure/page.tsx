@@ -23,7 +23,8 @@ export default function AffiliateDisclosurePage() {
           GarageGymBuilders is a participant in the Amazon Services LLC Associates
           Program, an affiliate advertising program designed to provide a means
           for sites to earn advertising fees by advertising and linking to
-          Amazon.com.
+          Amazon.com. <strong>As an Amazon Associate we earn from qualifying
+          purchases.</strong>
         </p>
 
         <h2>How Affiliate Links Work</h2>

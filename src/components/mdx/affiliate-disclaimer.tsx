@@ -5,8 +5,8 @@ export function AffiliateDisclaimer() {
     <div className="not-prose mx-auto mb-10 flex max-w-4xl items-start gap-3 border border-zinc-800 bg-zinc-900 p-4 px-6">
       <Info size={16} className="mt-0.5 shrink-0 text-orange-500" />
       <p className="text-[10px] font-bold uppercase leading-tight tracking-wider text-zinc-400">
-        GarageGymBuilders is reader-supported. We may earn a commission through
-        links on this page.{" "}
+        GarageGymBuilders is reader-supported. As an Amazon Associate we earn
+        from qualifying purchases — at no extra cost to you.{" "}
         <a
           href="/affiliate-disclosure"
           className="text-orange-500 underline transition-colors hover:text-orange-400"
