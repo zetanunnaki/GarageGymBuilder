@@ -17,6 +17,10 @@ export interface Product {
   walmartLink: string;
   pros: string[];
   cons: string[];
+  /** Populated by scripts/refresh-amazon-data.mjs from the Amazon Creators API. */
+  inStock?: boolean;
+  availability?: string;
+  lastVerified?: string;
 }
 
 const products = productsData as Record<string, Product>;

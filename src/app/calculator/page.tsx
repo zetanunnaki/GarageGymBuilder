@@ -246,14 +246,6 @@ const options: PickOption[] = [
     slug: "rip-toned-wrist-wraps-review",
   },
   {
-    id: "luxfit-foam-roller",
-    category: "Foam Roller",
-    priority: "recommended",
-    goals: ["general", "powerlifter", "bodybuilder", "crossfit", "mma"],
-    minSpace: "small",
-    slug: "luxfit-foam-roller-review",
-  },
-  {
     id: "power-guidance-battle-rope",
     category: "Battle Rope",
     priority: "optional",

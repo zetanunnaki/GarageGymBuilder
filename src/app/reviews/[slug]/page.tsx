@@ -103,7 +103,6 @@ function extractProductIdFromSlug(slug: string): string | null {
     "nordic-lifting-knee-sleeves-review": "nordic-lifting-knee-sleeves",
     "harbinger-lifting-straps-review": "harbinger-lifting-straps",
     "rip-toned-wrist-wraps-review": "rip-toned-wrist-wraps",
-    "luxfit-foam-roller-review": "luxfit-foam-roller",
     "power-guidance-battle-rope-review": "power-guidance-battle-rope",
     "yes4all-parallettes-review": "yes4all-parallettes",
     "rogue-echo-bike-review": "rogue-echo-bike",

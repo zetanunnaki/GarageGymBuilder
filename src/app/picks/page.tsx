@@ -26,7 +26,7 @@ const categoryOrder = [
   { label: "Benches", ids: ["flybird-adjustable-bench", "marcy-olympic-bench"] },
   { label: "Kettlebells & Conditioning", ids: ["yes4all-kettlebell-set", "yes4all-slam-ball", "yes4all-sandbag", "power-guidance-battle-rope", "yes4all-plyo-box"] },
   { label: "Bodyweight & Gymnastics", ids: ["iron-gym-pull-up-bar", "iron-bull-dip-belt", "rogue-style-gymnastic-rings", "yes4all-parallettes", "perfect-fitness-ab-wheel", "yes4all-roman-chair"] },
-  { label: "Bands & Mobility", ids: ["bodylastics-resistance-bands", "trx-go-suspension-trainer", "luxfit-foam-roller", "triggerpoint-grid"] },
+  { label: "Bands & Mobility", ids: ["bodylastics-resistance-bands", "trx-go-suspension-trainer", "triggerpoint-grid"] },
   { label: "Lifting Accessories", ids: ["dark-iron-lifting-belt", "harbinger-lifting-straps", "rip-toned-wrist-wraps", "nordic-lifting-knee-sleeves", "fat-gripz", "liquid-grip-chalk", "synergee-barbell-collars"] },
   { label: "Storage & Organization", ids: ["titan-plate-tree", "yes4all-dumbbell-rack", "titan-deadlift-jack", "balancefrom-puzzle-mat", "gym-wall-mirror", "gymboss-timer"] },
 ];

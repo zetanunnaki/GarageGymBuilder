@@ -2,14 +2,14 @@
   "fitness-reality-810xlt": {
     "name": "ULTRA FUEGO Power Cage, Multi-Functional Power Rack",
     "brand": "ULTRA FUEGO",
-    "price": "$389.99",
-    "image": "/images/products/fitness-reality-810xlt.webp",
+    "price": "$389.98",
+    "image": "https://m.media-amazon.com/images/I/41KxQ9mW1VL._SL500_.jpg",
     "specs": {
       "weightCapacity": "800 lbs",
       "footprint": "50.5\" L x 46.5\" W x 83.5\" H",
       "material": "2x2\" 14-Gauge Steel"
     },
-    "amazonLink": "https://www.amazon.com/dp/B0F8VJK2FX?th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=16cb955c7c39996110759f19fc9a5f2e&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B0BFQVVFB7?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "",
     "pros": [
       "4.5+ star rating on Amazon with 5,000+ reviews",
@@ -23,13 +23,16 @@
       "14-gauge steel is thinner than premium racks",
       "Plastic J-cup liners can wear over time",
       "Not ideal for lifters squatting 600+ lbs"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "mikolo-f4-power-cage": {
     "name": "Mikolo F4 2.0 Power Cage with Dual-Track Smooth Pulley System",
     "brand": "Mikolo",
-    "price": "$474.99",
-    "image": "/images/products/mikolo-f4.webp",
+    "price": "$399.99",
+    "image": "https://m.media-amazon.com/images/I/41YtXICAUvL._SL500_.jpg",
     "specs": {
       "weightCapacity": "1,200 lbs",
       "footprint": "49\" L x 49\" W x 86\" H",
@@ -49,13 +52,16 @@
       "Assembly takes 3-4 hours",
       "Heavier than budget racks — needs two people to move",
       "Plate storage pegs sold separately"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "sportsroyals-power-cage": {
     "name": "SPORTSROYALS Power Rack, Multi-Functional Power Cage with Pulley System & LAT Pull Down",
     "brand": "Sportsroyals",
-    "price": "$309.98",
-    "image": "/images/products/sportsroyals-rack.webp",
+    "price": "$319.99",
+    "image": "https://m.media-amazon.com/images/I/51ucPtV0zEL._SL500_.jpg",
     "specs": {
       "weightCapacity": "1,600 lbs",
       "footprint": "52\" L x 49\" W x 84\" H",
@@ -75,13 +81,16 @@
       "Large footprint requires dedicated space",
       "Assembly requires 4-5 hours with two people",
       "Cable system adjustments take practice"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "bowflex-selecttech-552": {
     "name": "BowFlex Results Series SelectTech Dumbbells",
     "brand": "Bowflex",
     "price": "$429.00",
-    "image": "/images/products/bowflex-552.webp",
+    "image": "https://m.media-amazon.com/images/I/315+bjBhWHL._SL500_.jpg",
     "specs": {
       "weightCapacity": "5-52.5 lbs each",
       "footprint": "16.9\" L x 8.3\" W x 9\" H each",
@@ -102,13 +111,16 @@
       "Length at 52.5 lbs feels awkward on some exercises",
       "Price has increased from original $349 MSRP",
       "5 lb increments above 25 lbs"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "powerblock-elite-90": {
     "name": "PowerBlock Elite USA 90 EXP Adjustable Dumbbells",
     "brand": "PowerBlock",
     "price": "$869.00",
-    "image": "/images/products/powerblock-elite-90.webp",
+    "image": "https://m.media-amazon.com/images/I/41oDbt--1kL._SL500_.jpg",
     "specs": {
       "weightCapacity": "5-90 lbs each (with expansions)",
       "footprint": "12\" L x 6\" W x 9\" H each",
@@ -129,13 +141,16 @@
       "Wider cage can feel awkward on curls",
       "Pin selection is slower than Bowflex dial",
       "Requires expansion kits to reach 90 lbs"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "cap-barbell-olympic": {
     "name": "CAP Barbell 300-Pound Olympic Set (Includes 7 Feet Bar)",
     "brand": "CAP Barbell",
     "price": "$499.99",
-    "image": "/images/products/cap-barbell-300.webp",
+    "image": "https://m.media-amazon.com/images/I/41JrRH+s+PL._SL500_.jpg",
     "specs": {
       "weightCapacity": "300 lbs total (255 lbs plates + 45 lb bar)",
       "footprint": "7ft Olympic Bar (28mm shaft)",
@@ -156,13 +171,16 @@
       "Plates are not calibrated for competition use",
       "No bumper plates — not safe to drop on concrete",
       "Chrome plating on bar chips over time"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "synergee-olympic-barbell": {
     "name": "Synergee Games 15kg and 20kg Colored Ceramic Coated Barbells",
     "brand": "Synergee",
-    "price": "$170.95",
-    "image": "/images/products/synergee-barbell.webp",
+    "price": "$149.95",
+    "image": "https://m.media-amazon.com/images/I/31APgM+cLAL._SL500_.jpg",
     "specs": {
       "weightCapacity": "1,500 lbs rated capacity",
       "footprint": "28.5mm Shaft, 7ft Olympic Bar",
@@ -182,13 +200,16 @@
       "Black phosphate finish requires regular oiling",
       "Not made in the USA",
       "Knurling is slightly less aggressive than premium bars"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "assault-airbike-classic": {
     "name": "Sunny Health & Fitness Premium Smart Cross-Training Fan Bike SF-B223018",
     "brand": "Sunny Health & Fitness",
     "price": "$699.99",
-    "image": "/images/products/assault-airbike.webp",
+    "image": "https://m.media-amazon.com/images/I/41JlzojWXEL._SL500_.jpg",
     "specs": {
       "weightCapacity": "330 lbs user weight",
       "footprint": "50.95\" L x 23.34\" W x 50\" H",
@@ -209,13 +230,16 @@
       "Requires occasional chain lubrication",
       "Heavy at 98 lbs — hard to relocate",
       "Premium price vs. budget air bikes"
-    ]
+    ],
+    "inStock": true,
+    "availability": "Only 11 left in stock (more on the way).",
+    "lastVerified": "2026-06-09"
   },
   "rogue-echo-bike": {
     "name": "Schwinn Airdyne Bike Series",
     "brand": "Schwinn",
     "price": "$1,299.00",
-    "image": "/images/products/rogue-echo-bike.webp",
+    "image": "https://m.media-amazon.com/images/I/41VL42J3pbL._SL500_.jpg",
     "specs": {
       "weightCapacity": "350 lbs user weight",
       "footprint": "58.875\" L x 29.875\" W x 52.75\" H",
@@ -236,13 +260,16 @@
       "127 lbs makes it very hard to relocate",
       "Premium price at $895",
       "No Bluetooth or app connectivity"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "concept2-rowerg": {
     "name": "Concept2 RowErg Indoor Rowing Machine - PM5 Monitor",
     "brand": "Concept2",
     "price": "$990.00",
-    "image": "/images/products/concept2-rowerg.webp",
+    "image": "https://m.media-amazon.com/images/I/31CPb+Msj7S._SL500_.jpg",
     "specs": {
       "weightCapacity": "500 lbs user weight",
       "footprint": "96\" L x 24\" W x 20\" H",
@@ -263,13 +290,16 @@
       "Premium price at $990",
       "PM5 monitor uses 2 D-cell batteries",
       "No manual resistance settings — effort-dependent only"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In stock",
+    "lastVerified": "2026-06-09"
   },
   "flybird-adjustable-bench": {
     "name": "FLYBIRD WB2 Weight Bench, Utility Adjustable Weight Bench",
     "brand": "FLYBIRD",
     "price": "$109.99",
-    "image": "/images/products/flybird-bench.webp",
+    "image": "https://m.media-amazon.com/images/I/41oxzAb3TUL._SL500_.jpg",
     "specs": {
       "weightCapacity": "800 lbs (ASTM Certified)",
       "footprint": "48.4\" L x 16.5\" W x 17\" H (folded)",
@@ -290,13 +320,16 @@
       "No decline position on some variants",
       "Pad is narrower (10.2\") than premium benches (12\")",
       "Feet can slide on smooth concrete without rubber mats"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "marcy-olympic-bench": {
     "name": "Marcy Olympic Workout Bench with Preacher Curl Pad and Weight Rack Storage",
     "brand": "Marcy",
-    "price": "$299.98",
-    "image": "/images/products/marcy-bench.webp",
+    "price": "$303.00",
+    "image": "https://m.media-amazon.com/images/I/41CdAUuHmLL._SL500_.jpg",
     "specs": {
       "weightCapacity": "300 lbs on-the-bar",
       "footprint": "74\" L x 49\" W x 50\" H",
@@ -317,13 +350,16 @@
       "Upright posts are close-set — not full squat rack",
       "Heavy assembly (2+ hours)",
       "Leg developer pads can wear over time"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-olympic-plates": {
     "name": "Yes4All 2\" Bumper Plate, Olympic Rubber Weight Plate with Steel Hub",
     "brand": "Yes4All",
-    "price": "$95.05",
-    "image": "/images/products/yes4all-plates.webp",
+    "price": "$86.00",
+    "image": "https://m.media-amazon.com/images/I/61RYtuzsePL._SL500_.jpg",
     "specs": {
       "weightCapacity": "10-190 lbs options",
       "footprint": "17\" diameter",
@@ -344,13 +380,16 @@
       "Painted finish can chip",
       "Not safe to drop on concrete (no rubber coating)",
       "Thicker than premium plates"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-kettlebell-set": {
     "name": "Yes4All Cast Iron Kettlebell 5-80 Lb for Full Body Workout",
     "brand": "Yes4All",
     "price": "$79.97",
-    "image": "/images/products/yes4all-kettlebells.webp",
+    "image": "https://m.media-amazon.com/images/I/41-JpYwqnAL._SL500_.jpg",
     "specs": {
       "weightCapacity": "5-80 lbs options",
       "footprint": "Varies by weight",
@@ -371,13 +410,16 @@
       "Paint can chip with heavy use",
       "Not ideal for kettlebell sport (uniform size)",
       "Handle texture varies between batches"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-hex-trap-bar": {
     "name": "Bells of Steel Trap Bar, Open Ended Hex Bar with Rotating Sleeves & Built-in Jack",
     "brand": "Bells of Steel",
     "price": "$299.99",
-    "image": "/images/products/yes4all-trap-bar.webp",
+    "image": "https://m.media-amazon.com/images/I/41g6CJO75eL._SL500_.jpg",
     "specs": {
       "weightCapacity": "700 lbs",
       "footprint": "Open-ended design, Olympic sleeves",
@@ -397,13 +439,16 @@
       "Pricier than basic hex bars",
       "Open ends require more space awareness",
       "Heavy unit at ~55 lbs unloaded"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-plyo-box": {
     "name": "Yes4All Plyo Box, 3-in-1 Wooden Box Jumps with Smooth Edges & Wide Handles",
     "brand": "Yes4All",
-    "price": "$100.47",
-    "image": "/images/products/yes4all-plyo-box.webp",
+    "price": "$100.46",
+    "image": "https://m.media-amazon.com/images/I/41JCIatmimL._SL500_.jpg",
     "specs": {
       "weightCapacity": "450 lbs",
       "footprint": "20\" x 24\" x 30\" (3-sided)",
@@ -423,50 +468,56 @@
       "Edges are sharp until sanded by user",
       "Assembly requires a drill (screws included)",
       "Heavier than steel boxes once assembled"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "wod-nation-jump-rope": {
-    "name": "WOD Nation Attack Speed Jump Rope, Adjustable with Two Cable System",
+    "name": "WOD Nation Adjustable Speed Jump Rope",
     "brand": "WOD Nation",
-    "price": "$18.99",
-    "image": "/images/products/wod-nation-rope.webp",
+    "price": "$17.99",
+    "image": "https://m.media-amazon.com/images/I/51rluCf1y3L._SL500_.jpg",
     "specs": {
-      "weightCapacity": "All sizes adjustable to 11 ft",
+      "weightCapacity": "Adjustable up to 11 ft",
       "footprint": "Pocket-sized",
-      "material": "Coated Steel Cable / Aluminum Handles"
+      "material": "Alloy Steel Cable / Aluminum Handles"
     },
-    "amazonLink": "https://www.amazon.com/dp/B06XNNY73K?niid=nl_cl_lst_a_1_1&nrid=76CS3895VPS4NX7E974V&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=cd61cc66d65ac43006482c3b9932030e&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B00ZWG7HNA?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "https://walmart.com/search?q=WOD+Nation+Speed+Jump+Rope&irgwc=1",
     "pros": [
-      "4.6+ star rating on Amazon with 30,000+ reviews",
-      "Best-selling speed rope on Amazon",
-      "Adjustable length up to 11 ft",
+      "4.5+ star rating on Amazon with 14,000+ reviews",
+      "Blazing-fast alloy steel speed cable",
+      "Tool-free adjustable length up to 11 ft (wire cutter included)",
       "Smooth 360° ball-bearing rotation for double-unders",
       "Lightweight aluminum handles",
-      "Includes spare cable and screws"
+      "Great for boxing, MMA, and CrossFit conditioning"
     ],
     "cons": [
       "Steel cable can fray on rough concrete over time",
       "Not weighted — pure speed rope (no strength training)",
       "Handles are slim — bigger hands may want grip tape"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "bodylastics-resistance-bands": {
-    "name": "Bodylastics Patented Basic Series Resistance Band Set with Snap Reduction Tech",
+    "name": "Bodylastics PRO Series Resistance Band Set (6 Bands, 280 lbs)",
     "brand": "Bodylastics",
-    "price": "$47.97",
-    "image": "/images/products/bodylastics-bands.webp",
+    "price": "$61.97",
+    "image": "https://m.media-amazon.com/images/I/415vRK7P7TL._SL500_.jpg",
     "specs": {
-      "weightCapacity": "5 bands with handles, ankle straps, door anchor",
-      "footprint": "Carry bag included",
-      "material": "Anti-Snap Rubber Tubing"
+      "weightCapacity": "6 bands stackable to 280 lbs",
+      "footprint": "Handles, ankle straps, door anchor + carry bag",
+      "material": "Anti-Snap Natural Latex Tubing"
     },
-    "amazonLink": "https://www.amazon.com/dp/B006NZZH18?niid=nl_cl_lst_a_1_1&nrid=CQYFTAXZE0S4PT641PYQ&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=2e44e69c9ecc87a41e19d4f9be36d7d5&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B006O09M4K?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "https://walmart.com/search?q=Bodylastics+Resistance+Bands&irgwc=1",
     "pros": [
-      "4.6+ star rating on Amazon with 18,000+ reviews",
+      "4.6 star rating on Amazon with 2,600+ reviews",
       "Patented anti-snap inner cord for safety",
-      "Stackable up to 142 lbs total resistance",
+      "6 bands stackable up to 280 lbs total resistance",
       "Includes handles, ankle straps, and door anchor",
       "Lifetime replacement on bands",
       "Travel-friendly storage bag"
@@ -475,39 +526,45 @@
       "Resistance feels different than free weights",
       "Door anchor requires an inward-opening door",
       "Handles wear faster than the bands"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "iron-bull-dip-belt": {
-    "name": "Advanced Dip Belt V2, Heavy-Duty Weighted Belt with Reinforced Back & 3-Point Anchor",
-    "brand": "Iron Bull Strength",
-    "price": "$49.95",
-    "image": "/images/products/iron-bull-dip-belt.webp",
+    "name": "DMoose Fitness Dip Belt with 36-Inch Steel Chain",
+    "brand": "DMoose",
+    "price": "$39.99",
+    "image": "https://m.media-amazon.com/images/I/51N64d6+viL._SL500_.jpg",
     "specs": {
-      "weightCapacity": "270 lbs added load",
-      "footprint": "Chain & nylon strap",
-      "material": "Reinforced Back / Steel Chain / D-Rings"
+      "weightCapacity": "350 lbs added load",
+      "footprint": "36-inch stainless steel chain",
+      "material": "Neoprene Padding / Stainless Steel Chain / Coated D-Ring"
     },
-    "amazonLink": "https://www.amazon.com/dp/B0F7J5RGRV?niid=nl_cl_lst_a_1_1&nrid=20732MT86TZD29BEPHRN&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=e8db9221c71f151c6e12cfe6bff8a55c&language=en_US&ref_=as_li_ss_tl",
-    "walmartLink": "https://walmart.com/search?q=Iron+Bull+Dip+Belt&irgwc=1",
+    "amazonLink": "https://www.amazon.com/dp/B01N5PB7CZ?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
+    "walmartLink": "https://walmart.com/search?q=DMoose+Dip+Belt&irgwc=1",
     "pros": [
-      "4.7+ star rating on Amazon with 5,000+ reviews",
-      "Heavy-duty 270 lb added load capacity",
-      "Wide neoprene padding distributes weight comfortably",
-      "36-inch steel chain with secure carabiner",
+      "4.7 star rating on Amazon with 7,000+ reviews",
+      "Heavy-duty 350 lb added load capacity",
+      "Thick neoprene padding distributes weight comfortably",
+      "36-inch heavy-duty stainless steel chain",
       "Works for weighted dips, pull-ups, belt squats",
-      "Best budget dip belt on Amazon"
+      "Coated D-ring resists scratching your plates"
     ],
     "cons": [
-      "Chain length awkward for very tall users",
-      "Neoprene can absorb sweat — needs cleaning",
-      "Buckle is plastic, not steel (rated but feels cheap)"
-    ]
+      "Chain length can be awkward for very short users",
+      "Neoprene can absorb sweat — needs occasional cleaning",
+      "No quick-release buckle — chain threads through the D-rings"
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "sunny-sf-rw5515-rower": {
     "name": "Sunny Health & Fitness Magnetic Rowing Machine SF-RW522016 with Bluetooth & SunnyFit App",
     "brand": "Sunny Health & Fitness",
-    "price": "$289.00",
-    "image": "/images/products/sunny-rower.webp",
+    "price": "$249.99",
+    "image": "https://m.media-amazon.com/images/I/31x4HqvfPML._SL500_.jpg",
     "specs": {
       "weightCapacity": "250 lbs user weight",
       "footprint": "Extended slide rail",
@@ -527,13 +584,16 @@
       "Magnetic resistance maxes out for advanced rowers",
       "Seat padding is thin on long sessions",
       "Not as smooth as Concept2 air resistance"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "iron-gym-pull-up-bar": {
     "name": "Iron Gym Pull-Up Bar, Total Upper Body Workout Bar for Doorway",
     "brand": "Iron Gym",
-    "price": "$37.79",
-    "image": "/images/products/iron-gym-bar.webp",
+    "price": "$26.00",
+    "image": "https://m.media-amazon.com/images/I/31hDoCbNbGS._SL500_.jpg",
     "specs": {
       "weightCapacity": "300 lbs user weight",
       "footprint": "Fits doorways 24-32 inches wide",
@@ -554,13 +614,16 @@
       "Cannot be used for kipping or muscle-ups",
       "Can damage doorframe trim with heavy use",
       "Width restricted to standard doorways"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "cap-hex-dumbbells": {
     "name": "CAP Barbell Cast Iron Hex Dumbbell, Multiple Options",
     "brand": "CAP Barbell",
-    "price": "$16.99",
-    "image": "/images/products/cap-hex-dumbbells.webp",
+    "price": "$18.16",
+    "image": "https://m.media-amazon.com/images/I/41CmsraIJIL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Multiple weight options",
       "footprint": "Hex shape prevents rolling",
@@ -581,13 +644,16 @@
       "Need multiple pairs to build a full set",
       "Requires significant storage space vs adjustable dumbbells",
       "No quick weight changes between exercises"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "dark-iron-lifting-belt": {
     "name": "Dark Iron Fitness Genuine Leather Weightlifting Belt, 4 Inch Wide with Double Prong Buckle",
     "brand": "Dark Iron Fitness",
     "price": "$59.99",
-    "image": "/images/products/dark-iron-belt.webp",
+    "image": "https://m.media-amazon.com/images/I/51rh4YfvSPL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Suitable for any lifting weight",
       "footprint": "4\" wide leather belt with double prong buckle",
@@ -608,13 +674,16 @@
       "Single-prong design (some prefer double-prong)",
       "Sizing runs small — order up one size",
       "Leather smell takes a week to fade"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "trx-go-suspension-trainer": {
     "name": "TRX GO Suspension Trainer, Portable Gym for Full Body Exercise",
     "brand": "TRX",
     "price": "$139.95",
-    "image": "/images/products/trx-go.webp",
+    "image": "https://m.media-amazon.com/images/I/41xfR+inE-L._SL500_.jpg",
     "specs": {
       "weightCapacity": "350 lbs user weight",
       "footprint": "Fits in a small bag",
@@ -635,13 +704,16 @@
       "Requires a sturdy anchor point overhead",
       "Door anchor only works on inward-opening doors",
       "Not ideal for explosive movements"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-slam-ball": {
     "name": "Yes4All Slam Balls, 10-40lb Weighted PVC Sand Filled Workout Ball",
     "brand": "Yes4All",
-    "price": "$23.84",
-    "image": "/images/products/yes4all-slam-ball.webp",
+    "price": "$35.99",
+    "image": "https://m.media-amazon.com/images/I/41-UFqnH+6L._SL500_.jpg",
     "specs": {
       "weightCapacity": "10-40 lbs options",
       "footprint": "9-13 inch diameter",
@@ -661,40 +733,46 @@
       "Stitching can wear over years of heavy use",
       "Surface can crack on rough concrete",
       "No grip texture (gets slippery with sweat)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-roman-chair": {
-    "name": "Yes4All Adjustable Weight Bench with Rack, 800lbs with Leg Extension & Preacher Curl",
-    "brand": "Yes4All",
-    "price": "$225.26",
-    "image": "/images/products/yes4all-roman-chair.webp",
+    "name": "Marcy Adjustable Hyperextension Roman Chair / Hyper Bench JD-3.1",
+    "brand": "Marcy",
+    "price": "$99.50",
+    "image": "https://m.media-amazon.com/images/I/31VQooXPb1L._SL500_.jpg",
     "specs": {
-      "weightCapacity": "800 lbs",
-      "footprint": "Adjustable with rack",
-      "material": "Steel Frame / Foam Pads"
+      "weightCapacity": "300 lbs user weight",
+      "footprint": "43\" L x 27.5\" W x 37.5\" H",
+      "material": "2x2\" Steel Tubing / High-Density Foam"
     },
-    "amazonLink": "https://www.amazon.com/dp/B0DD7J2FKB?niid=nl_cl_lst_a_1_2&nrid=7AHK9T8Q1EV85CT7SV49&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=0ef373c0936bdd8fd45d66aa308c6559&language=en_US&ref_=as_li_ss_tl",
-    "walmartLink": "https://walmart.com/ip/Yes4All-Adjustable-Hyperextension-Bench/56214738?irgwc=1",
+    "amazonLink": "https://www.amazon.com/dp/B000ASB66O?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
+    "walmartLink": "https://walmart.com/search?q=Marcy+Hyperextension+Roman+Chair&irgwc=1",
     "pros": [
-      "4.6+ star rating on Amazon with 4,000+ reviews",
-      "Trains lower back, glutes, hamstrings, and abs",
-      "Adjustable footplate for different heights",
-      "550 lb user weight capacity",
-      "Folds for storage",
-      "Best Roman chair under $150"
+      "4.4 star rating on Amazon with 3,300+ reviews",
+      "Dedicated 45° hyperextension station for lower back, glutes, and hamstrings",
+      "Adjustable foam leg holders and height settings",
+      "Heavy-duty powder-coated steel frame won't sway under load",
+      "Compact single-station footprint for home gyms",
+      "Padded handles and high-density foam roller pads"
     ],
     "cons": [
-      "Foam pads compress over years of use",
-      "Assembly takes 45 minutes",
-      "Footplate adjustment requires unlocking pin",
-      "Single function (compared to a full bench)"
-    ]
+      "Single-function — hyperextensions and back work only",
+      "Foam pads compress over years of heavy use",
+      "Does not fold flat for storage",
+      "Assembly required out of the box"
+    ],
+    "inStock": true,
+    "availability": "Available to ship in 1-2 days",
+    "lastVerified": "2026-06-09"
   },
   "rogue-style-gymnastic-rings": {
     "name": "Double Circle Wood Gymnastics Rings with Quick Adjust Numbered Straps",
     "brand": "Double Circle",
     "price": "$49.97",
-    "image": "/images/products/gymnastic-rings.webp",
+    "image": "https://m.media-amazon.com/images/I/41UWy39WmxL._SL500_.jpg",
     "specs": {
       "weightCapacity": "880 lbs",
       "footprint": "Multi-size wood rings with numbered straps",
@@ -714,13 +792,16 @@
       "No carry bag included",
       "Wood needs occasional sanding to prevent splinters",
       "Buckles can slip slightly under heavy load (re-adjust)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "rogue-style-weight-vest": {
     "name": "RUNFast 40lbs Pro Weighted Vest",
     "brand": "RUNFast",
-    "price": "$55.99",
-    "image": "/images/products/weight-vest.webp",
+    "price": "$51.04",
+    "image": "https://m.media-amazon.com/images/I/31ClpB0jC1L._SL500_.jpg",
     "specs": {
       "weightCapacity": "40 lbs",
       "footprint": "One-size adjustable, fits most adults",
@@ -741,13 +822,16 @@
       "40 lb max isn't enough for advanced athletes",
       "Sizing can run small for very large users",
       "Sweat absorbs into nylon over time"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-sandbag": {
     "name": "Yes4All Sandbags for Working Out, Adjustable with Handles, 5-200lbs",
     "brand": "Yes4All",
-    "price": "$42.77",
-    "image": "/images/products/sandbag.webp",
+    "price": "$42.64",
+    "image": "https://m.media-amazon.com/images/I/418LT6cZH3L._SL500_.jpg",
     "specs": {
       "weightCapacity": "5-200 lbs (sizes vary)",
       "footprint": "Multiple handles for grip variety",
@@ -768,13 +852,16 @@
       "Filling and sealing takes 30 minutes",
       "Larger sizes hard to manage solo at first",
       "Not as polished as premium sandbags (Strongman or Rogue)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "perfect-fitness-ab-wheel": {
     "name": "Perfect Fitness Ab Carver Roller Wheel With Built In Spring Resistance, At Home Core Workout Equipment",
     "brand": "Perfect Fitness",
     "price": "$44.99",
-    "image": "/images/products/ab-wheel.webp",
+    "image": "https://m.media-amazon.com/images/I/41hYWJJIEaL._SL500_.jpg",
     "specs": {
       "weightCapacity": "All user weights",
       "footprint": "10\" wide wheel",
@@ -794,13 +881,16 @@
       "Spring assistance can be too much for advanced users",
       "Large wheel takes more storage space than basic ab wheels",
       "Foam handles wear over years of use"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "nordic-lifting-knee-sleeves": {
     "name": "Nordic Lifting 7mm Knee Sleeves for Weightlifting & Gym (1 Pair) - Neoprene Compression Support for Squats, Powerlifting & Cross Training - USPA Approved - For Men & Women",
     "brand": "Nordic Lifting",
     "price": "$40.99",
-    "image": "/images/products/nordic-knee-sleeves.webp",
+    "image": "https://m.media-amazon.com/images/I/51pjR6rU2xL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Supports any lifting weight",
       "footprint": "7mm neoprene thickness",
@@ -820,19 +910,22 @@
       "Run small — order one size up",
       "Neoprene smell lasts 2-3 weeks",
       "Not IPF-approved for competition (use Rehband for meets)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "harbinger-lifting-straps": {
     "name": "Harbinger Padded Cotton Lifting Straps with NeoTek Cushioned Wrist, 21.5 Inch Length, 1.5 Inch Width, Pair, Weightlifting Wrist Straps for Deadlifts and Strength Training",
     "brand": "Harbinger",
     "price": "$11.99",
-    "image": "/images/products/harbinger-straps.webp",
+    "image": "https://m.media-amazon.com/images/I/51ND3U44MNL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Suitable for any grip load",
       "footprint": "One-size adjustable",
       "material": "Heavy-Duty Cotton / NeoTek Padding"
     },
-    "amazonLink": "https://www.amazon.com/dp/B0011861UI?niid=nl_cl_lst_a_1_1&nrid=WKH7NM4M7CW1B64Q97M2&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=160059624b417bcfe625f0148a0a63ac&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B003EVEDA0?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "https://walmart.com/ip/Harbinger-Padded-Cotton-Lifting-Straps/15693481?irgwc=1",
     "pros": [
       "4.7+ star rating on Amazon with 15,000+ reviews",
@@ -846,13 +939,16 @@
       "Cotton absorbs sweat — rinse after heavy sessions",
       "Takes practice to wrap correctly",
       "Not ideal for Olympic lifting (use figure-8s instead)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "rip-toned-wrist-wraps": {
     "name": "Rip Toned Wrist Wraps for Weightlifting – USPA & USAPL Approved 18\" Wrist Straps for Powerlifting – Adjustable, Durable Gym Wraps with Thumb Loop – Maximum Support for Men & Women",
     "brand": "Rip Toned",
     "price": "$17.99",
-    "image": "/images/products/rip-toned-wraps.webp",
+    "image": "https://m.media-amazon.com/images/I/517VtVABbaL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Suitable for any lifting weight",
       "footprint": "18 inch length, 3 inch width",
@@ -872,39 +968,16 @@
       "18 inches may be too long for small wrists",
       "Velcro wears out after 3-4 years of heavy use",
       "Not IPF-approved (check your federation rules)"
-    ]
-  },
-  "luxfit-foam-roller": {
-    "name": "TriggerPoint Grid 1.0 Foam Roller - 13\" Multi-Density Massage Roller for Deep Tissue & Muscle Recovery - Relieves Tight, Sore Muscles & Kinks, Improves Mobility & Circulation",
-    "brand": "TriggerPoint",
-    "price": "$34.46",
-    "image": "/images/products/luxfit-foam-roller.webp",
-    "specs": {
-      "weightCapacity": "All user weights",
-      "footprint": "13 inch x 5.5 inch cylinder",
-      "material": "Multi-Density EVA Foam / Hollow Core"
-    },
-    "amazonLink": "https://www.amazon.com/dp/B0040EGNIU?niid=nl_cl_lst_a_1_0&nrid=G2FN2YS9AK4CW1Z8FSGT&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=6fab90ec8d42e89c1ea2f9b2f1372761&language=en_US&ref_=as_li_ss_tl",
-    "walmartLink": "https://walmart.com/ip/LuxFit-Foam-Roller/22943581?irgwc=1",
-    "pros": [
-      "4.7+ star rating on Amazon with 30,000+ reviews",
-      "High-density foam doesn't compress over time",
-      "36 inch length supports full spine rolling",
-      "2-year warranty",
-      "Molded one-piece (no core to break)",
-      "Best budget foam roller on Amazon"
     ],
-    "cons": [
-      "Smooth surface (not textured like TriggerPoint GRID)",
-      "Large — takes storage space",
-      "Hard for beginners — work up to it"
-    ]
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "power-guidance-battle-rope": {
     "name": "POWER GUIDANCE Battle Rope, 1.5/2 Inch Diameter Poly Dacron 30, 40, 50Ft Length Exercise Equipment for Home Gym & Outdoor Workout, Battle Rope Anchor Included",
     "brand": "POWER GUIDANCE",
-    "price": "$92.99",
-    "image": "/images/products/battle-rope.webp",
+    "price": "$99.99",
+    "image": "https://m.media-amazon.com/images/I/51BqubAvm+L._SL500_.jpg",
     "specs": {
       "weightCapacity": "Cardio and conditioning",
       "footprint": "30 ft length, 1.5 inch diameter",
@@ -924,13 +997,16 @@
       "Needs a sturdy anchor point (tree, pole, rack)",
       "Too loud for apartments (rope slaps floor)",
       "1.5 inch diameter is challenging for small hands"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-parallettes": {
     "name": "Teclor Push Up Bar, Parallettes Bars For L-sit & Dip, Heavy-Duty No Wobbling Parallel Bars Stand For Handstands, Full Planche, Calisthenics, 9.5in High Workout Stands for Home Fitness Training",
     "brand": "Teclor",
-    "price": "$29.98",
-    "image": "/images/products/yes4all-parallettes.webp",
+    "price": "$35.99",
+    "image": "https://m.media-amazon.com/images/I/41xr52vpbjL._SL500_.jpg",
     "specs": {
       "weightCapacity": "660 lbs (pair)",
       "footprint": "15.7\" L x 7.5\" W x 9.5\" H each",
@@ -950,13 +1026,16 @@
       "Feet can slide on smooth concrete",
       "Low profile limits some variations",
       "Foam grips compress after 1-2 years"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "titan-deadlift-jack": {
     "name": "Titan Fitness Mini Deadlift Barbell Jack Stand, 600 LB Capacity, Elevated Lift for Easy Loading and Unloading Barbell Weight Plates, Weight Training, Deadlift Exercises, Powerlifting, Home Gym",
     "brand": "Titan Fitness",
     "price": "$89.99",
-    "image": "/images/products/titan-deadlift-jack.webp",
+    "image": "https://m.media-amazon.com/images/I/31l4hMJiPCL._SL500_.jpg",
     "specs": {
       "weightCapacity": "600 lbs lift capacity",
       "footprint": "Compact mini jack",
@@ -976,13 +1055,16 @@
       "Bulky to store (38\" x 26\" footprint)",
       "Premium price for a simple accessory",
       "Only useful for deadlifts and loading plates"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "balancefrom-puzzle-mat": {
     "name": "BalanceFrom Puzzle Exercise Mat 1/2' Thick, EVA Interlocking Foam Floor Tiles for Home Gym, Mat for Home Workout Equipment, Floor Padding for Kids, Black, 24 in x 24 in x 1/2 in, 24 Sq Ft - 6 Tiles",
     "brand": "BalanceFrom",
-    "price": "$24.99",
-    "image": "/images/products/balancefrom-puzzle-mat.webp",
+    "price": "$25.99",
+    "image": "https://m.media-amazon.com/images/I/41kiWY-g8VL._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — flooring",
       "footprint": "24 sq ft (6 tiles)",
@@ -1002,13 +1084,16 @@
       "Puzzle seams can separate under heavy racks",
       "Not as durable as horse stall mats for deadlifts",
       "Slight chemical smell for first few days"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-dumbbell-rack": {
     "name": "YES4ALL Dumbbell Rack Stand Only, 5 Tier A Frame Weight Rack for Dumbbells",
     "brand": "Yes4All",
-    "price": "$37.27",
-    "image": "/images/products/yes4all-dumbbell-rack.webp",
+    "price": "$38.45",
+    "image": "https://m.media-amazon.com/images/I/41VWifXKfiL._SL500_.jpg",
     "specs": {
       "weightCapacity": "500 lbs total",
       "footprint": "25\" L x 13\" W x 30\" H",
@@ -1028,13 +1113,16 @@
       "Only fits hex dumbbells (not adjustable)",
       "Wobbles slightly when fully loaded",
       "Rubber feet can mark garage floors"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "valor-fitness-cable-station": {
     "name": "Valor Fitness Wall Mounted Cable Machine, Dual Adjustable Pulley System with 16 Height Positions, Space-Saving Home Gym Strength Training Equipment",
     "brand": "Valor Fitness",
-    "price": "$329.98",
-    "image": "/images/products/valor-fitness-cable-station.webp",
+    "price": "$335.98",
+    "image": "https://m.media-amazon.com/images/I/41NCnyo-AWL._SL500_.jpg",
     "specs": {
       "weightCapacity": "150 lbs stack",
       "footprint": "Wall-mounted, minimal footprint",
@@ -1054,13 +1142,16 @@
       "Requires wall stud mounting (concrete anchors for garage)",
       "150 lb stack limits advanced lifters",
       "Cable can fray after years of heavy use"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "titan-safety-squat-bar": {
     "name": "Titan Fitness USA Made TITAN Series Safety Squat Bar, Shoulder and Arm Pads, Rated 1,500 LB, 5\" Camber Drop, Ribbed Olympic Weight Sleeves, Knurled Hand Grips",
     "brand": "Titan Fitness",
     "price": "$459.99",
-    "image": "/images/products/titan-safety-squat-bar.webp",
+    "image": "https://m.media-amazon.com/images/I/21tVpG90SML._SL500_.jpg",
     "specs": {
       "weightCapacity": "1,500 lbs",
       "footprint": "7ft bar with padded yoke",
@@ -1080,13 +1171,16 @@
       "Heavier than standard barbell (~65 lbs)",
       "Yoke padding can wear with heavy use",
       "Not ideal for bench press or deadlifts"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "cap-ez-curl-bar": {
     "name": "CAP Barbell 47-Inch Olympic EZ Curl Bar for 2-Inch Weight Plates | Multiple Options",
     "brand": "CAP Barbell",
     "price": "$32.99",
-    "image": "/images/products/cap-ez-curl-bar.webp",
+    "image": "https://m.media-amazon.com/images/I/31w8IG-SqoL._SL500_.jpg",
     "specs": {
       "weightCapacity": "200 lbs",
       "footprint": "47\" total length",
@@ -1106,13 +1200,16 @@
       "200 lb capacity limits heavy preacher curls",
       "Bushing sleeves — no spin like needle bearings",
       "Light knurling may need chalk"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "yes4all-landmine": {
     "name": "Yes4All Exercise Machine Adjustable T Bar Row Attachment, D Row Handle/Landmine Handle Attachment with Textured Rubber Handles",
     "brand": "Yes4All",
-    "price": "$24.90",
-    "image": "/images/products/yes4all-landmine.webp",
+    "price": "$24.88",
+    "image": "https://m.media-amazon.com/images/I/413kMqNXWsL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Fits any Olympic barbell",
       "footprint": "Compact floor mount",
@@ -1132,13 +1229,16 @@
       "Floor mount requires drilling",
       "Swivel joint can loosen over time",
       "No handle included — sold separately"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "sunny-spin-bike": {
     "name": "Sunny Health & Fitness Magnetic Exercise Bike, 44LB Flywheel & 300LB Weight Capacity for Intensive Home Workout, Indoor Cardio Training w/4-Way Adjustable Seat, Optional Free SunnyFit App Connection",
     "brand": "Sunny Health & Fitness",
     "price": "$699.99",
-    "image": "/images/products/sunny-spin-bike.webp",
+    "image": "https://m.media-amazon.com/images/I/41+jtJjCUqL._SL500_.jpg",
     "specs": {
       "weightCapacity": "300 lbs user weight",
       "footprint": "44\" L x 22\" W x 45\" H",
@@ -1158,13 +1258,16 @@
       "No built-in screen (use tablet holder)",
       "Seat can be uncomfortable — upgrade recommended",
       "Heavy at 115 lbs — hard to move"
-    ]
+    ],
+    "inStock": true,
+    "availability": "Only 10 left in stock (more on the way).",
+    "lastVerified": "2026-06-09"
   },
   "xterra-treadmill": {
     "name": "Premium Folding Smart Treadmill, Compact Design, 250+ LB Weight Capacity, Powerful Motor, XTERRA+ Fitness App Included with Purchase",
     "brand": "XTERRA Fitness",
-    "price": "$523.96",
-    "image": "/images/products/xterra-treadmill.webp",
+    "price": "$492.27",
+    "image": "https://m.media-amazon.com/images/I/41fspUhVLTL._SL500_.jpg",
     "specs": {
       "weightCapacity": "250 lbs user weight",
       "footprint": "57\" L x 27\" W (folds vertical)",
@@ -1184,13 +1287,16 @@
       "250 lb user weight limit",
       "Running surface is narrow (16 inches)",
       "Motor is entry-level — not for serious runners"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "sportsroyals-power-tower": {
     "name": "Sportsroyals Power Tower Pull Up Bar Station, 450LBS Stable Pull Up Dip Station for Home Gym Strength Training Equipment | FED Fitness",
     "brand": "Sportsroyals",
-    "price": "$154.97",
-    "image": "/images/products/sportsroyals-power-tower.webp",
+    "price": "$169.99",
+    "image": "https://m.media-amazon.com/images/I/41PpUuLH38L._SL500_.jpg",
     "specs": {
       "weightCapacity": "450 lbs",
       "footprint": "40\" L x 35\" W x 87\" H",
@@ -1210,13 +1316,16 @@
       "Large footprint requires dedicated space",
       "Can wobble during kipping pull-ups",
       "Assembly takes 1-2 hours"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "prosourcefit-dip-stand": {
     "name": "ProsourceFit Dip Stand Station, Heavy Duty Ultimate Body Press Bar with Safety Connector for Tricep Dips",
     "brand": "ProsourceFit",
-    "price": "$78.30",
-    "image": "/images/products/prosourcefit-dip-stand.webp",
+    "price": "$67.26",
+    "image": "https://m.media-amazon.com/images/I/41p2Vyi8ltL._SL500_.jpg",
     "specs": {
       "weightCapacity": "400 lbs",
       "footprint": "34\" L x 23\" W x 35\" H",
@@ -1236,13 +1345,16 @@
       "Low height — tall users may need to bend knees a lot",
       "Only for dips (no pull-up bar)",
       "Foam grips wear after 2-3 years"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "triggerpoint-grid": {
     "name": "TriggerPoint Grid 1.0 Foam Roller - 13\" Multi-Density Massage Roller for Deep Tissue & Muscle Recovery - Relieves Tight, Sore Muscles & Kinks, Improves Mobility & Circulation - Targets Key Body Parts",
     "brand": "TriggerPoint",
-    "price": "$34.46",
-    "image": "/images/products/triggerpoint-grid.webp",
+    "price": "$32.92",
+    "image": "https://m.media-amazon.com/images/I/41Y0ezNJKfL._SL500_.jpg",
     "specs": {
       "weightCapacity": "500 lbs",
       "footprint": "13\" x 5.5\" diameter",
@@ -1262,19 +1374,22 @@
       "Pricier than basic smooth rollers",
       "13 inches too short for full-back rolling",
       "Firm surface may be intense for beginners"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "theragun-mini": {
-    "name": "TheraGun Mini (3rd Generation) by Therabody – Ultra-Portable Massage Gun and Travel Essential for Fast, Effective Pain and Tension Relief Anywhere (Black)",
+    "name": "TheraGun Mini (3rd Generation) by Therabody – Ultra-Portable Massage Gun and Travel Essential for Fast, Effective Pain and Tension Relief Anywhere (Desert Rose)",
     "brand": "Therabody",
-    "price": "$169.99",
-    "image": "/images/products/theragun-mini.webp",
+    "price": "$219.99",
+    "image": "https://m.media-amazon.com/images/I/41RMMP3xOXL._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — recovery tool",
       "footprint": "30% smaller than 2nd Gen — palm-sized",
       "material": "QX35 Motor / 3 Speed Settings"
     },
-    "amazonLink": "https://www.amazon.com/dp/B0DV7JN7ZD?niid=nl_cl_lst_a_1_1&nrid=N8N0053CXTBWV41RMYYD&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=869390f72c754b7f6264386117ae7dd6&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B0DV81PTX3?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "https://walmart.com/search?q=Theragun+Mini+2nd+Gen&irgwc=1",
     "pros": [
       "4.6+ star rating on Amazon with 8,000+ reviews",
@@ -1288,13 +1403,16 @@
       "Only 1 attachment head included",
       "Less powerful than full-size Theragun",
       "Premium price for mini size"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "ironmind-gripper": {
     "name": "IronMind Captains of Crush Gripper | The Fastest Way to the Strongest Grip | The Gold Standard of Grippers | The Single Best Hand Strength Training Tool You Can Buy | Made in the USA",
     "brand": "IronMind",
     "price": "$29.95",
-    "image": "/images/products/ironmind-gripper.webp",
+    "image": "https://m.media-amazon.com/images/I/51c+GLz+RYL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Multiple resistance levels (60-365 lbs)",
       "footprint": "Pocket-sized",
@@ -1314,13 +1432,16 @@
       "Each gripper is one fixed resistance level",
       "Need to buy multiple for progression",
       "No rep counter or tracking"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "fat-gripz": {
     "name": "Fat Gripz - Grip Strength Trainer And Arm Builder (4x Men's Health Award Winner) (Pro 2.25\")",
     "brand": "Fat Gripz",
     "price": "$29.95",
-    "image": "/images/products/fat-gripz.webp",
+    "image": "https://m.media-amazon.com/images/I/41SyZPHeYxL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Fits any barbell or dumbbell",
       "footprint": "Clip-on, fits in gym bag",
@@ -1340,13 +1461,16 @@
       "Reduces max weight you can lift by 20-30%",
       "Can slip on sweaty chrome bars — use chalk",
       "Only one size per pair (no progression)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "liquid-grip-chalk": {
     "name": "Liquid Grip Liquid Chalk 8-Ounce Bottle",
     "brand": "Liquid Grip",
     "price": "$24.59",
-    "image": "/images/products/liquid-grip-chalk.webp",
+    "image": "https://m.media-amazon.com/images/I/41r5ETrU6WL._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — grip enhancer",
       "footprint": "8 oz bottle",
@@ -1366,13 +1490,16 @@
       "More expensive per use than block chalk",
       "Can dry out hands with daily use",
       "Bottle can leak if cap isn't sealed"
-    ]
+    ],
+    "inStock": true,
+    "availability": "Only 5 left in stock - order soon.",
+    "lastVerified": "2026-06-09"
   },
   "gymboss-timer": {
     "name": "Gymboss Interval Timer and Stopwatch - Black/Blue SOFTCOAT",
     "brand": "Gymboss",
     "price": "$20.95",
-    "image": "/images/products/gymboss-timer.webp",
+    "image": "https://m.media-amazon.com/images/I/41EvWgW054L._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — timer",
       "footprint": "2\" x 2.5\" — clip-on",
@@ -1392,13 +1519,16 @@
       "Small screen can be hard to read mid-workout",
       "Battery replacement requires tiny screwdriver",
       "No Bluetooth or app connectivity"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "gaiam-yoga-mat": {
     "name": "Gaiam Yoga Mat, Pilates & Exercise Mat, Thick 2/5\" (10mm) Workout Mat with Easy-Cinch Carrying Strap for Home & Gym Workouts",
     "brand": "Gaiam",
-    "price": "$24.98",
-    "image": "/images/products/gaiam-yoga-mat.webp",
+    "price": "$23.07",
+    "image": "https://m.media-amazon.com/images/I/413PGToT4wL._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — exercise mat",
       "footprint": "72\" x 24\" x 10mm thick",
@@ -1418,13 +1548,16 @@
       "Not firm enough for standing balance poses",
       "Absorbs sweat — needs regular cleaning",
       "10mm thickness makes balance poses harder"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "spri-medicine-ball": {
     "name": "SPRI Medicine Ball with Handles",
     "brand": "SPRI",
-    "price": "$59.37",
-    "image": "/images/products/spri-medicine-ball.webp",
+    "price": "$55.50",
+    "image": "https://m.media-amazon.com/images/I/41UIACH-XLL._SL500_.jpg",
     "specs": {
       "weightCapacity": "12 lbs",
       "footprint": "11\" diameter",
@@ -1444,13 +1577,16 @@
       "Rubber smell when new",
       "Bounces more than a slam ball — not for overhead slams",
       "12 lb may be heavy for beginners"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "titan-plate-tree": {
     "name": "Titan Fitness Portable Weight Tree for Olympic Plate and Barbell Storage, Weight Plate Storage with 1,000 LB Capacity, Weight Tree Rack with Locking Wheels, Weight Plate Tree with Barbell Storage",
     "brand": "Titan Fitness",
     "price": "$239.99",
-    "image": "/images/products/titan-plate-tree.webp",
+    "image": "https://m.media-amazon.com/images/I/319CWgeNlfL._SL500_.jpg",
     "specs": {
       "weightCapacity": "1,000 lbs plate storage",
       "footprint": "22\" L x 22\" W x 36\" H",
@@ -1470,19 +1606,22 @@
       "Assembly required (30 minutes)",
       "Pegs are slightly short for large plate stacks",
       "Wheels not included — stationary unit"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "harbinger-gloves": {
-    "name": "Harbinger Pro Wristwrap Weightlifting Gloves",
+    "name": "Harbinger Pro Wristwrap Gloves 3.0",
     "brand": "Harbinger",
-    "price": "$34.73",
-    "image": "/images/products/harbinger-gloves.webp",
+    "price": "$24.99",
+    "image": "https://m.media-amazon.com/images/I/41JlaTuIq4L._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — grip accessory",
       "footprint": "Sizes S-XXL",
       "material": "Leather Palm / Wrist Wrap / Ventilated Back"
     },
-    "amazonLink": "https://www.amazon.com/dp/B01EYXWKHE?niid=nl_cl_lst_a_1_1&nrid=34R899RAM0HRYWAWRPWV&th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=938c73a07b2022d70ad55a408f4e1f8f&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B0D54KB5WB?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "https://walmart.com/search?q=Harbinger+Pro+Wristwrap+Gloves&irgwc=1",
     "pros": [
       "4.5+ star rating on Amazon with 15,000+ reviews",
@@ -1496,13 +1635,16 @@
       "Gloves reduce barbell 'feel' vs bare hands",
       "Leather wears out after 12-18 months of daily use",
       "Wrist wrap is not as stiff as dedicated wraps"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "schwinn-upright-bike": {
     "name": "Schwinn Fitness 130 Upright Bike",
     "brand": "Schwinn",
     "price": "$499.00",
-    "image": "/images/products/schwinn-upright-bike.webp",
+    "image": "https://m.media-amazon.com/images/I/31FNkE4B4tL._SL500_.jpg",
     "specs": {
       "weightCapacity": "300 lbs user weight",
       "footprint": "41\" L x 21\" W x 56\" H",
@@ -1522,19 +1664,22 @@
       "Seat comfort requires break-in period",
       "Assembly takes 2+ hours",
       "Pedals are basic — upgrade for clip-in shoes"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "stamina-compact-strider": {
-    "name": "Stamina Inmotion Compact Strider Foot Exercise Machine - Under Desk Elliptical - Standing or Seated Elliptical Fitness Equipment",
+    "name": "Stamina InMotion E1000 Compact Strider - Seated Elliptical with Smart Workout App",
     "brand": "Stamina",
-    "price": "$127.99",
-    "image": "/images/products/stamina-compact-strider.webp",
+    "price": "$124.98",
+    "image": "https://m.media-amazon.com/images/I/41P-VnY+6lL._SL500_.jpg",
     "specs": {
       "weightCapacity": "250 lbs user weight",
       "footprint": "24\" L x 18\" W x 12\" H",
       "material": "Steel Frame / Non-Slip Pedals"
     },
-    "amazonLink": "https://www.amazon.com/dp/B00O12HE4I?th=1&linkCode=ll2&tag=garagegymbu0e-20&linkId=381312142a9879e4faa034eb2ffb5f62&language=en_US&ref_=as_li_ss_tl",
+    "amazonLink": "https://www.amazon.com/dp/B009N9PW1Q?linkCode=ll1&tag=garagegymbu0e-20&language=en_US&ref_=as_li_ss_tl",
     "walmartLink": "https://walmart.com/search?q=Stamina+InMotion+Compact+Strider&irgwc=1",
     "pros": [
       "4.3+ star rating on Amazon with 15,000+ reviews",
@@ -1548,13 +1693,16 @@
       "Limited range of motion vs full elliptical",
       "Can slide on smooth floors without mat",
       "Resistance maxes out quickly for fit users"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "body-solid-leg-press": {
     "name": "Powerline by Body-Solid Vertical Leg Press",
     "brand": "Body-Solid",
-    "price": "$406.30",
-    "image": "/images/products/body-solid-leg-press.webp",
+    "price": "$435.00",
+    "image": "https://m.media-amazon.com/images/I/517HFIqC+cL._SL500_.jpg",
     "specs": {
       "weightCapacity": "400 lbs plate loaded",
       "footprint": "56\" L x 28\" W x 60\" H",
@@ -1574,13 +1722,16 @@
       "Vertical angle is harder than 45-degree presses",
       "Heavy unit — needs permanent placement",
       "Assembly requires 2 people and 2+ hours"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "xmark-preacher-curl": {
     "name": "DF308 Preacher Curl Bench by Deltech Fitness",
     "brand": "Deltech Fitness",
     "price": "$239.00",
-    "image": "/images/products/xmark-preacher-curl.webp",
+    "image": "https://m.media-amazon.com/images/I/41-rsIJ4NTL._SL500_.jpg",
     "specs": {
       "weightCapacity": "350 lbs",
       "footprint": "40\" L x 27\" W x 36\" H",
@@ -1600,13 +1751,16 @@
       "Single-purpose (curls only)",
       "Heavy at 50 lbs — not easily moved",
       "Pad angle is fixed — no adjustment"
-    ]
+    ],
+    "inStock": true,
+    "availability": "Only 15 left in stock - order soon.",
+    "lastVerified": "2026-06-09"
   },
   "synergee-barbell-collars": {
     "name": "Synergee Aluminum Barbell Collars – 2\" Olympic Locking Barbell Clamps with Quick-Release Lever – Secure Weight Clips for Powerlifting, Olympic Lifts & Strength Training",
     "brand": "Synergee",
     "price": "$22.95",
-    "image": "/images/products/synergee-barbell-collars.webp",
+    "image": "https://m.media-amazon.com/images/I/41z6eD0GDSL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Fits all Olympic 2\" barbells",
       "footprint": "Pocket-sized clips",
@@ -1626,13 +1780,16 @@
       "Pricier than basic spring clips",
       "Slightly loose on some thinner-sleeve bars",
       "Only comes in 1 size (2\" Olympic)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "chirp-wheel": {
     "name": "Chirp Wheel XR 3P Massage Roller Set - 10\" Acupressure, 6\" Knot-Kneading Thumb, 4\" Neck & Headache Tension Relief, High Density Foam Massage Rollers for Back & Neck Pain, 500lbs Capacity, Mint",
     "brand": "Chirp",
-    "price": "$71.99",
-    "image": "/images/products/chirp-wheel.webp",
+    "price": "$89.99",
+    "image": "https://m.media-amazon.com/images/I/51M65aaPHuL._SL500_.jpg",
     "specs": {
       "weightCapacity": "500 lbs",
       "footprint": "10\", 6\", 4\" diameter wheels",
@@ -1652,13 +1809,16 @@
       "Takes practice to balance on the wheel",
       "6-inch wheel is very intense for beginners",
       "Foam padding can compress after years of use"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "titan-wall-pulley": {
     "name": "Titan Fitness Selectorized Wall Mounted Pulley Tower, Pin-Loaded 200 LB Weight Stack, Adjustable Trolley Height, Handles, Connector Included, Home Gym Equipment",
     "brand": "Titan Fitness",
     "price": "$1,379.99",
-    "image": "/images/products/titan-wall-pulley.webp",
+    "image": "https://m.media-amazon.com/images/I/31CxHBVn+aL._SL500_.jpg",
     "specs": {
       "weightCapacity": "200 lbs pin-loaded stack",
       "footprint": "Wall-mounted",
@@ -1678,13 +1838,16 @@
       "Requires solid wall or stud mounting",
       "Plates not included",
       "Cable routing takes patience during setup"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "marcy-smith-machine": {
     "name": "Marcy Smith Machine Cage System Home Gym Multifunction Rack, Customizable Training Station",
     "brand": "Marcy",
-    "price": "$1,999.99",
-    "image": "/images/products/marcy-smith-machine.webp",
+    "price": "$1,799.99",
+    "image": "https://m.media-amazon.com/images/I/41UUIhX7AmL._SL500_.jpg",
     "specs": {
       "weightCapacity": "600 lbs on smith bar",
       "footprint": "80\" L x 79\" W x 86\" H",
@@ -1704,13 +1867,16 @@
       "Massive footprint — needs dedicated room",
       "Assembly takes 4-6 hours with 2 people",
       "Smith bar fixed path limits some movement patterns"
-    ]
+    ],
+    "inStock": true,
+    "availability": "Usually ships within 3 to 5 days",
+    "lastVerified": "2026-06-09"
   },
   "relife-power-tower": {
     "name": "RELIFE REBUILD YOUR LIFE Power Tower Pull Up Bar Station Workout Dip Station for Home Gym Strength Training Fitness Equipment",
     "brand": "RELIFE",
     "price": "$139.99",
-    "image": "/images/products/relife-power-tower.webp",
+    "image": "https://m.media-amazon.com/images/I/31xnvELZa8L._SL500_.jpg",
     "specs": {
       "weightCapacity": "400 lbs",
       "footprint": "37\" L x 27\" W x 85\" H",
@@ -1730,13 +1896,16 @@
       "Assembly instructions could be clearer",
       "Slight wobble at full extension",
       "Foam pads compress over time"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "hypervolt-go2": {
     "name": "Hyperice Hypervolt Go 2 - Black - Featuring Quiet Glide Technology - Handheld Percussion Massage Gun - 3 Speeds, 2 Interchangeable Heads - Helps Relieve Sore Muscles and Stiffness",
     "brand": "Hyperice",
-    "price": "$119.00",
-    "image": "/images/products/hypervolt-go2.webp",
+    "price": "$139.00",
+    "image": "https://m.media-amazon.com/images/I/31-uOxXcbNL._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — recovery tool",
       "footprint": "6.8\" x 4\" — portable",
@@ -1756,13 +1925,16 @@
       "Less powerful than full-size Hypervolt",
       "Only 2 attachment heads included",
       "Charge port cover can be stiff"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "optp-foam-roller": {
     "name": "OPTP PRO-ROLLER Standard Density Foam Roller - Durable Roller for Back Massage, Deep Tissue Foam Roller Exercises, Stretching, Fitness, Yoga and Pilates - 36 Inches by 6 Inches, Blue",
     "brand": "OPTP",
     "price": "$61.99",
-    "image": "/images/products/optp-foam-roller.webp",
+    "image": "https://m.media-amazon.com/images/I/41shpCHRAYL._SL500_.jpg",
     "specs": {
       "weightCapacity": "All user weights",
       "footprint": "36\" x 6\" cylinder",
@@ -1782,13 +1954,16 @@
       "Standard density may be too soft for experienced users",
       "No textured surface for deep tissue work",
       "Can eventually compress with daily use"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "trx-bandit-handles": {
     "name": "TRX Training Bandit Kit, Home Workout Resistance Band Set with Strength-Training Resistance Bands and Universal-Fit Handles for Exercise Bands",
     "brand": "TRX",
     "price": "$74.95",
-    "image": "/images/products/trx-bandit-handles.webp",
+    "image": "https://m.media-amazon.com/images/I/41Vx8igP4pL._SL500_.jpg",
     "specs": {
       "weightCapacity": "Fits any loop resistance band",
       "footprint": "Pair of handles + carrying bag",
@@ -1808,13 +1983,16 @@
       "Bands sold separately",
       "Pricey for handles alone",
       "Webbing can wear with very heavy bands"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "gym-wall-mirror": {
     "name": "Fab Glass and Mirror Large Gym Mirror for Home Gym 48x32 - Full Length HD Tempered Glass Wall Panel - Professional Workout Display with Safety Backing - 1/4 Inch Commercial Grade",
     "brand": "Fab Glass and Mirror",
     "price": "$119.94",
-    "image": "/images/products/gym-wall-mirror.webp",
+    "image": "https://m.media-amazon.com/images/I/514IvkN3iSL._SL500_.jpg",
     "specs": {
       "weightCapacity": "N/A — wall-mounted mirror",
       "footprint": "48\" x 32\" (mount 2-3 for full wall)",
@@ -1834,13 +2012,16 @@
       "Mounting hardware not included",
       "Heavy — need two people to install",
       "Not truly shatterproof (tempered, not acrylic)"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   },
   "stamina-power-tower": {
     "name": "Stamina Power Tower - Dip Bar Pull Up Bar Station with Smart Workout App - Dip Bars for Home Workout - Up to 250 lbs Weight Capacity",
     "brand": "Stamina",
-    "price": "$346.99",
-    "image": "/images/products/stamina-power-tower.webp",
+    "price": "$359.99",
+    "image": "https://m.media-amazon.com/images/I/41DAiaw9buL._SL500_.jpg",
     "specs": {
       "weightCapacity": "250 lbs",
       "footprint": "41\" L x 39\" W x 81\" H",
@@ -1860,13 +2041,16 @@
       "250 lb weight limit — not for heavy users",
       "Wobbles during intense kipping movements",
       "Padding compresses after 1-2 years"
-    ]
+    ],
+    "inStock": true,
+    "availability": "Only 3 left in stock - order soon.",
+    "lastVerified": "2026-06-09"
   },
   "fringe-sport-bumper-plates": {
     "name": "FringeSport Savage Bumper Plates Set and Pairs - Olympic Weight Plate - Rubber Weight Plates with Steel Insert Strength Training Plate (10lb - 460lb)",
     "brand": "Fringe Sport",
     "price": "$736.00",
-    "image": "/images/products/fringe-sport-bumper-plates.webp",
+    "image": "https://m.media-amazon.com/images/I/41zSkK1TL4L._SL500_.jpg",
     "specs": {
       "weightCapacity": "10lb - 460lb options",
       "footprint": "17.72\" diameter (standard Olympic)",
@@ -1886,6 +2070,9 @@
       "Thicker than competition bumpers",
       "Not IWF certified for competition",
       "Colors may scuff over time on rough floors"
-    ]
+    ],
+    "inStock": true,
+    "availability": "In Stock",
+    "lastVerified": "2026-06-09"
   }
 }
