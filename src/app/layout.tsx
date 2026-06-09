@@ -141,6 +141,7 @@ export const metadata: Metadata = {
   other: {
     "msapplication-TileColor": "#ea580c",
     "msapplication-config": "/browserconfig.xml",
+    "google-adsense-account": "ca-pub-5950611856721613",
   },
 };
 
@@ -214,6 +215,14 @@ export default function RootLayout({
             gtag('config', '${GA_ID}', { anonymize_ip: true });
           `}
         </Script>
+        {/* Google AdSense — loads the library for manual ad units. Auto Ads stays OFF in the dashboard. */}
+        <Script
+          id="google-adsense"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5950611856721613"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-[100] focus:bg-orange-600 focus:px-4 focus:py-2 focus:text-white focus:text-sm focus:font-bold"
